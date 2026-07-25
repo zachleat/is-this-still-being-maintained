@@ -1,0 +1,19 @@
+{
+  "name": "is-this-still-being-maintained",
+  "version": "0.1.0",
+  "description": "Scores your open source packages by how badly they need maintenance attention.",
+  "type": "module",
+  "bin": {
+    "is-this-still-being-maintained": "index.js"
+  },
+  "scripts": {
+    "build": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy-fetch": "^5.1.3"
+  }
+}

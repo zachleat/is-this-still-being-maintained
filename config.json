@@ -1,0 +1,34 @@
+{
+  "githubUsers": ["zachleat"],
+  "githubOrgs": ["11ty"],
+
+  "monitor": [],
+  "exclude": [],
+
+  "options": {
+    "publishedOnly": true,
+    "includeReposWithoutPackageJson": false,
+    "downloadsPeriod": "last-month",
+    "cacheDuration": "30m",
+    "outputDir": "output",
+    "concurrency": 8
+  },
+
+  "scoring": {
+    "backlogWeights": {
+      "openIssues": 0.4,
+      "openPRs": 0.6
+    },
+    "backlogFloor": 0.25,
+    "fullyStaleDays": 730,
+    "issuesSaturation": 300,
+    "prsSaturation": 60,
+    "importanceWeights": {
+      "downloads": 0.7,
+      "stars": 0.3
+    },
+    "downloadsSaturation": 1000000,
+    "starsSaturation": 5000,
+    "importanceFloor": 0.3
+  }
+}
