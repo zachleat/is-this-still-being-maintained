@@ -10,7 +10,7 @@
     "includeReposWithoutPackageJson": false,
     "downloadsPeriod": "last-month",
     "cacheDuration": "30m",
-    "outputDir": "output",
+    "outputDir": "docs",
     "concurrency": 8
   },
 

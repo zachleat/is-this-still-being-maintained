@@ -50,5 +50,5 @@ jobs:
         run: |
           git config user.name "zachleat"
           git config user.email "zachleat@users.noreply.github.com"
-          git add output/maintenance-report.json
+          git add docs/maintenance-report.json
           git diff --staged --quiet || (git commit -m "update maintenance report" && git push)

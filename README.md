@@ -44,7 +44,7 @@ Options:
     "includeReposWithoutPackageJson": false,  // consider repos that aren't npm packages
     "downloadsPeriod": "last-month",          // last-day | last-week | last-month
     "cacheDuration": "1h",                    // disk cache TTL: "1h", "1d", "60s", etc.
-    "outputDir": "output",                    // directory for maintenance-report.json
+    "outputDir": "docs",                      // directory for maintenance-report.json
     "concurrency": 8
   },
 
@@ -140,7 +140,7 @@ exists, eleventy-fetch falls back to the stale value rather than erroring.
 ## Output
 
 - **stdout**: a table sorted worst-first by score, colored (red ≥60, yellow ≥30).
-- **`output/maintenance-report.json`** (directory set by `outputDir`, created if
+- **`docs/maintenance-report.json`** (directory set by `outputDir`, created if
   missing; override the full path with `--json`): `{ config, count, projects[] }`,
   each project carrying raw metrics + `score` + `breakdown`. Projects are sorted
   **alphabetically by package name** (not by score) so the file is stable to
@@ -171,7 +171,7 @@ of `downloads-error` rows, lower `options.concurrency` in `config.json`.
 
 [`.github/workflows/maintenance-report.yml`](.github/workflows/maintenance-report.yml)
 regenerates the report every day at 12:00 UTC (and on demand via **workflow
-dispatch**), then commits `output/maintenance-report.json` back to the repo — but
+dispatch**), then commits `docs/maintenance-report.json` back to the repo — but
 only when it changed. Because the report is sorted and timestamp-free, each
 commit is a clean diff, giving you a git history of how your scores drift over
 time.
