@@ -16,8 +16,8 @@
       "issuesSaturation": 300,
       "prsSaturation": 60,
       "importanceWeights": {
-        "downloads": 0.7,
-        "stars": 0.3
+        "downloads": 0.9,
+        "stars": 0.1
       },
       "downloadsSaturation": 1000000,
       "starsSaturation": 5000,
@@ -36,7 +36,10 @@
       "sourceRepo": "11ty/create",
       "stars": 14,
       "openIssues": 1,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2025-12-02T21:50:32Z",
       "lastPublish": "2025-12-02T21:51:36.362Z",
       "lastPublishVersion": "1.0.9",
@@ -51,19 +54,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 4.9,
+      "score": 5,
       "breakdown": {
-        "activityDays": 235,
-        "staleness": 0.322,
+        "activityDays": 236,
+        "staleness": 0.323,
         "issuesSub": 0.121,
         "prsSub": 0,
         "backlogSeverity": 0.049,
         "demand": 0.286,
         "downloadsSub": 0.343,
         "starsSub": 0.318,
-        "popularity": 0.336,
-        "neglect": 0.092,
-        "importance": 0.535
+        "popularity": 0.341,
+        "neglect": 0.093,
+        "importance": 0.539
       }
     },
     {
@@ -75,7 +78,10 @@
       "sourceRepo": "11ty/eleventy-dependency-tree",
       "stars": 9,
       "openIssues": 0,
+      "closedIssues": 2,
       "openPRs": 3,
+      "mergedPRs": 7,
+      "closedPRs": 6,
       "pushedAt": "2026-06-23T01:12:37Z",
       "lastPublish": "2026-01-17T02:40:06.683Z",
       "lastPublishVersion": "4.0.2",
@@ -90,19 +96,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 1.5,
+      "score": 1.7,
       "breakdown": {
-        "activityDays": 33,
-        "staleness": 0.045,
+        "activityDays": 34,
+        "staleness": 0.046,
         "issuesSub": 0,
         "prsSub": 0.337,
         "backlogSeverity": 0.202,
         "demand": 0.402,
         "downloadsSub": 0.965,
         "starsSub": 0.27,
-        "popularity": 0.756,
-        "neglect": 0.018,
-        "importance": 0.83
+        "popularity": 0.895,
+        "neglect": 0.019,
+        "importance": 0.927
       }
     },
     {
@@ -112,10 +118,13 @@
       "packageName": "@11ty/eleventy",
       "description": "A simpler static site generator.",
       "sourceRepo": "11ty/eleventy",
-      "stars": 19798,
+      "stars": 19799,
       "openIssues": 157,
-      "openPRs": 22,
-      "pushedAt": "2026-07-24T19:42:33Z",
+      "closedIssues": 2502,
+      "openPRs": 23,
+      "mergedPRs": 353,
+      "closedPRs": 202,
+      "pushedAt": "2026-07-26T01:47:45Z",
       "lastPublish": "2026-07-01T20:59:31.106Z",
       "lastPublishVersion": "4.0.0-alpha.10",
       "lastStablePublish": "2026-06-02T22:02:44.312Z",
@@ -132,16 +141,16 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.002,
+        "staleness": 0.001,
         "issuesSub": 0.887,
-        "prsSub": 0.763,
-        "backlogSeverity": 0.812,
-        "demand": 0.859,
+        "prsSub": 0.773,
+        "backlogSeverity": 0.819,
+        "demand": 0.864,
         "downloadsSub": 0.971,
         "starsSub": 1,
-        "popularity": 0.98,
+        "popularity": 0.974,
         "neglect": 0.001,
-        "importance": 0.986
+        "importance": 0.982
       }
     },
     {
@@ -153,7 +162,10 @@
       "sourceRepo": "11ty/eleventy-activity-feed",
       "stars": 114,
       "openIssues": 0,
+      "closedIssues": 8,
       "openPRs": 0,
+      "mergedPRs": 1,
+      "closedPRs": 1,
       "pushedAt": "2024-12-13T20:54:58Z",
       "lastPublish": "2024-12-13T20:55:25.484Z",
       "lastPublishVersion": "2.0.0",
@@ -168,19 +180,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 11.9,
+      "score": 11.4,
       "breakdown": {
-        "activityDays": 589,
-        "staleness": 0.807,
+        "activityDays": 590,
+        "staleness": 0.808,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
         "demand": 0.25,
         "downloadsSub": 0.356,
         "starsSub": 0.557,
-        "popularity": 0.416,
+        "popularity": 0.376,
         "neglect": 0.202,
-        "importance": 0.591
+        "importance": 0.563
       }
     },
     {
@@ -192,7 +204,10 @@
       "sourceRepo": "11ty/eleventy-data-transistor-fm",
       "stars": 6,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2022-02-25T22:47:40Z",
       "lastPublish": "2022-02-25T22:47:55.234Z",
       "lastPublishVersion": "1.1.0",
@@ -207,9 +222,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 11.8,
+      "score": 11.9,
       "breakdown": {
-        "activityDays": 1611,
+        "activityDays": 1612,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -217,9 +232,9 @@
         "demand": 0.25,
         "downloadsSub": 0.253,
         "starsSub": 0.228,
-        "popularity": 0.246,
+        "popularity": 0.251,
         "neglect": 0.25,
-        "importance": 0.472
+        "importance": 0.475
       }
     },
     {
@@ -231,7 +246,10 @@
       "sourceRepo": "11ty/eleventy-dev-server",
       "stars": 110,
       "openIssues": 21,
+      "closedIssues": 86,
       "openPRs": 6,
+      "mergedPRs": 21,
+      "closedPRs": 6,
       "pushedAt": "2026-07-23T09:43:58Z",
       "lastPublish": "2026-06-10T22:47:58.846Z",
       "lastPublishVersion": "3.0.0-alpha.10",
@@ -246,19 +264,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.2,
+      "score": 0.3,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.004,
+        "staleness": 0.005,
         "issuesSub": 0.542,
         "prsSub": 0.473,
         "backlogSeverity": 0.501,
         "demand": 0.625,
         "downloadsSub": 0.957,
         "starsSub": 0.553,
-        "popularity": 0.836,
-        "neglect": 0.002,
-        "importance": 0.885
+        "popularity": 0.916,
+        "neglect": 0.003,
+        "importance": 0.942
       }
     },
     {
@@ -270,7 +288,10 @@
       "sourceRepo": "11ty/fetch",
       "stars": 165,
       "openIssues": 10,
+      "closedIssues": 42,
       "openPRs": 5,
+      "mergedPRs": 27,
+      "closedPRs": 11,
       "pushedAt": "2026-07-24T06:13:31Z",
       "lastPublish": "2026-06-30T21:24:06.116Z",
       "lastPublishVersion": "5.1.3",
@@ -285,19 +306,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.1,
+      "score": 0.2,
       "breakdown": {
         "activityDays": 2,
-        "staleness": 0.002,
+        "staleness": 0.003,
         "issuesSub": 0.42,
         "prsSub": 0.436,
         "backlogSeverity": 0.43,
         "demand": 0.572,
         "downloadsSub": 0.859,
         "starsSub": 0.6,
-        "popularity": 0.781,
-        "neglect": 0.001,
-        "importance": 0.847
+        "popularity": 0.833,
+        "neglect": 0.002,
+        "importance": 0.883
       }
     },
     {
@@ -308,8 +329,11 @@
       "description": "Low level utility to perform build-time image transformations.",
       "sourceRepo": "11ty/eleventy-img",
       "stars": 466,
-      "openIssues": 41,
+      "openIssues": 42,
+      "closedIssues": 216,
       "openPRs": 2,
+      "mergedPRs": 57,
+      "closedPRs": 30,
       "pushedAt": "2026-07-25T01:44:25Z",
       "lastPublish": "2026-04-24T23:00:38.301Z",
       "lastPublishVersion": "7.0.0-alpha.4",
@@ -326,17 +350,17 @@
       "npmError": null,
       "score": 0.1,
       "breakdown": {
-        "activityDays": 1,
-        "staleness": 0.001,
-        "issuesSub": 0.655,
+        "activityDays": 2,
+        "staleness": 0.002,
+        "issuesSub": 0.659,
         "prsSub": 0.267,
-        "backlogSeverity": 0.422,
-        "demand": 0.567,
+        "backlogSeverity": 0.424,
+        "demand": 0.568,
         "downloadsSub": 0.83,
         "starsSub": 0.722,
-        "popularity": 0.797,
+        "popularity": 0.819,
         "neglect": 0.001,
-        "importance": 0.858
+        "importance": 0.873
       }
     },
     {
@@ -348,7 +372,10 @@
       "sourceRepo": "11ty/eleventy-navigation",
       "stars": 107,
       "openIssues": 13,
+      "closedIssues": 44,
       "openPRs": 4,
+      "mergedPRs": 9,
+      "closedPRs": 7,
       "pushedAt": "2026-06-23T02:40:44Z",
       "lastPublish": "2025-12-02T21:17:43.588Z",
       "lastPublishVersion": "1.0.5",
@@ -363,19 +390,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 2.1,
+      "score": 2.2,
       "breakdown": {
-        "activityDays": 33,
-        "staleness": 0.045,
+        "activityDays": 34,
+        "staleness": 0.046,
         "issuesSub": 0.462,
         "prsSub": 0.392,
         "backlogSeverity": 0.42,
         "demand": 0.565,
         "downloadsSub": 0.798,
         "starsSub": 0.55,
-        "popularity": 0.724,
-        "neglect": 0.025,
-        "importance": 0.807
+        "popularity": 0.774,
+        "neglect": 0.026,
+        "importance": 0.842
       }
     },
     {
@@ -387,7 +414,10 @@
       "sourceRepo": "11ty/eleventy-plugin-bundle",
       "stars": 82,
       "openIssues": 14,
+      "closedIssues": 23,
       "openPRs": 2,
+      "mergedPRs": 5,
+      "closedPRs": 4,
       "pushedAt": "2026-07-21T21:44:12Z",
       "lastPublish": "2026-07-01T16:23:15.987Z",
       "lastPublishVersion": "4.0.2",
@@ -404,17 +434,17 @@
       "npmError": null,
       "score": 0.3,
       "breakdown": {
-        "activityDays": 4,
-        "staleness": 0.006,
+        "activityDays": 5,
+        "staleness": 0.007,
         "issuesSub": 0.475,
         "prsSub": 0.267,
         "backlogSeverity": 0.35,
         "demand": 0.513,
         "downloadsSub": 0.944,
         "starsSub": 0.519,
-        "popularity": 0.817,
+        "popularity": 0.902,
         "neglect": 0.003,
-        "importance": 0.872
+        "importance": 0.931
       }
     },
     {
@@ -426,7 +456,10 @@
       "sourceRepo": "11ty/eleventy-plugin-directory-output",
       "stars": 21,
       "openIssues": 3,
+      "closedIssues": 3,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2025-08-26T22:36:49Z",
       "lastPublish": "2025-08-26T22:37:22.446Z",
       "lastPublishVersion": "1.0.2",
@@ -441,19 +474,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 9.5,
+      "score": 10,
       "breakdown": {
-        "activityDays": 333,
-        "staleness": 0.456,
+        "activityDays": 334,
+        "staleness": 0.457,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.097,
         "demand": 0.323,
         "downloadsSub": 0.554,
         "starsSub": 0.363,
-        "popularity": 0.497,
-        "neglect": 0.147,
-        "importance": 0.648
+        "popularity": 0.535,
+        "neglect": 0.148,
+        "importance": 0.675
       }
     },
     {
@@ -465,7 +498,10 @@
       "sourceRepo": "11ty/eleventy-plugin-inclusive-language",
       "stars": 41,
       "openIssues": 5,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 1,
+      "closedPRs": 1,
       "pushedAt": "2021-10-07T19:15:10Z",
       "lastPublish": "2021-10-07T19:14:56.558Z",
       "lastPublishVersion": "1.0.3",
@@ -480,9 +516,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 24.4,
+      "score": 25.4,
       "breakdown": {
-        "activityDays": 1752,
+        "activityDays": 1753,
         "staleness": 1,
         "issuesSub": 0.314,
         "prsSub": 0,
@@ -490,9 +526,9 @@
         "demand": 0.344,
         "downloadsSub": 0.645,
         "starsSub": 0.439,
-        "popularity": 0.583,
+        "popularity": 0.624,
         "neglect": 0.344,
-        "importance": 0.708
+        "importance": 0.737
       }
     },
     {
@@ -504,7 +540,10 @@
       "sourceRepo": "11ty/eleventy-plugin-rss",
       "stars": 112,
       "openIssues": 20,
+      "closedIssues": 40,
       "openPRs": 6,
+      "mergedPRs": 21,
+      "closedPRs": 10,
       "pushedAt": "2026-06-29T07:04:44Z",
       "lastPublish": "2026-03-20T21:41:45.515Z",
       "lastPublishVersion": "3.0.0",
@@ -519,19 +558,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 1.9,
+      "score": 2,
       "breakdown": {
         "activityDays": 27,
-        "staleness": 0.037,
+        "staleness": 0.038,
         "issuesSub": 0.533,
         "prsSub": 0.473,
         "backlogSeverity": 0.497,
         "demand": 0.623,
         "downloadsSub": 0.828,
         "starsSub": 0.555,
-        "popularity": 0.746,
+        "popularity": 0.801,
         "neglect": 0.023,
-        "importance": 0.823
+        "importance": 0.861
       }
     },
     {
@@ -543,7 +582,10 @@
       "sourceRepo": "11ty/eleventy-plugin-syntaxhighlight",
       "stars": 139,
       "openIssues": 15,
+      "closedIssues": 61,
       "openPRs": 2,
+      "mergedPRs": 11,
+      "closedPRs": 10,
       "pushedAt": "2025-12-02T21:55:11Z",
       "lastPublish": "2025-08-01T19:16:35.184Z",
       "lastPublishVersion": "5.0.2",
@@ -558,19 +600,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 14,
+      "score": 14.6,
       "breakdown": {
-        "activityDays": 235,
-        "staleness": 0.322,
+        "activityDays": 236,
+        "staleness": 0.323,
         "issuesSub": 0.486,
         "prsSub": 0.267,
         "backlogSeverity": 0.355,
         "demand": 0.516,
         "downloadsSub": 0.852,
         "starsSub": 0.58,
-        "popularity": 0.77,
-        "neglect": 0.166,
-        "importance": 0.839
+        "popularity": 0.825,
+        "neglect": 0.167,
+        "importance": 0.877
       }
     },
     {
@@ -582,7 +624,10 @@
       "sourceRepo": "11ty/eleventy-plugin-vite",
       "stars": 166,
       "openIssues": 4,
+      "closedIssues": 45,
       "openPRs": 7,
+      "mergedPRs": 71,
+      "closedPRs": 62,
       "pushedAt": "2026-07-20T17:54:08Z",
       "lastPublish": "2026-05-02T05:53:16.259Z",
       "lastPublishVersion": "8.0.0",
@@ -597,19 +642,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.3,
+      "score": 0.4,
       "breakdown": {
-        "activityDays": 5,
-        "staleness": 0.007,
+        "activityDays": 6,
+        "staleness": 0.008,
         "issuesSub": 0.282,
         "prsSub": 0.506,
         "backlogSeverity": 0.416,
         "demand": 0.562,
         "downloadsSub": 0.674,
         "starsSub": 0.601,
-        "popularity": 0.652,
-        "neglect": 0.004,
-        "importance": 0.756
+        "popularity": 0.667,
+        "neglect": 0.005,
+        "importance": 0.767
       }
     },
     {
@@ -621,7 +666,10 @@
       "sourceRepo": "11ty/eleventy-plugin-vue",
       "stars": 194,
       "openIssues": 14,
+      "closedIssues": 28,
       "openPRs": 2,
+      "mergedPRs": 3,
+      "closedPRs": 3,
       "pushedAt": "2023-03-17T20:48:12Z",
       "lastPublish": "2023-03-17T20:51:00.812Z",
       "lastPublishVersion": "0.8.0",
@@ -636,9 +684,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 33.8,
+      "score": 32.8,
       "breakdown": {
-        "activityDays": 1226,
+        "activityDays": 1227,
         "staleness": 1,
         "issuesSub": 0.475,
         "prsSub": 0.267,
@@ -646,9 +694,9 @@
         "demand": 0.513,
         "downloadsSub": 0.47,
         "starsSub": 0.619,
-        "popularity": 0.515,
+        "popularity": 0.485,
         "neglect": 0.513,
-        "importance": 0.66
+        "importance": 0.639
       }
     },
     {
@@ -660,7 +708,10 @@
       "sourceRepo": null,
       "stars": 133,
       "openIssues": 43,
+      "closedIssues": 61,
       "openPRs": 3,
+      "mergedPRs": 5,
+      "closedPRs": 1,
       "pushedAt": "2025-12-02T16:44:03Z",
       "lastPublish": "2025-08-28T19:10:20.231Z",
       "lastPublishVersion": "0.12.0-beta.7",
@@ -675,19 +726,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 14.8,
+      "score": 15.2,
       "breakdown": {
-        "activityDays": 235,
-        "staleness": 0.322,
+        "activityDays": 236,
+        "staleness": 0.323,
         "issuesSub": 0.663,
         "prsSub": 0.337,
         "backlogSeverity": 0.468,
         "demand": 0.601,
         "downloadsSub": 0.705,
         "starsSub": 0.575,
-        "popularity": 0.666,
+        "popularity": 0.692,
         "neglect": 0.194,
-        "importance": 0.766
+        "importance": 0.784
       }
     },
     {
@@ -699,7 +750,10 @@
       "sourceRepo": "11ty/eleventy-server-browsersync",
       "stars": 16,
       "openIssues": 0,
+      "closedIssues": 2,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2024-06-13T17:28:35Z",
       "lastPublish": "2022-03-15T16:03:58.842Z",
       "lastPublishVersion": "1.0.2",
@@ -714,9 +768,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 16.1,
+      "score": 16.9,
       "breakdown": {
-        "activityDays": 772,
+        "activityDays": 773,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -724,9 +778,9 @@
         "demand": 0.25,
         "downloadsSub": 0.563,
         "starsSub": 0.333,
-        "popularity": 0.494,
+        "popularity": 0.54,
         "neglect": 0.25,
-        "importance": 0.646
+        "importance": 0.678
       }
     },
     {
@@ -738,7 +792,10 @@
       "sourceRepo": "11ty/eleventy-upgrade-help",
       "stars": 73,
       "openIssues": 3,
+      "closedIssues": 6,
       "openPRs": 0,
+      "mergedPRs": 3,
+      "closedPRs": 0,
       "pushedAt": "2025-12-02T21:38:11Z",
       "lastPublish": "2025-12-02T21:39:03.577Z",
       "lastPublishVersion": "3.0.2",
@@ -753,19 +810,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 7.3,
+      "score": 7.5,
       "breakdown": {
-        "activityDays": 235,
-        "staleness": 0.322,
+        "activityDays": 236,
+        "staleness": 0.323,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.097,
         "demand": 0.323,
         "downloadsSub": 0.609,
         "starsSub": 0.505,
-        "popularity": 0.578,
+        "popularity": 0.598,
         "neglect": 0.104,
-        "importance": 0.704
+        "importance": 0.719
       }
     },
     {
@@ -777,7 +834,10 @@
       "sourceRepo": "11ty/api-generator",
       "stars": 7,
       "openIssues": 0,
+      "closedIssues": 1,
       "openPRs": 0,
+      "mergedPRs": 1,
+      "closedPRs": 0,
       "pushedAt": "2026-06-08T19:21:34Z",
       "lastPublish": "2025-03-26T16:50:38.407Z",
       "lastPublishVersion": "1.0.0",
@@ -794,17 +854,17 @@
       "npmError": null,
       "score": 0.8,
       "breakdown": {
-        "activityDays": 47,
-        "staleness": 0.065,
+        "activityDays": 48,
+        "staleness": 0.066,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
         "demand": 0.25,
         "downloadsSub": 0.236,
         "starsSub": 0.244,
-        "popularity": 0.238,
+        "popularity": 0.237,
         "neglect": 0.016,
-        "importance": 0.467
+        "importance": 0.466
       }
     },
     {
@@ -816,7 +876,10 @@
       "sourceRepo": "11ty/eleventy-plugin-font-awesome",
       "stars": 35,
       "openIssues": 5,
+      "closedIssues": 3,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2025-12-02T22:03:48Z",
       "lastPublish": "2025-12-02T22:04:42.104Z",
       "lastPublishVersion": "1.0.1",
@@ -831,19 +894,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 7.2,
+      "score": 7.4,
       "breakdown": {
-        "activityDays": 235,
-        "staleness": 0.322,
+        "activityDays": 236,
+        "staleness": 0.323,
         "issuesSub": 0.314,
         "prsSub": 0,
         "backlogSeverity": 0.126,
         "demand": 0.344,
         "downloadsSub": 0.54,
         "starsSub": 0.421,
-        "popularity": 0.504,
+        "popularity": 0.528,
         "neglect": 0.111,
-        "importance": 0.653
+        "importance": 0.67
       }
     },
     {
@@ -855,7 +918,10 @@
       "sourceRepo": "11ty/image-color",
       "stars": 61,
       "openIssues": 0,
+      "closedIssues": 1,
       "openPRs": 6,
+      "mergedPRs": 4,
+      "closedPRs": 1,
       "pushedAt": "2026-07-21T13:24:36Z",
       "lastPublish": "2025-12-02T20:49:30.782Z",
       "lastPublishVersion": "1.0.8",
@@ -873,16 +939,16 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 5,
-        "staleness": 0.006,
+        "staleness": 0.007,
         "issuesSub": 0,
         "prsSub": 0.473,
         "backlogSeverity": 0.284,
         "demand": 0.463,
         "downloadsSub": 0.471,
         "starsSub": 0.485,
-        "popularity": 0.475,
+        "popularity": 0.473,
         "neglect": 0.003,
-        "importance": 0.633
+        "importance": 0.631
       }
     },
     {
@@ -894,7 +960,10 @@
       "sourceRepo": "11ty/import",
       "stars": 125,
       "openIssues": 14,
+      "closedIssues": 5,
       "openPRs": 8,
+      "mergedPRs": 8,
+      "closedPRs": 10,
       "pushedAt": "2026-07-22T13:24:00Z",
       "lastPublish": "2026-06-11T19:38:37.189Z",
       "lastPublishVersion": "1.0.24",
@@ -912,16 +981,16 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 4,
-        "staleness": 0.005,
+        "staleness": 0.006,
         "issuesSub": 0.475,
         "prsSub": 0.534,
         "backlogSeverity": 0.51,
         "demand": 0.633,
         "downloadsSub": 0.44,
         "starsSub": 0.568,
-        "popularity": 0.478,
-        "neglect": 0.003,
-        "importance": 0.635
+        "popularity": 0.452,
+        "neglect": 0.004,
+        "importance": 0.617
       }
     },
     {
@@ -933,7 +1002,10 @@
       "sourceRepo": "11ty/is-land",
       "stars": 635,
       "openIssues": 13,
+      "closedIssues": 20,
       "openPRs": 1,
+      "mergedPRs": 7,
+      "closedPRs": 2,
       "pushedAt": "2025-12-02T16:08:48Z",
       "lastPublish": "2025-12-02T16:10:39.309Z",
       "lastPublishVersion": "5.0.1",
@@ -948,19 +1020,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 11.3,
+      "score": 11,
       "breakdown": {
-        "activityDays": 235,
-        "staleness": 0.322,
+        "activityDays": 236,
+        "staleness": 0.323,
         "issuesSub": 0.462,
         "prsSub": 0.169,
         "backlogSeverity": 0.286,
         "demand": 0.465,
         "downloadsSub": 0.601,
         "starsSub": 0.758,
-        "popularity": 0.648,
+        "popularity": 0.617,
         "neglect": 0.15,
-        "importance": 0.754
+        "importance": 0.732
       }
     },
     {
@@ -972,7 +1044,10 @@
       "sourceRepo": "11ty/lodash-custom",
       "stars": 4,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2023-03-22T15:34:51Z",
       "lastPublish": "2023-03-22T15:22:19.227Z",
       "lastPublishVersion": "4.17.21",
@@ -987,9 +1062,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 20.1,
+      "score": 22.7,
       "breakdown": {
-        "activityDays": 1221,
+        "activityDays": 1222,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -997,9 +1072,9 @@
         "demand": 0.25,
         "downloadsSub": 0.945,
         "starsSub": 0.189,
-        "popularity": 0.719,
+        "popularity": 0.87,
         "neglect": 0.25,
-        "importance": 0.803
+        "importance": 0.909
       }
     },
     {
@@ -1011,7 +1086,10 @@
       "sourceRepo": "11ty/11ty-logo",
       "stars": 9,
       "openIssues": 1,
+      "closedIssues": 1,
       "openPRs": 0,
+      "mergedPRs": 2,
+      "closedPRs": 1,
       "pushedAt": "2025-12-17T22:09:40Z",
       "lastPublish": "2025-12-17T22:10:59.850Z",
       "lastPublishVersion": "3.0.0",
@@ -1026,9 +1104,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 4.7,
+      "score": 4.9,
       "breakdown": {
-        "activityDays": 220,
+        "activityDays": 221,
         "staleness": 0.302,
         "issuesSub": 0.121,
         "prsSub": 0,
@@ -1036,9 +1114,9 @@
         "demand": 0.286,
         "downloadsSub": 0.388,
         "starsSub": 0.27,
-        "popularity": 0.353,
-        "neglect": 0.086,
-        "importance": 0.547
+        "popularity": 0.376,
+        "neglect": 0.087,
+        "importance": 0.563
       }
     },
     {
@@ -1050,7 +1128,10 @@
       "sourceRepo": "11ty/package-bundler",
       "stars": 4,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 4,
+      "mergedPRs": 2,
+      "closedPRs": 4,
       "pushedAt": "2026-07-22T07:06:32Z",
       "lastPublish": "2026-06-03T21:11:12.977Z",
       "lastPublishVersion": "0.5.6",
@@ -1065,19 +1146,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.1,
+      "score": 0.2,
       "breakdown": {
         "activityDays": 4,
-        "staleness": 0.005,
+        "staleness": 0.006,
         "issuesSub": 0,
         "prsSub": 0.392,
         "backlogSeverity": 0.235,
         "demand": 0.426,
         "downloadsSub": 0.558,
         "starsSub": 0.189,
-        "popularity": 0.447,
-        "neglect": 0.002,
-        "importance": 0.613
+        "popularity": 0.521,
+        "neglect": 0.003,
+        "importance": 0.665
       }
     },
     {
@@ -1089,7 +1170,10 @@
       "sourceRepo": "11ty/parse-date-strings",
       "stars": 38,
       "openIssues": 0,
+      "closedIssues": 2,
       "openPRs": 0,
+      "mergedPRs": 4,
+      "closedPRs": 0,
       "pushedAt": "2025-12-02T20:58:30Z",
       "lastPublish": "2025-12-02T21:00:22.505Z",
       "lastPublishVersion": "2.0.6",
@@ -1104,19 +1188,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 5.6,
+      "score": 5.8,
       "breakdown": {
-        "activityDays": 235,
-        "staleness": 0.322,
+        "activityDays": 236,
+        "staleness": 0.323,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
         "demand": 0.25,
         "downloadsSub": 0.62,
         "starsSub": 0.43,
-        "popularity": 0.563,
+        "popularity": 0.601,
         "neglect": 0.081,
-        "importance": 0.694
+        "importance": 0.721
       }
     },
     {
@@ -1128,7 +1212,10 @@
       "sourceRepo": "11ty/eleventy-posthtml-urls",
       "stars": 4,
       "openIssues": 1,
+      "closedIssues": 1,
       "openPRs": 1,
+      "mergedPRs": 2,
+      "closedPRs": 0,
       "pushedAt": "2026-05-05T13:48:44Z",
       "lastPublish": "2026-03-25T20:23:51.090Z",
       "lastPublishVersion": "1.0.3",
@@ -1143,19 +1230,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 3.2,
+      "score": 3.7,
       "breakdown": {
-        "activityDays": 81,
-        "staleness": 0.112,
+        "activityDays": 82,
+        "staleness": 0.113,
         "issuesSub": 0.121,
         "prsSub": 0.169,
         "backlogSeverity": 0.15,
         "demand": 0.362,
         "downloadsSub": 0.944,
         "starsSub": 0.189,
-        "popularity": 0.718,
-        "neglect": 0.04,
-        "importance": 0.802
+        "popularity": 0.869,
+        "neglect": 0.041,
+        "importance": 0.908
       }
     },
     {
@@ -1167,7 +1254,10 @@
       "sourceRepo": null,
       "stars": 1408,
       "openIssues": 61,
+      "closedIssues": 138,
       "openPRs": 4,
+      "mergedPRs": 23,
+      "closedPRs": 6,
       "pushedAt": "2025-12-02T16:44:41Z",
       "lastPublish": "2025-08-28T18:59:14.318Z",
       "lastPublishVersion": "0.12.0-beta.2",
@@ -1182,19 +1272,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 17.1,
+      "score": 16.8,
       "breakdown": {
-        "activityDays": 235,
-        "staleness": 0.322,
+        "activityDays": 236,
+        "staleness": 0.323,
         "issuesSub": 0.723,
         "prsSub": 0.392,
         "backlogSeverity": 0.524,
         "demand": 0.643,
         "downloadsSub": 0.71,
         "starsSub": 0.851,
-        "popularity": 0.752,
-        "neglect": 0.207,
-        "importance": 0.827
+        "popularity": 0.724,
+        "neglect": 0.208,
+        "importance": 0.807
       }
     },
     {
@@ -1206,7 +1296,10 @@
       "sourceRepo": "zachleat/announcement-banner",
       "stars": 50,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2023-11-17T20:10:02Z",
       "lastPublish": "2023-11-17T20:10:20.421Z",
       "lastPublishVersion": "1.0.8",
@@ -1221,9 +1314,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 13.1,
+      "score": 12.4,
       "breakdown": {
-        "activityDays": 981,
+        "activityDays": 982,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -1231,9 +1324,9 @@
         "demand": 0.25,
         "downloadsSub": 0.257,
         "starsSub": 0.462,
-        "popularity": 0.319,
+        "popularity": 0.278,
         "neglect": 0.25,
-        "importance": 0.523
+        "importance": 0.494
       }
     },
     {
@@ -1245,7 +1338,10 @@
       "sourceRepo": "zachleat/browser-window",
       "stars": 278,
       "openIssues": 3,
+      "closedIssues": 3,
       "openPRs": 0,
+      "mergedPRs": 2,
+      "closedPRs": 0,
       "pushedAt": "2025-11-14T14:38:10Z",
       "lastPublish": "2025-11-14T14:39:31.417Z",
       "lastPublishVersion": "2.0.0",
@@ -1260,19 +1356,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 6.5,
+      "score": 6,
       "breakdown": {
-        "activityDays": 253,
-        "staleness": 0.347,
+        "activityDays": 254,
+        "staleness": 0.348,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.097,
         "demand": 0.323,
         "downloadsSub": 0.296,
         "starsSub": 0.661,
-        "popularity": 0.406,
+        "popularity": 0.333,
         "neglect": 0.112,
-        "importance": 0.584
+        "importance": 0.533
       }
     },
     {
@@ -1284,7 +1380,10 @@
       "sourceRepo": "zachleat/carouscroll",
       "stars": 129,
       "openIssues": 3,
+      "closedIssues": 1,
       "openPRs": 1,
+      "mergedPRs": 3,
+      "closedPRs": 0,
       "pushedAt": "2024-02-07T21:21:29Z",
       "lastPublish": "2024-02-06T18:57:41.173Z",
       "lastPublishVersion": "1.0.6",
@@ -1299,9 +1398,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 22.9,
+      "score": 21.5,
       "breakdown": {
-        "activityDays": 899,
+        "activityDays": 900,
         "staleness": 1,
         "issuesSub": 0.243,
         "prsSub": 0.169,
@@ -1309,9 +1408,9 @@
         "demand": 0.399,
         "downloadsSub": 0.314,
         "starsSub": 0.571,
-        "popularity": 0.392,
+        "popularity": 0.34,
         "neglect": 0.399,
-        "importance": 0.574
+        "importance": 0.538
       }
     },
     {
@@ -1323,7 +1422,10 @@
       "sourceRepo": "zachleat/details-utils",
       "stars": 271,
       "openIssues": 4,
+      "closedIssues": 1,
       "openPRs": 2,
+      "mergedPRs": 0,
+      "closedPRs": 1,
       "pushedAt": "2023-11-07T18:56:50Z",
       "lastPublish": "2022-02-08T22:40:09.268Z",
       "lastPublishVersion": "2.0.2",
@@ -1338,9 +1440,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 33,
+      "score": 32.6,
       "breakdown": {
-        "activityDays": 991,
+        "activityDays": 992,
         "staleness": 1,
         "issuesSub": 0.282,
         "prsSub": 0.267,
@@ -1348,9 +1450,9 @@
         "demand": 0.455,
         "downloadsSub": 0.588,
         "starsSub": 0.658,
-        "popularity": 0.609,
+        "popularity": 0.595,
         "neglect": 0.455,
-        "importance": 0.727
+        "importance": 0.717
       }
     },
     {
@@ -1362,7 +1464,10 @@
       "sourceRepo": "zachleat/fetch-links",
       "stars": 0,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2026-03-31T21:20:09Z",
       "lastPublish": "2026-03-31T21:20:33.963Z",
       "lastPublishVersion": "1.0.7",
@@ -1377,19 +1482,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 1.7,
+      "score": 1.8,
       "breakdown": {
-        "activityDays": 116,
-        "staleness": 0.159,
+        "activityDays": 117,
+        "staleness": 0.16,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
         "demand": 0.25,
         "downloadsSub": 0.244,
         "starsSub": 0,
-        "popularity": 0.171,
+        "popularity": 0.219,
         "neglect": 0.04,
-        "importance": 0.419
+        "importance": 0.454
       }
     },
     {
@@ -1401,7 +1506,10 @@
       "sourceRepo": "zachleat/filter-container",
       "stars": 92,
       "openIssues": 1,
+      "closedIssues": 0,
       "openPRs": 1,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2025-01-08T19:52:19Z",
       "lastPublish": "2023-11-17T21:06:01.945Z",
       "lastPublishVersion": "4.0.0",
@@ -1416,9 +1524,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 17.4,
+      "score": 17,
       "breakdown": {
-        "activityDays": 563,
+        "activityDays": 564,
         "staleness": 0.772,
         "issuesSub": 0.121,
         "prsSub": 0.169,
@@ -1426,9 +1534,9 @@
         "demand": 0.362,
         "downloadsSub": 0.431,
         "starsSub": 0.532,
-        "popularity": 0.461,
+        "popularity": 0.441,
         "neglect": 0.28,
-        "importance": 0.623
+        "importance": 0.609
       }
     },
     {
@@ -1440,7 +1548,10 @@
       "sourceRepo": "zachleat/fundraising-status",
       "stars": 5,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2024-05-24T18:59:25Z",
       "lastPublish": "2024-05-24T18:59:44.684Z",
       "lastPublishVersion": "1.0.6",
@@ -1455,9 +1566,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 11.8,
+      "score": 12,
       "breakdown": {
-        "activityDays": 792,
+        "activityDays": 793,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -1465,9 +1576,9 @@
         "demand": 0.25,
         "downloadsSub": 0.261,
         "starsSub": 0.21,
-        "popularity": 0.246,
+        "popularity": 0.256,
         "neglect": 0.25,
-        "importance": 0.472
+        "importance": 0.479
       }
     },
     {
@@ -1479,7 +1590,10 @@
       "sourceRepo": "zachleat/heading-anchors",
       "stars": 41,
       "openIssues": 2,
+      "closedIssues": 4,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2025-10-01T21:47:30Z",
       "lastPublish": "2025-10-01T21:49:17.455Z",
       "lastPublishVersion": "1.0.5",
@@ -1494,19 +1608,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 8.5,
+      "score": 8.7,
       "breakdown": {
-        "activityDays": 297,
-        "staleness": 0.407,
+        "activityDays": 298,
+        "staleness": 0.408,
         "issuesSub": 0.192,
         "prsSub": 0,
         "backlogSeverity": 0.077,
         "demand": 0.308,
         "downloadsSub": 0.58,
         "starsSub": 0.439,
-        "popularity": 0.537,
-        "neglect": 0.125,
-        "importance": 0.676
+        "popularity": 0.565,
+        "neglect": 0.126,
+        "importance": 0.696
       }
     },
     {
@@ -1518,7 +1632,10 @@
       "sourceRepo": "zachleat/hypercard",
       "stars": 64,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 3,
+      "closedPRs": 0,
       "pushedAt": "2026-07-13T15:59:11Z",
       "lastPublish": "2026-07-13T15:56:27.861Z",
       "lastPublishVersion": "2.0.2",
@@ -1535,17 +1652,17 @@
       "npmError": null,
       "score": 0.3,
       "breakdown": {
-        "activityDays": 12,
-        "staleness": 0.017,
+        "activityDays": 13,
+        "staleness": 0.018,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
         "demand": 0.25,
         "downloadsSub": 0.389,
         "starsSub": 0.49,
-        "popularity": 0.419,
+        "popularity": 0.399,
         "neglect": 0.004,
-        "importance": 0.593
+        "importance": 0.579
       }
     },
     {
@@ -1557,7 +1674,10 @@
       "sourceRepo": "zachleat/line-numbers",
       "stars": 161,
       "openIssues": 3,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2025-06-23T21:25:11Z",
       "lastPublish": "2025-06-09T18:44:08.514Z",
       "lastPublishVersion": "1.0.3",
@@ -1572,19 +1692,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 10.3,
+      "score": 9.6,
       "breakdown": {
-        "activityDays": 397,
-        "staleness": 0.544,
+        "activityDays": 398,
+        "staleness": 0.545,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.097,
         "demand": 0.323,
         "downloadsSub": 0.326,
         "starsSub": 0.597,
-        "popularity": 0.407,
+        "popularity": 0.353,
         "neglect": 0.176,
-        "importance": 0.585
+        "importance": 0.547
       }
     },
     {
@@ -1596,7 +1716,10 @@
       "sourceRepo": "zachleat/noop",
       "stars": 4,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2025-12-10T17:20:30Z",
       "lastPublish": "2025-12-10T17:21:20.743Z",
       "lastPublishVersion": "1.0.7",
@@ -1611,19 +1734,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 4.8,
+      "score": 5.3,
       "breakdown": {
-        "activityDays": 227,
-        "staleness": 0.311,
+        "activityDays": 228,
+        "staleness": 0.312,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
         "demand": 0.25,
         "downloadsSub": 0.572,
         "starsSub": 0.189,
-        "popularity": 0.457,
+        "popularity": 0.534,
         "neglect": 0.078,
-        "importance": 0.62
+        "importance": 0.674
       }
     },
     {
@@ -1635,7 +1758,10 @@
       "sourceRepo": "zachleat/pagefind-search",
       "stars": 37,
       "openIssues": 0,
+      "closedIssues": 1,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2023-12-06T17:22:43Z",
       "lastPublish": "2023-12-06T17:23:00.067Z",
       "lastPublishVersion": "1.0.3",
@@ -1650,9 +1776,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 14,
+      "score": 13.7,
       "breakdown": {
-        "activityDays": 962,
+        "activityDays": 963,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -1660,9 +1786,9 @@
         "demand": 0.25,
         "downloadsSub": 0.347,
         "starsSub": 0.427,
-        "popularity": 0.371,
+        "popularity": 0.355,
         "neglect": 0.25,
-        "importance": 0.56
+        "importance": 0.549
       }
     },
     {
@@ -1674,7 +1800,10 @@
       "sourceRepo": "zachleat/parity-purchasing-power-price",
       "stars": 11,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2023-11-08T23:21:20Z",
       "lastPublish": "2023-10-25T13:29:56.748Z",
       "lastPublishVersion": "1.0.1",
@@ -1689,9 +1818,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 11.2,
+      "score": 10.8,
       "breakdown": {
-        "activityDays": 990,
+        "activityDays": 991,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -1699,9 +1828,9 @@
         "demand": 0.25,
         "downloadsSub": 0.18,
         "starsSub": 0.292,
-        "popularity": 0.213,
+        "popularity": 0.191,
         "neglect": 0.25,
-        "importance": 0.449
+        "importance": 0.434
       }
     },
     {
@@ -1713,7 +1842,10 @@
       "sourceRepo": "zachleat/seven-minute-tabs",
       "stars": 103,
       "openIssues": 3,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 2,
+      "closedPRs": 1,
       "pushedAt": "2026-01-12T18:13:44Z",
       "lastPublish": "2025-11-04T22:10:30.437Z",
       "lastPublishVersion": "3.0.3",
@@ -1730,17 +1862,17 @@
       "npmError": null,
       "score": 5.6,
       "breakdown": {
-        "activityDays": 194,
-        "staleness": 0.266,
+        "activityDays": 195,
+        "staleness": 0.267,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.097,
         "demand": 0.323,
         "downloadsSub": 0.488,
         "starsSub": 0.545,
-        "popularity": 0.505,
+        "popularity": 0.494,
         "neglect": 0.086,
-        "importance": 0.654
+        "importance": 0.646
       }
     },
     {
@@ -1752,7 +1884,10 @@
       "sourceRepo": null,
       "stars": 147,
       "openIssues": 4,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 1,
       "pushedAt": "2024-12-17T21:52:33Z",
       "lastPublish": "2024-12-17T21:41:36.692Z",
       "lastPublishVersion": "1.0.3",
@@ -1767,9 +1902,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 17.6,
+      "score": 17.2,
       "breakdown": {
-        "activityDays": 585,
+        "activityDays": 586,
         "staleness": 0.802,
         "issuesSub": 0.282,
         "prsSub": 0,
@@ -1777,9 +1912,9 @@
         "demand": 0.335,
         "downloadsSub": 0.474,
         "starsSub": 0.587,
-        "popularity": 0.508,
-        "neglect": 0.268,
-        "importance": 0.656
+        "popularity": 0.486,
+        "neglect": 0.269,
+        "importance": 0.64
       }
     },
     {
@@ -1791,7 +1926,10 @@
       "sourceRepo": "zachleat/spider-pig",
       "stars": 68,
       "openIssues": 5,
+      "closedIssues": 3,
       "openPRs": 0,
+      "mergedPRs": 2,
+      "closedPRs": 3,
       "pushedAt": "2026-06-05T15:43:26Z",
       "lastPublish": "2026-06-05T15:40:37.743Z",
       "lastPublishVersion": "4.0.0",
@@ -1808,17 +1946,17 @@
       "npmError": null,
       "score": 1.7,
       "breakdown": {
-        "activityDays": 50,
-        "staleness": 0.069,
+        "activityDays": 51,
+        "staleness": 0.07,
         "issuesSub": 0.314,
         "prsSub": 0,
         "backlogSeverity": 0.126,
         "demand": 0.344,
         "downloadsSub": 0.622,
         "starsSub": 0.497,
-        "popularity": 0.585,
+        "popularity": 0.61,
         "neglect": 0.024,
-        "importance": 0.709
+        "importance": 0.727
       }
     },
     {
@@ -1830,7 +1968,10 @@
       "sourceRepo": "zachleat/squirminal",
       "stars": 38,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2025-11-20T14:20:19Z",
       "lastPublish": "2025-11-20T14:20:30.419Z",
       "lastPublishVersion": "3.0.1",
@@ -1845,19 +1986,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 4.7,
+      "score": 4.6,
       "breakdown": {
-        "activityDays": 247,
-        "staleness": 0.339,
+        "activityDays": 248,
+        "staleness": 0.34,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
         "demand": 0.25,
         "downloadsSub": 0.33,
         "starsSub": 0.43,
-        "popularity": 0.36,
+        "popularity": 0.34,
         "neglect": 0.085,
-        "importance": 0.552
+        "importance": 0.538
       }
     },
     {
@@ -1869,7 +2010,10 @@
       "sourceRepo": "zachleat/table-saw",
       "stars": 337,
       "openIssues": 1,
+      "closedIssues": 2,
       "openPRs": 0,
+      "mergedPRs": 3,
+      "closedPRs": 0,
       "pushedAt": "2025-12-16T16:55:22Z",
       "lastPublish": "2025-12-16T16:56:00.639Z",
       "lastPublishVersion": "1.0.7",
@@ -1886,17 +2030,17 @@
       "npmError": null,
       "score": 6.5,
       "breakdown": {
-        "activityDays": 221,
-        "staleness": 0.303,
+        "activityDays": 222,
+        "staleness": 0.304,
         "issuesSub": 0.121,
         "prsSub": 0,
         "backlogSeverity": 0.049,
         "demand": 0.286,
         "downloadsSub": 0.626,
         "starsSub": 0.684,
-        "popularity": 0.643,
+        "popularity": 0.632,
         "neglect": 0.087,
-        "importance": 0.75
+        "importance": 0.742
       }
     },
     {
@@ -1908,7 +2052,10 @@
       "sourceRepo": "zachleat/throbber",
       "stars": 17,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 1,
+      "closedPRs": 0,
       "pushedAt": "2026-07-25T02:34:51Z",
       "lastPublish": "2024-02-19T14:46:51.102Z",
       "lastPublishVersion": "1.0.4",
@@ -1925,17 +2072,17 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 1,
-        "staleness": 0.001,
+        "activityDays": 2,
+        "staleness": 0.002,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
         "demand": 0.25,
         "downloadsSub": 0.241,
         "starsSub": 0.339,
-        "popularity": 0.271,
-        "neglect": 0,
-        "importance": 0.489
+        "popularity": 0.251,
+        "neglect": 0.001,
+        "importance": 0.476
       }
     },
     {
@@ -1947,7 +2094,10 @@
       "sourceRepo": "zachleat/video-radio-star",
       "stars": 73,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2021-05-20T14:43:05Z",
       "lastPublish": "2021-05-20T14:43:33.668Z",
       "lastPublishVersion": "1.0.7",
@@ -1962,9 +2112,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 12.9,
+      "score": 11.9,
       "breakdown": {
-        "activityDays": 1892,
+        "activityDays": 1893,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -1972,9 +2122,9 @@
         "demand": 0.25,
         "downloadsSub": 0.224,
         "starsSub": 0.505,
-        "popularity": 0.308,
+        "popularity": 0.252,
         "neglect": 0.25,
-        "importance": 0.516
+        "importance": 0.476
       }
     },
     {
@@ -1986,7 +2136,10 @@
       "sourceRepo": "zachleat/w3c-banners",
       "stars": 9,
       "openIssues": 1,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2023-11-29T15:51:23Z",
       "lastPublish": "2023-11-29T15:51:51.282Z",
       "lastPublishVersion": "1.0.1",
@@ -2001,9 +2154,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 12.9,
+      "score": 12.6,
       "breakdown": {
-        "activityDays": 969,
+        "activityDays": 970,
         "staleness": 1,
         "issuesSub": 0.121,
         "prsSub": 0,
@@ -2011,9 +2164,9 @@
         "demand": 0.286,
         "downloadsSub": 0.191,
         "starsSub": 0.27,
-        "popularity": 0.215,
+        "popularity": 0.199,
         "neglect": 0.286,
-        "importance": 0.45
+        "importance": 0.439
       }
     },
     {
@@ -2025,7 +2178,10 @@
       "sourceRepo": "zachleat/webcare-webshare",
       "stars": 25,
       "openIssues": 1,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2024-02-20T21:56:42Z",
       "lastPublish": "2024-02-20T16:14:53.971Z",
       "lastPublishVersion": "1.0.3",
@@ -2040,9 +2196,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 14.8,
+      "score": 14.4,
       "breakdown": {
-        "activityDays": 886,
+        "activityDays": 887,
         "staleness": 1,
         "issuesSub": 0.121,
         "prsSub": 0,
@@ -2050,9 +2206,9 @@
         "demand": 0.286,
         "downloadsSub": 0.277,
         "starsSub": 0.383,
-        "popularity": 0.309,
+        "popularity": 0.288,
         "neglect": 0.286,
-        "importance": 0.516
+        "importance": 0.501
       }
     },
     {
@@ -2064,7 +2220,10 @@
       "sourceRepo": "zachleat/artificial-chart",
       "stars": 16,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2022-08-04T14:05:10Z",
       "lastPublish": "2022-08-04T14:05:32.336Z",
       "lastPublishVersion": "2.0.3",
@@ -2079,9 +2238,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 13,
+      "score": 12.9,
       "breakdown": {
-        "activityDays": 1451,
+        "activityDays": 1452,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -2089,9 +2248,9 @@
         "demand": 0.25,
         "downloadsSub": 0.309,
         "starsSub": 0.333,
-        "popularity": 0.316,
+        "popularity": 0.311,
         "neglect": 0.25,
-        "importance": 0.521
+        "importance": 0.518
       }
     },
     {
@@ -2103,7 +2262,10 @@
       "sourceRepo": "11ty/npm-bare-error",
       "stars": 0,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2025-11-19T14:07:23Z",
       "lastPublish": "2025-11-19T14:07:39.588Z",
       "lastPublishVersion": "2.0.1",
@@ -2118,19 +2280,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 4.8,
+      "score": 5.4,
       "breakdown": {
-        "activityDays": 248,
-        "staleness": 0.34,
+        "activityDays": 249,
+        "staleness": 0.341,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
         "demand": 0.25,
         "downloadsSub": 0.532,
         "starsSub": 0,
-        "popularity": 0.373,
+        "popularity": 0.479,
         "neglect": 0.085,
-        "importance": 0.561
+        "importance": 0.635
       }
     },
     {
@@ -2142,7 +2304,10 @@
       "sourceRepo": "11ty/eleventy-base-blog",
       "stars": 1535,
       "openIssues": 17,
+      "closedIssues": 89,
       "openPRs": 6,
+      "mergedPRs": 70,
+      "closedPRs": 57,
       "pushedAt": "2026-07-24T16:54:10Z",
       "lastPublish": "2020-11-17T06:10:37.513Z",
       "lastPublishVersion": "5.0.2",
@@ -2159,17 +2324,17 @@
       "npmError": null,
       "score": 0.1,
       "breakdown": {
-        "activityDays": 1,
-        "staleness": 0.002,
+        "activityDays": 2,
+        "staleness": 0.003,
         "issuesSub": 0.506,
         "prsSub": 0.473,
         "backlogSeverity": 0.487,
         "demand": 0.615,
         "downloadsSub": 0.18,
         "starsSub": 0.861,
-        "popularity": 0.384,
-        "neglect": 0.001,
-        "importance": 0.569
+        "popularity": 0.248,
+        "neglect": 0.002,
+        "importance": 0.474
       }
     },
     {
@@ -2181,7 +2346,10 @@
       "sourceRepo": "zachleat/esm-import-transformer",
       "stars": 24,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 1,
+      "closedPRs": 0,
       "pushedAt": "2025-08-08T20:02:05Z",
       "lastPublish": "2025-08-08T20:21:13.984Z",
       "lastPublishVersion": "3.0.5",
@@ -2196,19 +2364,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 10.1,
+      "score": 11.1,
       "breakdown": {
-        "activityDays": 351,
-        "staleness": 0.481,
+        "activityDays": 352,
+        "staleness": 0.482,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
         "demand": 0.25,
         "downloadsSub": 0.943,
         "starsSub": 0.378,
-        "popularity": 0.774,
-        "neglect": 0.12,
-        "importance": 0.842
+        "popularity": 0.887,
+        "neglect": 0.121,
+        "importance": 0.921
       }
     },
     {
@@ -2220,7 +2388,10 @@
       "sourceRepo": "zachleat/iliveinomaha-banner",
       "stars": 6,
       "openIssues": 0,
+      "closedIssues": 1,
       "openPRs": 0,
+      "mergedPRs": 1,
+      "closedPRs": 0,
       "pushedAt": "2015-04-18T16:07:51Z",
       "lastPublish": "2015-04-18T16:01:20.907Z",
       "lastPublishVersion": "0.1.5",
@@ -2235,9 +2406,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 12.1,
+      "score": 12.3,
       "breakdown": {
-        "activityDays": 4116,
+        "activityDays": 4117,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -2245,9 +2416,9 @@
         "demand": 0.25,
         "downloadsSub": 0.277,
         "starsSub": 0.228,
-        "popularity": 0.263,
+        "popularity": 0.272,
         "neglect": 0.25,
-        "importance": 0.484
+        "importance": 0.491
       }
     },
     {
@@ -2259,7 +2430,10 @@
       "sourceRepo": "zachleat/import-module-string",
       "stars": 37,
       "openIssues": 1,
+      "closedIssues": 2,
       "openPRs": 3,
+      "mergedPRs": 2,
+      "closedPRs": 1,
       "pushedAt": "2026-07-21T00:13:43Z",
       "lastPublish": "2025-08-08T21:33:31.489Z",
       "lastPublishVersion": "2.0.3",
@@ -2274,19 +2448,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.2,
+      "score": 0.3,
       "breakdown": {
-        "activityDays": 5,
-        "staleness": 0.007,
+        "activityDays": 6,
+        "staleness": 0.008,
         "issuesSub": 0.121,
         "prsSub": 0.337,
         "backlogSeverity": 0.251,
         "demand": 0.438,
         "downloadsSub": 0.636,
         "starsSub": 0.427,
-        "popularity": 0.573,
+        "popularity": 0.615,
         "neglect": 0.003,
-        "importance": 0.701
+        "importance": 0.73
       }
     },
     {
@@ -2298,7 +2472,10 @@
       "sourceRepo": "zachleat/infinity-burger",
       "stars": 35,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2023-11-27T14:39:08Z",
       "lastPublish": "2023-11-27T14:39:43.658Z",
       "lastPublishVersion": "4.0.1",
@@ -2313,9 +2490,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 13.1,
+      "score": 12.6,
       "breakdown": {
-        "activityDays": 971,
+        "activityDays": 972,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -2323,9 +2500,9 @@
         "demand": 0.25,
         "downloadsSub": 0.279,
         "starsSub": 0.421,
-        "popularity": 0.321,
+        "popularity": 0.293,
         "neglect": 0.25,
-        "importance": 0.525
+        "importance": 0.505
       }
     },
     {
@@ -2337,7 +2514,10 @@
       "sourceRepo": "zachleat/node-retrieve-globals",
       "stars": 12,
       "openIssues": 2,
+      "closedIssues": 3,
       "openPRs": 0,
+      "mergedPRs": 1,
+      "closedPRs": 0,
       "pushedAt": "2025-04-17T20:42:32Z",
       "lastPublish": "2025-04-17T20:42:52.008Z",
       "lastPublishVersion": "6.0.1",
@@ -2352,19 +2532,19 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 16.2,
+      "score": 18,
       "breakdown": {
-        "activityDays": 464,
-        "staleness": 0.636,
+        "activityDays": 465,
+        "staleness": 0.637,
         "issuesSub": 0.192,
         "prsSub": 0,
         "backlogSeverity": 0.077,
         "demand": 0.308,
         "downloadsSub": 0.946,
         "starsSub": 0.301,
-        "popularity": 0.752,
+        "popularity": 0.881,
         "neglect": 0.196,
-        "importance": 0.827
+        "importance": 0.917
       }
     },
     {
@@ -2376,7 +2556,10 @@
       "sourceRepo": "zachleat/performance-leaderboard",
       "stars": 98,
       "openIssues": 5,
+      "closedIssues": 8,
       "openPRs": 1,
+      "mergedPRs": 6,
+      "closedPRs": 4,
       "pushedAt": "2025-09-07T19:03:22Z",
       "lastPublish": "2025-09-07T19:07:45.591Z",
       "lastPublishVersion": "12.8.2",
@@ -2393,17 +2576,17 @@
       "npmError": null,
       "score": 12.4,
       "breakdown": {
-        "activityDays": 321,
-        "staleness": 0.44,
+        "activityDays": 322,
+        "staleness": 0.441,
         "issuesSub": 0.314,
         "prsSub": 0.169,
         "backlogSeverity": 0.227,
         "demand": 0.42,
         "downloadsSub": 0.528,
         "starsSub": 0.539,
-        "popularity": 0.531,
+        "popularity": 0.529,
         "neglect": 0.185,
-        "importance": 0.672
+        "importance": 0.67
       }
     },
     {
@@ -2415,7 +2598,10 @@
       "sourceRepo": "zachleat/performance-leaderboard-pagespeed-insights",
       "stars": 33,
       "openIssues": 0,
+      "closedIssues": 0,
       "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2023-02-14T16:04:43Z",
       "lastPublish": "2023-02-13T04:08:06.960Z",
       "lastPublishVersion": "9.6.7",
@@ -2430,9 +2616,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 12,
+      "score": 11.2,
       "breakdown": {
-        "activityDays": 1257,
+        "activityDays": 1258,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -2440,9 +2626,9 @@
         "demand": 0.25,
         "downloadsSub": 0.191,
         "starsSub": 0.414,
-        "popularity": 0.258,
+        "popularity": 0.213,
         "neglect": 0.25,
-        "importance": 0.481
+        "importance": 0.449
       }
     },
     {
@@ -2454,7 +2640,10 @@
       "sourceRepo": "zachleat/postcss-foft-classes",
       "stars": 88,
       "openIssues": 2,
+      "closedIssues": 1,
       "openPRs": 1,
+      "mergedPRs": 2,
+      "closedPRs": 0,
       "pushedAt": "2021-03-15T21:08:36Z",
       "lastPublish": "2018-03-29T20:36:19.543Z",
       "lastPublishVersion": "1.0.4",
@@ -2469,9 +2658,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 23.5,
+      "score": 22.9,
       "breakdown": {
-        "activityDays": 1958,
+        "activityDays": 1959,
         "staleness": 1,
         "issuesSub": 0.192,
         "prsSub": 0.169,
@@ -2479,9 +2668,9 @@
         "demand": 0.384,
         "downloadsSub": 0.412,
         "starsSub": 0.527,
-        "popularity": 0.446,
+        "popularity": 0.423,
         "neglect": 0.384,
-        "importance": 0.612
+        "importance": 0.596
       }
     },
     {
@@ -2493,7 +2682,10 @@
       "sourceRepo": "zachleat/speedlify-score",
       "stars": 44,
       "openIssues": 1,
+      "closedIssues": 2,
       "openPRs": 1,
+      "mergedPRs": 0,
+      "closedPRs": 0,
       "pushedAt": "2024-03-14T22:23:56Z",
       "lastPublish": "2024-03-14T22:24:18.252Z",
       "lastPublishVersion": "4.0.4",
@@ -2508,9 +2700,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 23.9,
+      "score": 24.4,
       "breakdown": {
-        "activityDays": 863,
+        "activityDays": 864,
         "staleness": 1,
         "issuesSub": 0.121,
         "prsSub": 0.169,
@@ -2518,9 +2710,9 @@
         "demand": 0.362,
         "downloadsSub": 0.544,
         "starsSub": 0.447,
-        "popularity": 0.515,
+        "popularity": 0.534,
         "neglect": 0.362,
-        "importance": 0.66
+        "importance": 0.674
       }
     },
     {
@@ -2532,7 +2724,10 @@
       "sourceRepo": "zachleat/package-zachleat",
       "stars": 5,
       "openIssues": 0,
+      "closedIssues": 1,
       "openPRs": 2,
+      "mergedPRs": 0,
+      "closedPRs": 1,
       "pushedAt": "2026-07-22T16:44:05Z",
       "lastPublish": "2026-05-26T17:46:45.121Z",
       "lastPublishVersion": "43.1.4",
@@ -2549,17 +2744,17 @@
       "npmError": null,
       "score": 0.1,
       "breakdown": {
-        "activityDays": 3,
-        "staleness": 0.005,
+        "activityDays": 4,
+        "staleness": 0.006,
         "issuesSub": 0,
         "prsSub": 0.267,
         "backlogSeverity": 0.16,
         "demand": 0.37,
         "downloadsSub": 0.322,
         "starsSub": 0.21,
-        "popularity": 0.288,
+        "popularity": 0.31,
         "neglect": 0.002,
-        "importance": 0.502
+        "importance": 0.517
       }
     }
   ]
