@@ -25,7 +25,7 @@
     },
     "publishedOnly": true
   },
-  "count": 68,
+  "count": 67,
   "projects": [
     {
       "nameWithOwner": "11ty/create",
@@ -359,7 +359,7 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.003,
+        "staleness": 0.004,
         "issuesSub": 0.42,
         "prsSub": 0.436,
         "backlogSeverity": 0.43,
@@ -625,7 +625,7 @@
         "downloadsSub": 0.828,
         "starsSub": 0.555,
         "popularity": 0.746,
-        "neglect": 0.023,
+        "neglect": 0.024,
         "importance": 0.823
       }
     },
@@ -872,7 +872,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 7.3,
+      "score": 7.4,
       "breakdown": {
         "activityDays": 236,
         "staleness": 0.323,
@@ -1090,7 +1090,7 @@
       "score": 11.3,
       "breakdown": {
         "activityDays": 236,
-        "staleness": 0.323,
+        "staleness": 0.324,
         "issuesSub": 0.462,
         "prsSub": 0.169,
         "backlogSeverity": 0.286,
@@ -1743,7 +1743,7 @@
         "downloadsSub": 0.389,
         "starsSub": 0.49,
         "popularity": 0.419,
-        "neglect": 0.004,
+        "neglect": 0.005,
         "importance": 0.593
       }
     },
@@ -2436,49 +2436,6 @@
       }
     },
     {
-      "nameWithOwner": "11ty/demo-eleventy-serverless",
-      "owner": "11ty",
-      "url": "https://github.com/11ty/demo-eleventy-serverless",
-      "packageName": "eleventy-cloud",
-      "isTemplate": true,
-      "description": null,
-      "sourceRepo": null,
-      "stars": 58,
-      "openIssues": 1,
-      "closedIssues": 1,
-      "openPRs": 2,
-      "mergedPRs": 0,
-      "closedPRs": 1,
-      "pushedAt": "2023-05-04T20:43:49Z",
-      "lastPublish": null,
-      "lastPublishVersion": null,
-      "lastStablePublish": null,
-      "lastStablePublishVersion": null,
-      "firstPublish": null,
-      "latestVersion": null,
-      "prerelease": false,
-      "downloads": 0,
-      "downloadsKnown": false,
-      "downloadsPeriod": "last-month",
-      "published": false,
-      "npmStatus": "unpublished",
-      "npmError": null,
-      "score": 16.3,
-      "breakdown": {
-        "activityDays": 1179,
-        "staleness": 1,
-        "issuesSub": 0.121,
-        "prsSub": 0.267,
-        "backlogSeverity": 0.209,
-        "demand": 0.407,
-        "downloadsSub": 0,
-        "starsSub": 0.479,
-        "popularity": 0.144,
-        "neglect": 0.407,
-        "importance": 0.401
-      }
-    },
-    {
       "nameWithOwner": "zachleat/esm-import-transformer",
       "owner": "zachleat",
       "url": "https://github.com/zachleat/esm-import-transformer",
@@ -2721,7 +2678,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 12.4,
+      "score": 12.5,
       "breakdown": {
         "activityDays": 322,
         "staleness": 0.441,
@@ -2861,7 +2818,7 @@
         "downloadsSub": 0,
         "starsSub": 0.808,
         "popularity": 0.243,
-        "neglect": 0.006,
+        "neglect": 0.007,
         "importance": 0.47
       }
     },
