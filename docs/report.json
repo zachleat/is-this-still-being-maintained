@@ -25,7 +25,7 @@
     },
     "publishedOnly": true
   },
-  "count": 77,
+  "count": 76,
   "projects": [
     {
       "nameWithOwner": "11ty/create",
@@ -1960,49 +1960,6 @@
         "popularity": 0.419,
         "neglect": 0.005,
         "importance": 0.593
-      }
-    },
-    {
-      "nameWithOwner": "zachleat/github-issue-to-json-file",
-      "owner": "zachleat",
-      "url": "https://github.com/zachleat/github-issue-to-json-file",
-      "packageName": "@zachleat/issue-to-json",
-      "isTemplate": false,
-      "description": null,
-      "sourceRepo": null,
-      "stars": 23,
-      "openIssues": 0,
-      "closedIssues": 0,
-      "openPRs": 0,
-      "mergedPRs": 1,
-      "closedPRs": 0,
-      "pushedAt": "2025-12-19T15:05:49Z",
-      "lastPublish": null,
-      "lastPublishVersion": null,
-      "lastStablePublish": null,
-      "lastStablePublishVersion": null,
-      "firstPublish": null,
-      "latestVersion": null,
-      "prerelease": false,
-      "downloads": 0,
-      "downloadsKnown": false,
-      "downloadsPeriod": "last-month",
-      "published": false,
-      "npmStatus": "unpublished",
-      "npmError": null,
-      "score": 2.8,
-      "breakdown": {
-        "activityDays": 219,
-        "staleness": 0.3,
-        "issuesSub": 0,
-        "prsSub": 0,
-        "backlogSeverity": 0,
-        "demand": 0.25,
-        "downloadsSub": 0,
-        "starsSub": 0.373,
-        "popularity": 0.112,
-        "neglect": 0.075,
-        "importance": 0.378
       }
     },
     {
