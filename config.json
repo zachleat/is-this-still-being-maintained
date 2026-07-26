@@ -11,7 +11,11 @@
     "zachleat/flex-luthor",
     "11ty/gray-matter",
     "11ty/nunjucks",
-    "11ty/recursive-copy"
+    "11ty/recursive-copy",
+    "zachleat/github-issue-to-json-file",
+    "zachleat/zachleat.com",
+    "11ty/docs",
+    "11ty/11ty-community"
   ],
 
   "options": {
