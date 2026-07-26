@@ -1,0 +1,42 @@
+name: Maintenance report
+
+on:
+  # Every day at 12:00 UTC.
+  schedule:
+    - cron: "0 12 * * *"
+  # Allow running it by hand from the Actions tab.
+  workflow_dispatch:
+
+# Needed so the workflow can commit the regenerated report back to the repo.
+permissions:
+  contents: write
+
+# Don't let a manual run and the scheduled run stomp on each other.
+concurrency:
+  group: maintenance-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # 7.0.0
+      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # 6.4.0
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Generate maintenance report
+        env:
+          # The built-in token reads public data across GitHub fine. Swap in a
+          # PAT via a repo secret if you need private/org visibility or a higher
+          # rate limit: MAINTENANCE_GH_TOKEN takes precedence when present.
+          GITHUB_TOKEN: ${{ secrets.MAINTENANCE_GH_TOKEN || secrets.GITHUB_TOKEN }}
+        run: node index.js
+
+      - name: Commit report if changed
+        run: |
+          git config user.name "zachleat"
+          git config user.email "zachleat@users.noreply.github.com"
+          git add output/maintenance-report.json
+          git diff --staged --quiet || (git commit -m "update maintenance report" && git push)

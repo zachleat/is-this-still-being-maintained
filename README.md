@@ -167,6 +167,22 @@ counted as "zero downloads" or "unpublished" — it's surfaced as `downloads-err
 / `error`, and a re-run picks up where it left off. If you routinely see a handful
 of `downloads-error` rows, lower `options.concurrency` in `config.json`.
 
+## Automation (daily)
+
+[`.github/workflows/maintenance-report.yml`](.github/workflows/maintenance-report.yml)
+regenerates the report every day at 12:00 UTC (and on demand via **workflow
+dispatch**), then commits `output/maintenance-report.json` back to the repo — but
+only when it changed. Because the report is sorted and timestamp-free, each
+commit is a clean diff, giving you a git history of how your scores drift over
+time.
+
+It authenticates with the Actions-provided `GITHUB_TOKEN`, which can read public
+data across GitHub. If you need private/org visibility or a higher rate limit,
+add a PAT as a repo secret named `MAINTENANCE_GH_TOKEN` — the workflow prefers it
+when present. To change the cadence, edit the `cron` line. (If your default
+branch has protections that block the `github-actions[bot]` push, allow it or
+point the workflow at a branch/PR instead.)
+
 ## Ideas for later
 
 - Monorepo support (score each workspace package, not just the repo root)
