@@ -34,7 +34,7 @@ Usage: node index.js [options]
 
 Options:
   --config <path>   Config file (default: ./config.json)
-  --json <path>     Write full results as JSON (default: ./docs/maintenance-report.json)
+  --json <path>     Write full results as JSON (default: ./docs/report.json)
   --limit <n>       Only print the top N rows to the table
   --no-color        Disable ANSI colors
   -h, --help        Show this help
@@ -281,8 +281,7 @@ async function main() {
   );
   const outputDir = options.outputDir || "docs";
   const jsonPath = path.resolve(
-    args.json ||
-      path.join(process.cwd(), outputDir, "maintenance-report.json"),
+    args.json || path.join(process.cwd(), outputDir, "report.json"),
   );
   const report = {
     config: { githubUsers, githubOrgs, scoring, publishedOnly },

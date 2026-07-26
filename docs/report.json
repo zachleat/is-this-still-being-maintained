@@ -114,7 +114,7 @@
       "firstPublish": "2022-11-14T04:52:59.237Z",
       "latestVersion": "2.0.0",
       "deprecated": false,
-      "downloads": 124,
+      "downloads": 135,
       "downloadsKnown": true,
       "downloadsPeriod": "last-month",
       "published": true,
@@ -128,11 +128,11 @@
         "prsSub": 0,
         "backlogSeverity": 0,
         "demand": 0.25,
-        "downloadsSub": 0.349,
+        "downloadsSub": 0.356,
         "starsSub": 0.557,
-        "popularity": 0.412,
+        "popularity": 0.416,
         "neglect": 0.202,
-        "importance": 0.588
+        "importance": 0.591
       }
     },
     {
@@ -294,7 +294,7 @@
       "firstPublish": "2022-01-16T21:27:29.042Z",
       "latestVersion": "1.0.2",
       "deprecated": false,
-      "downloads": 2117,
+      "downloads": 2122,
       "downloadsKnown": true,
       "downloadsPeriod": "last-month",
       "published": true,
@@ -330,7 +330,7 @@
       "firstPublish": "2018-10-06T18:08:37.575Z",
       "latestVersion": "1.0.3",
       "deprecated": false,
-      "downloads": 7722,
+      "downloads": 7399,
       "downloadsKnown": true,
       "downloadsPeriod": "last-month",
       "published": true,
@@ -344,11 +344,11 @@
         "prsSub": 0,
         "backlogSeverity": 0.126,
         "demand": 0.344,
-        "downloadsSub": 0.648,
+        "downloadsSub": 0.645,
         "starsSub": 0.439,
-        "popularity": 0.585,
+        "popularity": 0.583,
         "neglect": 0.344,
-        "importance": 0.71
+        "importance": 0.708
       }
     },
     {
@@ -474,13 +474,13 @@
       "firstPublish": "2020-03-20T16:49:21.978Z",
       "latestVersion": "0.8.0",
       "deprecated": false,
-      "downloads": 692,
+      "downloads": 659,
       "downloadsKnown": true,
       "downloadsPeriod": "last-month",
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 33.9,
+      "score": 33.8,
       "breakdown": {
         "activityDays": 1226,
         "staleness": 1,
@@ -488,11 +488,11 @@
         "prsSub": 0.267,
         "backlogSeverity": 0.35,
         "demand": 0.513,
-        "downloadsSub": 0.473,
+        "downloadsSub": 0.47,
         "starsSub": 0.619,
-        "popularity": 0.517,
+        "popularity": 0.515,
         "neglect": 0.513,
-        "importance": 0.662
+        "importance": 0.66
       }
     },
     {
@@ -510,7 +510,7 @@
       "firstPublish": "2022-09-24T03:46:17.202Z",
       "latestVersion": "0.11.2",
       "deprecated": false,
-      "downloads": 16617,
+      "downloads": 17008,
       "downloadsKnown": true,
       "downloadsPeriod": "last-month",
       "published": true,
@@ -524,11 +524,11 @@
         "prsSub": 0.337,
         "backlogSeverity": 0.468,
         "demand": 0.601,
-        "downloadsSub": 0.703,
+        "downloadsSub": 0.705,
         "starsSub": 0.575,
-        "popularity": 0.665,
+        "popularity": 0.666,
         "neglect": 0.194,
-        "importance": 0.765
+        "importance": 0.766
       }
     },
     {
@@ -546,7 +546,7 @@
       "firstPublish": "2022-03-10T23:44:38.000Z",
       "latestVersion": "1.0.2",
       "deprecated": false,
-      "downloads": 2329,
+      "downloads": 2385,
       "downloadsKnown": true,
       "downloadsPeriod": "last-month",
       "published": true,
@@ -560,11 +560,11 @@
         "prsSub": 0,
         "backlogSeverity": 0,
         "demand": 0.25,
-        "downloadsSub": 0.561,
+        "downloadsSub": 0.563,
         "starsSub": 0.333,
-        "popularity": 0.493,
+        "popularity": 0.494,
         "neglect": 0.25,
-        "importance": 0.645
+        "importance": 0.646
       }
     },
     {
@@ -762,7 +762,7 @@
       "firstPublish": "2022-06-09T21:59:15.041Z",
       "latestVersion": "5.0.1",
       "deprecated": false,
-      "downloads": 3935,
+      "downloads": 4048,
       "downloadsKnown": true,
       "downloadsPeriod": "last-month",
       "published": true,
@@ -776,11 +776,11 @@
         "prsSub": 0.169,
         "backlogSeverity": 0.286,
         "demand": 0.465,
-        "downloadsSub": 0.599,
+        "downloadsSub": 0.601,
         "starsSub": 0.758,
-        "popularity": 0.647,
+        "popularity": 0.648,
         "neglect": 0.15,
-        "importance": 0.753
+        "importance": 0.754
       }
     },
     {
@@ -798,7 +798,7 @@
       "firstPublish": "2023-03-22T15:22:18.984Z",
       "latestVersion": "4.17.21",
       "deprecated": false,
-      "downloads": 467374,
+      "downloads": 470846,
       "downloadsKnown": true,
       "downloadsPeriod": "last-month",
       "published": true,
@@ -814,7 +814,7 @@
         "demand": 0.25,
         "downloadsSub": 0.945,
         "starsSub": 0.189,
-        "popularity": 0.718,
+        "popularity": 0.719,
         "neglect": 0.25,
         "importance": 0.803
       }
@@ -978,7 +978,7 @@
       "firstPublish": "2022-09-09T15:53:08.874Z",
       "latestVersion": "0.11.4",
       "deprecated": false,
-      "downloads": 17781,
+      "downloads": 18192,
       "downloadsKnown": true,
       "downloadsPeriod": "last-month",
       "published": true,
@@ -992,11 +992,11 @@
         "prsSub": 0.392,
         "backlogSeverity": 0.524,
         "demand": 0.643,
-        "downloadsSub": 0.708,
+        "downloadsSub": 0.71,
         "starsSub": 0.851,
-        "popularity": 0.751,
+        "popularity": 0.752,
         "neglect": 0.207,
-        "importance": 0.826
+        "importance": 0.827
       }
     },
     {
