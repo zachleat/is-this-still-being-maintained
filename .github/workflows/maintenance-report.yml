@@ -26,6 +26,18 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      # Persist eleventy-fetch's disk cache across runs. The key is unique per
+      # run (github.run_id) so a fresh entry is always saved; restore-keys does a
+      # prefix match to pull the most recent prior cache. NOTE: at a daily cadence
+      # these entries are older than `cacheDuration`, so they don't cut API calls
+      # — the benefit is resilience: on a fetch failure eleventy-fetch falls back
+      # to the (expired) cached value instead of erroring.
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # 6.1.0
+        with:
+          path: .cache
+          key: eleventy-fetch-${{ github.run_id }}
+          restore-keys: |
+            eleventy-fetch-
       - name: Generate maintenance report
         env:
           # The built-in token reads public data across GitHub fine. Swap in a
