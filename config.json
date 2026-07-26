@@ -5,7 +5,14 @@
 
   "monitor": [],
   "exclude": [],
-  "alwaysInclude": [],
+  "alwaysInclude": [
+    "zachleat/glyphhanger",
+    "zachleat/resizeasaurus",
+    "zachleat/flex-luthor",
+    "11ty/gray-matter",
+    "11ty/nunjucks",
+    "11ty/recursive-copy"
+  ],
 
   "options": {
     "publishedOnly": true,
