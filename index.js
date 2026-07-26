@@ -115,13 +115,41 @@ function renderTable(rows, color, limit) {
   }
 }
 
-// A published package should be attributed only to the repo npm says it's
-// published from. Repos that merely inherited a template's package.json name
-// (e.g. copies of eleventy-base-blog) are not the source and are dropped, so the
-// same npm package doesn't appear once per copy.
-function isSourceRepo(meta, repo) {
-  if (!meta?.repository) return true; // npm didn't say — can't disprove, keep it
-  return meta.repository.toLowerCase() === repo.nameWithOwner.toLowerCase();
+// Pick the one "source" repo for each npm package name, returning a Set of the
+// winners' nameWithOwner. The dedup exists only to collapse duplicates — many
+// repos generated from a template (e.g. eleventy-base-blog) share a package.json
+// name. Rules:
+//   - a package claimed by a SINGLE repo is always kept. npm's `repository` field
+//     often lags a GitHub rename (e.g. 11ty/eleventy-img -> 11ty/image), so a
+//     mismatch there must not drop the only repo that publishes the package;
+//   - when SEVERAL repos claim the same name, prefer the one npm names in its
+//     `repository` field; if none match, keep the most-starred as canonical.
+function selectSourceRepos(withMeta) {
+  const groups = new Map(); // packageName -> [{ repo, meta }]
+  for (const entry of withMeta) {
+    if (!entry.meta) continue; // unpublished / errored — nothing to attribute
+    const key = entry.repo.packageName;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(entry);
+  }
+
+  const sources = new Set();
+  for (const entries of groups.values()) {
+    let winner;
+    if (entries.length === 1) {
+      winner = entries[0];
+    } else {
+      const repoUrl = entries[0].meta.repository?.toLowerCase();
+      winner =
+        (repoUrl &&
+          entries.find(
+            (e) => e.repo.nameWithOwner.toLowerCase() === repoUrl,
+          )) ||
+        [...entries].sort((a, b) => b.repo.stars - a.repo.stars)[0];
+    }
+    sources.add(winner.repo.nameWithOwner);
+  }
+  return sources;
 }
 
 // --- main ------------------------------------------------------------------
@@ -189,10 +217,13 @@ async function main() {
     },
   );
 
+  // Resolve which repo is the canonical source for each package name (dedup).
+  const sources = selectSourceRepos(withMeta);
+
   // Phase 2: download counts — one bulk pass for every published package, so we
   // don't hammer (and get throttled by) the strict downloads API.
   const publishedNames = withMeta
-    .filter((x) => x.meta && isSourceRepo(x.meta, x.repo))
+    .filter((x) => x.meta && sources.has(x.repo.nameWithOwner))
     .map((x) => x.repo.packageName);
   console.error(
     c("2", `Fetching npm downloads for ${publishedNames.length} published package(s)…`),
@@ -207,7 +238,7 @@ async function main() {
   );
 
   const projects = withMeta.map(({ repo, meta, error }) => {
-    const source = meta ? isSourceRepo(meta, repo) : false;
+    const source = meta ? sources.has(repo.nameWithOwner) : false;
     const downloadError =
       meta && source ? downloadErrorNames.get(repo.packageName) : null;
     const npmStatus = error
@@ -234,9 +265,12 @@ async function main() {
       openPRs: repo.openPRs,
       pushedAt: repo.pushedAt,
       lastPublish: meta?.lastPublish || null,
+      lastPublishVersion: meta?.lastPublishVersion || null,
+      lastStablePublish: meta?.lastStablePublish || null,
+      lastStablePublishVersion: meta?.lastStablePublishVersion || null,
       firstPublish: meta?.firstPublish || null,
       latestVersion: meta?.latestVersion || null,
-      deprecated: meta?.deprecated || false,
+      prerelease: meta?.prerelease || false,
       downloads: meta && source ? downloads.get(repo.packageName) ?? 0 : 0,
       downloadsKnown: Boolean(meta) && source && !downloadError,
       downloadsPeriod: period,
