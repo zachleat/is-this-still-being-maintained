@@ -227,6 +227,7 @@ async function main() {
       owner: repo.nameWithOwner.split("/")[0],
       url: repo.url,
       packageName: repo.packageName || null,
+      description: meta?.description || null,
       sourceRepo: meta?.repository || null,
       stars: repo.stars,
       openIssues: repo.openIssues,
