@@ -16,8 +16,8 @@
       "issuesSaturation": 300,
       "prsSaturation": 60,
       "importanceWeights": {
-        "downloads": 0.9,
-        "stars": 0.1
+        "downloads": 0.7,
+        "stars": 0.3
       },
       "downloadsSaturation": 1000000,
       "starsSaturation": 5000,
@@ -64,9 +64,9 @@
         "demand": 0.286,
         "downloadsSub": 0.343,
         "starsSub": 0.318,
-        "popularity": 0.341,
+        "popularity": 0.336,
         "neglect": 0.093,
-        "importance": 0.539
+        "importance": 0.535
       }
     },
     {
@@ -96,7 +96,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 1.7,
+      "score": 1.5,
       "breakdown": {
         "activityDays": 34,
         "staleness": 0.046,
@@ -106,9 +106,9 @@
         "demand": 0.402,
         "downloadsSub": 0.965,
         "starsSub": 0.27,
-        "popularity": 0.895,
+        "popularity": 0.756,
         "neglect": 0.019,
-        "importance": 0.927
+        "importance": 0.83
       }
     },
     {
@@ -148,9 +148,9 @@
         "demand": 0.864,
         "downloadsSub": 0.971,
         "starsSub": 1,
-        "popularity": 0.974,
+        "popularity": 0.98,
         "neglect": 0.001,
-        "importance": 0.982
+        "importance": 0.986
       }
     },
     {
@@ -180,7 +180,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 11.4,
+      "score": 11.9,
       "breakdown": {
         "activityDays": 590,
         "staleness": 0.808,
@@ -190,9 +190,9 @@
         "demand": 0.25,
         "downloadsSub": 0.356,
         "starsSub": 0.557,
-        "popularity": 0.376,
+        "popularity": 0.416,
         "neglect": 0.202,
-        "importance": 0.563
+        "importance": 0.591
       }
     },
     {
@@ -222,7 +222,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 11.9,
+      "score": 11.8,
       "breakdown": {
         "activityDays": 1612,
         "staleness": 1,
@@ -232,9 +232,9 @@
         "demand": 0.25,
         "downloadsSub": 0.253,
         "starsSub": 0.228,
-        "popularity": 0.251,
+        "popularity": 0.246,
         "neglect": 0.25,
-        "importance": 0.475
+        "importance": 0.472
       }
     },
     {
@@ -274,9 +274,9 @@
         "demand": 0.625,
         "downloadsSub": 0.957,
         "starsSub": 0.553,
-        "popularity": 0.916,
+        "popularity": 0.836,
         "neglect": 0.003,
-        "importance": 0.942
+        "importance": 0.885
       }
     },
     {
@@ -316,9 +316,9 @@
         "demand": 0.572,
         "downloadsSub": 0.859,
         "starsSub": 0.6,
-        "popularity": 0.833,
+        "popularity": 0.781,
         "neglect": 0.002,
-        "importance": 0.883
+        "importance": 0.847
       }
     },
     {
@@ -358,9 +358,9 @@
         "demand": 0.568,
         "downloadsSub": 0.83,
         "starsSub": 0.722,
-        "popularity": 0.819,
+        "popularity": 0.797,
         "neglect": 0.001,
-        "importance": 0.873
+        "importance": 0.858
       }
     },
     {
@@ -390,7 +390,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 2.2,
+      "score": 2.1,
       "breakdown": {
         "activityDays": 34,
         "staleness": 0.046,
@@ -400,9 +400,9 @@
         "demand": 0.565,
         "downloadsSub": 0.798,
         "starsSub": 0.55,
-        "popularity": 0.774,
+        "popularity": 0.724,
         "neglect": 0.026,
-        "importance": 0.842
+        "importance": 0.807
       }
     },
     {
@@ -442,9 +442,9 @@
         "demand": 0.513,
         "downloadsSub": 0.944,
         "starsSub": 0.519,
-        "popularity": 0.902,
+        "popularity": 0.817,
         "neglect": 0.003,
-        "importance": 0.931
+        "importance": 0.872
       }
     },
     {
@@ -474,7 +474,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 10,
+      "score": 9.6,
       "breakdown": {
         "activityDays": 334,
         "staleness": 0.457,
@@ -484,9 +484,9 @@
         "demand": 0.323,
         "downloadsSub": 0.554,
         "starsSub": 0.363,
-        "popularity": 0.535,
+        "popularity": 0.497,
         "neglect": 0.148,
-        "importance": 0.675
+        "importance": 0.648
       }
     },
     {
@@ -516,7 +516,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 25.4,
+      "score": 24.4,
       "breakdown": {
         "activityDays": 1753,
         "staleness": 1,
@@ -526,9 +526,9 @@
         "demand": 0.344,
         "downloadsSub": 0.645,
         "starsSub": 0.439,
-        "popularity": 0.624,
+        "popularity": 0.583,
         "neglect": 0.344,
-        "importance": 0.737
+        "importance": 0.708
       }
     },
     {
@@ -558,7 +558,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 2,
+      "score": 1.9,
       "breakdown": {
         "activityDays": 27,
         "staleness": 0.038,
@@ -568,9 +568,9 @@
         "demand": 0.623,
         "downloadsSub": 0.828,
         "starsSub": 0.555,
-        "popularity": 0.801,
+        "popularity": 0.746,
         "neglect": 0.023,
-        "importance": 0.861
+        "importance": 0.823
       }
     },
     {
@@ -600,7 +600,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 14.6,
+      "score": 14,
       "breakdown": {
         "activityDays": 236,
         "staleness": 0.323,
@@ -610,9 +610,9 @@
         "demand": 0.516,
         "downloadsSub": 0.852,
         "starsSub": 0.58,
-        "popularity": 0.825,
+        "popularity": 0.77,
         "neglect": 0.167,
-        "importance": 0.877
+        "importance": 0.839
       }
     },
     {
@@ -642,7 +642,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.4,
+      "score": 0.3,
       "breakdown": {
         "activityDays": 6,
         "staleness": 0.008,
@@ -652,9 +652,9 @@
         "demand": 0.562,
         "downloadsSub": 0.674,
         "starsSub": 0.601,
-        "popularity": 0.667,
+        "popularity": 0.652,
         "neglect": 0.005,
-        "importance": 0.767
+        "importance": 0.756
       }
     },
     {
@@ -684,7 +684,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 32.8,
+      "score": 33.8,
       "breakdown": {
         "activityDays": 1227,
         "staleness": 1,
@@ -694,9 +694,9 @@
         "demand": 0.513,
         "downloadsSub": 0.47,
         "starsSub": 0.619,
-        "popularity": 0.485,
+        "popularity": 0.515,
         "neglect": 0.513,
-        "importance": 0.639
+        "importance": 0.66
       }
     },
     {
@@ -726,7 +726,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 15.2,
+      "score": 14.9,
       "breakdown": {
         "activityDays": 236,
         "staleness": 0.323,
@@ -736,9 +736,9 @@
         "demand": 0.601,
         "downloadsSub": 0.705,
         "starsSub": 0.575,
-        "popularity": 0.692,
+        "popularity": 0.666,
         "neglect": 0.194,
-        "importance": 0.784
+        "importance": 0.766
       }
     },
     {
@@ -768,7 +768,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 16.9,
+      "score": 16.1,
       "breakdown": {
         "activityDays": 773,
         "staleness": 1,
@@ -778,9 +778,9 @@
         "demand": 0.25,
         "downloadsSub": 0.563,
         "starsSub": 0.333,
-        "popularity": 0.54,
+        "popularity": 0.494,
         "neglect": 0.25,
-        "importance": 0.678
+        "importance": 0.646
       }
     },
     {
@@ -810,7 +810,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 7.5,
+      "score": 7.3,
       "breakdown": {
         "activityDays": 236,
         "staleness": 0.323,
@@ -820,9 +820,9 @@
         "demand": 0.323,
         "downloadsSub": 0.609,
         "starsSub": 0.505,
-        "popularity": 0.598,
+        "popularity": 0.578,
         "neglect": 0.104,
-        "importance": 0.719
+        "importance": 0.704
       }
     },
     {
@@ -862,9 +862,9 @@
         "demand": 0.25,
         "downloadsSub": 0.236,
         "starsSub": 0.244,
-        "popularity": 0.237,
+        "popularity": 0.238,
         "neglect": 0.016,
-        "importance": 0.466
+        "importance": 0.467
       }
     },
     {
@@ -894,7 +894,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 7.4,
+      "score": 7.3,
       "breakdown": {
         "activityDays": 236,
         "staleness": 0.323,
@@ -904,9 +904,9 @@
         "demand": 0.344,
         "downloadsSub": 0.54,
         "starsSub": 0.421,
-        "popularity": 0.528,
+        "popularity": 0.504,
         "neglect": 0.111,
-        "importance": 0.67
+        "importance": 0.653
       }
     },
     {
@@ -946,9 +946,9 @@
         "demand": 0.463,
         "downloadsSub": 0.471,
         "starsSub": 0.485,
-        "popularity": 0.473,
+        "popularity": 0.475,
         "neglect": 0.003,
-        "importance": 0.631
+        "importance": 0.633
       }
     },
     {
@@ -988,9 +988,9 @@
         "demand": 0.633,
         "downloadsSub": 0.44,
         "starsSub": 0.568,
-        "popularity": 0.452,
+        "popularity": 0.478,
         "neglect": 0.004,
-        "importance": 0.617
+        "importance": 0.635
       }
     },
     {
@@ -1020,7 +1020,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 11,
+      "score": 11.3,
       "breakdown": {
         "activityDays": 236,
         "staleness": 0.323,
@@ -1030,9 +1030,9 @@
         "demand": 0.465,
         "downloadsSub": 0.601,
         "starsSub": 0.758,
-        "popularity": 0.617,
+        "popularity": 0.648,
         "neglect": 0.15,
-        "importance": 0.732
+        "importance": 0.754
       }
     },
     {
@@ -1062,7 +1062,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 22.7,
+      "score": 20.1,
       "breakdown": {
         "activityDays": 1222,
         "staleness": 1,
@@ -1072,9 +1072,9 @@
         "demand": 0.25,
         "downloadsSub": 0.945,
         "starsSub": 0.189,
-        "popularity": 0.87,
+        "popularity": 0.719,
         "neglect": 0.25,
-        "importance": 0.909
+        "importance": 0.803
       }
     },
     {
@@ -1104,7 +1104,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 4.9,
+      "score": 4.7,
       "breakdown": {
         "activityDays": 221,
         "staleness": 0.302,
@@ -1114,9 +1114,9 @@
         "demand": 0.286,
         "downloadsSub": 0.388,
         "starsSub": 0.27,
-        "popularity": 0.376,
+        "popularity": 0.353,
         "neglect": 0.087,
-        "importance": 0.563
+        "importance": 0.547
       }
     },
     {
@@ -1156,9 +1156,9 @@
         "demand": 0.426,
         "downloadsSub": 0.558,
         "starsSub": 0.189,
-        "popularity": 0.521,
+        "popularity": 0.447,
         "neglect": 0.003,
-        "importance": 0.665
+        "importance": 0.613
       }
     },
     {
@@ -1188,7 +1188,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 5.8,
+      "score": 5.6,
       "breakdown": {
         "activityDays": 236,
         "staleness": 0.323,
@@ -1198,9 +1198,9 @@
         "demand": 0.25,
         "downloadsSub": 0.62,
         "starsSub": 0.43,
-        "popularity": 0.601,
+        "popularity": 0.563,
         "neglect": 0.081,
-        "importance": 0.721
+        "importance": 0.694
       }
     },
     {
@@ -1230,7 +1230,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 3.7,
+      "score": 3.3,
       "breakdown": {
         "activityDays": 82,
         "staleness": 0.113,
@@ -1240,9 +1240,9 @@
         "demand": 0.362,
         "downloadsSub": 0.944,
         "starsSub": 0.189,
-        "popularity": 0.869,
+        "popularity": 0.718,
         "neglect": 0.041,
-        "importance": 0.908
+        "importance": 0.802
       }
     },
     {
@@ -1272,7 +1272,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 16.8,
+      "score": 17.2,
       "breakdown": {
         "activityDays": 236,
         "staleness": 0.323,
@@ -1282,9 +1282,9 @@
         "demand": 0.643,
         "downloadsSub": 0.71,
         "starsSub": 0.851,
-        "popularity": 0.724,
+        "popularity": 0.752,
         "neglect": 0.208,
-        "importance": 0.807
+        "importance": 0.827
       }
     },
     {
@@ -1314,7 +1314,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 12.4,
+      "score": 13.1,
       "breakdown": {
         "activityDays": 982,
         "staleness": 1,
@@ -1324,9 +1324,9 @@
         "demand": 0.25,
         "downloadsSub": 0.257,
         "starsSub": 0.462,
-        "popularity": 0.278,
+        "popularity": 0.319,
         "neglect": 0.25,
-        "importance": 0.494
+        "importance": 0.523
       }
     },
     {
@@ -1356,7 +1356,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 6,
+      "score": 6.6,
       "breakdown": {
         "activityDays": 254,
         "staleness": 0.348,
@@ -1366,9 +1366,9 @@
         "demand": 0.323,
         "downloadsSub": 0.296,
         "starsSub": 0.661,
-        "popularity": 0.333,
+        "popularity": 0.406,
         "neglect": 0.112,
-        "importance": 0.533
+        "importance": 0.584
       }
     },
     {
@@ -1398,7 +1398,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 21.5,
+      "score": 22.9,
       "breakdown": {
         "activityDays": 900,
         "staleness": 1,
@@ -1408,9 +1408,9 @@
         "demand": 0.399,
         "downloadsSub": 0.314,
         "starsSub": 0.571,
-        "popularity": 0.34,
+        "popularity": 0.392,
         "neglect": 0.399,
-        "importance": 0.538
+        "importance": 0.574
       }
     },
     {
@@ -1440,7 +1440,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 32.6,
+      "score": 33,
       "breakdown": {
         "activityDays": 992,
         "staleness": 1,
@@ -1450,9 +1450,9 @@
         "demand": 0.455,
         "downloadsSub": 0.588,
         "starsSub": 0.658,
-        "popularity": 0.595,
+        "popularity": 0.609,
         "neglect": 0.455,
-        "importance": 0.717
+        "importance": 0.727
       }
     },
     {
@@ -1482,7 +1482,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 1.8,
+      "score": 1.7,
       "breakdown": {
         "activityDays": 117,
         "staleness": 0.16,
@@ -1492,9 +1492,9 @@
         "demand": 0.25,
         "downloadsSub": 0.244,
         "starsSub": 0,
-        "popularity": 0.219,
+        "popularity": 0.171,
         "neglect": 0.04,
-        "importance": 0.454
+        "importance": 0.419
       }
     },
     {
@@ -1524,7 +1524,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 17,
+      "score": 17.4,
       "breakdown": {
         "activityDays": 564,
         "staleness": 0.772,
@@ -1534,9 +1534,9 @@
         "demand": 0.362,
         "downloadsSub": 0.431,
         "starsSub": 0.532,
-        "popularity": 0.441,
+        "popularity": 0.461,
         "neglect": 0.28,
-        "importance": 0.609
+        "importance": 0.623
       }
     },
     {
@@ -1566,7 +1566,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 12,
+      "score": 11.8,
       "breakdown": {
         "activityDays": 793,
         "staleness": 1,
@@ -1576,9 +1576,9 @@
         "demand": 0.25,
         "downloadsSub": 0.261,
         "starsSub": 0.21,
-        "popularity": 0.256,
+        "popularity": 0.246,
         "neglect": 0.25,
-        "importance": 0.479
+        "importance": 0.472
       }
     },
     {
@@ -1608,7 +1608,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 8.7,
+      "score": 8.5,
       "breakdown": {
         "activityDays": 298,
         "staleness": 0.408,
@@ -1618,9 +1618,9 @@
         "demand": 0.308,
         "downloadsSub": 0.58,
         "starsSub": 0.439,
-        "popularity": 0.565,
+        "popularity": 0.537,
         "neglect": 0.126,
-        "importance": 0.696
+        "importance": 0.676
       }
     },
     {
@@ -1660,9 +1660,9 @@
         "demand": 0.25,
         "downloadsSub": 0.389,
         "starsSub": 0.49,
-        "popularity": 0.399,
+        "popularity": 0.419,
         "neglect": 0.004,
-        "importance": 0.579
+        "importance": 0.593
       }
     },
     {
@@ -1692,7 +1692,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 9.6,
+      "score": 10.3,
       "breakdown": {
         "activityDays": 398,
         "staleness": 0.545,
@@ -1702,9 +1702,9 @@
         "demand": 0.323,
         "downloadsSub": 0.326,
         "starsSub": 0.597,
-        "popularity": 0.353,
+        "popularity": 0.407,
         "neglect": 0.176,
-        "importance": 0.547
+        "importance": 0.585
       }
     },
     {
@@ -1734,7 +1734,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 5.3,
+      "score": 4.8,
       "breakdown": {
         "activityDays": 228,
         "staleness": 0.312,
@@ -1744,9 +1744,9 @@
         "demand": 0.25,
         "downloadsSub": 0.572,
         "starsSub": 0.189,
-        "popularity": 0.534,
+        "popularity": 0.457,
         "neglect": 0.078,
-        "importance": 0.674
+        "importance": 0.62
       }
     },
     {
@@ -1776,7 +1776,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 13.7,
+      "score": 14,
       "breakdown": {
         "activityDays": 963,
         "staleness": 1,
@@ -1786,9 +1786,9 @@
         "demand": 0.25,
         "downloadsSub": 0.347,
         "starsSub": 0.427,
-        "popularity": 0.355,
+        "popularity": 0.371,
         "neglect": 0.25,
-        "importance": 0.549
+        "importance": 0.56
       }
     },
     {
@@ -1818,7 +1818,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 10.8,
+      "score": 11.2,
       "breakdown": {
         "activityDays": 991,
         "staleness": 1,
@@ -1828,9 +1828,9 @@
         "demand": 0.25,
         "downloadsSub": 0.18,
         "starsSub": 0.292,
-        "popularity": 0.191,
+        "popularity": 0.213,
         "neglect": 0.25,
-        "importance": 0.434
+        "importance": 0.449
       }
     },
     {
@@ -1870,9 +1870,9 @@
         "demand": 0.323,
         "downloadsSub": 0.488,
         "starsSub": 0.545,
-        "popularity": 0.494,
+        "popularity": 0.505,
         "neglect": 0.086,
-        "importance": 0.646
+        "importance": 0.654
       }
     },
     {
@@ -1902,7 +1902,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 17.2,
+      "score": 17.6,
       "breakdown": {
         "activityDays": 586,
         "staleness": 0.802,
@@ -1912,9 +1912,9 @@
         "demand": 0.335,
         "downloadsSub": 0.474,
         "starsSub": 0.587,
-        "popularity": 0.486,
+        "popularity": 0.508,
         "neglect": 0.269,
-        "importance": 0.64
+        "importance": 0.656
       }
     },
     {
@@ -1954,9 +1954,9 @@
         "demand": 0.344,
         "downloadsSub": 0.622,
         "starsSub": 0.497,
-        "popularity": 0.61,
+        "popularity": 0.585,
         "neglect": 0.024,
-        "importance": 0.727
+        "importance": 0.709
       }
     },
     {
@@ -1986,7 +1986,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 4.6,
+      "score": 4.7,
       "breakdown": {
         "activityDays": 248,
         "staleness": 0.34,
@@ -1996,9 +1996,9 @@
         "demand": 0.25,
         "downloadsSub": 0.33,
         "starsSub": 0.43,
-        "popularity": 0.34,
+        "popularity": 0.36,
         "neglect": 0.085,
-        "importance": 0.538
+        "importance": 0.552
       }
     },
     {
@@ -2038,9 +2038,9 @@
         "demand": 0.286,
         "downloadsSub": 0.626,
         "starsSub": 0.684,
-        "popularity": 0.632,
+        "popularity": 0.643,
         "neglect": 0.087,
-        "importance": 0.742
+        "importance": 0.75
       }
     },
     {
@@ -2080,9 +2080,9 @@
         "demand": 0.25,
         "downloadsSub": 0.241,
         "starsSub": 0.339,
-        "popularity": 0.251,
+        "popularity": 0.271,
         "neglect": 0.001,
-        "importance": 0.476
+        "importance": 0.489
       }
     },
     {
@@ -2112,7 +2112,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 11.9,
+      "score": 12.9,
       "breakdown": {
         "activityDays": 1893,
         "staleness": 1,
@@ -2122,9 +2122,9 @@
         "demand": 0.25,
         "downloadsSub": 0.224,
         "starsSub": 0.505,
-        "popularity": 0.252,
+        "popularity": 0.308,
         "neglect": 0.25,
-        "importance": 0.476
+        "importance": 0.516
       }
     },
     {
@@ -2154,7 +2154,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 12.6,
+      "score": 12.9,
       "breakdown": {
         "activityDays": 970,
         "staleness": 1,
@@ -2164,9 +2164,9 @@
         "demand": 0.286,
         "downloadsSub": 0.191,
         "starsSub": 0.27,
-        "popularity": 0.199,
+        "popularity": 0.215,
         "neglect": 0.286,
-        "importance": 0.439
+        "importance": 0.45
       }
     },
     {
@@ -2196,7 +2196,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 14.4,
+      "score": 14.8,
       "breakdown": {
         "activityDays": 887,
         "staleness": 1,
@@ -2206,9 +2206,9 @@
         "demand": 0.286,
         "downloadsSub": 0.277,
         "starsSub": 0.383,
-        "popularity": 0.288,
+        "popularity": 0.309,
         "neglect": 0.286,
-        "importance": 0.501
+        "importance": 0.516
       }
     },
     {
@@ -2238,7 +2238,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 12.9,
+      "score": 13,
       "breakdown": {
         "activityDays": 1452,
         "staleness": 1,
@@ -2248,9 +2248,9 @@
         "demand": 0.25,
         "downloadsSub": 0.309,
         "starsSub": 0.333,
-        "popularity": 0.311,
+        "popularity": 0.316,
         "neglect": 0.25,
-        "importance": 0.518
+        "importance": 0.521
       }
     },
     {
@@ -2280,7 +2280,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 5.4,
+      "score": 4.8,
       "breakdown": {
         "activityDays": 249,
         "staleness": 0.341,
@@ -2290,9 +2290,9 @@
         "demand": 0.25,
         "downloadsSub": 0.532,
         "starsSub": 0,
-        "popularity": 0.479,
+        "popularity": 0.373,
         "neglect": 0.085,
-        "importance": 0.635
+        "importance": 0.561
       }
     },
     {
@@ -2332,9 +2332,9 @@
         "demand": 0.615,
         "downloadsSub": 0.18,
         "starsSub": 0.861,
-        "popularity": 0.248,
+        "popularity": 0.384,
         "neglect": 0.002,
-        "importance": 0.474
+        "importance": 0.569
       }
     },
     {
@@ -2364,7 +2364,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 11.1,
+      "score": 10.1,
       "breakdown": {
         "activityDays": 352,
         "staleness": 0.482,
@@ -2374,9 +2374,9 @@
         "demand": 0.25,
         "downloadsSub": 0.943,
         "starsSub": 0.378,
-        "popularity": 0.887,
+        "popularity": 0.774,
         "neglect": 0.121,
-        "importance": 0.921
+        "importance": 0.842
       }
     },
     {
@@ -2406,7 +2406,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 12.3,
+      "score": 12.1,
       "breakdown": {
         "activityDays": 4117,
         "staleness": 1,
@@ -2416,9 +2416,9 @@
         "demand": 0.25,
         "downloadsSub": 0.277,
         "starsSub": 0.228,
-        "popularity": 0.272,
+        "popularity": 0.263,
         "neglect": 0.25,
-        "importance": 0.491
+        "importance": 0.484
       }
     },
     {
@@ -2448,7 +2448,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.3,
+      "score": 0.2,
       "breakdown": {
         "activityDays": 6,
         "staleness": 0.008,
@@ -2458,9 +2458,9 @@
         "demand": 0.438,
         "downloadsSub": 0.636,
         "starsSub": 0.427,
-        "popularity": 0.615,
+        "popularity": 0.573,
         "neglect": 0.003,
-        "importance": 0.73
+        "importance": 0.701
       }
     },
     {
@@ -2490,7 +2490,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 12.6,
+      "score": 13.1,
       "breakdown": {
         "activityDays": 972,
         "staleness": 1,
@@ -2500,9 +2500,9 @@
         "demand": 0.25,
         "downloadsSub": 0.279,
         "starsSub": 0.421,
-        "popularity": 0.293,
+        "popularity": 0.321,
         "neglect": 0.25,
-        "importance": 0.505
+        "importance": 0.525
       }
     },
     {
@@ -2532,7 +2532,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 18,
+      "score": 16.2,
       "breakdown": {
         "activityDays": 465,
         "staleness": 0.637,
@@ -2542,9 +2542,9 @@
         "demand": 0.308,
         "downloadsSub": 0.946,
         "starsSub": 0.301,
-        "popularity": 0.881,
+        "popularity": 0.752,
         "neglect": 0.196,
-        "importance": 0.917
+        "importance": 0.827
       }
     },
     {
@@ -2584,9 +2584,9 @@
         "demand": 0.42,
         "downloadsSub": 0.528,
         "starsSub": 0.539,
-        "popularity": 0.529,
+        "popularity": 0.531,
         "neglect": 0.185,
-        "importance": 0.67
+        "importance": 0.672
       }
     },
     {
@@ -2616,7 +2616,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 11.2,
+      "score": 12,
       "breakdown": {
         "activityDays": 1258,
         "staleness": 1,
@@ -2626,9 +2626,9 @@
         "demand": 0.25,
         "downloadsSub": 0.191,
         "starsSub": 0.414,
-        "popularity": 0.213,
+        "popularity": 0.258,
         "neglect": 0.25,
-        "importance": 0.449
+        "importance": 0.481
       }
     },
     {
@@ -2658,7 +2658,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 22.9,
+      "score": 23.5,
       "breakdown": {
         "activityDays": 1959,
         "staleness": 1,
@@ -2668,9 +2668,9 @@
         "demand": 0.384,
         "downloadsSub": 0.412,
         "starsSub": 0.527,
-        "popularity": 0.423,
+        "popularity": 0.446,
         "neglect": 0.384,
-        "importance": 0.596
+        "importance": 0.612
       }
     },
     {
@@ -2700,7 +2700,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 24.4,
+      "score": 23.9,
       "breakdown": {
         "activityDays": 864,
         "staleness": 1,
@@ -2710,9 +2710,9 @@
         "demand": 0.362,
         "downloadsSub": 0.544,
         "starsSub": 0.447,
-        "popularity": 0.534,
+        "popularity": 0.515,
         "neglect": 0.362,
-        "importance": 0.674
+        "importance": 0.66
       }
     },
     {
@@ -2752,9 +2752,9 @@
         "demand": 0.37,
         "downloadsSub": 0.322,
         "starsSub": 0.21,
-        "popularity": 0.31,
+        "popularity": 0.288,
         "neglect": 0.002,
-        "importance": 0.517
+        "importance": 0.502
       }
     }
   ]
