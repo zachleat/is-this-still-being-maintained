@@ -305,6 +305,34 @@ async function main() {
     : `${projects.length} projects`;
   console.error(c("2", `\n${scope} (${parts.join(", ")})`));
 
+  // List the shortnames of every discovered repo left out of the report, grouped
+  // by why, so exclusions are auditable (spot a repo that shouldn't be missing).
+  const excluded = projects.filter((p) => !reported.includes(p));
+  if (excluded.length) {
+    const reasonLabels = {
+      unpublished: "not on npm",
+      "not-source": "package.json copy (not the npm source)",
+      "no-package": "no package.json",
+      error: "npm lookup error",
+    };
+    const byReason = new Map();
+    for (const p of excluded) {
+      const label =
+        p.npmStatus === "not-source"
+          ? `${p.nameWithOwner}  →  npm source: ${p.sourceRepo}`
+          : p.nameWithOwner;
+      if (!byReason.has(p.npmStatus)) byReason.set(p.npmStatus, []);
+      byReason.get(p.npmStatus).push(label);
+    }
+    console.error(c("2", "\nExcluded from report:"));
+    for (const [reason, names] of byReason) {
+      console.error(
+        c("2", `  ${reasonLabels[reason] || reason} (${names.length}):`),
+      );
+      for (const n of names.sort()) console.error(c("2", `    ${n}`));
+    }
+  }
+
   const failed = projects.filter(
     (p) => p.npmStatus === "error" || p.npmStatus === "downloads-error",
   );
