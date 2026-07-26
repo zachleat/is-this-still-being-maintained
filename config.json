@@ -1,9 +1,11 @@
 {
   "githubUsers": ["zachleat"],
   "githubOrgs": ["11ty"],
+  "npmMaintainers": ["zachleat"],
 
   "monitor": [],
   "exclude": [],
+  "alwaysInclude": [],
 
   "options": {
     "publishedOnly": true,

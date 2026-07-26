@@ -168,14 +168,24 @@ async function main() {
   const {
     githubUsers = [],
     githubOrgs = [],
+    npmMaintainers = [],
     monitor = [],
     exclude = [],
+    alwaysInclude = [],
     options = {},
     scoring,
   } = config;
 
   const monitorSet = new Set(monitor);
   const excludeSet = new Set(exclude);
+  const keepSet = new Set(alwaysInclude);
+  // npm usernames that count as "yours". When set, a package is only attributed
+  // to you if one of these is a current maintainer — so a repo that shares a name
+  // with someone else's npm package (e.g. eleventy-base-blog) isn't misattributed.
+  const ownerSet = new Set(npmMaintainers.map((s) => s.toLowerCase()));
+  const isOwned = (meta) =>
+    ownerSet.size === 0 ||
+    (meta?.maintainers ?? []).some((m) => ownerSet.has(m.toLowerCase()));
 
   const cacheDuration = options.cacheDuration || "1h";
 
@@ -186,15 +196,30 @@ async function main() {
     duration: cacheDuration,
   });
 
-  // Filter down to the things worth scoring.
+  // Filter down to the things worth scoring. `exclude` always wins;
+  // `alwaysInclude` then forces a repo through, bypassing the automatic filters
+  // below (archived, private package.json, monitor allowlist, no package.json).
   const candidates = repos.filter((r) => {
+    if (excludeSet.has(r.nameWithOwner)) return false;
+    if (keepSet.has(r.nameWithOwner)) return true;
     if (r.isFork || r.isArchived || r.isPrivate || r.isDisabled) return false;
     if (r.isPrivatePackage) return false; // package.json marked "private": true
-    if (excludeSet.has(r.nameWithOwner)) return false;
     if (monitorSet.size > 0 && !monitorSet.has(r.nameWithOwner)) return false;
-    if (!r.packageName && !options.includeReposWithoutPackageJson) return false;
+    // Template repos are worth tracking even without a package.json / npm release.
+    if (!r.packageName && !options.includeReposWithoutPackageJson && !r.isTemplate)
+      return false;
     return true;
   });
+
+  // Warn about allowlist entries that matched nothing (typo catcher).
+  const discoveredNames = new Set(repos.map((r) => r.nameWithOwner));
+  for (const name of keepSet) {
+    if (!discoveredNames.has(name)) {
+      console.error(
+        c("33", `alwaysInclude: "${name}" matched no discovered repo`),
+      );
+    }
+  }
 
   const period = options.downloadsPeriod || "last-month";
 
@@ -218,12 +243,17 @@ async function main() {
   );
 
   // Resolve which repo is the canonical source for each package name (dedup).
+  // Allowlisted repos are forced to count as sources so dedup can't drop them.
   const sources = selectSourceRepos(withMeta);
+  keepSet.forEach((name) => sources.add(name));
 
   // Phase 2: download counts — one bulk pass for every published package, so we
   // don't hammer (and get throttled by) the strict downloads API.
   const publishedNames = withMeta
-    .filter((x) => x.meta && sources.has(x.repo.nameWithOwner))
+    .filter(
+      (x) =>
+        x.meta && sources.has(x.repo.nameWithOwner) && isOwned(x.meta),
+    )
     .map((x) => x.repo.packageName);
   console.error(
     c("2", `Fetching npm downloads for ${publishedNames.length} published package(s)…`),
@@ -239,27 +269,40 @@ async function main() {
 
   const projects = withMeta.map(({ repo, meta, error }) => {
     const source = meta ? sources.has(repo.nameWithOwner) : false;
+    const owned = isOwned(meta);
     const downloadError =
-      meta && source ? downloadErrorNames.get(repo.packageName) : null;
+      meta && source && owned
+        ? downloadErrorNames.get(repo.packageName)
+        : null;
     const npmStatus = error
       ? "error"
       : meta
-        ? source
-          ? downloadError
-            ? "downloads-error"
-            : "published"
-          : "not-source"
+        ? !source
+          ? "not-source"
+          : !owned
+            ? "not-owned"
+            : downloadError
+              ? "downloads-error"
+              : "published"
         : repo.packageName
           ? "unpublished"
           : "no-package";
+
+    // Only surface npm-derived fields when the package is genuinely this repo's
+    // (published + owned + the source). Otherwise (e.g. a template repo that
+    // shares a name with someone else's package) `npm` is null and the project
+    // is scored on GitHub activity alone.
+    const published = Boolean(meta) && source && owned;
+    const npm = published ? meta : null;
 
     const project = {
       nameWithOwner: repo.nameWithOwner,
       owner: repo.nameWithOwner.split("/")[0],
       url: repo.url,
       packageName: repo.packageName || null,
-      description: meta?.description || null,
-      sourceRepo: meta?.repository || null,
+      isTemplate: repo.isTemplate,
+      description: npm?.description || null,
+      sourceRepo: npm?.repository || null,
       stars: repo.stars,
       openIssues: repo.openIssues,
       closedIssues: repo.closedIssues,
@@ -267,17 +310,17 @@ async function main() {
       mergedPRs: repo.mergedPRs,
       closedPRs: repo.closedPRs,
       pushedAt: repo.pushedAt,
-      lastPublish: meta?.lastPublish || null,
-      lastPublishVersion: meta?.lastPublishVersion || null,
-      lastStablePublish: meta?.lastStablePublish || null,
-      lastStablePublishVersion: meta?.lastStablePublishVersion || null,
-      firstPublish: meta?.firstPublish || null,
-      latestVersion: meta?.latestVersion || null,
-      prerelease: meta?.prerelease || false,
-      downloads: meta && source ? downloads.get(repo.packageName) ?? 0 : 0,
-      downloadsKnown: Boolean(meta) && source && !downloadError,
+      lastPublish: npm?.lastPublish || null,
+      lastPublishVersion: npm?.lastPublishVersion || null,
+      lastStablePublish: npm?.lastStablePublish || null,
+      lastStablePublishVersion: npm?.lastStablePublishVersion || null,
+      firstPublish: npm?.firstPublish || null,
+      latestVersion: npm?.latestVersion || null,
+      prerelease: npm?.prerelease || false,
+      downloads: published ? downloads.get(repo.packageName) ?? 0 : 0,
+      downloadsKnown: published && !downloadError,
       downloadsPeriod: period,
-      published: Boolean(meta) && source,
+      published,
       npmStatus,
       npmError: error || (downloadError ? `downloads: ${downloadError}` : null),
     };
@@ -300,7 +343,9 @@ async function main() {
   // "downloads-error" packages ARE published, so they're kept.
   const publishedOnly = options.publishedOnly !== false;
   const reported = publishedOnly
-    ? projects.filter((p) => p.published)
+    ? projects.filter(
+        (p) => p.published || p.isTemplate || keepSet.has(p.nameWithOwner),
+      )
     : projects;
 
   // Table -> stdout, worst-first by score.
@@ -349,15 +394,22 @@ async function main() {
     const reasonLabels = {
       unpublished: "not on npm",
       "not-source": "package.json copy (not the npm source)",
+      "not-owned": "npm package owned by someone else",
       "no-package": "no package.json",
       error: "npm lookup error",
     };
+    const maintainersByRepo = new Map(
+      withMeta.map((x) => [x.repo.nameWithOwner, x.meta?.maintainers ?? []]),
+    );
     const byReason = new Map();
     for (const p of excluded) {
-      const label =
-        p.npmStatus === "not-source"
-          ? `${p.nameWithOwner}  →  npm source: ${p.sourceRepo}`
-          : p.nameWithOwner;
+      let label = p.nameWithOwner;
+      if (p.npmStatus === "not-source") {
+        label += `  →  npm source: ${p.sourceRepo}`;
+      } else if (p.npmStatus === "not-owned") {
+        const who = maintainersByRepo.get(p.nameWithOwner)?.join(", ") || "?";
+        label += `  →  ${p.packageName} maintained by: ${who}`;
+      }
       if (!byReason.has(p.npmStatus)) byReason.set(p.npmStatus, []);
       byReason.get(p.npmStatus).push(label);
     }

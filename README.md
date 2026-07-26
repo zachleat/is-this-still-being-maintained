@@ -34,10 +34,15 @@ Options:
 {
   "githubUsers": ["zachleat"],   // scan every public non-fork repo for these users…
   "githubOrgs":  ["11ty"],       // …and these orgs
+  "npmMaintainers": ["zachleat"], // npm usernames that count as "yours" (see below).
+                                  //   Empty/omitted = skip the ownership check.
 
   "monitor": [],                  // opt-in allowlist of "owner/repo". If non-empty,
                                   //   ONLY these repos are scored. Empty = score all.
-  "exclude": [],                  // "owner/repo" entries to always skip
+  "exclude": [],                  // "owner/repo" entries to always skip (wins over all)
+  "alwaysInclude": [],            // "owner/repo" entries to force-keep, bypassing the
+                                  //   automatic filters (archived, private package.json,
+                                  //   template dedup, unpublished, monitor allowlist)
 
   "options": {
     "publishedOnly": true,                    // only report packages actually on npm
@@ -54,7 +59,10 @@ Options:
 
 A repo is skipped automatically if it's a fork, archived, private, disabled, or
 has a `package.json` marked `"private": true`, or (by default) if it has no
-`package.json`.
+`package.json`. To force one of these back in, list its `"owner/repo"` in
+`alwaysInclude` — it bypasses every automatic filter (and the template-dedup and
+`publishedOnly` drops). `exclude` still wins over `alwaysInclude`, and a
+misspelled entry that matches no discovered repo prints a warning.
 
 **Template copies are de-duplicated.** Many repos are generated from a starter
 (e.g. `eleventy-base-blog`) and keep the template's `package.json` name, so
@@ -66,6 +74,23 @@ can't be disproven). With `publishedOnly` (the default),
 repos that have a `package.json` but were never published to npm — demos,
 starters, one-offs — are also left out of the report; the run summary still
 tells you how many were excluded. Set `publishedOnly: false` to include them.
+
+**GitHub template repositories are kept even without npm.** A repo flagged as a
+template (`isTemplate`) is worth tracking as a maintained project even if it has
+no `package.json` or was never published, so it's included and scored on its
+GitHub activity alone. If its name happens to collide with someone else's npm
+package, that foreign npm data is *not* attached — the template shows no
+downloads/publish dates and scores purely on repo signals. (Templates still
+respect the fork/archived/private filters.)
+
+**Ownership is verified by npm maintainers.** A repo can share a name with an npm
+package published by someone else — e.g. your `eleventy-base-blog` repo vs the
+`eleventy-base-blog` on npm, which is maintained by a different account. The
+`repository` field can't be trusted here (it's set by whoever wrote that
+package.json, not verified by npm). So if `npmMaintainers` is set, a package is
+attributed to you only when one of those usernames is a **current npm
+maintainer**; otherwise it's marked `not-owned` and dropped (the excluded list
+names who actually maintains it). Leave `npmMaintainers` empty to skip the check.
 
 ## How the score works
 
@@ -122,10 +147,13 @@ something ranked where it did.
 
 ### A note on "staleness"
 
-Staleness uses the **most recent** of a git push or an npm publish. A repo with
-recent commits but an old published version is treated as maintained. If you'd
-rather weight *published* releases more heavily (i.e. "shipped, not just poked"),
-change `activityDays` in `lib/score.js` to key off `lastPublish` only.
+Staleness uses the **most recent** of a git push or a **stable** npm publish (the
+`latest` dist-tag). Prerelease publishes (alphas/betas) are deliberately ignored
+in the score — a package that only ships prereleases isn't counted as "released"
+— but frequent prerelease work still keeps a repo fresh via its git `pushedAt`.
+The report still records the prerelease dates (`lastPublish` /
+`lastPublishVersion`); they're just not fed into staleness. To use them anyway,
+point `activityDays` in `lib/score.js` back at `project.lastPublish`.
 
 ## Caching
 
@@ -154,9 +182,14 @@ Each project has an `npmStatus`, so "no data" is never ambiguous:
 | ----------------- | ------------------------------------------------------------- |
 | `published`       | On npm; downloads + publish date are real                     |
 | `unpublished`     | Has a `package.json` but was never published (demos, starters)|
+| `not-source`      | A copy that inherited another repo's package name (deduped)   |
+| `not-owned`       | npm package of that name is maintained by someone else        |
 | `no-package`      | Repo has no root `package.json`                               |
 | `downloads-error` | Published, but the downloads lookup failed — **re-run to fix**|
 | `error`           | Registry lookup failed after retries — **re-run to fix**      |
+
+Only `published` (and `downloads-error`, which is still published) appear in the
+report by default; the rest are excluded and listed in the run summary.
 
 ### About rate limits
 
