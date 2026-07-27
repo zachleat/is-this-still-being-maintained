@@ -194,6 +194,11 @@ exists, eleventy-fetch falls back to the stale value rather than erroring.
   show real metric changes instead of churn from shifting ranks. This is the feed
   for "maybe other things later" — a dashboard, a diff over time, a CI gate, etc.
 
+Each project also carries an `isWebComponent` flag — a heuristic that's `true`
+when the package's `main` entry file (from `package.json`, defaulting to
+`index.js`) contains a `customElements` reference. Main files are fetched batched
+across repos (a few GraphQL requests, cached), so it's cheap.
+
 Each project has an `npmStatus`, so "no data" is never ambiguous:
 
 | `npmStatus`       | Meaning                                                        |

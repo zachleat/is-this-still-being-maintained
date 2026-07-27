@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
 import path from "node:path";
 
-import { discoverRepos } from "./lib/github.js";
+import { discoverRepos, fetchFilesAcrossRepos } from "./lib/github.js";
 import { registryMetrics, fetchDownloads } from "./lib/npm.js";
 import { scoreProject } from "./lib/score.js";
 
@@ -282,6 +282,25 @@ async function main() {
     downloadErrors.map((e) => [e.name, e.message]),
   );
 
+  // Web-component heuristic: fetch each package's `main` entry file (from
+  // package.json, defaulting to index.js) and look for a `customElements`
+  // reference. Batched across repos so this is a few requests, not one per package.
+  const wcRequests = [];
+  for (const { repo } of withMeta) {
+    const pkg = repo.packageJson;
+    if (!repo.packageName || !pkg) continue;
+    const main = String(pkg.main || "index.js").replace(/^\.\//, "");
+    const path = repo.workspacePath ? `${repo.workspacePath}/${main}` : main;
+    wcRequests.push({ key: repo, repo: repo.nameWithOwner, path });
+  }
+  const mainFileTexts = wcRequests.length
+    ? await fetchFilesAcrossRepos(wcRequests, { duration: cacheDuration })
+    : new Map();
+  const isWebComponent = (repo) => {
+    const text = mainFileTexts.get(repo);
+    return text ? /customElements/.test(text) : false;
+  };
+
   const projects = withMeta.map((entry) => {
     const { repo, meta, error } = entry;
     const source = meta ? isSource(entry) : false;
@@ -318,6 +337,7 @@ async function main() {
       workspacePath: repo.workspacePath || null,
       packageName: repo.packageName || null,
       isTemplate: repo.isTemplate,
+      isWebComponent: isWebComponent(repo),
       description: npm?.description || null,
       sourceRepo: npm?.repository || null,
       stars: repo.stars,
