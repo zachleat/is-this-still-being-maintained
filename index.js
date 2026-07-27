@@ -334,6 +334,7 @@ async function main() {
       nameWithOwner: repo.nameWithOwner,
       owner: repo.nameWithOwner.split("/")[0],
       url: repo.url,
+      homepageUrl: repo.homepageUrl || null,
       workspacePath: repo.workspacePath || null,
       packageName: repo.packageName || null,
       isTemplate: repo.isTemplate,
