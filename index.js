@@ -318,6 +318,7 @@ async function main() {
       lastStablePublishVersion: npm?.lastStablePublishVersion || null,
       firstPublish: npm?.firstPublish || null,
       latestVersion: npm?.latestVersion || null,
+      publishCount: npm?.publishCount ?? null,
       prerelease: npm?.prerelease || false,
       downloads: published ? downloads.get(repo.packageName) ?? 0 : 0,
       downloadsKnown: published && !downloadError,
