@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T13:47:18.643Z",
+  "generatedAt": "2026-07-27T14:08:11.368Z",
   "config": {
     "githubUsers": [
       "zachleat"
@@ -1141,7 +1141,7 @@
       "score": 14.9,
       "breakdown": {
         "activityDays": 237,
-        "staleness": 0.324,
+        "staleness": 0.325,
         "issuesSub": 0.663,
         "prsSub": 0.337,
         "backlogSeverity": 0.468,
@@ -1267,13 +1267,13 @@
       "latestVersion": "2.0.7",
       "publishCount": 14,
       "prerelease": true,
-      "downloads": 679579,
-      "downloadsKnown": true,
+      "downloads": 0,
+      "downloadsKnown": false,
       "downloadsPeriod": "last-month",
       "published": true,
-      "npmStatus": "published",
-      "npmError": null,
-      "score": 7.2,
+      "npmStatus": "downloads-error",
+      "npmError": "downloads: Bad response for https://api.npmjs.org/downloads/point/last-month/%4011ty%2Feleventy-utils (429): Too Many Requests",
+      "score": 3.1,
       "breakdown": {
         "activityDays": 194,
         "staleness": 0.265,
@@ -1281,11 +1281,11 @@
         "prsSub": 0,
         "backlogSeverity": 0.097,
         "demand": 0.323,
-        "downloadsSub": 0.972,
+        "downloadsSub": 0,
         "starsSub": 0.301,
-        "popularity": 0.771,
+        "popularity": 0.09,
         "neglect": 0.086,
-        "importance": 0.84
+        "importance": 0.363
       }
     },
     {
@@ -1897,13 +1897,13 @@
       "latestVersion": "5.0.2",
       "publishCount": 9,
       "prerelease": false,
-      "downloads": 458807,
-      "downloadsKnown": true,
+      "downloads": 0,
+      "downloadsKnown": false,
       "downloadsPeriod": "last-month",
       "published": true,
-      "npmStatus": "published",
-      "npmError": null,
-      "score": 4.6,
+      "npmStatus": "downloads-error",
+      "npmError": "downloads: Bad response for https://api.npmjs.org/downloads/point/last-month/%4011ty%2Frecursive-copy (429): Too Many Requests",
+      "score": 1.9,
       "breakdown": {
         "activityDays": 131,
         "staleness": 0.179,
@@ -1911,11 +1911,11 @@
         "prsSub": 0.169,
         "backlogSeverity": 0.101,
         "demand": 0.326,
-        "downloadsSub": 0.944,
+        "downloadsSub": 0,
         "starsSub": 0.081,
-        "popularity": 0.685,
+        "popularity": 0.024,
         "neglect": 0.058,
-        "importance": 0.779
+        "importance": 0.317
       }
     },
     {
@@ -1996,7 +1996,7 @@
       "score": 17.3,
       "breakdown": {
         "activityDays": 237,
-        "staleness": 0.324,
+        "staleness": 0.325,
         "issuesSub": 0.723,
         "prsSub": 0.392,
         "backlogSeverity": 0.524,
@@ -2581,7 +2581,7 @@
       "score": 4.9,
       "breakdown": {
         "activityDays": 229,
-        "staleness": 0.313,
+        "staleness": 0.314,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -3868,7 +3868,7 @@
       "openPRs": 9,
       "mergedPRs": 20,
       "closedPRs": 12,
-      "pushedAt": "2026-07-27T02:12:03Z",
+      "pushedAt": "2026-07-27T13:51:53Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
@@ -3886,7 +3886,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 0,
-        "staleness": 0.001,
+        "staleness": 0,
         "issuesSub": 0.42,
         "prsSub": 0.56,
         "backlogSeverity": 0.504,
