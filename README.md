@@ -75,6 +75,16 @@ repos that have a `package.json` but were never published to npm — demos,
 starters, one-offs — are also left out of the report; the run summary still
 tells you how many were excluded. Set `publishedOnly: false` to include them.
 
+**npm workspaces are expanded.** If a repo's root `package.json` declares
+`workspaces`, each published workspace member becomes its own project (matched
+paths: exact dirs and a single trailing `/*`). A member carries its own npm
+metrics (downloads, publish dates, maintainers) but **inherits the parent repo's
+GitHub metrics** — stars, issues, and PRs are repo-level and can't be split per
+package, so sibling packages in one monorepo share those signals. The workspace
+root itself (usually `private: true` with no name) is filtered as normal, and
+each member records its `workspacePath` in the JSON. This is what surfaces
+packages like `@11ty/eleventy-utils` that live only inside a monorepo.
+
 **GitHub template repositories are kept even without npm.** A repo flagged as a
 template (`isTemplate`) is worth tracking as a maintained project even if it has
 no `package.json` or was never published, so it's included and scored on its
@@ -218,7 +228,6 @@ point the workflow at a branch/PR instead.)
 
 ## Ideas for later
 
-- Monorepo support (score each workspace package, not just the repo root)
 - Dependency freshness (outdated deps / known advisories)
 - Issue/PR *age* and staleness of the oldest open ones, not just counts
 - Response latency: time-to-first-maintainer-reply on recent issues

@@ -115,17 +115,18 @@ function renderTable(rows, color, limit) {
   }
 }
 
-// Pick the one "source" repo for each npm package name, returning a Set of the
-// winners' nameWithOwner. The dedup exists only to collapse duplicates — many
-// repos generated from a template (e.g. eleventy-base-blog) share a package.json
-// name. Rules:
-//   - a package claimed by a SINGLE repo is always kept. npm's `repository` field
-//     often lags a GitHub rename (e.g. 11ty/eleventy-img -> 11ty/image), so a
-//     mismatch there must not drop the only repo that publishes the package;
+// Pick the one "source" entry for each npm package name, returning a Set of the
+// winning entry objects (compared by reference, so a workspace monorepo whose
+// members all share one nameWithOwner still resolves per-package). The dedup
+// exists only to collapse duplicates — many repos generated from a template
+// (e.g. eleventy-base-blog) share a package.json name. Rules:
+//   - a package claimed by a SINGLE entry is always kept. npm's `repository`
+//     field often lags a GitHub rename (e.g. 11ty/eleventy-img -> 11ty/image),
+//     so a mismatch there must not drop the only repo that publishes it;
 //   - when SEVERAL repos claim the same name, prefer the one npm names in its
 //     `repository` field; if none match, keep the most-starred as canonical.
 function selectSourceRepos(withMeta) {
-  const groups = new Map(); // packageName -> [{ repo, meta }]
+  const groups = new Map(); // packageName -> [entry]
   for (const entry of withMeta) {
     if (!entry.meta) continue; // unpublished / errored — nothing to attribute
     const key = entry.repo.packageName;
@@ -133,7 +134,7 @@ function selectSourceRepos(withMeta) {
     groups.get(key).push(entry);
   }
 
-  const sources = new Set();
+  const winners = new Set();
   for (const entries of groups.values()) {
     let winner;
     if (entries.length === 1) {
@@ -147,9 +148,9 @@ function selectSourceRepos(withMeta) {
           )) ||
         [...entries].sort((a, b) => b.repo.stars - a.repo.stars)[0];
     }
-    sources.add(winner.repo.nameWithOwner);
+    winners.add(winner);
   }
-  return sources;
+  return winners;
 }
 
 // --- main ------------------------------------------------------------------
@@ -242,18 +243,17 @@ async function main() {
     },
   );
 
-  // Resolve which repo is the canonical source for each package name (dedup).
-  // Allowlisted repos are forced to count as sources so dedup can't drop them.
-  const sources = selectSourceRepos(withMeta);
-  keepSet.forEach((name) => sources.add(name));
+  // Resolve which entry is the canonical source for each package name (dedup).
+  // An entry counts as a source if it won its package's group, or if its repo is
+  // allowlisted (force-included, so dedup can't drop it).
+  const winners = selectSourceRepos(withMeta);
+  const isSource = (entry) =>
+    winners.has(entry) || keepSet.has(entry.repo.nameWithOwner);
 
   // Phase 2: download counts — one bulk pass for every published package, so we
   // don't hammer (and get throttled by) the strict downloads API.
   const publishedNames = withMeta
-    .filter(
-      (x) =>
-        x.meta && sources.has(x.repo.nameWithOwner) && isOwned(x.meta),
-    )
+    .filter((x) => x.meta && isSource(x) && isOwned(x.meta))
     .map((x) => x.repo.packageName);
   console.error(
     c("2", `Fetching npm downloads for ${publishedNames.length} published package(s)…`),
@@ -267,8 +267,9 @@ async function main() {
     downloadErrors.map((e) => [e.name, e.message]),
   );
 
-  const projects = withMeta.map(({ repo, meta, error }) => {
-    const source = meta ? sources.has(repo.nameWithOwner) : false;
+  const projects = withMeta.map((entry) => {
+    const { repo, meta, error } = entry;
+    const source = meta ? isSource(entry) : false;
     const owned = isOwned(meta);
     const downloadError =
       meta && source && owned
@@ -299,6 +300,7 @@ async function main() {
       nameWithOwner: repo.nameWithOwner,
       owner: repo.nameWithOwner.split("/")[0],
       url: repo.url,
+      workspacePath: repo.workspacePath || null,
       packageName: repo.packageName || null,
       isTemplate: repo.isTemplate,
       description: npm?.description || null,
