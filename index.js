@@ -173,13 +173,15 @@ async function main() {
     monitor = [],
     exclude = [],
     alwaysInclude = [],
+    alwaysIncludePackages = [],
     options = {},
     scoring,
   } = config;
 
   const monitorSet = new Set(monitor);
   const excludeSet = new Set(exclude);
-  const keepSet = new Set(alwaysInclude);
+  const keepSet = new Set(alwaysInclude); // by "owner/repo"
+  const pkgKeepSet = new Set(alwaysIncludePackages); // by npm package name
   // npm usernames that count as "yours". When set, a package is only attributed
   // to you if one of these is a current maintainer — so a repo that shares a name
   // with someone else's npm package (e.g. eleventy-base-blog) isn't misattributed.
@@ -203,6 +205,7 @@ async function main() {
   const candidates = repos.filter((r) => {
     if (excludeSet.has(r.nameWithOwner)) return false;
     if (keepSet.has(r.nameWithOwner)) return true;
+    if (r.packageName && pkgKeepSet.has(r.packageName)) return true;
     if (r.isFork || r.isArchived || r.isPrivate || r.isDisabled) return false;
     if (r.isPrivatePackage) return false; // package.json marked "private": true
     if (monitorSet.size > 0 && !monitorSet.has(r.nameWithOwner)) return false;
@@ -218,6 +221,16 @@ async function main() {
     if (!discoveredNames.has(name)) {
       console.error(
         c("33", `alwaysInclude: "${name}" matched no discovered repo`),
+      );
+    }
+  }
+  const discoveredPackages = new Set(
+    repos.map((r) => r.packageName).filter(Boolean),
+  );
+  for (const name of pkgKeepSet) {
+    if (!discoveredPackages.has(name)) {
+      console.error(
+        c("33", `alwaysIncludePackages: "${name}" matched no discovered package`),
       );
     }
   }
@@ -248,7 +261,9 @@ async function main() {
   // allowlisted (force-included, so dedup can't drop it).
   const winners = selectSourceRepos(withMeta);
   const isSource = (entry) =>
-    winners.has(entry) || keepSet.has(entry.repo.nameWithOwner);
+    winners.has(entry) ||
+    keepSet.has(entry.repo.nameWithOwner) ||
+    pkgKeepSet.has(entry.repo.packageName);
 
   // Phase 2: download counts — one bulk pass for every published package, so we
   // don't hammer (and get throttled by) the strict downloads API.
@@ -347,7 +362,11 @@ async function main() {
   const publishedOnly = options.publishedOnly !== false;
   const reported = publishedOnly
     ? projects.filter(
-        (p) => p.published || p.isTemplate || keepSet.has(p.nameWithOwner),
+        (p) =>
+          p.published ||
+          p.isTemplate ||
+          keepSet.has(p.nameWithOwner) ||
+          pkgKeepSet.has(p.packageName),
       )
     : projects;
 

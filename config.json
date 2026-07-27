@@ -16,6 +16,7 @@
     "11ty/docs",
     "11ty/11ty-community"
   ],
+  "alwaysIncludePackages": ["@awesome.me/buildawesome", "@11ty/client"],
 
   "options": {
     "publishedOnly": true,

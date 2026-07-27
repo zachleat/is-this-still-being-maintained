@@ -42,7 +42,12 @@ Options:
   "exclude": [],                  // "owner/repo" entries to always skip (wins over all)
   "alwaysInclude": [],            // "owner/repo" entries to force-keep, bypassing the
                                   //   automatic filters (archived, private package.json,
-                                  //   template dedup, unpublished, monitor allowlist)
+                                  //   template dedup, unpublished, monitor allowlist).
+                                  //   Also pulls in the repo's workspace members,
+                                  //   including private ones.
+  "alwaysIncludePackages": [],    // same, but keyed by npm package name — targets a
+                                  //   single package (e.g. one workspace member)
+                                  //   without its siblings.
 
   "options": {
     "publishedOnly": true,                    // only report packages actually on npm
@@ -61,8 +66,11 @@ A repo is skipped automatically if it's a fork, archived, private, disabled, or
 has a `package.json` marked `"private": true`, or (by default) if it has no
 `package.json`. To force one of these back in, list its `"owner/repo"` in
 `alwaysInclude` — it bypasses every automatic filter (and the template-dedup and
-`publishedOnly` drops). `exclude` still wins over `alwaysInclude`, and a
-misspelled entry that matches no discovered repo prints a warning.
+`publishedOnly` drops), and it also pulls in that repo's **workspace members**,
+even ones marked `private: true`. To keep a *single* package instead of a whole
+repo's worth (e.g. one private workspace member without its siblings), list the
+npm package name in `alwaysIncludePackages`. `exclude` still wins over both, and
+a misspelled entry that matches no discovered repo/package prints a warning.
 
 **Template copies are de-duplicated.** Many repos are generated from a starter
 (e.g. `eleventy-base-blog`) and keep the template's `package.json` name, so
