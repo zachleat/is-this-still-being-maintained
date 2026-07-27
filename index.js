@@ -369,6 +369,7 @@ async function main() {
     args.json || path.join(process.cwd(), outputDir, "report.json"),
   );
   const report = {
+    generatedAt: new Date().toISOString(),
     config: { githubUsers, githubOrgs, scoring, publishedOnly },
     count: sorted.length,
     projects: sorted,
