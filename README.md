@@ -185,7 +185,14 @@ exists, eleventy-fetch falls back to the stale value rather than erroring.
 
 ## Output
 
-- **stdout**: a table sorted worst-first by score, colored (red ≥60, yellow ≥30).
+- **stdout**: a cumulative **Health Rating** headline, then a table sorted
+  worst-first by score, colored (red ≥60, yellow ≥30).
+- **Health Rating** (`healthRating`, also a top-level field in `report.json`): a
+  single 0–100 measure of how maintained *all* your packages are. Higher is
+  better. It's a **download-weighted** average of per-package health (`100 −
+  score`), so it reflects your ecosystem's health *as users experience it* — a
+  neglected widely-used package hurts it far more than an obscure one. (Falls
+  back to a plain mean if there are no downloads to weight by.)
 - **`docs/report.json`** (directory set by `outputDir`, created if
   missing; override the full path with `--json`): `{ config, count, projects[] }`,
   each project carrying raw metrics + `score` + `breakdown`. Projects are sorted

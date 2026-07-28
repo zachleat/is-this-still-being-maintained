@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-07-28T18:45:04.646Z",
+  "generatedAt": "2026-07-28T19:36:55.757Z",
+  "healthRating": 95.4,
   "config": {
     "githubUsers": [
       "zachleat"
@@ -64,7 +65,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.887,
         "prsSub": 0.763,
         "backlogSeverity": 0.812,
@@ -304,7 +305,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.887,
         "prsSub": 0.763,
         "backlogSeverity": 0.812,
@@ -829,7 +830,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 21.3,
+      "score": 21.4,
       "breakdown": {
         "activityDays": 441,
         "staleness": 0.604,
@@ -1071,7 +1072,7 @@
       "npmError": null,
       "score": 2.3,
       "breakdown": {
-        "activityDays": 29,
+        "activityDays": 30,
         "staleness": 0.04,
         "issuesSub": 0.533,
         "prsSub": 0.473,
@@ -1456,7 +1457,7 @@
       "score": 0.9,
       "breakdown": {
         "activityDays": 50,
-        "staleness": 0.068,
+        "staleness": 0.069,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -1935,7 +1936,7 @@
       "npmError": null,
       "score": 0.3,
       "breakdown": {
-        "activityDays": 6,
+        "activityDays": 7,
         "staleness": 0.009,
         "issuesSub": 0,
         "prsSub": 0.392,
@@ -2272,7 +2273,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.887,
         "prsSub": 0.763,
         "backlogSeverity": 0.812,
@@ -3229,10 +3230,10 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0,
+      "score": 0.1,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.314,
         "prsSub": 0.169,
         "backlogSeverity": 0.227,
@@ -3568,7 +3569,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.403,
         "prsSub": 0.169,
         "backlogSeverity": 0.263,

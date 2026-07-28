@@ -423,12 +423,28 @@ async function main() {
     ),
   );
   const generatedAt = new Date().toISOString();
+
+  // Cumulative Health Rating (0–100, higher = better maintained): a
+  // download-weighted average of per-package health (100 − score), so it
+  // reflects how maintained your ecosystem is *as users experience it* — a
+  // neglected widely-used package hurts it far more than an obscure one.
+  // Falls back to a plain mean when there are no downloads to weight by.
+  const totalDownloads = sorted.reduce((sum, p) => sum + (p.downloads || 0), 0);
+  const healthRaw = totalDownloads
+    ? sorted.reduce((sum, p) => sum + (p.downloads || 0) * (100 - p.score), 0) /
+      totalDownloads
+    : sorted.length
+      ? sorted.reduce((sum, p) => sum + (100 - p.score), 0) / sorted.length
+      : 100;
+  const healthRating = Math.round(healthRaw * 10) / 10;
+
   const outputDir = options.outputDir || "docs";
   const jsonPath = path.resolve(
     args.json || path.join(process.cwd(), outputDir, "report.json"),
   );
   const report = {
     generatedAt,
+    healthRating,
     config: { githubUsers, githubOrgs, scoring, publishedOnly },
     count: sorted.length,
     projects: sorted,
@@ -493,6 +509,15 @@ async function main() {
     ? `showing ${reported.length} published of ${projects.length} discovered`
     : `${projects.length} projects`;
   console.error(c("2", `\n${scope} (${parts.join(", ")})`));
+
+  // Cumulative Health Rating headline.
+  const healthColor =
+    healthRating >= 70 ? "32" : healthRating >= 40 ? "33" : "31";
+  console.error(
+    c("1", "\nHealth Rating: ") +
+      c(healthColor, `${healthRating.toFixed(1)} / 100`) +
+      c("2", ` — download-weighted health of ${sorted.length} packages (higher is better)`),
+  );
 
   // List the shortnames of every discovered repo left out of the report, grouped
   // by why, so exclusions are auditable (spot a repo that shouldn't be missing).
