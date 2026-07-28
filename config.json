@@ -9,6 +9,7 @@
     "zachleat/glyphhanger",
     "zachleat/resizeasaurus",
     "zachleat/flex-luthor",
+    "zachleat/github-issue-to-json-file",
     "11ty/gray-matter",
     "11ty/nunjucks",
     "11ty/recursive-copy",
@@ -16,12 +17,15 @@
     "11ty/docs",
     "11ty/11ty-community"
   ],
-  "alwaysIncludePackages": ["@awesome.me/buildawesome", "@11ty/client"],
+  "alwaysIncludePackages": [
+    "@awesome.me/buildawesome",
+    "@11ty/client"
+  ],
 
   "options": {
     "publishedOnly": true,
     "includeReposWithoutPackageJson": false,
-    "downloadsPeriod": "last-month",
+    "downloadsPeriod": "last-year",
     "cacheDuration": "30m",
     "outputDir": "docs",
     "concurrency": 8
