@@ -347,6 +347,7 @@ async function main() {
       openPRs: repo.openPRs,
       mergedPRs: repo.mergedPRs,
       closedPRs: repo.closedPRs,
+      repoCreatedAt: repo.repoCreatedAt || null,
       pushedAt: repo.pushedAt,
       lastPublish: npm?.lastPublish || null,
       lastPublishVersion: npm?.lastPublishVersion || null,
