@@ -15,7 +15,8 @@
     "11ty/recursive-copy",
     "zachleat/zachleat.com",
     "11ty/docs",
-    "11ty/11ty-community"
+    "11ty/11ty-community",
+    "zachleat/web-font-loading-recipes"
   ],
   "alwaysIncludePackages": [
     "@awesome.me/buildawesome",
