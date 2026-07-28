@@ -16,7 +16,8 @@
     "zachleat/zachleat.com",
     "11ty/docs",
     "11ty/11ty-community",
-    "zachleat/web-font-loading-recipes"
+    "zachleat/web-font-loading-recipes",
+    "zachleat/educational-sensational-inspirational-foundational"
   ],
   "alwaysIncludePackages": [
     "@awesome.me/buildawesome",

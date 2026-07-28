@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T15:43:06.138Z",
+  "generatedAt": "2026-07-28T16:38:23.849Z",
   "config": {
     "githubUsers": [
       "zachleat"
@@ -26,7 +26,7 @@
     },
     "publishedOnly": true
   },
-  "count": 88,
+  "count": 89,
   "projects": [
     {
       "nameWithOwner": "11ty/buildawesome",
@@ -504,7 +504,7 @@
         "downloadsSub": 1,
         "starsSub": 0.553,
         "popularity": 0.866,
-        "neglect": 0.004,
+        "neglect": 0.005,
         "importance": 0.906
       }
     },
@@ -1357,7 +1357,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 8.4,
+      "score": 8.5,
       "breakdown": {
         "activityDays": 238,
         "staleness": 0.326,
@@ -1933,7 +1933,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.2,
+      "score": 0.3,
       "breakdown": {
         "activityDays": 6,
         "staleness": 0.009,
@@ -2173,7 +2173,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 18.9,
+      "score": 19,
       "breakdown": {
         "activityDays": 238,
         "staleness": 0.326,
@@ -2474,6 +2474,54 @@
         "popularity": 0.733,
         "neglect": 0,
         "importance": 0.813
+      }
+    },
+    {
+      "nameWithOwner": "zachleat/educational-sensational-inspirational-foundational",
+      "owner": "zachleat",
+      "url": "https://github.com/zachleat/educational-sensational-inspirational-foundational",
+      "homepageUrl": "https://esif.dev/",
+      "workspacePath": null,
+      "packageName": "@zachleat/educational-sensational-inspirational-foundational",
+      "isTemplate": false,
+      "isWebComponent": false,
+      "description": null,
+      "sourceRepo": null,
+      "stars": 22,
+      "openIssues": 1,
+      "closedIssues": 0,
+      "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
+      "repoCreatedAt": "2023-08-09T20:50:05Z",
+      "pushedAt": "2024-08-27T20:23:58Z",
+      "lastPublish": null,
+      "lastPublishVersion": null,
+      "lastStablePublish": null,
+      "lastStablePublishVersion": null,
+      "firstPublish": null,
+      "latestVersion": null,
+      "publishCount": null,
+      "prerelease": false,
+      "downloads": 0,
+      "downloadsKnown": false,
+      "downloadsPeriod": "last-year",
+      "published": false,
+      "npmStatus": "unpublished",
+      "npmError": null,
+      "score": 10.4,
+      "breakdown": {
+        "activityDays": 700,
+        "staleness": 0.959,
+        "issuesSub": 0.121,
+        "prsSub": 0,
+        "backlogSeverity": 0.049,
+        "demand": 0.286,
+        "downloadsSub": 0,
+        "starsSub": 0.368,
+        "popularity": 0.11,
+        "neglect": 0.275,
+        "importance": 0.377
       }
     },
     {
@@ -3760,7 +3808,7 @@
       "score": 2.6,
       "breakdown": {
         "activityDays": 50,
-        "staleness": 0.068,
+        "staleness": 0.069,
         "issuesSub": 0.403,
         "prsSub": 0.169,
         "backlogSeverity": 0.263,
@@ -4030,7 +4078,7 @@
       "mergedPRs": 12,
       "closedPRs": 10,
       "repoCreatedAt": "2020-06-13T19:51:14Z",
-      "pushedAt": "2026-07-19T00:10:21Z",
+      "pushedAt": "2026-07-28T16:17:48Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
@@ -4045,10 +4093,10 @@
       "published": false,
       "npmStatus": "unpublished",
       "npmError": null,
-      "score": 0.4,
+      "score": 0,
       "breakdown": {
-        "activityDays": 10,
-        "staleness": 0.013,
+        "activityDays": 0,
+        "staleness": 0,
         "issuesSub": 0.542,
         "prsSub": 0.436,
         "backlogSeverity": 0.478,
@@ -4056,7 +4104,7 @@
         "downloadsSub": 0,
         "starsSub": 0.808,
         "popularity": 0.243,
-        "neglect": 0.008,
+        "neglect": 0,
         "importance": 0.47
       }
     },
@@ -4174,7 +4222,7 @@
       "mergedPRs": 20,
       "closedPRs": 12,
       "repoCreatedAt": "2013-02-26T04:56:49Z",
-      "pushedAt": "2026-07-28T15:35:31Z",
+      "pushedAt": "2026-07-28T15:49:32Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
