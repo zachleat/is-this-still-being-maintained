@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T14:34:39.205Z",
+  "generatedAt": "2026-07-28T15:29:53.254Z",
   "config": {
     "githubUsers": [
       "zachleat"
@@ -26,7 +26,7 @@
     },
     "publishedOnly": true
   },
-  "count": 89,
+  "count": 88,
   "projects": [
     {
       "nameWithOwner": "11ty/buildawesome",
@@ -39,7 +39,7 @@
       "isWebComponent": false,
       "description": "Run Eleventy in your browser.",
       "sourceRepo": "11ty/eleventy",
-      "stars": 19812,
+      "stars": 19813,
       "openIssues": 157,
       "closedIssues": 2502,
       "openPRs": 22,
@@ -201,7 +201,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 7.3,
+      "score": 7.4,
       "breakdown": {
         "activityDays": 195,
         "staleness": 0.267,
@@ -274,7 +274,7 @@
       "isWebComponent": false,
       "description": "A simpler static site generator.",
       "sourceRepo": "11ty/eleventy",
-      "stars": 19812,
+      "stars": 19813,
       "openIssues": 157,
       "closedIssues": 2502,
       "openPRs": 22,
@@ -626,7 +626,7 @@
       "npmError": null,
       "score": 2.5,
       "breakdown": {
-        "activityDays": 35,
+        "activityDays": 36,
         "staleness": 0.049,
         "issuesSub": 0.462,
         "prsSub": 0.392,
@@ -1376,7 +1376,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 7.3,
+      "score": 7.4,
       "breakdown": {
         "activityDays": 195,
         "staleness": 0.267,
@@ -2175,7 +2175,7 @@
       "published": false,
       "npmStatus": "unpublished",
       "npmError": null,
-      "score": 0,
+      "score": 0.1,
       "breakdown": {
         "activityDays": 1,
         "staleness": 0.001,
@@ -2201,7 +2201,7 @@
       "isWebComponent": false,
       "description": "A simpler way to build awesome web sites.",
       "sourceRepo": null,
-      "stars": 19812,
+      "stars": 19813,
       "openIssues": 157,
       "closedIssues": 2502,
       "openPRs": 22,
@@ -2695,7 +2695,7 @@
       "score": 0.3,
       "breakdown": {
         "activityDays": 15,
-        "staleness": 0.02,
+        "staleness": 0.021,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -3165,7 +3165,7 @@
       "score": 5.6,
       "breakdown": {
         "activityDays": 250,
-        "staleness": 0.342,
+        "staleness": 0.343,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -3258,7 +3258,7 @@
       "npmError": null,
       "score": 0.1,
       "breakdown": {
-        "activityDays": 3,
+        "activityDays": 4,
         "staleness": 0.005,
         "issuesSub": 0,
         "prsSub": 0,
@@ -3930,53 +3930,6 @@
       }
     },
     {
-      "nameWithOwner": "zachleat/postcss-foft-classes",
-      "owner": "zachleat",
-      "url": "https://github.com/zachleat/postcss-foft-classes",
-      "homepageUrl": null,
-      "workspacePath": null,
-      "packageName": "postcss-foft-classes",
-      "isTemplate": false,
-      "isWebComponent": false,
-      "description": "A postcss plugin to automatically add classes for the FOFT font loading strategy.",
-      "sourceRepo": "zachleat/postcss-foft-classes",
-      "stars": 88,
-      "openIssues": 2,
-      "closedIssues": 1,
-      "openPRs": 1,
-      "mergedPRs": 2,
-      "closedPRs": 0,
-      "pushedAt": "2021-03-15T21:08:36Z",
-      "lastPublish": "2018-03-29T20:36:19.543Z",
-      "lastPublishVersion": "1.0.4",
-      "lastStablePublish": "2018-03-29T20:36:19.543Z",
-      "lastStablePublishVersion": "1.0.4",
-      "firstPublish": "2017-10-17T03:19:05.762Z",
-      "latestVersion": "1.0.4",
-      "publishCount": 5,
-      "prerelease": false,
-      "downloads": 5149,
-      "downloadsKnown": true,
-      "downloadsPeriod": "last-year",
-      "published": true,
-      "npmStatus": "published",
-      "npmError": null,
-      "score": 27.4,
-      "breakdown": {
-        "activityDays": 1961,
-        "staleness": 1,
-        "issuesSub": 0.192,
-        "prsSub": 0.169,
-        "backlogSeverity": 0.178,
-        "demand": 0.384,
-        "downloadsSub": 0.619,
-        "starsSub": 0.527,
-        "popularity": 0.591,
-        "neglect": 0.384,
-        "importance": 0.714
-      }
-    },
-    {
       "nameWithOwner": "zachleat/speedlify",
       "owner": "zachleat",
       "url": "https://github.com/zachleat/speedlify",
@@ -4134,7 +4087,7 @@
       "openPRs": 9,
       "mergedPRs": 20,
       "closedPRs": 12,
-      "pushedAt": "2026-07-27T22:09:40Z",
+      "pushedAt": "2026-07-28T15:17:51Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
@@ -4151,8 +4104,8 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 1,
-        "staleness": 0.001,
+        "activityDays": 0,
+        "staleness": 0,
         "issuesSub": 0.42,
         "prsSub": 0.56,
         "backlogSeverity": 0.504,
@@ -4160,7 +4113,7 @@
         "downloadsSub": 0,
         "starsSub": 0.625,
         "popularity": 0.187,
-        "neglect": 0.001,
+        "neglect": 0,
         "importance": 0.431
       }
     },
