@@ -27,7 +27,7 @@
     "publishedOnly": true,
     "includeReposWithoutPackageJson": false,
     "downloadsPeriod": "last-year",
-    "cacheDuration": "30m",
+    "cacheDuration": "15m",
     "outputDir": "docs",
     "concurrency": 8
   },
