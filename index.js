@@ -153,6 +153,23 @@ function selectSourceRepos(withMeta) {
   return winners;
 }
 
+// Bucket sorted ISO publish dates into a dense per-month release count series,
+// from the first month to the last — the numbers you feed a sparkline.
+function monthlyReleaseCounts(sortedDates) {
+  if (!sortedDates.length) return { start: null, counts: [] };
+  const ym = (d) => d.slice(0, 7); // "YYYY-MM"
+  const idx = (s) => {
+    const [y, m] = s.split("-").map(Number);
+    return y * 12 + (m - 1);
+  };
+  const start = ym(sortedDates[0]);
+  const startIdx = idx(start);
+  const endIdx = idx(ym(sortedDates[sortedDates.length - 1]));
+  const counts = new Array(endIdx - startIdx + 1).fill(0);
+  for (const d of sortedDates) counts[idx(ym(d)) - startIdx]++;
+  return { start, counts };
+}
+
 // --- main ------------------------------------------------------------------
 async function main() {
   const args = parseCliArgs();
@@ -405,18 +422,63 @@ async function main() {
       { sensitivity: "base" },
     ),
   );
+  const generatedAt = new Date().toISOString();
   const outputDir = options.outputDir || "docs";
   const jsonPath = path.resolve(
     args.json || path.join(process.cwd(), outputDir, "report.json"),
   );
   const report = {
-    generatedAt: new Date().toISOString(),
+    generatedAt,
     config: { githubUsers, githubOrgs, scoring, publishedOnly },
     count: sorted.length,
     projects: sorted,
   };
   await mkdir(path.dirname(jsonPath), { recursive: true });
   await writeFile(jsonPath, JSON.stringify(report, null, 2) + "\n");
+
+  // Companion files: npm release timelines for sparklines.
+  const metaByName = new Map();
+  for (const { repo, meta } of withMeta) {
+    if (meta?.versionDates?.length) metaByName.set(repo.packageName, meta);
+  }
+
+  // 1. Per-package — an object keyed by package name (alphabetical, since
+  // `sorted` is), each a ready-to-render monthly release count series.
+  const sparkEntries = sorted.filter(
+    (p) => p.published && metaByName.has(p.packageName),
+  );
+  const sparkPackages = {};
+  for (const p of sparkEntries) {
+    const dates = metaByName.get(p.packageName).versionDates;
+    sparkPackages[p.packageName] = {
+      publishCount: dates.length,
+      firstPublish: p.firstPublish,
+      lastPublish: p.lastPublish,
+      monthlyReleases: monthlyReleaseCounts(dates),
+    };
+  }
+  const sparkPath = path.join(path.dirname(jsonPath), "report-sparklines.json");
+  await writeFile(
+    sparkPath,
+    JSON.stringify({ generatedAt, count: sparkEntries.length, packages: sparkPackages }, null, 2) + "\n",
+  );
+
+  // 2. Aggregate — a single combined timeline: total releases per month across
+  // every published package.
+  const allDates = sparkEntries
+    .flatMap((p) => metaByName.get(p.packageName).versionDates)
+    .sort();
+  const aggregate = {
+    generatedAt,
+    packages: sparkEntries.length,
+    publishCount: allDates.length,
+    monthlyReleases: monthlyReleaseCounts(allDates),
+  };
+  const aggregatePath = path.join(
+    path.dirname(jsonPath),
+    "report-sparkline-aggregate.json",
+  );
+  await writeFile(aggregatePath, JSON.stringify(aggregate, null, 2) + "\n");
   const parts = [
     tally.published && `${tally.published} published`,
     tally.unpublished && `${tally.unpublished} not on npm`,
@@ -477,6 +539,10 @@ async function main() {
     }
   }
   console.error(c("2", `Wrote ${reported.length} projects to ${jsonPath}`));
+  console.error(
+    c("2", `Wrote ${sparkEntries.length} release timelines to ${sparkPath}`),
+  );
+  console.error(c("2", `Wrote aggregate release timeline to ${aggregatePath}`));
 }
 
 main().catch((err) => {

@@ -199,6 +199,16 @@ when the package's `main` entry file (from `package.json`, defaulting to
 `index.js`) contains a `customElements` reference. Main files are fetched batched
 across repos (a few GraphQL requests, cached), so it's cheap.
 
+- **`docs/report-sparklines.json`** — a companion file with each published
+  package's npm release timeline, for drawing a release-cadence sparkline. Per
+  package: `publishCount`, `firstPublish`/`lastPublish`, and `monthlyReleases`
+  (`{ start: "YYYY-MM", counts: [...] }` — a dense per-month release count series
+  you can feed straight to a sparkline). Sorted alphabetically like the main
+  report, and committed by the daily workflow too.
+- **`docs/report-sparkline-aggregate.json`** — the same `monthlyReleases`
+  shape, but a *single* series summing releases across **all** published
+  packages per month (total publishing cadence over time).
+
 Each project has an `npmStatus`, so "no data" is never ambiguous:
 
 | `npmStatus`       | Meaning                                                        |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T16:38:23.849Z",
+  "generatedAt": "2026-07-28T18:45:04.646Z",
   "config": {
     "githubUsers": [
       "zachleat"
@@ -543,7 +543,7 @@
       "npmError": null,
       "score": 0.3,
       "breakdown": {
-        "activityDays": 4,
+        "activityDays": 5,
         "staleness": 0.006,
         "issuesSub": 0.42,
         "prsSub": 0.436,
@@ -552,7 +552,7 @@
         "downloadsSub": 1,
         "starsSub": 0.601,
         "popularity": 0.88,
-        "neglect": 0.003,
+        "neglect": 0.004,
         "importance": 0.916
       }
     },
@@ -592,7 +592,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.651,
         "prsSub": 0.267,
         "backlogSeverity": 0.421,
@@ -744,7 +744,7 @@
         "downloadsSub": 0.768,
         "starsSub": 0.363,
         "popularity": 0.646,
-        "neglect": 0.148,
+        "neglect": 0.149,
         "importance": 0.752
       }
     },
@@ -877,7 +877,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 26.2,
+      "score": 26.3,
       "breakdown": {
         "activityDays": 441,
         "staleness": 0.604,
@@ -1261,7 +1261,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 16.5,
+      "score": 16.6,
       "breakdown": {
         "activityDays": 238,
         "staleness": 0.326,
@@ -1552,7 +1552,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.121,
         "prsSub": 0.337,
         "backlogSeverity": 0.251,
@@ -1648,7 +1648,7 @@
       "score": 0.4,
       "breakdown": {
         "activityDays": 6,
-        "staleness": 0.008,
+        "staleness": 0.009,
         "issuesSub": 0.475,
         "prsSub": 0.534,
         "backlogSeverity": 0.51,
@@ -1704,7 +1704,7 @@
         "downloadsSub": 0.792,
         "starsSub": 0.758,
         "popularity": 0.782,
-        "neglect": 0.151,
+        "neglect": 0.152,
         "importance": 0.847
       }
     },
@@ -1888,7 +1888,7 @@
       "score": 1.3,
       "breakdown": {
         "activityDays": 28,
-        "staleness": 0.038,
+        "staleness": 0.039,
         "issuesSub": 0.314,
         "prsSub": 0.267,
         "backlogSeverity": 0.286,
@@ -2464,7 +2464,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.097,
@@ -2472,7 +2472,7 @@
         "downloadsSub": 0.765,
         "starsSub": 0.658,
         "popularity": 0.733,
-        "neglect": 0,
+        "neglect": 0.001,
         "importance": 0.813
       }
     },
@@ -3712,7 +3712,7 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 4,
-        "staleness": 0.005,
+        "staleness": 0.006,
         "issuesSub": 0.506,
         "prsSub": 0.473,
         "backlogSeverity": 0.487,
@@ -3952,7 +3952,7 @@
       "score": 16.8,
       "breakdown": {
         "activityDays": 467,
-        "staleness": 0.639,
+        "staleness": 0.64,
         "issuesSub": 0.192,
         "prsSub": 0,
         "backlogSeverity": 0.077,
@@ -4222,7 +4222,7 @@
       "mergedPRs": 20,
       "closedPRs": 12,
       "repoCreatedAt": "2013-02-26T04:56:49Z",
-      "pushedAt": "2026-07-28T15:49:32Z",
+      "pushedAt": "2026-07-28T18:04:09Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
