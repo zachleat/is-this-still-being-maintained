@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-29T13:43:15.380Z",
+  "generatedAt": "2026-07-30T13:24:15.490Z",
   "packages": 79,
-  "publishCount": 1154,
+  "publishCount": 1157,
   "monthlyReleases": {
     "start": "2015-12",
     "counts": [
@@ -132,7 +132,7 @@
       6,
       7,
       18,
-      12
+      15
     ]
   }
 }

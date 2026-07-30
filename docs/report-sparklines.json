@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T13:43:15.380Z",
+  "generatedAt": "2026-07-30T13:24:15.490Z",
   "count": 79,
   "packages": {
     "@11ty/client": {
@@ -480,9 +480,9 @@
       }
     },
     "@11ty/eleventy-img": {
-      "publishCount": 76,
+      "publishCount": 77,
       "firstPublish": "2020-04-18T02:56:12.771Z",
-      "lastPublish": "2026-07-27T16:08:58.733Z",
+      "lastPublish": "2026-07-29T16:19:18.149Z",
       "monthlyReleases": {
         "start": "2020-04",
         "counts": [
@@ -561,7 +561,7 @@
           1,
           0,
           0,
-          1
+          2
         ]
       }
     },
@@ -1405,9 +1405,9 @@
       }
     },
     "@11ty/gray-matter": {
-      "publishCount": 5,
+      "publishCount": 6,
       "firstPublish": "2025-05-12T15:10:07.375Z",
-      "lastPublish": "2026-06-16T21:25:41.085Z",
+      "lastPublish": "2026-07-29T22:14:44.480Z",
       "monthlyReleases": {
         "start": "2025-05",
         "counts": [
@@ -1424,14 +1424,15 @@
           0,
           1,
           0,
+          1,
           1
         ]
       }
     },
     "@11ty/image-color": {
-      "publishCount": 10,
+      "publishCount": 11,
       "firstPublish": "2025-02-25T17:52:40.323Z",
-      "lastPublish": "2025-12-02T20:49:30.782Z",
+      "lastPublish": "2026-07-29T21:08:49.542Z",
       "monthlyReleases": {
         "start": "2025-02",
         "counts": [
@@ -1442,6 +1443,13 @@
           0,
           0,
           1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
           0,
           0,
           0,
