@@ -25,6 +25,8 @@ Options:
 --config <path>   Config file (default: ./config.json)
 --json <path>     Where to write the JSON report (default: ./docs/report.json)
 --limit <n>       Only print the top N rows (JSON still has everything)
+--dry-run         Print the table only — writes nothing to disk (no JSON files,
+                  no cache). The cache is still read, so it stays fast.
 --no-color        Disable ANSI colors
 ```
 

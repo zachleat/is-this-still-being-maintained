@@ -6,6 +6,7 @@ import path from "node:path";
 
 import { discoverRepos, fetchFilesAcrossRepos } from "./lib/github.js";
 import { auditPackages } from "./lib/audit.js";
+import { setDryRun } from "./lib/fetch.js";
 import { registryMetrics, fetchDownloads } from "./lib/npm.js";
 import { scoreProject } from "./lib/score.js";
 
@@ -19,6 +20,7 @@ function parseCliArgs() {
       json: { type: "string" },
       limit: { type: "string" }, // parseArgs doesn't coerce; Number() below
       color: { type: "boolean" }, // --no-color sets false (allowNegative)
+      "dry-run": { type: "boolean" },
       help: { type: "boolean", short: "h" },
     },
     allowNegative: true,
@@ -37,6 +39,7 @@ Options:
   --config <path>   Config file (default: ./config.json)
   --json <path>     Write full results as JSON (default: ./docs/report.json)
   --limit <n>       Only print the top N rows to the table
+  --dry-run         Print the table only — write nothing to disk (no JSON, no cache)
   --no-color        Disable ANSI colors
   -h, --help        Show this help
 
@@ -90,6 +93,13 @@ function renderTable(rows, color, limit) {
     { h: "Last publish", w: 12, get: (r) => fmtDate(r.lastPublish) },
     { h: "Issues", w: 6, get: (r) => String(r.openIssues), align: "right" },
     { h: "PRs", w: 4, get: (r) => String(r.openPRs), align: "right" },
+    {
+      h: "Vulns",
+      w: 5,
+      get: (r) =>
+        r.openVulnerabilities === null ? "—" : String(r.openVulnerabilities),
+      align: "right",
+    },
   ];
 
   const pad = (s, w, align) => {
@@ -105,7 +115,10 @@ function renderTable(rows, color, limit) {
     const line = cols
       .map((col) => {
         const cell = pad(col.get(r), col.w, col.align);
-        return col.h === "Score" ? c(scoreColor(r.score), cell) : cell;
+        if (col.h === "Score") return c(scoreColor(r.score), cell);
+        if (col.h === "Vulns" && r.openVulnerabilities > 0)
+          return c("31", cell); // red — an open security problem
+        return cell;
       })
       .join("  ");
     console.log(line);
@@ -181,6 +194,11 @@ async function main() {
 
   const color = args.color !== false && process.stdout.isTTY;
   const c = useColor(color);
+
+  // --dry-run: print the report but leave the filesystem untouched — no JSON
+  // output and no cache writes (the cache is still *read*, so it's still fast).
+  const skipWrite = Boolean(args["dry-run"]);
+  setDryRun(skipWrite);
 
   const configPath = path.resolve(args.config || path.join(__dirname, "config.json"));
   const config = JSON.parse(await readFile(configPath, "utf8"));
@@ -505,8 +523,10 @@ async function main() {
     count: sorted.length,
     projects: sorted,
   };
-  await mkdir(path.dirname(jsonPath), { recursive: true });
-  await writeFile(jsonPath, JSON.stringify(report, null, 2) + "\n");
+  if (!skipWrite) {
+    await mkdir(path.dirname(jsonPath), { recursive: true });
+    await writeFile(jsonPath, JSON.stringify(report, null, 2) + "\n");
+  }
 
   // Companion files: npm release timelines for sparklines.
   const metaByName = new Map();
@@ -532,10 +552,12 @@ async function main() {
   // No generatedAt in the sparkline files: they should only change (and be
   // committed) when the underlying release data does, not on every run's clock.
   const sparkPath = path.join(path.dirname(jsonPath), "report-sparklines.json");
-  await writeFile(
-    sparkPath,
-    JSON.stringify({ count: sparkEntries.length, packages: sparkPackages }, null, 2) + "\n",
-  );
+  if (!skipWrite) {
+    await writeFile(
+      sparkPath,
+      JSON.stringify({ count: sparkEntries.length, packages: sparkPackages }, null, 2) + "\n",
+    );
+  }
 
   // 2. Aggregate — a single combined timeline: total releases per month across
   // every published package.
@@ -551,7 +573,9 @@ async function main() {
     path.dirname(jsonPath),
     "report-sparkline-aggregate.json",
   );
-  await writeFile(aggregatePath, JSON.stringify(aggregate, null, 2) + "\n");
+  if (!skipWrite) {
+    await writeFile(aggregatePath, JSON.stringify(aggregate, null, 2) + "\n");
+  }
   const parts = [
     tally.published && `${tally.published} published`,
     tally.unpublished && `${tally.unpublished} not on npm`,
@@ -620,11 +644,17 @@ async function main() {
       console.error(c("2", `  ${p.packageName}: ${p.npmError}`));
     }
   }
-  console.error(c("2", `Wrote ${reported.length} projects to ${jsonPath}`));
-  console.error(
-    c("2", `Wrote ${sparkEntries.length} release timelines to ${sparkPath}`),
-  );
-  console.error(c("2", `Wrote aggregate release timeline to ${aggregatePath}`));
+  if (skipWrite) {
+    console.error(
+      c("33", `\nDry run — nothing written (${reported.length} projects, ${sparkEntries.length} release timelines).`),
+    );
+  } else {
+    console.error(c("2", `Wrote ${reported.length} projects to ${jsonPath}`));
+    console.error(
+      c("2", `Wrote ${sparkEntries.length} release timelines to ${sparkPath}`),
+    );
+    console.error(c("2", `Wrote aggregate release timeline to ${aggregatePath}`));
+  }
 }
 
 main().catch((err) => {
