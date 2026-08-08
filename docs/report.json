@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-08T03:04:11.902Z",
-  "healthRating": 96.2,
+  "generatedAt": "2026-08-08T03:08:06.430Z",
+  "healthRating": 97.8,
   "healthRatingHistory": [
-    96.2
+    97.8
   ],
   "config": {
     "githubUsers": [
@@ -51,7 +51,7 @@
       "openPRs": 24,
       "mergedPRs": 353,
       "closedPRs": 209,
-      "openVulnerabilities": 1,
+      "openVulnerabilities": 0,
       "repoCreatedAt": "2017-11-27T05:19:00Z",
       "pushedAt": "2026-08-03T11:56:32Z",
       "lastPublish": "2026-07-01T20:59:37.478Z",
@@ -62,13 +62,13 @@
       "latestVersion": "4.0.0-alpha.1",
       "publishCount": 10,
       "prerelease": true,
-      "downloads": 3193,
+      "downloads": 3535,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 10.9,
+      "score": 0.4,
       "breakdown": {
         "activityDays": 5,
         "staleness": 0.006,
@@ -77,16 +77,16 @@
         "backlogSeverity": 0.814,
         "demand": 0.824,
         "neglect": 0.005,
-        "securitySub": 0.289,
-        "security": 0.145,
-        "attention": 0.145,
-        "downloadsSub": 0.584,
+        "securitySub": 0,
+        "security": 0,
+        "attention": 0.005,
+        "downloadsSub": 0.591,
         "starsSub": 1,
-        "popularity": 0.646,
-        "importance": 0.753
+        "popularity": 0.653,
+        "importance": 0.757
       },
       "scoreHistory": [
-        10.9
+        0.4
       ]
     },
     {
@@ -117,7 +117,7 @@
       "latestVersion": "1.0.9",
       "publishCount": 11,
       "prerelease": false,
-      "downloads": 1739,
+      "downloads": 1748,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -172,7 +172,7 @@
       "latestVersion": "4.0.2",
       "publishCount": 8,
       "prerelease": false,
-      "downloads": 6602430,
+      "downloads": 6580138,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -227,7 +227,7 @@
       "latestVersion": "2.0.4",
       "publishCount": 8,
       "prerelease": false,
-      "downloads": 4532359,
+      "downloads": 4424094,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -282,7 +282,7 @@
       "latestVersion": "1.0.0",
       "publishCount": 1,
       "prerelease": false,
-      "downloads": 20499,
+      "downloads": 18723,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -300,10 +300,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.034,
-        "downloadsSub": 0.719,
+        "downloadsSub": 0.712,
         "starsSub": 0.301,
-        "popularity": 0.656,
-        "importance": 0.759
+        "popularity": 0.65,
+        "importance": 0.755
       },
       "scoreHistory": [
         2.5
@@ -326,7 +326,7 @@
       "openPRs": 24,
       "mergedPRs": 353,
       "closedPRs": 209,
-      "openVulnerabilities": 1,
+      "openVulnerabilities": 0,
       "repoCreatedAt": "2017-11-27T05:19:00Z",
       "pushedAt": "2026-08-03T11:56:32Z",
       "lastPublish": "2026-07-01T20:59:31.106Z",
@@ -343,7 +343,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 14.5,
+      "score": 0.5,
       "breakdown": {
         "activityDays": 5,
         "staleness": 0.006,
@@ -352,16 +352,16 @@
         "backlogSeverity": 0.814,
         "demand": 0.824,
         "neglect": 0.005,
-        "securitySub": 0.289,
-        "security": 0.145,
-        "attention": 0.145,
+        "securitySub": 0,
+        "security": 0,
+        "attention": 0.005,
         "downloadsSub": 1,
         "starsSub": 1,
         "popularity": 1,
         "importance": 1
       },
       "scoreHistory": [
-        14.5
+        0.5
       ]
     },
     {
@@ -392,7 +392,7 @@
       "latestVersion": "2.0.0",
       "publishCount": 11,
       "prerelease": false,
-      "downloads": 3189,
+      "downloads": 3270,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -410,10 +410,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.041,
-        "downloadsSub": 0.584,
+        "downloadsSub": 0.586,
         "starsSub": 0.557,
-        "popularity": 0.58,
-        "importance": 0.706
+        "popularity": 0.581,
+        "importance": 0.707
       },
       "scoreHistory": [
         2.9
@@ -502,7 +502,7 @@
       "latestVersion": "1.1.0",
       "publishCount": 2,
       "prerelease": false,
-      "downloads": 278,
+      "downloads": 277,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -520,10 +520,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.05,
-        "downloadsSub": 0.408,
+        "downloadsSub": 0.407,
         "starsSub": 0.228,
         "popularity": 0.381,
-        "importance": 0.567
+        "importance": 0.566
       },
       "scoreHistory": [
         2.8
@@ -832,7 +832,7 @@
       "latestVersion": "1.0.2",
       "publishCount": 3,
       "prerelease": false,
-      "downloads": 39756,
+      "downloads": 40306,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -850,10 +850,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.057,
-        "downloadsSub": 0.767,
+        "downloadsSub": 0.768,
         "starsSub": 0.363,
-        "popularity": 0.706,
-        "importance": 0.794
+        "popularity": 0.707,
+        "importance": 0.795
       },
       "scoreHistory": [
         4.5
@@ -887,7 +887,7 @@
       "latestVersion": "1.0.0",
       "publishCount": 2,
       "prerelease": false,
-      "downloads": 13974,
+      "downloads": 13866,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -905,10 +905,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.33,
-        "downloadsSub": 0.691,
+        "downloadsSub": 0.69,
         "starsSub": 0.244,
-        "popularity": 0.624,
-        "importance": 0.737
+        "popularity": 0.623,
+        "importance": 0.736
       },
       "scoreHistory": [
         24.3
@@ -942,7 +942,7 @@
       "latestVersion": "1.0.0",
       "publishCount": 2,
       "prerelease": false,
-      "downloads": 357,
+      "downloads": 350,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -960,10 +960,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.33,
-        "downloadsSub": 0.426,
+        "downloadsSub": 0.424,
         "starsSub": 0.244,
-        "popularity": 0.398,
-        "importance": 0.579
+        "popularity": 0.397,
+        "importance": 0.578
       },
       "scoreHistory": [
         19.1
@@ -997,13 +997,13 @@
       "latestVersion": "1.0.0",
       "publishCount": 2,
       "prerelease": false,
-      "downloads": 16082,
+      "downloads": 13846,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 24.5,
+      "score": 24.3,
       "breakdown": {
         "activityDays": 451,
         "staleness": 0.618,
@@ -1015,13 +1015,13 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.33,
-        "downloadsSub": 0.701,
+        "downloadsSub": 0.69,
         "starsSub": 0.244,
-        "popularity": 0.633,
-        "importance": 0.743
+        "popularity": 0.623,
+        "importance": 0.736
       },
       "scoreHistory": [
-        24.5
+        24.3
       ]
     },
     {
@@ -1107,7 +1107,7 @@
       "latestVersion": "1.0.1",
       "publishCount": 3,
       "prerelease": false,
-      "downloads": 819,
+      "downloads": 811,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1125,10 +1125,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.33,
-        "downloadsSub": 0.486,
+        "downloadsSub": 0.485,
         "starsSub": 0.244,
         "popularity": 0.449,
-        "importance": 0.615
+        "importance": 0.614
       },
       "scoreHistory": [
         20.3
@@ -1162,7 +1162,7 @@
       "latestVersion": "1.0.0",
       "publishCount": 2,
       "prerelease": false,
-      "downloads": 5627,
+      "downloads": 5531,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1180,10 +1180,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.33,
-        "downloadsSub": 0.625,
+        "downloadsSub": 0.624,
         "starsSub": 0.244,
-        "popularity": 0.568,
-        "importance": 0.698
+        "popularity": 0.567,
+        "importance": 0.697
       },
       "scoreHistory": [
         23
@@ -1272,7 +1272,7 @@
       "latestVersion": "5.0.2",
       "publishCount": 29,
       "prerelease": false,
-      "downloads": 1515356,
+      "downloads": 1504136,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1316,7 +1316,7 @@
       "openPRs": 7,
       "mergedPRs": 71,
       "closedPRs": 64,
-      "openVulnerabilities": 1,
+      "openVulnerabilities": 0,
       "repoCreatedAt": "2022-03-17T16:07:53Z",
       "pushedAt": "2026-08-03T17:53:54Z",
       "lastPublish": "2026-05-02T05:53:16.259Z",
@@ -1333,7 +1333,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 12.5,
+      "score": 0.2,
       "breakdown": {
         "activityDays": 4,
         "staleness": 0.006,
@@ -1342,16 +1342,16 @@
         "backlogSeverity": 0.439,
         "demand": 0.467,
         "neglect": 0.003,
-        "securitySub": 0.289,
-        "security": 0.145,
-        "attention": 0.145,
+        "securitySub": 0,
+        "security": 0,
+        "attention": 0.003,
         "downloadsSub": 0.843,
         "starsSub": 0.602,
         "popularity": 0.806,
         "importance": 0.865
       },
       "scoreHistory": [
-        12.5
+        0.2
       ]
     },
     {
@@ -1382,7 +1382,7 @@
       "latestVersion": "0.8.0",
       "publishCount": 43,
       "prerelease": false,
-      "downloads": 7539,
+      "downloads": 7389,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1400,10 +1400,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.363,
-        "downloadsSub": 0.646,
+        "downloadsSub": 0.645,
         "starsSub": 0.619,
-        "popularity": 0.642,
-        "importance": 0.75
+        "popularity": 0.641,
+        "importance": 0.749
       },
       "scoreHistory": [
         27.2
@@ -1426,7 +1426,7 @@
       "openPRs": 3,
       "mergedPRs": 5,
       "closedPRs": 1,
-      "openVulnerabilities": 2,
+      "openVulnerabilities": 0,
       "repoCreatedAt": "2022-09-23T20:38:19Z",
       "pushedAt": "2025-12-02T16:44:03Z",
       "lastPublish": "2025-08-28T19:10:20.231Z",
@@ -1437,13 +1437,13 @@
       "latestVersion": "0.11.2",
       "publishCount": 25,
       "prerelease": true,
-      "downloads": 160836,
+      "downloads": 157884,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 20.1,
+      "score": 13.8,
       "breakdown": {
         "activityDays": 248,
         "staleness": 0.34,
@@ -1452,16 +1452,16 @@
         "backlogSeverity": 0.435,
         "demand": 0.463,
         "neglect": 0.158,
-        "securitySub": 0.458,
-        "security": 0.229,
-        "attention": 0.229,
-        "downloadsSub": 0.868,
+        "securitySub": 0,
+        "security": 0,
+        "attention": 0.158,
+        "downloadsSub": 0.866,
         "starsSub": 0.575,
-        "popularity": 0.824,
-        "importance": 0.877
+        "popularity": 0.823,
+        "importance": 0.876
       },
       "scoreHistory": [
-        20.1
+        13.8
       ]
     },
     {
@@ -1492,7 +1492,7 @@
       "latestVersion": "1.0.2",
       "publishCount": 3,
       "prerelease": false,
-      "downloads": 27865,
+      "downloads": 30401,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1510,10 +1510,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.05,
-        "downloadsSub": 0.741,
+        "downloadsSub": 0.747,
         "starsSub": 0.333,
-        "popularity": 0.68,
-        "importance": 0.776
+        "popularity": 0.685,
+        "importance": 0.779
       },
       "scoreHistory": [
         3.9
@@ -1547,7 +1547,7 @@
       "latestVersion": "3.0.2",
       "publishCount": 11,
       "prerelease": false,
-      "downloads": 70736,
+      "downloads": 72689,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1565,10 +1565,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.041,
-        "downloadsSub": 0.808,
+        "downloadsSub": 0.81,
         "starsSub": 0.505,
-        "popularity": 0.763,
-        "importance": 0.834
+        "popularity": 0.765,
+        "importance": 0.835
       },
       "scoreHistory": [
         3.4
@@ -1602,7 +1602,7 @@
       "latestVersion": "2.0.7",
       "publishCount": 14,
       "prerelease": true,
-      "downloads": 7045895,
+      "downloads": 6929525,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1712,7 +1712,7 @@
       "latestVersion": "1.0.1",
       "publishCount": 13,
       "prerelease": false,
-      "downloads": 17959,
+      "downloads": 17939,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1866,7 +1866,7 @@
       "openPRs": 8,
       "mergedPRs": 8,
       "closedPRs": 11,
-      "openVulnerabilities": 8,
+      "openVulnerabilities": 0,
       "repoCreatedAt": "2024-11-07T21:00:03Z",
       "pushedAt": "2026-07-29T13:23:52Z",
       "lastPublish": "2026-06-11T19:38:37.189Z",
@@ -1883,7 +1883,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 34.1,
+      "score": 0.5,
       "breakdown": {
         "activityDays": 10,
         "staleness": 0.013,
@@ -1892,16 +1892,16 @@
         "backlogSeverity": 0.516,
         "demand": 0.541,
         "neglect": 0.007,
-        "securitySub": 0.916,
-        "security": 0.458,
-        "attention": 0.458,
+        "securitySub": 0,
+        "security": 0,
+        "attention": 0.007,
         "downloadsSub": 0.646,
         "starsSub": 0.568,
         "popularity": 0.634,
         "importance": 0.744
       },
       "scoreHistory": [
-        34.1
+        0.5
       ]
     },
     {
@@ -1932,7 +1932,7 @@
       "latestVersion": "5.0.1",
       "publishCount": 17,
       "prerelease": false,
-      "downloads": 56840,
+      "downloads": 56746,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2042,7 +2042,7 @@
       "latestVersion": "3.0.0",
       "publishCount": 14,
       "prerelease": false,
-      "downloads": 3642,
+      "downloads": 3730,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2060,10 +2060,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.027,
-        "downloadsSub": 0.594,
+        "downloadsSub": 0.595,
         "starsSub": 0.27,
-        "popularity": 0.545,
-        "importance": 0.682
+        "popularity": 0.547,
+        "importance": 0.683
       },
       "scoreHistory": [
         1.8
@@ -2097,7 +2097,7 @@
       "latestVersion": "1.0.1",
       "publishCount": 2,
       "prerelease": false,
-      "downloads": 23251,
+      "downloads": 23004,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2115,10 +2115,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.034,
-        "downloadsSub": 0.728,
+        "downloadsSub": 0.727,
         "starsSub": 0.301,
-        "popularity": 0.664,
-        "importance": 0.765
+        "popularity": 0.663,
+        "importance": 0.764
       },
       "scoreHistory": [
         2.6
@@ -2262,7 +2262,7 @@
       "latestVersion": "2.0.6",
       "publishCount": 8,
       "prerelease": false,
-      "downloads": 32968,
+      "downloads": 32250,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2280,10 +2280,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.017,
-        "downloadsSub": 0.753,
+        "downloadsSub": 0.751,
         "starsSub": 0.43,
-        "popularity": 0.705,
-        "importance": 0.793
+        "popularity": 0.703,
+        "importance": 0.792
       },
       "scoreHistory": [
         1.3
@@ -2317,7 +2317,7 @@
       "latestVersion": "1.0.3",
       "publishCount": 4,
       "prerelease": false,
-      "downloads": 4499508,
+      "downloads": 4477190,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2372,7 +2372,7 @@
       "latestVersion": "5.0.2",
       "publishCount": 9,
       "prerelease": false,
-      "downloads": 4512069,
+      "downloads": 4403294,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2471,7 +2471,7 @@
       "openPRs": 4,
       "mergedPRs": 23,
       "closedPRs": 6,
-      "openVulnerabilities": 4,
+      "openVulnerabilities": 0,
       "repoCreatedAt": "2022-09-09T15:45:23Z",
       "pushedAt": "2025-12-02T16:44:41Z",
       "lastPublish": "2025-08-28T18:59:14.318Z",
@@ -2482,13 +2482,13 @@
       "latestVersion": "0.11.4",
       "publishCount": 38,
       "prerelease": true,
-      "downloads": 164631,
+      "downloads": 161565,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 30.4,
+      "score": 15.9,
       "breakdown": {
         "activityDays": 248,
         "staleness": 0.34,
@@ -2497,16 +2497,16 @@
         "backlogSeverity": 0.492,
         "demand": 0.517,
         "neglect": 0.176,
-        "securitySub": 0.671,
-        "security": 0.336,
-        "attention": 0.336,
-        "downloadsSub": 0.869,
+        "securitySub": 0,
+        "security": 0,
+        "attention": 0.176,
+        "downloadsSub": 0.868,
         "starsSub": 0.851,
-        "popularity": 0.867,
-        "importance": 0.907
+        "popularity": 0.866,
+        "importance": 0.906
       },
       "scoreHistory": [
-        30.4
+        15.9
       ]
     },
     {
@@ -2581,7 +2581,7 @@
       "openPRs": 24,
       "mergedPRs": 353,
       "closedPRs": 209,
-      "openVulnerabilities": 1,
+      "openVulnerabilities": 0,
       "repoCreatedAt": "2017-11-27T05:19:00Z",
       "pushedAt": "2026-08-03T11:56:32Z",
       "lastPublish": "2026-07-01T20:59:45.898Z",
@@ -2592,13 +2592,13 @@
       "latestVersion": "0.0.1",
       "publishCount": 4,
       "prerelease": true,
-      "downloads": 1188,
+      "downloads": 922,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 10.3,
+      "score": 0.4,
       "breakdown": {
         "activityDays": 5,
         "staleness": 0.006,
@@ -2607,16 +2607,16 @@
         "backlogSeverity": 0.814,
         "demand": 0.824,
         "neglect": 0.005,
-        "securitySub": 0.289,
-        "security": 0.145,
-        "attention": 0.145,
-        "downloadsSub": 0.513,
+        "securitySub": 0,
+        "security": 0,
+        "attention": 0.005,
+        "downloadsSub": 0.494,
         "starsSub": 1,
-        "popularity": 0.586,
-        "importance": 0.71
+        "popularity": 0.57,
+        "importance": 0.699
       },
       "scoreHistory": [
-        10.3
+        0.4
       ]
     },
     {
@@ -2820,7 +2820,7 @@
       "npmError": null,
       "score": 0.2,
       "breakdown": {
-        "activityDays": 11,
+        "activityDays": 12,
         "staleness": 0.016,
         "issuesSub": 0.243,
         "prsSub": 0,
@@ -3260,7 +3260,7 @@
       "npmError": null,
       "score": 0.5,
       "breakdown": {
-        "activityDays": 231,
+        "activityDays": 232,
         "staleness": 0.317,
         "issuesSub": 0,
         "prsSub": 0,
