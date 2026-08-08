@@ -153,11 +153,14 @@ So `demand` is shaped three ways:
   issues moves the needle but 156→300 doesn't just peg the ceiling.
 - **PR-weighted** (`backlogWeights`, default issues 0.4 / PRs 0.6): an ignored PR
   is a stronger "not maintained" signal than an open issue.
-- **Floored** (`backlogFloor`, default 0.25): with zero open work, `demand`
-  doesn't hit zero — a very old, very popular package stays *visible* for a
-  health check. Lower `backlogFloor` toward 0 to make open issues/PRs strictly
-  required (zero-backlog packages sink); raise it toward 1 to let staleness
-  matter on its own again.
+- **Floored** (`backlogFloor`, default 0.05): open issues/PRs effectively
+  *drive* the score — with zero open work `demand` collapses to just `0.05`, so a
+  package with **0 issues and 0 PRs scores ~0** (capped around 5 even when very
+  old and widely-used) because nobody's asking for anything. The small non-zero
+  floor keeps a faint signal so a stale, heavily-used, zero-backlog package
+  doesn't vanish entirely. Set it to `0` to make open issues/PRs strictly
+  required (zero-backlog → exactly 0); raise it toward 1 to let
+  staleness/popularity matter on their own again.
 
 Tune any of these in `config.json` under `"scoring"`. Every sub-score is written
 into each project's `breakdown` in the JSON report so you can see exactly why

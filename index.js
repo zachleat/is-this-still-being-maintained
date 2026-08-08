@@ -473,10 +473,12 @@ async function main() {
       monthlyReleases: monthlyReleaseCounts(dates),
     };
   }
+  // No generatedAt in the sparkline files: they should only change (and be
+  // committed) when the underlying release data does, not on every run's clock.
   const sparkPath = path.join(path.dirname(jsonPath), "report-sparklines.json");
   await writeFile(
     sparkPath,
-    JSON.stringify({ generatedAt, count: sparkEntries.length, packages: sparkPackages }, null, 2) + "\n",
+    JSON.stringify({ count: sparkEntries.length, packages: sparkPackages }, null, 2) + "\n",
   );
 
   // 2. Aggregate — a single combined timeline: total releases per month across
@@ -485,7 +487,6 @@ async function main() {
     .flatMap((p) => metaByName.get(p.packageName).versionDates)
     .sort();
   const aggregate = {
-    generatedAt,
     packages: sparkEntries.length,
     publishCount: allDates.length,
     monthlyReleases: monthlyReleaseCounts(allDates),

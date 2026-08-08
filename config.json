@@ -35,16 +35,16 @@
 
   "scoring": {
     "backlogWeights": {
-      "openIssues": 0.4,
-      "openPRs": 0.6
+      "openIssues": 0.3,
+      "openPRs": 0.7
     },
-    "backlogFloor": 0.25,
+    "backlogFloor": 0.05,
     "fullyStaleDays": 730,
     "issuesSaturation": 300,
     "prsSaturation": 60,
     "importanceWeights": {
-      "downloads": 0.7,
-      "stars": 0.3
+      "downloads": 0.85,
+      "stars": 0.15
     },
     "downloadsSaturation": 1000000,
     "starsSaturation": 5000,
