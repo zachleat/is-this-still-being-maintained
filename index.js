@@ -4,11 +4,8 @@ import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
 import path from "node:path";
 
-import {
-  discoverRepos,
-  fetchFilesAcrossRepos,
-  fetchVulnerabilityCounts,
-} from "./lib/github.js";
+import { discoverRepos, fetchFilesAcrossRepos } from "./lib/github.js";
+import { auditPackages } from "./lib/audit.js";
 import { registryMetrics, fetchDownloads } from "./lib/npm.js";
 import { scoreProject } from "./lib/score.js";
 
@@ -258,18 +255,6 @@ async function main() {
 
   const period = options.downloadsPeriod || "last-month";
 
-  // Security: open Dependabot alert counts per repo (an "npm audit"-style signal
-  // for vulnerable dependencies). Resilient — repos we can't read report null.
-  const candidateRepoNames = [
-    ...new Set(candidates.map((r) => r.nameWithOwner)),
-  ];
-  console.error(
-    c("2", `Fetching security alerts for ${candidateRepoNames.length} repo(s)…`),
-  );
-  const vulnByRepo = await fetchVulnerabilityCounts(candidateRepoNames, {
-    duration: cacheDuration,
-  });
-
   // Phase 1: registry metadata (publish dates) — one request per package,
   // concurrent, since the registry CDN tolerates it.
   console.error(
@@ -298,11 +283,27 @@ async function main() {
     keepSet.has(entry.repo.nameWithOwner) ||
     pkgKeepSet.has(entry.repo.packageName);
 
+  const publishedEntries = withMeta.filter(
+    (x) => x.meta && isSource(x) && isOwned(x.meta),
+  );
+  const publishedNames = publishedEntries.map((x) => x.repo.packageName);
+
+  // Security: audit each published package's resolved dependency tree for known
+  // vulnerabilities (deps.dev + OSV.dev — no auth required). This measures what
+  // consumers actually install, so devDependencies are excluded by construction.
+  const auditTargets = publishedEntries
+    .filter((x) => x.meta.latestVersion)
+    .map((x) => ({ name: x.repo.packageName, version: x.meta.latestVersion }));
+  console.error(
+    c("2", `Auditing dependencies for ${auditTargets.length} published package(s)…`),
+  );
+  const vulnByPackage = await auditPackages(auditTargets, {
+    duration: cacheDuration,
+    concurrency: options.concurrency || 8,
+  });
+
   // Phase 2: download counts — one bulk pass for every published package, so we
   // don't hammer (and get throttled by) the strict downloads API.
-  const publishedNames = withMeta
-    .filter((x) => x.meta && isSource(x) && isOwned(x.meta))
-    .map((x) => x.repo.packageName);
   console.error(
     c("2", `Fetching npm downloads for ${publishedNames.length} published package(s)…`),
   );
@@ -380,10 +381,11 @@ async function main() {
       openPRs: repo.openPRs,
       mergedPRs: repo.mergedPRs,
       closedPRs: repo.closedPRs,
-      // Only attribute vulnerabilities to actual npm packages, not templates /
-      // unpublished repos / docs sites.
+      // Known-vulnerable dependencies in the published package's resolved tree.
+      // Only meaningful for actual npm packages, so templates / unpublished
+      // repos / docs sites report null.
       openVulnerabilities: published
-        ? vulnByRepo.get(repo.nameWithOwner) ?? null
+        ? vulnByPackage.get(repo.packageName) ?? null
         : null,
       repoCreatedAt: repo.repoCreatedAt || null,
       pushedAt: repo.pushedAt,
