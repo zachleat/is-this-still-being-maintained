@@ -463,9 +463,42 @@ async function main() {
   const jsonPath = path.resolve(
     args.json || path.join(process.cwd(), outputDir, "report.json"),
   );
+
+  // Per-package neglect-score history: read the previous report and keep the last
+  // 10 scores. If the previous report was generated on the same calendar day,
+  // replace its newest entry (so same-day reruns don't pile up); otherwise append.
+  const prevHistory = new Map();
+  let prevHealthHistory = [];
+  let sameDay = false;
+  try {
+    const prev = JSON.parse(await readFile(jsonPath, "utf8"));
+    sameDay = prev.generatedAt?.slice(0, 10) === generatedAt.slice(0, 10);
+    if (Array.isArray(prev.healthRatingHistory)) {
+      prevHealthHistory = prev.healthRatingHistory;
+    }
+    for (const p of prev.projects || []) {
+      if (p.packageName && Array.isArray(p.scoreHistory)) {
+        prevHistory.set(p.packageName, p.scoreHistory);
+      }
+    }
+  } catch {
+    /* no prior report — history starts fresh */
+  }
+  const appendOrReplace = (history, value) => {
+    const next = [...history];
+    if (sameDay && next.length) next[next.length - 1] = value;
+    else next.push(value);
+    return next.slice(-10);
+  };
+  for (const p of sorted) {
+    p.scoreHistory = appendOrReplace(prevHistory.get(p.packageName) || [], p.score);
+  }
+  const healthRatingHistory = appendOrReplace(prevHealthHistory, healthRating);
+
   const report = {
     generatedAt,
     healthRating,
+    healthRatingHistory,
     config: { githubUsers, githubOrgs, scoring, publishedOnly },
     count: sorted.length,
     projects: sorted,

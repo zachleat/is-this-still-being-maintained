@@ -234,6 +234,13 @@ exists, eleventy-fetch falls back to the stale value rather than erroring.
   show real metric changes instead of churn from shifting ranks. This is the feed
   for "maybe other things later" — a dashboard, a diff over time, a CI gate, etc.
 
+Each project carries a `scoreHistory` — an array of its last 10 neglect `score`s,
+so you can see a package trending better or worse over time. It's persisted by
+reading the previous `report.json`: a run on a **new calendar day** appends the
+current score, while a **same-day rerun replaces** the newest entry (using the
+report's `generatedAt`, so reruns don't pile up). Oldest drops off past 10. The
+top-level **`healthRatingHistory`** tracks the overall Health Rating the same way.
+
 Each project also carries an `isWebComponent` flag — a heuristic that's `true`
 when the package's `main` entry file (from `package.json`, defaulting to
 `index.js`) contains a `customElements` reference. Main files are fetched batched

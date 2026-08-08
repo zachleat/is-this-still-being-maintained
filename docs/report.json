@@ -1,6 +1,9 @@
 {
-  "generatedAt": "2026-08-08T02:47:36.985Z",
+  "generatedAt": "2026-08-08T03:04:11.902Z",
   "healthRating": 96.2,
+  "healthRatingHistory": [
+    96.2
+  ],
   "config": {
     "githubUsers": [
       "zachleat"
@@ -81,7 +84,10 @@
         "starsSub": 1,
         "popularity": 0.646,
         "importance": 0.753
-      }
+      },
+      "scoreHistory": [
+        10.9
+      ]
     },
     {
       "nameWithOwner": "11ty/create",
@@ -133,7 +139,10 @@
         "starsSub": 0.318,
         "popularity": 0.507,
         "importance": 0.655
-      }
+      },
+      "scoreHistory": [
+        1.9
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-dependency-tree",
@@ -185,7 +194,10 @@
         "starsSub": 0.27,
         "popularity": 0.891,
         "importance": 0.923
-      }
+      },
+      "scoreHistory": [
+        1.6
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-utils",
@@ -237,7 +249,10 @@
         "starsSub": 0.301,
         "popularity": 0.895,
         "importance": 0.927
-      }
+      },
+      "scoreHistory": [
+        3.1
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-utils",
@@ -289,7 +304,10 @@
         "starsSub": 0.301,
         "popularity": 0.656,
         "importance": 0.759
-      }
+      },
+      "scoreHistory": [
+        2.5
+      ]
     },
     {
       "nameWithOwner": "11ty/buildawesome",
@@ -341,7 +359,10 @@
         "starsSub": 1,
         "popularity": 1,
         "importance": 1
-      }
+      },
+      "scoreHistory": [
+        14.5
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-activity-feed",
@@ -393,7 +414,10 @@
         "starsSub": 0.557,
         "popularity": 0.58,
         "importance": 0.706
-      }
+      },
+      "scoreHistory": [
+        2.9
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-base-webc",
@@ -445,7 +469,10 @@
         "starsSub": 0.49,
         "popularity": 0.074,
         "importance": 0.351
-      }
+      },
+      "scoreHistory": [
+        1.6
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-data-transistor-fm",
@@ -497,7 +524,10 @@
         "starsSub": 0.228,
         "popularity": 0.381,
         "importance": 0.567
-      }
+      },
+      "scoreHistory": [
+        2.8
+      ]
     },
     {
       "nameWithOwner": "11ty/dev-server",
@@ -549,7 +579,10 @@
         "starsSub": 0.553,
         "popularity": 0.933,
         "importance": 0.953
-      }
+      },
+      "scoreHistory": [
+        0.6
+      ]
     },
     {
       "nameWithOwner": "11ty/fetch",
@@ -601,7 +634,10 @@
         "starsSub": 0.601,
         "popularity": 0.94,
         "importance": 0.958
-      }
+      },
+      "scoreHistory": [
+        0.1
+      ]
     },
     {
       "nameWithOwner": "11ty/image",
@@ -653,7 +689,10 @@
         "starsSub": 0.722,
         "popularity": 0.958,
         "importance": 0.971
-      }
+      },
+      "scoreHistory": [
+        0.5
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-navigation",
@@ -705,7 +744,10 @@
         "starsSub": 0.55,
         "popularity": 0.915,
         "importance": 0.94
-      }
+      },
+      "scoreHistory": [
+        2.6
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-bundle",
@@ -757,7 +799,10 @@
         "starsSub": 0.519,
         "popularity": 0.928,
         "importance": 0.949
-      }
+      },
+      "scoreHistory": [
+        0.6
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-directory-output",
@@ -809,7 +854,10 @@
         "starsSub": 0.363,
         "popularity": 0.706,
         "importance": 0.794
-      }
+      },
+      "scoreHistory": [
+        4.5
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-template-languages",
@@ -861,7 +909,10 @@
         "starsSub": 0.244,
         "popularity": 0.624,
         "importance": 0.737
-      }
+      },
+      "scoreHistory": [
+        24.3
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-template-languages",
@@ -913,7 +964,10 @@
         "starsSub": 0.244,
         "popularity": 0.398,
         "importance": 0.579
-      }
+      },
+      "scoreHistory": [
+        19.1
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-template-languages",
@@ -965,7 +1019,10 @@
         "starsSub": 0.244,
         "popularity": 0.633,
         "importance": 0.743
-      }
+      },
+      "scoreHistory": [
+        24.5
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-inclusive-language",
@@ -1017,7 +1074,10 @@
         "starsSub": 0.439,
         "popularity": 0.761,
         "importance": 0.832
-      }
+      },
+      "scoreHistory": [
+        0.2
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-template-languages",
@@ -1069,7 +1129,10 @@
         "starsSub": 0.244,
         "popularity": 0.449,
         "importance": 0.615
-      }
+      },
+      "scoreHistory": [
+        20.3
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-template-languages",
@@ -1121,7 +1184,10 @@
         "starsSub": 0.244,
         "popularity": 0.568,
         "importance": 0.698
-      }
+      },
+      "scoreHistory": [
+        23
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-rss",
@@ -1173,7 +1239,10 @@
         "starsSub": 0.556,
         "popularity": 0.931,
         "importance": 0.952
-      }
+      },
+      "scoreHistory": [
+        2.7
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-syntaxhighlight",
@@ -1225,7 +1294,10 @@
         "starsSub": 0.579,
         "popularity": 0.937,
         "importance": 0.956
-      }
+      },
+      "scoreHistory": [
+        11.9
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-vite",
@@ -1277,7 +1349,10 @@
         "starsSub": 0.602,
         "popularity": 0.806,
         "importance": 0.865
-      }
+      },
+      "scoreHistory": [
+        12.5
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-vue",
@@ -1329,7 +1404,10 @@
         "starsSub": 0.619,
         "popularity": 0.642,
         "importance": 0.75
-      }
+      },
+      "scoreHistory": [
+        27.2
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-webc",
@@ -1381,7 +1459,10 @@
         "starsSub": 0.575,
         "popularity": 0.824,
         "importance": 0.877
-      }
+      },
+      "scoreHistory": [
+        20.1
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-server-browsersync",
@@ -1433,7 +1514,10 @@
         "starsSub": 0.333,
         "popularity": 0.68,
         "importance": 0.776
-      }
+      },
+      "scoreHistory": [
+        3.9
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-upgrade-help",
@@ -1485,7 +1569,10 @@
         "starsSub": 0.505,
         "popularity": 0.763,
         "importance": 0.834
-      }
+      },
+      "scoreHistory": [
+        3.4
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-utils",
@@ -1537,7 +1624,10 @@
         "starsSub": 0.301,
         "popularity": 0.895,
         "importance": 0.927
-      }
+      },
+      "scoreHistory": [
+        3.1
+      ]
     },
     {
       "nameWithOwner": "11ty/api-generator",
@@ -1589,7 +1679,10 @@
         "starsSub": 0.244,
         "popularity": 0.36,
         "importance": 0.552
-      }
+      },
+      "scoreHistory": [
+        0.2
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-plugin-font-awesome",
@@ -1641,7 +1734,10 @@
         "starsSub": 0.421,
         "popularity": 0.666,
         "importance": 0.766
-      }
+      },
+      "scoreHistory": [
+        3.6
+      ]
     },
     {
       "nameWithOwner": "11ty/gray-matter",
@@ -1693,7 +1789,10 @@
         "starsSub": 0.301,
         "popularity": 0.895,
         "importance": 0.927
-      }
+      },
+      "scoreHistory": [
+        0.1
+      ]
     },
     {
       "nameWithOwner": "11ty/image-color",
@@ -1745,7 +1844,10 @@
         "starsSub": 0.486,
         "popularity": 0.619,
         "importance": 0.733
-      }
+      },
+      "scoreHistory": [
+        0
+      ]
     },
     {
       "nameWithOwner": "11ty/import",
@@ -1797,7 +1899,10 @@
         "starsSub": 0.568,
         "popularity": 0.634,
         "importance": 0.744
-      }
+      },
+      "scoreHistory": [
+        34.1
+      ]
     },
     {
       "nameWithOwner": "11ty/is-land",
@@ -1849,7 +1954,10 @@
         "starsSub": 0.758,
         "popularity": 0.787,
         "importance": 0.851
-      }
+      },
+      "scoreHistory": [
+        8.5
+      ]
     },
     {
       "nameWithOwner": "11ty/lodash-custom",
@@ -1901,7 +2009,10 @@
         "starsSub": 0.189,
         "popularity": 0.878,
         "importance": 0.915
-      }
+      },
+      "scoreHistory": [
+        0.1
+      ]
     },
     {
       "nameWithOwner": "11ty/11ty-logo",
@@ -1953,7 +2064,10 @@
         "starsSub": 0.27,
         "popularity": 0.545,
         "importance": 0.682
-      }
+      },
+      "scoreHistory": [
+        1.8
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-utils",
@@ -2005,7 +2119,10 @@
         "starsSub": 0.301,
         "popularity": 0.664,
         "importance": 0.765
-      }
+      },
+      "scoreHistory": [
+        2.6
+      ]
     },
     {
       "nameWithOwner": "11ty/nunjucks",
@@ -2057,7 +2174,10 @@
         "starsSub": 0.403,
         "popularity": 0.678,
         "importance": 0.774
-      }
+      },
+      "scoreHistory": [
+        1.3
+      ]
     },
     {
       "nameWithOwner": "11ty/package-bundler",
@@ -2109,7 +2229,10 @@
         "starsSub": 0.189,
         "popularity": 0.611,
         "importance": 0.728
-      }
+      },
+      "scoreHistory": [
+        0.3
+      ]
     },
     {
       "nameWithOwner": "11ty/parse-date-strings",
@@ -2161,7 +2284,10 @@
         "starsSub": 0.43,
         "popularity": 0.705,
         "importance": 0.793
-      }
+      },
+      "scoreHistory": [
+        1.3
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-posthtml-urls",
@@ -2213,7 +2339,10 @@
         "starsSub": 0.189,
         "popularity": 0.878,
         "importance": 0.915
-      }
+      },
+      "scoreHistory": [
+        2.3
+      ]
     },
     {
       "nameWithOwner": "11ty/recursive-copy",
@@ -2265,7 +2394,10 @@
         "starsSub": 0.081,
         "popularity": 0.862,
         "importance": 0.904
-      }
+      },
+      "scoreHistory": [
+        2.9
+      ]
     },
     {
       "nameWithOwner": "11ty/tugboat",
@@ -2317,7 +2449,10 @@
         "starsSub": 0.45,
         "popularity": 0.067,
         "importance": 0.347
-      }
+      },
+      "scoreHistory": [
+        5.1
+      ]
     },
     {
       "nameWithOwner": "11ty/webc",
@@ -2369,7 +2504,10 @@
         "starsSub": 0.851,
         "popularity": 0.867,
         "importance": 0.907
-      }
+      },
+      "scoreHistory": [
+        30.4
+      ]
     },
     {
       "nameWithOwner": "11ty/docs",
@@ -2421,7 +2559,10 @@
         "starsSub": 0.74,
         "popularity": 0.111,
         "importance": 0.378
-      }
+      },
+      "scoreHistory": [
+        0.1
+      ]
     },
     {
       "nameWithOwner": "11ty/buildawesome",
@@ -2473,7 +2614,10 @@
         "starsSub": 1,
         "popularity": 0.586,
         "importance": 0.71
-      }
+      },
+      "scoreHistory": [
+        10.3
+      ]
     },
     {
       "nameWithOwner": "zachleat/announcement-banner",
@@ -2525,7 +2669,10 @@
         "starsSub": 0.462,
         "popularity": 0.463,
         "importance": 0.624
-      }
+      },
+      "scoreHistory": [
+        3.1
+      ]
     },
     {
       "nameWithOwner": "zachleat/browser-window",
@@ -2577,7 +2724,10 @@
         "starsSub": 0.661,
         "popularity": 0.518,
         "importance": 0.663
-      }
+      },
+      "scoreHistory": [
+        2.9
+      ]
     },
     {
       "nameWithOwner": "zachleat/carouscroll",
@@ -2629,7 +2779,10 @@
         "starsSub": 0.571,
         "popularity": 0.5,
         "importance": 0.65
-      }
+      },
+      "scoreHistory": [
+        15
+      ]
     },
     {
       "nameWithOwner": "zachleat/details-utils",
@@ -2681,7 +2834,10 @@
         "starsSub": 0.658,
         "popularity": 0.752,
         "importance": 0.826
-      }
+      },
+      "scoreHistory": [
+        0.2
+      ]
     },
     {
       "nameWithOwner": "zachleat/educational-sensational-inspirational-foundational",
@@ -2733,7 +2889,10 @@
         "starsSub": 0.368,
         "popularity": 0.055,
         "importance": 0.339
-      }
+      },
+      "scoreHistory": [
+        2.8
+      ]
     },
     {
       "nameWithOwner": "zachleat/fetch-links",
@@ -2785,7 +2944,10 @@
         "starsSub": 0,
         "popularity": 0.427,
         "importance": 0.599
-      }
+      },
+      "scoreHistory": [
+        0.5
+      ]
     },
     {
       "nameWithOwner": "zachleat/filter-container",
@@ -2837,7 +2999,10 @@
         "starsSub": 0.532,
         "popularity": 0.655,
         "importance": 0.758
-      }
+      },
+      "scoreHistory": [
+        11.8
+      ]
     },
     {
       "nameWithOwner": "zachleat/flex-luthor",
@@ -2889,7 +3054,10 @@
         "starsSub": 0.481,
         "popularity": 0.544,
         "importance": 0.681
-      }
+      },
+      "scoreHistory": [
+        3.4
+      ]
     },
     {
       "nameWithOwner": "zachleat/fundraising-status",
@@ -2941,7 +3109,10 @@
         "starsSub": 0.21,
         "popularity": 0.425,
         "importance": 0.598
-      }
+      },
+      "scoreHistory": [
+        3
+      ]
     },
     {
       "nameWithOwner": "zachleat/heading-anchors",
@@ -2993,7 +3164,10 @@
         "starsSub": 0.439,
         "popularity": 0.733,
         "importance": 0.813
-      }
+      },
+      "scoreHistory": [
+        3.6
+      ]
     },
     {
       "nameWithOwner": "zachleat/hypercard",
@@ -3045,7 +3219,10 @@
         "starsSub": 0.49,
         "popularity": 0.482,
         "importance": 0.638
-      }
+      },
+      "scoreHistory": [
+        0.2
+      ]
     },
     {
       "nameWithOwner": "zachleat/github-issue-to-json-file",
@@ -3097,7 +3274,10 @@
         "starsSub": 0.373,
         "popularity": 0.056,
         "importance": 0.339
-      }
+      },
+      "scoreHistory": [
+        0.5
+      ]
     },
     {
       "nameWithOwner": "zachleat/line-numbers",
@@ -3149,7 +3329,10 @@
         "starsSub": 0.597,
         "popularity": 0.565,
         "importance": 0.695
-      }
+      },
+      "scoreHistory": [
+        4.7
+      ]
     },
     {
       "nameWithOwner": "zachleat/noop",
@@ -3201,7 +3384,10 @@
         "starsSub": 0.189,
         "popularity": 0.651,
         "importance": 0.755
-      }
+      },
+      "scoreHistory": [
+        1.2
+      ]
     },
     {
       "nameWithOwner": "zachleat/pagefind-search",
@@ -3253,7 +3439,10 @@
         "starsSub": 0.427,
         "popularity": 0.566,
         "importance": 0.696
-      }
+      },
+      "scoreHistory": [
+        3.5
+      ]
     },
     {
       "nameWithOwner": "zachleat/parity-purchasing-power-price",
@@ -3305,7 +3494,10 @@
         "starsSub": 0.292,
         "popularity": 0.334,
         "importance": 0.533
-      }
+      },
+      "scoreHistory": [
+        2.7
+      ]
     },
     {
       "nameWithOwner": "zachleat/resizeasaurus",
@@ -3357,7 +3549,10 @@
         "starsSub": 0.417,
         "popularity": 0.445,
         "importance": 0.611
-      }
+      },
+      "scoreHistory": [
+        1.4
+      ]
     },
     {
       "nameWithOwner": "zachleat/seven-minute-tabs",
@@ -3409,7 +3604,10 @@
         "starsSub": 0.545,
         "popularity": 0.654,
         "importance": 0.758
-      }
+      },
+      "scoreHistory": [
+        2.6
+      ]
     },
     {
       "nameWithOwner": "zachleat/snow-fall",
@@ -3461,7 +3659,10 @@
         "starsSub": 0.587,
         "popularity": 0.655,
         "importance": 0.758
-      }
+      },
+      "scoreHistory": [
+        8.1
+      ]
     },
     {
       "nameWithOwner": "zachleat/spider-pig",
@@ -3513,7 +3714,10 @@
         "starsSub": 0.497,
         "popularity": 0.753,
         "importance": 0.827
-      }
+      },
+      "scoreHistory": [
+        0.3
+      ]
     },
     {
       "nameWithOwner": "zachleat/squirminal",
@@ -3565,7 +3769,10 @@
         "starsSub": 0.43,
         "popularity": 0.523,
         "importance": 0.666
-      }
+      },
+      "scoreHistory": [
+        1.2
+      ]
     },
     {
       "nameWithOwner": "zachleat/table-saw",
@@ -3617,7 +3824,10 @@
         "starsSub": 0.684,
         "popularity": 0.771,
         "importance": 0.84
-      }
+      },
+      "scoreHistory": [
+        2.3
+      ]
     },
     {
       "nameWithOwner": "zachleat/throbber",
@@ -3669,7 +3879,10 @@
         "starsSub": 0.339,
         "popularity": 0.385,
         "importance": 0.569
-      }
+      },
+      "scoreHistory": [
+        0.1
+      ]
     },
     {
       "nameWithOwner": "zachleat/video-radio-star",
@@ -3721,7 +3934,10 @@
         "starsSub": 0.505,
         "popularity": 0.46,
         "importance": 0.622
-      }
+      },
+      "scoreHistory": [
+        3.1
+      ]
     },
     {
       "nameWithOwner": "zachleat/w3c-banners",
@@ -3773,7 +3989,10 @@
         "starsSub": 0.27,
         "popularity": 0.334,
         "importance": 0.534
-      }
+      },
+      "scoreHistory": [
+        4.5
+      ]
     },
     {
       "nameWithOwner": "zachleat/webcare-webshare",
@@ -3825,7 +4044,10 @@
         "starsSub": 0.383,
         "popularity": 0.483,
         "importance": 0.638
-      }
+      },
+      "scoreHistory": [
+        5.4
+      ]
     },
     {
       "nameWithOwner": "11ty/11ty-community",
@@ -3877,7 +4099,10 @@
         "starsSub": 0.455,
         "popularity": 0.068,
         "importance": 0.348
-      }
+      },
+      "scoreHistory": [
+        0.2
+      ]
     },
     {
       "nameWithOwner": "zachleat/artificial-chart",
@@ -3929,7 +4154,10 @@
         "starsSub": 0.333,
         "popularity": 0.523,
         "importance": 0.666
-      }
+      },
+      "scoreHistory": [
+        3.3
+      ]
     },
     {
       "nameWithOwner": "11ty/npm-bare-error",
@@ -3981,7 +4209,10 @@
         "starsSub": 0,
         "popularity": 0.6,
         "importance": 0.72
-      }
+      },
+      "scoreHistory": [
+        1.3
+      ]
     },
     {
       "nameWithOwner": "11ty/eleventy-base-blog",
@@ -4033,7 +4264,10 @@
         "starsSub": 0.862,
         "popularity": 0.129,
         "importance": 0.39
-      }
+      },
+      "scoreHistory": [
+        0.4
+      ]
     },
     {
       "nameWithOwner": "zachleat/esm-import-transformer",
@@ -4085,7 +4319,10 @@
         "starsSub": 0.378,
         "popularity": 0.907,
         "importance": 0.935
-      }
+      },
+      "scoreHistory": [
+        2.3
+      ]
     },
     {
       "nameWithOwner": "zachleat/glyphhanger",
@@ -4137,7 +4374,10 @@
         "starsSub": 0.798,
         "popularity": 0.797,
         "importance": 0.858
-      }
+      },
+      "scoreHistory": [
+        2
+      ]
     },
     {
       "nameWithOwner": "zachleat/import-module-string",
@@ -4189,7 +4429,10 @@
         "starsSub": 0.427,
         "popularity": 0.723,
         "importance": 0.806
-      }
+      },
+      "scoreHistory": [
+        0.4
+      ]
     },
     {
       "nameWithOwner": "zachleat/infinity-burger",
@@ -4241,7 +4484,10 @@
         "starsSub": 0.421,
         "popularity": 0.459,
         "importance": 0.621
-      }
+      },
+      "scoreHistory": [
+        0
+      ]
     },
     {
       "nameWithOwner": "zachleat/node-retrieve-globals",
@@ -4293,7 +4539,10 @@
         "starsSub": 0.301,
         "popularity": 0.895,
         "importance": 0.927
-      }
+      },
+      "scoreHistory": [
+        6.4
+      ]
     },
     {
       "nameWithOwner": "zachleat/performance-leaderboard",
@@ -4345,7 +4594,10 @@
         "starsSub": 0.539,
         "popularity": 0.705,
         "importance": 0.793
-      }
+      },
+      "scoreHistory": [
+        9.1
+      ]
     },
     {
       "nameWithOwner": "zachleat/performance-leaderboard-pagespeed-insights",
@@ -4397,7 +4649,10 @@
         "starsSub": 0.414,
         "popularity": 0.347,
         "importance": 0.543
-      }
+      },
+      "scoreHistory": [
+        2.7
+      ]
     },
     {
       "nameWithOwner": "zachleat/speedlify",
@@ -4449,7 +4704,10 @@
         "starsSub": 0.808,
         "popularity": 0.121,
         "importance": 0.385
-      }
+      },
+      "scoreHistory": [
+        0.3
+      ]
     },
     {
       "nameWithOwner": "zachleat/speedlify-score",
@@ -4501,7 +4759,10 @@
         "starsSub": 0.447,
         "popularity": 0.698,
         "importance": 0.788
-      }
+      },
+      "scoreHistory": [
+        0.1
+      ]
     },
     {
       "nameWithOwner": "zachleat/package-zachleat",
@@ -4553,7 +4814,10 @@
         "starsSub": 0.21,
         "popularity": 0.475,
         "importance": 0.632
-      }
+      },
+      "scoreHistory": [
+        0.1
+      ]
     },
     {
       "nameWithOwner": "zachleat/zachleat.com",
@@ -4605,7 +4869,10 @@
         "starsSub": 0.625,
         "popularity": 0.094,
         "importance": 0.366
-      }
+      },
+      "scoreHistory": [
+        0
+      ]
     },
     {
       "nameWithOwner": "zachleat/web-font-loading-recipes",
@@ -4657,7 +4924,10 @@
         "starsSub": 0.818,
         "popularity": 0.123,
         "importance": 0.386
-      }
+      },
+      "scoreHistory": [
+        9.7
+      ]
     }
   ]
 }
