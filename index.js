@@ -465,24 +465,23 @@ async function main() {
   );
   const generatedAt = new Date().toISOString();
 
-  // Cumulative Health Rating (0–100, higher = better maintained): a
-  // download-weighted average of per-package health (100 − score), so it
-  // reflects how maintained your ecosystem is *as users experience it* — a
-  // neglected widely-used package hurts it far more than an obscure one.
-  // Falls back to a plain mean when there are no downloads to weight by.
-  const totalDownloads = sorted.reduce((sum, p) => sum + (p.downloads || 0), 0);
-  const healthRaw = totalDownloads
-    ? sorted.reduce((sum, p) => sum + (p.downloads || 0) * (100 - p.score), 0) /
-      totalDownloads
-    : sorted.length
-      ? sorted.reduce((sum, p) => sum + (100 - p.score), 0) / sorted.length
-      : 100;
+  // Cumulative Health Rating (0–100, higher = better maintained): the plain mean
+  // of per-package health (100 − score), counting every package equally.
+  // Deliberately NOT download-weighted — npm downloads are power-law distributed,
+  // so a handful of mega-packages would own the score and a long tail of
+  // abandoned packages would barely register. Each package's own `score` already
+  // scales by importance, so popularity is still represented.
+  const healthRaw = sorted.length
+    ? sorted.reduce((sum, p) => sum + (100 - p.score), 0) / sorted.length
+    : 100;
   const healthRating = Math.round(healthRaw * 10) / 10;
 
   const outputDir = options.outputDir || "docs";
-  const jsonPath = path.resolve(
-    args.json || path.join(process.cwd(), outputDir, "report.json"),
-  );
+  // path.resolve (not join) so an absolute `outputDir` is honored rather than
+  // being appended to the cwd.
+  const jsonPath = args.json
+    ? path.resolve(args.json)
+    : path.resolve(outputDir, "report.json");
 
   // Per-package neglect-score history: read the previous report and keep the last
   // 10 scores. If the previous report was generated on the same calendar day,
@@ -597,7 +596,7 @@ async function main() {
   console.error(
     c("1", "\nHealth Rating: ") +
       c(healthColor, `${healthRating.toFixed(1)} / 100`) +
-      c("2", ` — download-weighted health of ${sorted.length} packages (higher is better)`),
+      c("2", ` — average health of ${sorted.length} packages (higher is better)`),
   );
 
   // List the shortnames of every discovered repo left out of the report, grouped
@@ -616,7 +615,11 @@ async function main() {
     );
     const byReason = new Map();
     for (const p of excluded) {
-      let label = p.nameWithOwner;
+      // Workspace members share their parent's repo name, so include the path to
+      // keep them distinguishable instead of rendering as duplicate lines.
+      let label = p.workspacePath
+        ? `${p.nameWithOwner}/${p.workspacePath}`
+        : p.nameWithOwner;
       if (p.npmStatus === "not-source") {
         label += `  →  npm source: ${p.sourceRepo}`;
       } else if (p.npmStatus === "not-owned") {

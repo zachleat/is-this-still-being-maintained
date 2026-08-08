@@ -238,11 +238,16 @@ exists, eleventy-fetch falls back to the stale value rather than erroring.
 - **stdout**: a cumulative **Health Rating** headline, then a table sorted
   worst-first by score, colored (red ≥60, yellow ≥30).
 - **Health Rating** (`healthRating`, also a top-level field in `report.json`): a
-  single 0–100 measure of how maintained *all* your packages are. Higher is
-  better. It's a **download-weighted** average of per-package health (`100 −
-  score`), so it reflects your ecosystem's health *as users experience it* — a
-  neglected widely-used package hurts it far more than an obscure one. (Falls
-  back to a plain mean if there are no downloads to weight by.)
+  single 0–100 measure of how maintained *all* your packages are — the plain mean
+  of per-package health (`100 − score`), counting every package equally. Higher
+  is better.
+
+  It is deliberately **not** download-weighted. npm downloads are power-law
+  distributed, so weighting by them lets a handful of mega-packages own the score
+  and a long tail of abandoned packages barely register (for the `react` org that
+  was the difference between 96.9 and 86.7, with the top 5 packages holding 60%
+  of the weight). Popularity is still represented, because each package's own
+  `score` is already scaled by importance.
 - **`docs/report.json`** (directory set by `outputDir`, created if
   missing; override the full path with `--json`): `{ config, count, projects[] }`,
   each project carrying raw metrics + `score` + `breakdown`. Projects are sorted
