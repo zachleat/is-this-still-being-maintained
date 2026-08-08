@@ -118,13 +118,16 @@ guiding idea: a package needs maintenance when there is **unaddressed work**
 multiply:
 
 ```
-score   = 100 × neglect × importance
-neglect = staleness × demand
+score     = 100 × attention × importance
+attention = max(neglect, security)
+neglect   = staleness × demand
 ```
 
 - **staleness** (0–1): days since the most recent git push *or* npm publish,
   ramping to 1.0 at `fullyStaleDays` (default 730 = 2 years).
 - **demand** (`backlogFloor`–1): how much open work is piling up — see below.
+- **security** (0–`securityWeight`): open runtime vulnerabilities, a separate
+  term that ignores staleness — see [Security](#security-a-separate-staleness-independent-term).
 - **importance** (`importanceFloor`–1): popularity as a multiplier, so an
   unpopular package still counts (down to `importanceFloor`, default 0.3) but a
   widely-used one weighs more. It blends two log-scaled signals via
@@ -147,12 +150,16 @@ Because the terms multiply, two things fall out for free:
 ### demand — the open issues & PRs signal
 
 Raw counts are deceptive: a busy flagship accrues issues *because* it's popular.
-So `demand` is shaped three ways:
+Backlog counts unaddressed work — open **issues** and open **PRs** — and is
+shaped these ways:
 
-- **Log-scaled** counts (`issuesSaturation` 300, `prsSaturation` 60), so 2→20
-  issues moves the needle but 156→300 doesn't just peg the ceiling.
-- **PR-weighted** (`backlogWeights`, default issues 0.4 / PRs 0.6): an ignored PR
+- **Log-scaled** counts (`issuesSaturation` 300, `prsSaturation` 60), so a couple
+  of items move the needle but a huge pile doesn't just peg the ceiling.
+- **PR-weighted** (`backlogWeights`, default issues 0.3 / PRs 0.7): an ignored PR
   is a stronger "not maintained" signal than an open issue.
+
+(Security vulnerabilities are handled by a separate term — see below — because
+they should surface even on an actively-maintained repo.)
 - **Floored** (`backlogFloor`, default 0.05): open issues/PRs effectively
   *drive* the score — with zero open work `demand` collapses to just `0.05`, so a
   package with **0 issues and 0 PRs scores ~0** (capped around 5 even when very
@@ -165,6 +172,29 @@ So `demand` is shaped three ways:
 Tune any of these in `config.json` under `"scoring"`. Every sub-score is written
 into each project's `breakdown` in the JSON report so you can see exactly why
 something ranked where it did.
+
+### Security (a separate, staleness-independent term)
+
+`score = 100 × attention × importance`, where `attention = max(neglect,
+security)`. So security is its **own** term, not part of `demand` — it **bypasses
+the staleness gate**, because an unpatched vulnerability is urgent even on an
+actively-pushed repo. `security = securitySub × securityWeight` (default
+`securityWeight` 0.5), where `securitySub` is the log-scaled runtime alert count
+(`vulnerabilitiesSaturation` 10). A vulnerable-but-active package now surfaces on
+its `security` term even when `neglect` is ~0.
+
+`openVulnerabilities` is the count of open Dependabot alerts, and:
+
+- **Runtime only** — devDependency alerts are excluded (via GraphQL
+  `dependencyScopes: [RUNTIME]`), since a dev-only vuln doesn't ship to consumers.
+- **npm packages only** — templates, unpublished repos, and docs sites report
+  `null` and get no security signal.
+- **Token access** — reading `vulnerabilityAlerts` needs admin access + Dependabot
+  enabled. Locally a broad `gh` login covers repos you admin; in **CI the default
+  `GITHUB_TOKEN` can't read other repos' alerts**, so set a PAT with the
+  `security_events` (or `repo`) scope as `MAINTENANCE_GH_TOKEN`, or every package
+  reports `openVulnerabilities: null`. The fetch is resilient — unreadable repos
+  degrade to `null` rather than failing the run.
 
 ### A note on "staleness"
 

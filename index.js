@@ -4,7 +4,11 @@ import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
 import path from "node:path";
 
-import { discoverRepos, fetchFilesAcrossRepos } from "./lib/github.js";
+import {
+  discoverRepos,
+  fetchFilesAcrossRepos,
+  fetchVulnerabilityCounts,
+} from "./lib/github.js";
 import { registryMetrics, fetchDownloads } from "./lib/npm.js";
 import { scoreProject } from "./lib/score.js";
 
@@ -254,6 +258,18 @@ async function main() {
 
   const period = options.downloadsPeriod || "last-month";
 
+  // Security: open Dependabot alert counts per repo (an "npm audit"-style signal
+  // for vulnerable dependencies). Resilient — repos we can't read report null.
+  const candidateRepoNames = [
+    ...new Set(candidates.map((r) => r.nameWithOwner)),
+  ];
+  console.error(
+    c("2", `Fetching security alerts for ${candidateRepoNames.length} repo(s)…`),
+  );
+  const vulnByRepo = await fetchVulnerabilityCounts(candidateRepoNames, {
+    duration: cacheDuration,
+  });
+
   // Phase 1: registry metadata (publish dates) — one request per package,
   // concurrent, since the registry CDN tolerates it.
   console.error(
@@ -364,6 +380,11 @@ async function main() {
       openPRs: repo.openPRs,
       mergedPRs: repo.mergedPRs,
       closedPRs: repo.closedPRs,
+      // Only attribute vulnerabilities to actual npm packages, not templates /
+      // unpublished repos / docs sites.
+      openVulnerabilities: published
+        ? vulnByRepo.get(repo.nameWithOwner) ?? null
+        : null,
       repoCreatedAt: repo.repoCreatedAt || null,
       pushedAt: repo.pushedAt,
       lastPublish: npm?.lastPublish || null,

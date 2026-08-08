@@ -42,6 +42,8 @@
     "fullyStaleDays": 730,
     "issuesSaturation": 300,
     "prsSaturation": 60,
+    "vulnerabilitiesSaturation": 10,
+    "securityWeight": 0.5,
     "importanceWeights": {
       "downloads": 0.85,
       "stars": 0.15
