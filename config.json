@@ -39,7 +39,7 @@
       "openIssues": 0.3,
       "openPRs": 0.7
     },
-    "backlogFloor": 0.05,
+    "backlogFloor": 0,
     "fullyStaleDays": 730,
     "issuesSaturation": 300,
     "prsSaturation": 60,

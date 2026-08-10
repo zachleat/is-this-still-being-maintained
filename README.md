@@ -162,14 +162,14 @@ shaped these ways:
 
 (Security vulnerabilities are handled by a separate term — see below — because
 they should surface even on an actively-maintained repo.)
-- **Floored** (`backlogFloor`, default 0.05): open issues/PRs effectively
-  *drive* the score — with zero open work `demand` collapses to just `0.05`, so a
-  package with **0 issues and 0 PRs scores ~0** (capped around 5 even when very
-  old and widely-used) because nobody's asking for anything. The small non-zero
-  floor keeps a faint signal so a stale, heavily-used, zero-backlog package
-  doesn't vanish entirely. Set it to `0` to make open issues/PRs strictly
-  required (zero-backlog → exactly 0); raise it toward 1 to let
-  staleness/popularity matter on their own again.
+- **Floored** (`backlogFloor`, default `0`): open work is *required* to score.
+  With zero open issues and zero open PRs, `demand` collapses to 0, so
+  `neglect = staleness × 0 = 0` — and with no vulnerabilities the security term is
+  0 too. A package with **no issues, no PRs, and no vulnerabilities scores exactly
+  0 no matter how old it is**: age alone isn't neglect if nobody is asking for
+  anything and nothing is broken. Raise `backlogFloor` toward 1 to let
+  staleness/popularity contribute on their own again (e.g. `0.05` gives stale,
+  widely-used, zero-backlog packages a faint nonzero score).
 
 Tune any of these in `config.json` under `"scoring"`. Every sub-score is written
 into each project's `breakdown` in the JSON report so you can see exactly why
