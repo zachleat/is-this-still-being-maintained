@@ -3118,9 +3118,9 @@
       }
     },
     "performance-leaderboard": {
-      "publishCount": 52,
+      "publishCount": 53,
       "firstPublish": "2020-03-21T02:50:41.372Z",
-      "lastPublish": "2025-09-07T19:07:45.591Z",
+      "lastPublish": "2026-08-10T00:16:33.135Z",
       "monthlyReleases": {
         "start": "2020-03",
         "counts": [
@@ -3190,6 +3190,17 @@
           2,
           0,
           1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           1
         ]
       }
