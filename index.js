@@ -408,9 +408,7 @@ async function main() {
       // Production dependency weight (devDependencies excluded): the count
       // declared in package.json, and the full resolved transitive tree.
       // Reported only — deliberately not part of the score.
-      productionDependencies: published
-        ? Object.keys(repo.packageJson?.dependencies ?? {}).length
-        : null,
+      productionDependencies: npm?.productionDependencies ?? null,
       transitiveDependencies: published
         ? vulnByPackage.get(repo.packageName)?.transitiveDependencies ?? null
         : null,
