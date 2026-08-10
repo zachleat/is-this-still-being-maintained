@@ -403,7 +403,16 @@ async function main() {
       // Only meaningful for actual npm packages, so templates / unpublished
       // repos / docs sites report null.
       openVulnerabilities: published
-        ? vulnByPackage.get(repo.packageName) ?? null
+        ? vulnByPackage.get(repo.packageName)?.vulnerabilities ?? null
+        : null,
+      // Production dependency weight (devDependencies excluded): the count
+      // declared in package.json, and the full resolved transitive tree.
+      // Reported only — deliberately not part of the score.
+      productionDependencies: published
+        ? Object.keys(repo.packageJson?.dependencies ?? {}).length
+        : null,
+      transitiveDependencies: published
+        ? vulnByPackage.get(repo.packageName)?.transitiveDependencies ?? null
         : null,
       repoCreatedAt: repo.repoCreatedAt || null,
       pushedAt: repo.pushedAt,
