@@ -1,5 +1,5 @@
 {
-  "count": 79,
+  "count": 78,
   "packages": {
     "@11ty/client": {
       "publishCount": 10,
@@ -3202,17 +3202,6 @@
           0,
           0,
           1
-        ]
-      }
-    },
-    "performance-leaderboard-pagespeed-insights": {
-      "publishCount": 2,
-      "firstPublish": "2023-02-13T02:34:20.953Z",
-      "lastPublish": "2023-02-13T04:08:06.960Z",
-      "monthlyReleases": {
-        "start": "2023-02",
-        "counts": [
-          2
         ]
       }
     },
