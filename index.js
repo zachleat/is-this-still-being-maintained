@@ -334,6 +334,28 @@ async function main() {
     downloadErrors.map((e) => [e.name, e.message]),
   );
 
+  // Load the previous report up front: it carries forward per-package score
+  // history, and — when a downloads lookup fails — the last known download count,
+  // so a transient npm error doesn't overwrite a real number with 0. Reading it
+  // before scoring means the carried-forward value also feeds `importance`.
+  const outputDir = options.outputDir || "docs";
+  // path.resolve (not join) so an absolute `outputDir` is honored rather than
+  // being appended to the cwd.
+  const jsonPath = args.json
+    ? path.resolve(args.json)
+    : path.resolve(outputDir, "report.json");
+  let prevReport = null;
+  try {
+    prevReport = JSON.parse(await readFile(jsonPath, "utf8"));
+  } catch {
+    /* no prior report — histories and download fallbacks start fresh */
+  }
+  const prevByName = new Map(
+    (prevReport?.projects ?? [])
+      .filter((p) => p.packageName)
+      .map((p) => [p.packageName, p]),
+  );
+
   // Web-component heuristic: fetch each package's `main` entry file (from
   // package.json, defaulting to index.js) and look for a `customElements`
   // reference. Batched across repos so this is a few requests, not one per package.
@@ -361,6 +383,15 @@ async function main() {
       meta && source && owned
         ? downloadErrorNames.get(repo.packageName)
         : null;
+    // Freshly fetched count, and the previous report's value as a fallback for
+    // when this run's lookup failed (same period only — a different
+    // `downloadsPeriod` isn't comparable).
+    const freshDownloads = downloadError
+      ? null
+      : downloads.get(repo.packageName) ?? null;
+    const prevProject = prevByName.get(repo.packageName);
+    const staleDownloads =
+      prevProject?.downloadsPeriod === period ? prevProject.downloads : null;
     const npmStatus = error
       ? "error"
       : meta
@@ -422,7 +453,10 @@ async function main() {
       latestVersion: npm?.latestVersion || null,
       publishCount: npm?.publishCount ?? null,
       prerelease: npm?.prerelease || false,
-      downloads: published ? downloads.get(repo.packageName) ?? 0 : 0,
+      // On a failed lookup keep the previous report's number rather than
+      // overwriting a real value with 0 (which would also deflate `importance`).
+      // `downloadsKnown: false` marks it as carried forward, not freshly fetched.
+      downloads: published ? freshDownloads ?? staleDownloads ?? 0 : 0,
       downloadsKnown: published && !downloadError,
       downloadsPeriod: period,
       published,
@@ -483,32 +517,25 @@ async function main() {
     : 100;
   const healthRating = Math.round(healthRaw * 10) / 10;
 
-  const outputDir = options.outputDir || "docs";
-  // path.resolve (not join) so an absolute `outputDir` is honored rather than
-  // being appended to the cwd.
-  const jsonPath = args.json
-    ? path.resolve(args.json)
-    : path.resolve(outputDir, "report.json");
-
-  // Per-package neglect-score history: read the previous report and keep the last
-  // 10 scores. If the previous report was generated on the same calendar day,
-  // replace its newest entry (so same-day reruns don't pile up); otherwise append.
+  // Per-package neglect-score history, from the previous report loaded earlier:
+  // keep the last 10 scores. If that report was generated on the same calendar
+  // day, replace its newest entry (so same-day reruns don't pile up); else append.
   const prevHistory = new Map();
   let prevHealthHistory = [];
   let sameDay = false;
-  try {
-    const prev = JSON.parse(await readFile(jsonPath, "utf8"));
-    sameDay = prev.generatedAt?.slice(0, 10) === generatedAt.slice(0, 10);
-    if (Array.isArray(prev.healthRatingHistory)) {
-      prevHealthHistory = prev.healthRatingHistory;
-    }
-    for (const p of prev.projects || []) {
-      if (p.packageName && Array.isArray(p.scoreHistory)) {
-        prevHistory.set(p.packageName, p.scoreHistory);
+  {
+    const prev = prevReport;
+    if (prev) {
+      sameDay = prev.generatedAt?.slice(0, 10) === generatedAt.slice(0, 10);
+      if (Array.isArray(prev.healthRatingHistory)) {
+        prevHealthHistory = prev.healthRatingHistory;
+      }
+      for (const p of prev.projects || []) {
+        if (p.packageName && Array.isArray(p.scoreHistory)) {
+          prevHistory.set(p.packageName, p.scoreHistory);
+        }
       }
     }
-  } catch {
-    /* no prior report — history starts fresh */
   }
   const appendOrReplace = (history, value) => {
     const next = [...history];
