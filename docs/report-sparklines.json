@@ -354,9 +354,9 @@
       }
     },
     "@11ty/eleventy-dev-server": {
-      "publishCount": 35,
+      "publishCount": 36,
       "firstPublish": "2022-03-08T22:41:37.867Z",
-      "lastPublish": "2026-06-10T22:47:58.846Z",
+      "lastPublish": "2026-08-19T23:48:49.475Z",
       "monthlyReleases": {
         "start": "2022-03",
         "counts": [
@@ -408,6 +408,8 @@
           3,
           0,
           0,
+          0,
+          1,
           0,
           1,
           0,

@@ -1,6 +1,6 @@
 {
   "packages": 78,
-  "publishCount": 1160,
+  "publishCount": 1161,
   "monthlyReleases": {
     "start": "2015-12",
     "counts": [
@@ -132,7 +132,7 @@
       7,
       18,
       15,
-      5
+      6
     ]
   }
 }
