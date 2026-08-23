@@ -1,5 +1,5 @@
 {
-  "count": 78,
+  "count": 90,
   "packages": {
     "@11ty/client": {
       "publishCount": 10,
@@ -335,6 +335,28 @@
           0,
           0,
           0,
+          1
+        ]
+      }
+    },
+    "@11ty/eleventy-assets": {
+      "publishCount": 7,
+      "firstPublish": "2020-03-25T21:36:36.796Z",
+      "lastPublish": "2021-02-22T04:46:46.528Z",
+      "monthlyReleases": {
+        "start": "2020-03",
+        "counts": [
+          2,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
           1
         ]
       }
@@ -792,6 +814,17 @@
           1,
           0,
           1
+        ]
+      }
+    },
+    "@11ty/eleventy-plugin-img": {
+      "publishCount": 3,
+      "firstPublish": "2020-02-25T13:26:24.966Z",
+      "lastPublish": "2020-02-25T14:48:41.286Z",
+      "monthlyReleases": {
+        "start": "2020-02",
+        "counts": [
+          3
         ]
       }
     },
@@ -2674,6 +2707,73 @@
         ]
       }
     },
+    "avatar-local-cache": {
+      "publishCount": 11,
+      "firstPublish": "2019-08-20T13:36:07.924Z",
+      "lastPublish": "2020-02-13T17:52:04.871Z",
+      "monthlyReleases": {
+        "start": "2019-08",
+        "counts": [
+          8,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "bigtext": {
+      "publishCount": 4,
+      "firstPublish": "2015-02-28T05:40:09.010Z",
+      "lastPublish": "2017-06-01T19:57:30.262Z",
+      "monthlyReleases": {
+        "start": "2015-02",
+        "counts": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      }
+    },
+    "browser-logo-icon-set": {
+      "publishCount": 6,
+      "firstPublish": "2016-12-02T04:35:33.499Z",
+      "lastPublish": "2016-12-05T14:02:40.707Z",
+      "monthlyReleases": {
+        "start": "2016-12",
+        "counts": [
+          6
+        ]
+      }
+    },
     "eleventy": {
       "publishCount": 11,
       "firstPublish": "2016-11-29T11:46:45.556Z",
@@ -2842,6 +2942,62 @@
         ]
       }
     },
+    "font-stats": {
+      "publishCount": 2,
+      "firstPublish": "2017-12-25T19:55:20.501Z",
+      "lastPublish": "2017-12-26T23:27:13.640Z",
+      "monthlyReleases": {
+        "start": "2017-12",
+        "counts": [
+          2
+        ]
+      }
+    },
+    "fontfaceonload": {
+      "publishCount": 9,
+      "firstPublish": "2014-08-07T22:19:28.975Z",
+      "lastPublish": "2017-06-28T22:14:45.890Z",
+      "monthlyReleases": {
+        "start": "2014-08",
+        "counts": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      }
+    },
     "glyphhanger": {
       "publishCount": 20,
       "firstPublish": "2017-01-11T03:12:58.300Z",
@@ -2962,6 +3118,17 @@
           0,
           0,
           0,
+          1
+        ]
+      }
+    },
+    "iliveinomaha": {
+      "publishCount": 1,
+      "firstPublish": "2015-04-18T16:01:20.907Z",
+      "lastPublish": "2015-04-18T16:01:20.907Z",
+      "monthlyReleases": {
+        "start": "2015-04",
+        "counts": [
           1
         ]
       }
@@ -3243,6 +3410,44 @@
         ]
       }
     },
+    "performance-leaderboard-pagespeed-insights": {
+      "publishCount": 2,
+      "firstPublish": "2023-02-13T02:34:20.953Z",
+      "lastPublish": "2023-02-13T04:08:06.960Z",
+      "monthlyReleases": {
+        "start": "2023-02",
+        "counts": [
+          2
+        ]
+      }
+    },
+    "pommel-source": {
+      "publishCount": 1,
+      "firstPublish": "2020-08-30T04:04:54.436Z",
+      "lastPublish": "2020-08-30T04:04:54.548Z",
+      "monthlyReleases": {
+        "start": "2020-08",
+        "counts": [
+          1
+        ]
+      }
+    },
+    "postcss-foft-classes": {
+      "publishCount": 5,
+      "firstPublish": "2017-10-17T03:19:05.762Z",
+      "lastPublish": "2018-03-29T20:36:19.543Z",
+      "monthlyReleases": {
+        "start": "2017-10",
+        "counts": [
+          2,
+          1,
+          0,
+          0,
+          0,
+          2
+        ]
+      }
+    },
     "speedlify-score": {
       "publishCount": 13,
       "firstPublish": "2020-07-18T02:49:03.865Z",
@@ -3314,6 +3519,37 @@
           0,
           0,
           0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "twitter-avatar-url": {
+      "publishCount": 9,
+      "firstPublish": "2020-06-24T01:13:59.523Z",
+      "lastPublish": "2022-02-25T22:51:04.809Z",
+      "monthlyReleases": {
+        "start": "2020-06",
+        "counts": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          1,
           0,
           0,
           0,
