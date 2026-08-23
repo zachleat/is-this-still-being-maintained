@@ -242,7 +242,9 @@ async function main() {
     if (excludeSet.has(r.nameWithOwner)) return false;
     if (keepSet.has(r.nameWithOwner)) return true;
     if (r.packageName && pkgKeepSet.has(r.packageName)) return true;
-    if (r.isFork || r.isArchived || r.isPrivate || r.isDisabled) return false;
+    // Archived repos are kept (and flagged `isArchived`) so their npm publishing
+    // and download stats still count — archiving retires the repo, not the package.
+    if (r.isFork || r.isPrivate || r.isDisabled) return false;
     if (r.isPrivatePackage) return false; // package.json marked "private": true
     if (monitorSet.size > 0 && !monitorSet.has(r.nameWithOwner)) return false;
     // Template repos are worth tracking even without a package.json / npm release.
@@ -420,6 +422,7 @@ async function main() {
       homepageUrl: repo.homepageUrl || null,
       workspacePath: repo.workspacePath || null,
       packageName: repo.packageName || null,
+      isArchived: repo.isArchived,
       isTemplate: repo.isTemplate,
       isWebComponent: isWebComponent(repo),
       description: npm?.description || null,

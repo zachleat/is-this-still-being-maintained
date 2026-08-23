@@ -64,8 +64,8 @@ Options:
 }
 ```
 
-A repo is skipped automatically if it's a fork, archived, private, disabled, or
-has a `package.json` marked `"private": true`, or (by default) if it has no
+A repo is skipped automatically if it's a fork, private, disabled, or has a
+`package.json` marked `"private": true`, or (by default) if it has no
 `package.json`. To force one of these back in, list its `"owner/repo"` in
 `alwaysInclude` — it bypasses every automatic filter (and the template-dedup and
 `publishedOnly` drops), and it also pulls in that repo's **workspace members**,
@@ -73,6 +73,12 @@ even ones marked `private: true`. To keep a *single* package instead of a whole
 repo's worth (e.g. one private workspace member without its siblings), list the
 npm package name in `alwaysIncludePackages`. `exclude` still wins over both, and
 a misspelled entry that matches no discovered repo/package prints a warning.
+
+**Archived repos are kept**, flagged with `isArchived: true`. Archiving retires
+the *repo*, not the published package — the code stays on npm and people keep
+installing it — so archived projects still contribute their publishing and
+download stats to the report and the cumulative totals. They always score 0
+(see below).
 
 **Template copies are de-duplicated.** Many repos are generated from a starter
 (e.g. `eleventy-base-blog`) and keep the template's `package.json` name, so
@@ -101,7 +107,7 @@ no `package.json` or was never published, so it's included and scored on its
 GitHub activity alone. If its name happens to collide with someone else's npm
 package, that foreign npm data is *not* attached — the template shows no
 downloads/publish dates and scores purely on repo signals. (Templates still
-respect the fork/archived/private filters.)
+respect the fork/private filters.)
 
 **Ownership is verified by npm maintainers.** A repo can share a name with an npm
 package published by someone else — e.g. your `eleventy-base-blog` repo vs the
@@ -130,6 +136,11 @@ neglect   = staleness × demand
 - **demand** (`backlogFloor`–1): how much open work is piling up — see below.
 - **security** (0–`securityWeight`): open runtime vulnerabilities, a separate
   term that ignores staleness — see [Security](#security-a-separate-staleness-independent-term).
+- **archived repos always score 0**: `attention` is forced to 0, because
+  archiving is an explicit "no longer maintained" declaration — nothing is being
+  asked of the project, however big its backlog. The `neglect` and `security`
+  sub-scores are still reported in `breakdown` so you can see what it would
+  otherwise have scored, and its download/publish stats still count.
 - **importance** (`importanceFloor`–1): popularity as a multiplier, so an
   unpopular package still counts (down to `importanceFloor`, default 0.3) but a
   widely-used one weighs more. It blends two log-scaled signals via
