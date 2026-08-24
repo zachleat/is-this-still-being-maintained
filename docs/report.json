@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T22:05:05.297Z",
+  "generatedAt": "2026-08-24T00:44:20.236Z",
   "healthRating": 96.6,
   "healthRatingHistory": [
     96.1,
@@ -10,7 +10,7 @@
     96.1,
     96.1,
     96.1,
-    96.1,
+    96.6,
     96.6
   ],
   "config": {
@@ -72,6 +72,7 @@
       "lastStablePublishVersion": "4.0.0-alpha.1",
       "firstPublish": "2025-07-30T19:37:20.115Z",
       "latestVersion": "4.0.0-alpha.1",
+      "npmDeprecated": false,
       "publishCount": 10,
       "prerelease": true,
       "downloads": 3253,
@@ -88,17 +89,16 @@
         "prsSub": 0.752,
         "backlogSeverity": 0.793,
         "demand": 0.793,
-        "neglect": 0.004,
+        "neglect": 0.005,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.004,
+        "attention": 0.005,
         "downloadsSub": 0.585,
         "starsSub": 1,
         "popularity": 0.648,
         "importance": 0.753
       },
       "scoreHistory": [
-        0.2,
         0.3,
         0.4,
         0,
@@ -107,6 +107,7 @@
         0.1,
         0.1,
         0.2,
+        0.3,
         0.3
       ]
     },
@@ -139,6 +140,7 @@
       "lastStablePublishVersion": "1.0.9",
       "firstPublish": "2024-06-14T20:02:35.660Z",
       "latestVersion": "1.0.9",
+      "npmDeprecated": false,
       "publishCount": 11,
       "prerelease": false,
       "downloads": 1776,
@@ -170,7 +172,7 @@
         0.8,
         0.8,
         0.8,
-        0.8,
+        0.9,
         0.9,
         0.9,
         0.9,
@@ -206,6 +208,7 @@
       "lastStablePublishVersion": "4.0.2",
       "firstPublish": "2019-09-20T13:23:41.261Z",
       "latestVersion": "4.0.2",
+      "npmDeprecated": false,
       "publishCount": 8,
       "prerelease": false,
       "downloads": 6781118,
@@ -214,7 +217,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 1.8,
+      "score": 1.9,
       "breakdown": {
         "activityDays": 62,
         "staleness": 0.085,
@@ -234,14 +237,14 @@
       "scoreHistory": [
         1.6,
         1.6,
-        1.6,
         1.7,
         1.7,
         1.7,
         1.7,
         1.8,
         1.8,
-        1.8
+        1.8,
+        1.9
       ]
     },
     {
@@ -273,6 +276,7 @@
       "lastStablePublishVersion": "2.0.4",
       "firstPublish": "2023-08-25T20:02:10.303Z",
       "latestVersion": "2.0.4",
+      "npmDeprecated": false,
       "publishCount": 8,
       "prerelease": false,
       "downloads": 4711030,
@@ -340,6 +344,7 @@
       "lastStablePublishVersion": "1.0.0",
       "firstPublish": "2025-12-19T22:42:29.629Z",
       "latestVersion": "1.0.0",
+      "npmDeprecated": false,
       "publishCount": 1,
       "prerelease": false,
       "downloads": 22429,
@@ -371,7 +376,7 @@
         1.6,
         1.6,
         1.6,
-        1.6,
+        1.7,
         1.7,
         1.7,
         1.7,
@@ -407,6 +412,7 @@
       "lastStablePublishVersion": "3.1.6",
       "firstPublish": "2018-01-09T14:36:27.855Z",
       "latestVersion": "3.1.6",
+      "npmDeprecated": false,
       "publishCount": 218,
       "prerelease": true,
       "downloads": 7070699,
@@ -415,7 +421,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.4,
+      "score": 0.5,
       "breakdown": {
         "activityDays": 4,
         "staleness": 0.006,
@@ -423,17 +429,16 @@
         "prsSub": 0.752,
         "backlogSeverity": 0.793,
         "demand": 0.793,
-        "neglect": 0.004,
+        "neglect": 0.005,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.004,
+        "attention": 0.005,
         "downloadsSub": 1,
         "starsSub": 1,
         "popularity": 1,
         "importance": 1
       },
       "scoreHistory": [
-        0.3,
         0.4,
         0.5,
         0,
@@ -442,7 +447,8 @@
         0.1,
         0.2,
         0.3,
-        0.4
+        0.4,
+        0.5
       ]
     },
     {
@@ -474,6 +480,7 @@
       "lastStablePublishVersion": "2.0.0",
       "firstPublish": "2022-11-14T04:52:59.237Z",
       "latestVersion": "2.0.0",
+      "npmDeprecated": false,
       "publishCount": 11,
       "prerelease": false,
       "downloads": 3236,
@@ -541,6 +548,7 @@
       "lastStablePublishVersion": "1.0.6",
       "firstPublish": "2020-03-25T21:36:36.796Z",
       "latestVersion": "1.0.6",
+      "npmDeprecated": true,
       "publishCount": 7,
       "prerelease": false,
       "downloads": 5674,
@@ -567,6 +575,7 @@
         "importance": 0.715
       },
       "scoreHistory": [
+        0,
         0
       ]
     },
@@ -599,6 +608,7 @@
       "lastStablePublishVersion": null,
       "firstPublish": null,
       "latestVersion": null,
+      "npmDeprecated": null,
       "publishCount": null,
       "prerelease": false,
       "downloads": 0,
@@ -666,6 +676,7 @@
       "lastStablePublishVersion": "1.1.0",
       "firstPublish": "2021-11-29T19:19:28.737Z",
       "latestVersion": "1.1.0",
+      "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
       "downloads": 290,
@@ -733,6 +744,7 @@
       "lastStablePublishVersion": "2.0.8",
       "firstPublish": "2022-03-08T22:41:37.867Z",
       "latestVersion": "2.0.8",
+      "npmDeprecated": false,
       "publishCount": 36,
       "prerelease": true,
       "downloads": 5868322,
@@ -744,7 +756,7 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 4,
-        "staleness": 0.005,
+        "staleness": 0.006,
         "issuesSub": 0.533,
         "prsSub": 0.267,
         "backlogSeverity": 0.347,
@@ -760,7 +772,6 @@
       },
       "scoreHistory": [
         0.1,
-        0.1,
         0.2,
         0.2,
         0.3,
@@ -768,6 +779,7 @@
         0,
         0.1,
         0.1,
+        0.2,
         0.2
       ]
     },
@@ -800,6 +812,7 @@
       "lastStablePublishVersion": "5.1.3",
       "firstPublish": "2022-02-25T20:33:36.496Z",
       "latestVersion": "5.1.3",
+      "npmDeprecated": false,
       "publishCount": 22,
       "prerelease": false,
       "downloads": 1363221,
@@ -816,17 +829,16 @@
         "prsSub": 0.473,
         "backlogSeverity": 0.457,
         "demand": 0.457,
-        "neglect": 0.01,
+        "neglect": 0.011,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.01,
+        "attention": 0.011,
         "downloadsSub": 1,
         "starsSub": 0.602,
         "popularity": 0.94,
         "importance": 0.958
       },
       "scoreHistory": [
-        0.4,
         0.5,
         0.6,
         0.6,
@@ -835,6 +847,7 @@
         0.8,
         0.9,
         0.9,
+        1,
         1
       ]
     },
@@ -867,6 +880,7 @@
       "lastStablePublishVersion": "7.0.0",
       "firstPublish": "2020-04-18T02:56:12.771Z",
       "latestVersion": "7.0.0",
+      "npmDeprecated": false,
       "publishCount": 77,
       "prerelease": false,
       "downloads": 1002359,
@@ -893,7 +907,6 @@
         "importance": 0.971
       },
       "scoreHistory": [
-        0.8,
         0.9,
         0.9,
         1,
@@ -902,6 +915,7 @@
         1.1,
         0,
         0.1,
+        0.2,
         0.2
       ]
     },
@@ -934,6 +948,7 @@
       "lastStablePublishVersion": "1.0.5",
       "firstPublish": "2019-11-11T20:12:39.114Z",
       "latestVersion": "1.0.5",
+      "npmDeprecated": false,
       "publishCount": 20,
       "prerelease": false,
       "downloads": 750561,
@@ -961,7 +976,6 @@
       },
       "scoreHistory": [
         2.8,
-        2.8,
         2.9,
         2.9,
         3,
@@ -969,6 +983,7 @@
         3.1,
         3.2,
         3.2,
+        3.3,
         3.3
       ]
     },
@@ -1001,6 +1016,7 @@
       "lastStablePublishVersion": "4.0.2",
       "firstPublish": "2023-02-02T21:47:47.519Z",
       "latestVersion": "4.0.2",
+      "npmDeprecated": false,
       "publishCount": 22,
       "prerelease": false,
       "downloads": 4843965,
@@ -1027,7 +1043,6 @@
         "importance": 0.949
       },
       "scoreHistory": [
-        0.9,
         1,
         1,
         1.1,
@@ -1035,6 +1050,7 @@
         1.2,
         1.2,
         0,
+        0.1,
         0.1,
         0.1
       ]
@@ -1068,6 +1084,7 @@
       "lastStablePublishVersion": "1.0.2",
       "firstPublish": "2022-01-16T21:27:29.042Z",
       "latestVersion": "1.0.2",
+      "npmDeprecated": false,
       "publishCount": 3,
       "prerelease": false,
       "downloads": 39786,
@@ -1100,7 +1117,7 @@
         2.8,
         2.8,
         2.8,
-        2.8,
+        2.9,
         2.9,
         2.9,
         2.9
@@ -1135,6 +1152,7 @@
       "lastStablePublishVersion": "1.0.0",
       "firstPublish": "2024-07-09T17:09:56.074Z",
       "latestVersion": "1.0.0",
+      "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
       "downloads": 14349,
@@ -1161,7 +1179,6 @@
         "importance": 0.738
       },
       "scoreHistory": [
-        23.5,
         23.6,
         23.6,
         23.7,
@@ -1170,6 +1187,7 @@
         23.8,
         23.9,
         24,
+        23,
         23
       ]
     },
@@ -1202,6 +1220,7 @@
       "lastStablePublishVersion": "1.0.0",
       "firstPublish": "2024-07-10T17:17:16.159Z",
       "latestVersion": "1.0.0",
+      "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
       "downloads": 375,
@@ -1229,7 +1248,6 @@
       },
       "scoreHistory": [
         18.5,
-        18.5,
         18.6,
         18.6,
         18.7,
@@ -1237,6 +1255,7 @@
         18.8,
         18.8,
         18.9,
+        18.1,
         18.1
       ]
     },
@@ -1269,6 +1288,7 @@
       "lastStablePublishVersion": "1.0.0",
       "firstPublish": "2024-07-09T22:32:03.912Z",
       "latestVersion": "1.0.0",
+      "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
       "downloads": 19668,
@@ -1295,7 +1315,6 @@
         "importance": 0.751
       },
       "scoreHistory": [
-        23.7,
         23.8,
         23.9,
         24,
@@ -1304,6 +1323,7 @@
         24.2,
         24.3,
         24.4,
+        23.4,
         23.4
       ]
     },
@@ -1336,6 +1356,7 @@
       "lastStablePublishVersion": "1.0.0-beta.1",
       "firstPublish": "2020-02-25T13:26:24.966Z",
       "latestVersion": "1.0.0-beta.1",
+      "npmDeprecated": true,
       "publishCount": 3,
       "prerelease": true,
       "downloads": 358,
@@ -1362,6 +1383,7 @@
         "importance": 0.579
       },
       "scoreHistory": [
+        0,
         0
       ]
     },
@@ -1394,6 +1416,7 @@
       "lastStablePublishVersion": "1.0.3",
       "firstPublish": "2018-10-06T18:08:37.575Z",
       "latestVersion": "1.0.3",
+      "npmDeprecated": false,
       "publishCount": 3,
       "prerelease": false,
       "downloads": 80486,
@@ -1428,7 +1451,7 @@
         0.2,
         0.2,
         0.2,
-        0.2,
+        0.3,
         0.3
       ]
     },
@@ -1461,6 +1484,7 @@
       "lastStablePublishVersion": "1.0.1",
       "firstPublish": "2024-07-10T16:40:36.520Z",
       "latestVersion": "1.0.1",
+      "npmDeprecated": false,
       "publishCount": 3,
       "prerelease": false,
       "downloads": 851,
@@ -1487,7 +1511,6 @@
         "importance": 0.616
       },
       "scoreHistory": [
-        19.6,
         19.7,
         19.7,
         19.8,
@@ -1496,6 +1519,7 @@
         19.9,
         20,
         20,
+        19.2,
         19.2
       ]
     },
@@ -1528,6 +1552,7 @@
       "lastStablePublishVersion": "1.0.0",
       "firstPublish": "2024-07-24T21:16:45.042Z",
       "latestVersion": "1.0.0",
+      "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
       "downloads": 5560,
@@ -1555,7 +1580,6 @@
       },
       "scoreHistory": [
         22.3,
-        22.3,
         22.4,
         22.4,
         22.4,
@@ -1563,6 +1587,7 @@
         22.5,
         22.6,
         22.6,
+        21.7,
         21.7
       ]
     },
@@ -1595,6 +1620,7 @@
       "lastStablePublishVersion": "3.0.0",
       "firstPublish": "2018-01-28T22:02:04.691Z",
       "latestVersion": "3.0.0",
+      "npmDeprecated": false,
       "publishCount": 30,
       "prerelease": false,
       "downloads": 972228,
@@ -1611,17 +1637,16 @@
         "prsSub": 0.473,
         "backlogSeverity": 0.491,
         "demand": 0.491,
-        "neglect": 0.037,
+        "neglect": 0.038,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.037,
+        "attention": 0.038,
         "downloadsSub": 0.998,
         "starsSub": 0.556,
         "popularity": 0.932,
         "importance": 0.952
       },
       "scoreHistory": [
-        3,
         3,
         3.1,
         3.2,
@@ -1630,6 +1655,7 @@
         3.3,
         3.4,
         3.5,
+        3.6,
         3.6
       ]
     },
@@ -1662,6 +1688,7 @@
       "lastStablePublishVersion": "5.0.2",
       "firstPublish": "2018-01-29T03:17:51.078Z",
       "latestVersion": "5.0.2",
+      "npmDeprecated": false,
       "publishCount": 29,
       "prerelease": false,
       "downloads": 1524453,
@@ -1689,7 +1716,6 @@
       },
       "scoreHistory": [
         11.1,
-        11.1,
         11.2,
         11.2,
         11.3,
@@ -1697,6 +1723,7 @@
         11.4,
         11.4,
         11.4,
+        11.5,
         11.5
       ]
     },
@@ -1729,6 +1756,7 @@
       "lastStablePublishVersion": "8.0.0",
       "firstPublish": "2022-03-17T18:22:06.079Z",
       "latestVersion": "8.0.0",
+      "npmDeprecated": false,
       "publishCount": 27,
       "prerelease": false,
       "downloads": 113420,
@@ -1756,7 +1784,6 @@
       },
       "scoreHistory": [
         0.2,
-        0.2,
         0.3,
         0.4,
         0.4,
@@ -1764,6 +1791,7 @@
         0.5,
         0.6,
         0.6,
+        0.7,
         0.7
       ]
     },
@@ -1796,6 +1824,7 @@
       "lastStablePublishVersion": "0.8.0",
       "firstPublish": "2020-03-20T16:49:21.978Z",
       "latestVersion": "0.8.0",
+      "npmDeprecated": false,
       "publishCount": 43,
       "prerelease": false,
       "downloads": 7962,
@@ -1823,7 +1852,7 @@
       },
       "scoreHistory": [
         37.5,
-        37.5,
+        37.6,
         37.6,
         37.6,
         37.6,
@@ -1863,6 +1892,7 @@
       "lastStablePublishVersion": "0.11.2",
       "firstPublish": "2022-09-24T03:46:17.202Z",
       "latestVersion": "0.11.2",
+      "npmDeprecated": false,
       "publishCount": 25,
       "prerelease": true,
       "downloads": 164751,
@@ -1879,7 +1909,7 @@
         "prsSub": 0.337,
         "backlogSeverity": 0.435,
         "demand": 0.435,
-        "neglect": 0.157,
+        "neglect": 0.158,
         "securitySub": 0.578,
         "security": 0.289,
         "attention": 0.289,
@@ -1890,7 +1920,7 @@
       },
       "scoreHistory": [
         25.3,
-        25.3,
+        25.4,
         25.4,
         25.4,
         25.4,
@@ -1930,6 +1960,7 @@
       "lastStablePublishVersion": "2.0.0",
       "firstPublish": "2022-03-10T23:44:38.000Z",
       "latestVersion": "2.0.0",
+      "npmDeprecated": false,
       "publishCount": 4,
       "prerelease": false,
       "downloads": 25009,
@@ -1957,7 +1988,7 @@
       },
       "scoreHistory": [
         17.8,
-        17.8,
+        17.7,
         17.7,
         17.7,
         17.7,
@@ -1997,6 +2028,7 @@
       "lastStablePublishVersion": "3.0.2",
       "firstPublish": "2021-07-12T12:45:18.819Z",
       "latestVersion": "3.0.2",
+      "npmDeprecated": false,
       "publishCount": 11,
       "prerelease": false,
       "downloads": 67931,
@@ -2027,7 +2059,7 @@
         2.1,
         2.1,
         2.1,
-        2.1,
+        2.2,
         2.2,
         2.2,
         2.2,
@@ -2064,6 +2096,7 @@
       "lastStablePublishVersion": "2.0.7",
       "firstPublish": "2022-03-05T04:53:51.033Z",
       "latestVersion": "2.0.7",
+      "npmDeprecated": false,
       "publishCount": 14,
       "prerelease": true,
       "downloads": 7251798,
@@ -2131,6 +2164,7 @@
       "lastStablePublishVersion": "1.0.0",
       "firstPublish": "2025-03-26T16:50:38.151Z",
       "latestVersion": "1.0.0",
+      "npmDeprecated": false,
       "publishCount": 1,
       "prerelease": false,
       "downloads": 203,
@@ -2198,6 +2232,7 @@
       "lastStablePublishVersion": "1.0.1",
       "firstPublish": "2025-01-29T21:10:33.526Z",
       "latestVersion": "1.0.1",
+      "npmDeprecated": false,
       "publishCount": 13,
       "prerelease": false,
       "downloads": 18337,
@@ -2227,7 +2262,7 @@
         2.5,
         2.5,
         2.5,
-        2.5,
+        2.6,
         2.6,
         2.6,
         2.6,
@@ -2265,6 +2300,7 @@
       "lastStablePublishVersion": "3.0.0",
       "firstPublish": "2025-05-12T15:10:07.375Z",
       "latestVersion": "3.0.0",
+      "npmDeprecated": false,
       "publishCount": 6,
       "prerelease": false,
       "downloads": 2223314,
@@ -2298,7 +2334,7 @@
         0,
         0,
         0,
-        0,
+        0.1,
         0.1,
         0.1
       ]
@@ -2332,6 +2368,7 @@
       "lastStablePublishVersion": "2.0.0",
       "firstPublish": "2025-02-25T17:52:40.323Z",
       "latestVersion": "2.0.0",
+      "npmDeprecated": false,
       "publishCount": 11,
       "prerelease": false,
       "downloads": 7404,
@@ -2399,6 +2436,7 @@
       "lastStablePublishVersion": "2.0.1",
       "firstPublish": "2024-11-14T23:32:44.619Z",
       "latestVersion": "2.0.1",
+      "npmDeprecated": false,
       "publishCount": 27,
       "prerelease": false,
       "downloads": 7878,
@@ -2425,7 +2463,6 @@
         "importance": 0.746
       },
       "scoreHistory": [
-        0.8,
         0.9,
         0.9,
         1,
@@ -2434,6 +2471,7 @@
         0,
         0.1,
         0.1,
+        0.2,
         0.2
       ]
     },
@@ -2466,6 +2504,7 @@
       "lastStablePublishVersion": "5.0.1",
       "firstPublish": "2022-06-09T21:59:15.041Z",
       "latestVersion": "5.0.1",
+      "npmDeprecated": false,
       "publishCount": 17,
       "prerelease": false,
       "downloads": 57446,
@@ -2492,7 +2531,6 @@
         "importance": 0.852
       },
       "scoreHistory": [
-        7.6,
         7.7,
         7.7,
         7.7,
@@ -2500,6 +2538,7 @@
         7.8,
         7.8,
         7.8,
+        7.9,
         7.9,
         7.9
       ]
@@ -2533,6 +2572,7 @@
       "lastStablePublishVersion": "4.17.21",
       "firstPublish": "2023-03-22T15:22:18.984Z",
       "latestVersion": "4.17.21",
+      "npmDeprecated": false,
       "publishCount": 1,
       "prerelease": false,
       "downloads": 5475136,
@@ -2600,6 +2640,7 @@
       "lastStablePublishVersion": "3.0.0",
       "firstPublish": "2018-01-07T04:30:56.928Z",
       "latestVersion": "3.0.0",
+      "npmDeprecated": false,
       "publishCount": 14,
       "prerelease": false,
       "downloads": 3702,
@@ -2667,6 +2708,7 @@
       "lastStablePublishVersion": "1.0.1",
       "firstPublish": "2025-12-10T22:38:55.458Z",
       "latestVersion": "1.0.1",
+      "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
       "downloads": 24519,
@@ -2697,7 +2739,7 @@
         1.6,
         1.6,
         1.6,
-        1.6,
+        1.7,
         1.7,
         1.7,
         1.7,
@@ -2734,6 +2776,7 @@
       "lastStablePublishVersion": "4.0.0-alpha.1",
       "firstPublish": "2025-12-09T23:26:13.029Z",
       "latestVersion": "4.0.0-alpha.1",
+      "npmDeprecated": false,
       "publishCount": 3,
       "prerelease": true,
       "downloads": 24301,
@@ -2760,13 +2803,13 @@
         "importance": 0.778
       },
       "scoreHistory": [
-        1.3,
         1.4,
         1.4,
         1.4,
         1.5,
         1.5,
         1.5,
+        1.6,
         1.6,
         1.6,
         1.6
@@ -2801,6 +2844,7 @@
       "lastStablePublishVersion": "0.5.6",
       "firstPublish": "2025-07-02T20:15:40.531Z",
       "latestVersion": "0.5.6",
+      "npmDeprecated": false,
       "publishCount": 12,
       "prerelease": false,
       "downloads": 13805,
@@ -2830,10 +2874,10 @@
         0.1,
         0.1,
         0.1,
-        0.1,
         0.2,
         0,
         0,
+        0.1,
         0.1,
         0.1,
         0.1
@@ -2868,6 +2912,7 @@
       "lastStablePublishVersion": "2.0.6",
       "firstPublish": "2025-07-21T21:59:37.959Z",
       "latestVersion": "2.0.6",
+      "npmDeprecated": false,
       "publishCount": 8,
       "prerelease": false,
       "downloads": 34220,
@@ -2935,6 +2980,7 @@
       "lastStablePublishVersion": "1.0.3",
       "firstPublish": "2024-02-09T17:13:14.084Z",
       "latestVersion": "1.0.3",
+      "npmDeprecated": false,
       "publishCount": 4,
       "prerelease": false,
       "downloads": 4660241,
@@ -2965,7 +3011,7 @@
         2,
         2,
         2,
-        2,
+        2.1,
         2.1,
         2.1,
         2.1,
@@ -3002,6 +3048,7 @@
       "lastStablePublishVersion": "5.0.2",
       "firstPublish": "2024-07-11T15:57:34.252Z",
       "latestVersion": "5.0.2",
+      "npmDeprecated": false,
       "publishCount": 9,
       "prerelease": false,
       "downloads": 4715667,
@@ -3033,7 +3080,7 @@
         2.2,
         2.2,
         2.2,
-        2.2,
+        2.3,
         2.3,
         2.3,
         2.3,
@@ -3069,6 +3116,7 @@
       "lastStablePublishVersion": null,
       "firstPublish": null,
       "latestVersion": null,
+      "npmDeprecated": null,
       "publishCount": null,
       "prerelease": false,
       "downloads": 0,
@@ -3101,7 +3149,7 @@
         4.6,
         4.6,
         4.6,
-        4.6,
+        4.7,
         4.7,
         4.7,
         4.7
@@ -3136,6 +3184,7 @@
       "lastStablePublishVersion": "0.11.4",
       "firstPublish": "2022-09-09T15:53:08.874Z",
       "latestVersion": "0.11.4",
+      "npmDeprecated": false,
       "publishCount": 38,
       "prerelease": true,
       "downloads": 167590,
@@ -3203,6 +3252,7 @@
       "lastStablePublishVersion": null,
       "firstPublish": null,
       "latestVersion": null,
+      "npmDeprecated": null,
       "publishCount": null,
       "prerelease": false,
       "downloads": 0,
@@ -3229,7 +3279,6 @@
         "importance": 0.378
       },
       "scoreHistory": [
-        0.1,
         0.2,
         0.2,
         0.2,
@@ -3238,6 +3287,7 @@
         0.4,
         0.4,
         0.5,
+        0,
         0
       ]
     },
@@ -3270,6 +3320,7 @@
       "lastStablePublishVersion": "0.0.1",
       "firstPublish": "2026-06-16T17:24:58.175Z",
       "latestVersion": "0.0.1",
+      "npmDeprecated": false,
       "publishCount": 4,
       "prerelease": true,
       "downloads": 1352,
@@ -3286,17 +3337,16 @@
         "prsSub": 0.752,
         "backlogSeverity": 0.793,
         "demand": 0.793,
-        "neglect": 0.004,
+        "neglect": 0.005,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.004,
+        "attention": 0.005,
         "downloadsSub": 0.522,
         "starsSub": 1,
         "popularity": 0.594,
         "importance": 0.716
       },
       "scoreHistory": [
-        0.2,
         0.3,
         0.4,
         0,
@@ -3305,6 +3355,7 @@
         0.1,
         0.1,
         0.2,
+        0.3,
         0.3
       ]
     },
@@ -3337,6 +3388,7 @@
       "lastStablePublishVersion": "1.0.9",
       "firstPublish": "2023-11-17T14:45:58.519Z",
       "latestVersion": "1.0.9",
+      "npmDeprecated": false,
       "publishCount": 4,
       "prerelease": false,
       "downloads": 783,
@@ -3404,6 +3456,7 @@
       "lastStablePublishVersion": "2.0.0",
       "firstPublish": "2023-10-25T20:46:53.205Z",
       "latestVersion": "2.0.0",
+      "npmDeprecated": false,
       "publishCount": 17,
       "prerelease": false,
       "downloads": 980,
@@ -3435,7 +3488,7 @@
         1.8,
         1.8,
         1.8,
-        1.8,
+        1.9,
         1.9,
         1.9,
         1.9,
@@ -3471,6 +3524,7 @@
       "lastStablePublishVersion": "1.0.6",
       "firstPublish": "2024-01-31T14:05:53.479Z",
       "latestVersion": "1.0.6",
+      "npmDeprecated": false,
       "publishCount": 7,
       "prerelease": false,
       "downloads": 838,
@@ -3538,6 +3592,7 @@
       "lastStablePublishVersion": "3.0.0",
       "firstPublish": "2022-01-31T23:30:01.006Z",
       "latestVersion": "3.0.0",
+      "npmDeprecated": false,
       "publishCount": 5,
       "prerelease": false,
       "downloads": 41422,
@@ -3549,7 +3604,7 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 27,
-        "staleness": 0.037,
+        "staleness": 0.038,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -3564,7 +3619,7 @@
         "importance": 0.827
       },
       "scoreHistory": [
-        0.1,
+        0.2,
         0.2,
         0.2,
         0.2,
@@ -3605,6 +3660,7 @@
       "lastStablePublishVersion": null,
       "firstPublish": null,
       "latestVersion": null,
+      "npmDeprecated": null,
       "publishCount": null,
       "prerelease": false,
       "downloads": 0,
@@ -3672,6 +3728,7 @@
       "lastStablePublishVersion": "1.0.7",
       "firstPublish": "2026-03-25T22:15:05.081Z",
       "latestVersion": "1.0.7",
+      "npmDeprecated": false,
       "publishCount": 8,
       "prerelease": false,
       "downloads": 1063,
@@ -3739,6 +3796,7 @@
       "lastStablePublishVersion": "4.0.0",
       "firstPublish": "2021-01-22T03:02:37.495Z",
       "latestVersion": "4.0.0",
+      "npmDeprecated": false,
       "publishCount": 14,
       "prerelease": false,
       "downloads": 11516,
@@ -3771,7 +3829,7 @@
         9.4,
         9.4,
         9.4,
-        9.4,
+        9.5,
         9.5,
         9.5,
         9.5
@@ -3806,6 +3864,7 @@
       "lastStablePublishVersion": "4.0.2",
       "firstPublish": "2023-02-25T22:17:24.229Z",
       "latestVersion": "4.0.2",
+      "npmDeprecated": false,
       "publishCount": 5,
       "prerelease": false,
       "downloads": 2131,
@@ -3873,6 +3932,7 @@
       "lastStablePublishVersion": "1.0.6",
       "firstPublish": "2024-05-22T14:33:20.954Z",
       "latestVersion": "1.0.6",
+      "npmDeprecated": false,
       "publishCount": 7,
       "prerelease": false,
       "downloads": 614,
@@ -3940,6 +4000,7 @@
       "lastStablePublishVersion": "1.0.5",
       "firstPublish": "2024-08-29T20:14:29.611Z",
       "latestVersion": "1.0.5",
+      "npmDeprecated": false,
       "publishCount": 6,
       "prerelease": false,
       "downloads": 50952,
@@ -3968,7 +4029,7 @@
       "scoreHistory": [
         2,
         2,
-        2,
+        2.1,
         2.1,
         2.1,
         2.1,
@@ -4007,6 +4068,7 @@
       "lastStablePublishVersion": "2.0.3",
       "firstPublish": "2024-02-16T16:16:01.233Z",
       "latestVersion": "2.0.3",
+      "npmDeprecated": false,
       "publishCount": 8,
       "prerelease": false,
       "downloads": 961,
@@ -4074,6 +4136,7 @@
       "lastStablePublishVersion": null,
       "firstPublish": null,
       "latestVersion": null,
+      "npmDeprecated": null,
       "publishCount": null,
       "prerelease": false,
       "downloads": 0,
@@ -4141,6 +4204,7 @@
       "lastStablePublishVersion": "1.0.3",
       "firstPublish": "2025-06-05T16:57:26.007Z",
       "latestVersion": "1.0.3",
+      "npmDeprecated": false,
       "publishCount": 4,
       "prerelease": false,
       "downloads": 2270,
@@ -4175,7 +4239,7 @@
         2.9,
         2.9,
         2.9,
-        2.9,
+        3,
         3
       ]
     },
@@ -4208,6 +4272,7 @@
       "lastStablePublishVersion": "1.0.7",
       "firstPublish": "2023-02-21T16:41:57.501Z",
       "latestVersion": "1.0.7",
+      "npmDeprecated": false,
       "publishCount": 8,
       "prerelease": false,
       "downloads": 25803,
@@ -4275,6 +4340,7 @@
       "lastStablePublishVersion": "1.0.3",
       "firstPublish": "2023-11-30T15:49:43.407Z",
       "latestVersion": "1.0.3",
+      "npmDeprecated": false,
       "publishCount": 4,
       "prerelease": false,
       "downloads": 3426,
@@ -4342,6 +4408,7 @@
       "lastStablePublishVersion": "1.0.1",
       "firstPublish": "2023-10-17T16:50:34.670Z",
       "latestVersion": "1.0.1",
+      "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
       "downloads": 113,
@@ -4409,6 +4476,7 @@
       "lastStablePublishVersion": "4.0.3",
       "firstPublish": "2023-02-27T01:33:10.325Z",
       "latestVersion": "4.0.3",
+      "npmDeprecated": false,
       "publishCount": 11,
       "prerelease": false,
       "downloads": 522,
@@ -4476,6 +4544,7 @@
       "lastStablePublishVersion": "3.0.3",
       "firstPublish": "2020-04-27T14:40:30.294Z",
       "latestVersion": "3.0.3",
+      "npmDeprecated": false,
       "publishCount": 10,
       "prerelease": false,
       "downloads": 11099,
@@ -4506,7 +4575,7 @@
         1.6,
         1.6,
         1.6,
-        1.6,
+        1.7,
         1.7,
         1.7,
         1.7,
@@ -4543,6 +4612,7 @@
       "lastStablePublishVersion": "1.0.3",
       "firstPublish": "2023-12-15T14:01:39.340Z",
       "latestVersion": "1.0.3",
+      "npmDeprecated": false,
       "publishCount": 4,
       "prerelease": false,
       "downloads": 10224,
@@ -4572,7 +4642,7 @@
         5.3,
         5.3,
         5.3,
-        5.3,
+        5.4,
         5.4,
         5.4,
         5.4,
@@ -4610,6 +4680,7 @@
       "lastStablePublishVersion": "4.0.0",
       "firstPublish": "2018-01-17T23:43:02.236Z",
       "latestVersion": "4.0.0",
+      "npmDeprecated": false,
       "publishCount": 7,
       "prerelease": false,
       "downloads": 57616,
@@ -4636,7 +4707,6 @@
         "importance": 0.824
       },
       "scoreHistory": [
-        0.4,
         0.5,
         0.5,
         0.5,
@@ -4645,6 +4715,7 @@
         0.6,
         0.6,
         0.6,
+        0.7,
         0.7
       ]
     },
@@ -4677,6 +4748,7 @@
       "lastStablePublishVersion": "3.0.1",
       "firstPublish": "2021-11-29T23:35:48.445Z",
       "latestVersion": "3.0.1",
+      "npmDeprecated": false,
       "publishCount": 21,
       "prerelease": false,
       "downloads": 1781,
@@ -4744,6 +4816,7 @@
       "lastStablePublishVersion": "1.0.7",
       "firstPublish": "2023-09-28T18:21:38.944Z",
       "latestVersion": "1.0.7",
+      "npmDeprecated": false,
       "publishCount": 8,
       "prerelease": false,
       "downloads": 53817,
@@ -4778,7 +4851,7 @@
         1,
         1,
         1,
-        1,
+        1.1,
         1.1
       ]
     },
@@ -4811,6 +4884,7 @@
       "lastStablePublishVersion": "1.0.4",
       "firstPublish": "2024-02-15T18:37:03.132Z",
       "latestVersion": "1.0.4",
+      "npmDeprecated": false,
       "publishCount": 5,
       "prerelease": false,
       "downloads": 232,
@@ -4878,6 +4952,7 @@
       "lastStablePublishVersion": "1.0.7",
       "firstPublish": "2021-01-15T20:16:42.481Z",
       "latestVersion": "1.0.7",
+      "npmDeprecated": false,
       "publishCount": 8,
       "prerelease": false,
       "downloads": 525,
@@ -4945,6 +5020,7 @@
       "lastStablePublishVersion": "1.0.1",
       "firstPublish": "2023-11-29T14:52:50.314Z",
       "latestVersion": "1.0.1",
+      "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
       "downloads": 122,
@@ -4976,7 +5052,7 @@
         1.9,
         1.9,
         1.9,
-        1.9,
+        2,
         2,
         2,
         2,
@@ -5012,6 +5088,7 @@
       "lastStablePublishVersion": "1.0.3",
       "firstPublish": "2024-02-15T23:25:14.684Z",
       "latestVersion": "1.0.3",
+      "npmDeprecated": false,
       "publishCount": 4,
       "prerelease": false,
       "downloads": 996,
@@ -5079,6 +5156,7 @@
       "lastStablePublishVersion": null,
       "firstPublish": null,
       "latestVersion": null,
+      "npmDeprecated": null,
       "publishCount": null,
       "prerelease": false,
       "downloads": 0,
@@ -5137,6 +5215,7 @@
       "lastStablePublishVersion": "2.0.3",
       "firstPublish": "2022-07-31T19:11:14.956Z",
       "latestVersion": "2.0.3",
+      "npmDeprecated": false,
       "publishCount": 5,
       "prerelease": false,
       "downloads": 2180,
@@ -5204,6 +5283,7 @@
       "lastStablePublishVersion": "2.0.6",
       "firstPublish": "2019-08-20T13:36:07.924Z",
       "latestVersion": "2.0.6",
+      "npmDeprecated": false,
       "publishCount": 11,
       "prerelease": false,
       "downloads": 542,
@@ -5230,6 +5310,7 @@
         "importance": 0.609
       },
       "scoreHistory": [
+        0,
         0
       ]
     },
@@ -5262,6 +5343,7 @@
       "lastStablePublishVersion": "1.0.1",
       "firstPublish": "2015-02-28T05:40:09.010Z",
       "latestVersion": "1.0.1",
+      "npmDeprecated": false,
       "publishCount": 4,
       "prerelease": false,
       "downloads": 3321,
@@ -5288,6 +5370,7 @@
         "importance": 0.733
       },
       "scoreHistory": [
+        0,
         0
       ]
     },
@@ -5320,6 +5403,7 @@
       "lastStablePublishVersion": "1.0.5",
       "firstPublish": "2016-12-02T04:35:33.499Z",
       "latestVersion": "1.0.5",
+      "npmDeprecated": false,
       "publishCount": 6,
       "prerelease": false,
       "downloads": 633,
@@ -5346,6 +5430,7 @@
         "importance": 0.595
       },
       "scoreHistory": [
+        0,
         0
       ]
     },
@@ -5378,6 +5463,7 @@
       "lastStablePublishVersion": "2.0.1",
       "firstPublish": "2016-11-29T11:46:45.556Z",
       "latestVersion": "2.0.1",
+      "npmDeprecated": false,
       "publishCount": 11,
       "prerelease": false,
       "downloads": 18095,
@@ -5445,6 +5531,7 @@
       "lastStablePublishVersion": null,
       "firstPublish": null,
       "latestVersion": null,
+      "npmDeprecated": null,
       "publishCount": null,
       "prerelease": false,
       "downloads": 0,
@@ -5456,7 +5543,7 @@
       "score": 0.8,
       "breakdown": {
         "activityDays": 30,
-        "staleness": 0.041,
+        "staleness": 0.042,
         "issuesSub": 0.506,
         "prsSub": 0.473,
         "backlogSeverity": 0.483,
@@ -5471,7 +5558,6 @@
         "importance": 0.39
       },
       "scoreHistory": [
-        0.5,
         0.6,
         0.6,
         0.6,
@@ -5480,6 +5566,7 @@
         0.7,
         0.7,
         0.7,
+        0.8,
         0.8
       ]
     },
@@ -5512,6 +5599,7 @@
       "lastStablePublishVersion": null,
       "firstPublish": null,
       "latestVersion": null,
+      "npmDeprecated": null,
       "publishCount": null,
       "prerelease": false,
       "downloads": 0,
@@ -5538,6 +5626,7 @@
         "importance": 0.35
       },
       "scoreHistory": [
+        0,
         0
       ]
     },
@@ -5570,6 +5659,7 @@
       "lastStablePublishVersion": "3.0.5",
       "firstPublish": "2022-06-03T19:21:54.241Z",
       "latestVersion": "3.0.5",
+      "npmDeprecated": false,
       "publishCount": 9,
       "prerelease": false,
       "downloads": 4690286,
@@ -5637,6 +5727,7 @@
       "lastStablePublishVersion": "1.0.1",
       "firstPublish": "2017-12-25T19:55:20.501Z",
       "latestVersion": "1.0.1",
+      "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
       "downloads": 683,
@@ -5663,6 +5754,7 @@
         "importance": 0.611
       },
       "scoreHistory": [
+        0,
         0
       ]
     },
@@ -5695,6 +5787,7 @@
       "lastStablePublishVersion": "1.0.2",
       "firstPublish": "2014-08-07T22:19:28.975Z",
       "latestVersion": "1.0.2",
+      "npmDeprecated": false,
       "publishCount": 9,
       "prerelease": false,
       "downloads": 304765,
@@ -5721,6 +5814,7 @@
         "importance": 0.917
       },
       "scoreHistory": [
+        0,
         0
       ]
     },
@@ -5753,6 +5847,7 @@
       "lastStablePublishVersion": "6.0.0",
       "firstPublish": "2017-01-11T03:12:58.300Z",
       "latestVersion": "6.0.0",
+      "npmDeprecated": false,
       "publishCount": 20,
       "prerelease": false,
       "downloads": 56074,
@@ -5764,7 +5859,7 @@
       "score": 2.1,
       "breakdown": {
         "activityDays": 76,
-        "staleness": 0.104,
+        "staleness": 0.105,
         "issuesSub": 0.403,
         "prsSub": 0.169,
         "backlogSeverity": 0.239,
@@ -5781,11 +5876,11 @@
       "scoreHistory": [
         1.9,
         1.9,
-        1.9,
         2,
         2,
         2,
         2,
+        2.1,
         2.1,
         2.1,
         2.1
@@ -5820,6 +5915,7 @@
       "lastStablePublishVersion": "0.1.5",
       "firstPublish": "2015-04-18T16:01:20.907Z",
       "latestVersion": "0.1.5",
+      "npmDeprecated": false,
       "publishCount": 1,
       "prerelease": false,
       "downloads": 219,
@@ -5846,6 +5942,7 @@
         "importance": 0.556
       },
       "scoreHistory": [
+        0,
         0
       ]
     },
@@ -5878,6 +5975,7 @@
       "lastStablePublishVersion": "2.0.3",
       "firstPublish": "2025-05-01T17:25:46.915Z",
       "latestVersion": "2.0.3",
+      "npmDeprecated": false,
       "publishCount": 10,
       "prerelease": false,
       "downloads": 46045,
@@ -5905,7 +6003,6 @@
       },
       "scoreHistory": [
         0.1,
-        0.1,
         0.2,
         0.2,
         0.2,
@@ -5913,6 +6010,7 @@
         0.3,
         0.3,
         0.3,
+        0.4,
         0.4
       ]
     },
@@ -5945,6 +6043,7 @@
       "lastStablePublishVersion": "4.0.2",
       "firstPublish": "2015-12-09T02:39:28.789Z",
       "latestVersion": "4.0.2",
+      "npmDeprecated": false,
       "publishCount": 10,
       "prerelease": false,
       "downloads": 671,
@@ -6012,6 +6111,7 @@
       "lastStablePublishVersion": "6.0.1",
       "firstPublish": "2023-02-19T02:35:55.021Z",
       "latestVersion": "6.0.1",
+      "npmDeprecated": false,
       "publishCount": 17,
       "prerelease": false,
       "downloads": 4823352,
@@ -6023,7 +6123,7 @@
       "score": 3.6,
       "breakdown": {
         "activityDays": 493,
-        "staleness": 0.675,
+        "staleness": 0.676,
         "issuesSub": 0.192,
         "prsSub": 0,
         "backlogSeverity": 0.058,
@@ -6038,7 +6138,7 @@
         "importance": 0.927
       },
       "scoreHistory": [
-        3.5,
+        3.6,
         3.6,
         3.6,
         3.6,
@@ -6079,6 +6179,7 @@
       "lastStablePublishVersion": "13.4.1",
       "firstPublish": "2020-03-21T02:50:41.372Z",
       "latestVersion": "13.4.1",
+      "npmDeprecated": false,
       "publishCount": 53,
       "prerelease": false,
       "downloads": 25355,
@@ -6105,6 +6206,7 @@
         "importance": 0.793
       },
       "scoreHistory": [
+        0,
         0
       ]
     },
@@ -6137,6 +6239,7 @@
       "lastStablePublishVersion": "9.6.7",
       "firstPublish": "2023-02-13T02:34:20.953Z",
       "latestVersion": "9.6.7",
+      "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
       "downloads": 105,
@@ -6163,6 +6266,7 @@
         "importance": 0.544
       },
       "scoreHistory": [
+        0,
         0
       ]
     },
@@ -6195,6 +6299,7 @@
       "lastStablePublishVersion": "1.0.0",
       "firstPublish": "2020-08-30T04:04:54.436Z",
       "latestVersion": "1.0.0",
+      "npmDeprecated": false,
       "publishCount": 1,
       "prerelease": false,
       "downloads": 60,
@@ -6221,6 +6326,7 @@
         "importance": 0.477
       },
       "scoreHistory": [
+        0,
         0
       ]
     },
@@ -6253,6 +6359,7 @@
       "lastStablePublishVersion": "1.0.4",
       "firstPublish": "2017-10-17T03:19:05.762Z",
       "latestVersion": "1.0.4",
+      "npmDeprecated": false,
       "publishCount": 5,
       "prerelease": false,
       "downloads": 4983,
@@ -6279,73 +6386,7 @@
         "importance": 0.722
       },
       "scoreHistory": [
-        0
-      ]
-    },
-    {
-      "nameWithOwner": "zachleat/speedlify2",
-      "owner": "zachleat",
-      "url": "https://github.com/zachleat/speedlify2",
-      "homepageUrl": "https://www.speedlify.dev/",
-      "workspacePath": null,
-      "packageName": "speedlify",
-      "isArchived": false,
-      "isTemplate": false,
-      "isWebComponent": false,
-      "description": null,
-      "sourceRepo": null,
-      "stars": 1,
-      "openIssues": 4,
-      "closedIssues": 1,
-      "openPRs": 0,
-      "mergedPRs": 0,
-      "closedPRs": 0,
-      "openVulnerabilities": null,
-      "productionDependencies": null,
-      "transitiveDependencies": null,
-      "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-08-23T21:21:07Z",
-      "lastPublish": null,
-      "lastPublishVersion": null,
-      "lastStablePublish": null,
-      "lastStablePublishVersion": null,
-      "firstPublish": null,
-      "latestVersion": null,
-      "publishCount": null,
-      "prerelease": false,
-      "downloads": 0,
-      "downloadsKnown": false,
-      "downloadsPeriod": "last-year",
-      "published": false,
-      "npmStatus": "unpublished",
-      "npmError": null,
-      "score": 0,
-      "breakdown": {
-        "activityDays": 0,
-        "staleness": 0,
-        "issuesSub": 0.282,
-        "prsSub": 0,
-        "backlogSeverity": 0.085,
-        "demand": 0.085,
-        "neglect": 0,
-        "securitySub": 0,
-        "security": 0,
-        "attention": 0,
-        "downloadsSub": 0,
-        "starsSub": 0.081,
-        "popularity": 0.012,
-        "importance": 0.309
-      },
-      "scoreHistory": [
-        0.4,
-        0.4,
-        0.5,
-        0.5,
-        0.5,
-        0.5,
-        0.6,
-        0.6,
-        0.6,
+        0,
         0
       ]
     },
@@ -6378,6 +6419,7 @@
       "lastStablePublishVersion": null,
       "firstPublish": null,
       "latestVersion": null,
+      "npmDeprecated": null,
       "publishCount": null,
       "prerelease": false,
       "downloads": 0,
@@ -6405,7 +6447,6 @@
       },
       "scoreHistory": [
         0.4,
-        0.4,
         0.5,
         0.5,
         0.5,
@@ -6413,6 +6454,7 @@
         0.6,
         0.6,
         0.6,
+        0,
         0
       ]
     },
@@ -6445,6 +6487,7 @@
       "lastStablePublishVersion": "4.0.5",
       "firstPublish": "2020-07-18T02:49:03.865Z",
       "latestVersion": "4.0.5",
+      "npmDeprecated": false,
       "publishCount": 13,
       "prerelease": false,
       "downloads": 27812,
@@ -6484,6 +6527,65 @@
       ]
     },
     {
+      "nameWithOwner": "zachleat/speedlify2",
+      "owner": "zachleat",
+      "url": "https://github.com/zachleat/speedlify2",
+      "homepageUrl": "https://www.speedlify.dev/",
+      "workspacePath": null,
+      "packageName": "speedlify2",
+      "isArchived": false,
+      "isTemplate": false,
+      "isWebComponent": false,
+      "description": null,
+      "sourceRepo": null,
+      "stars": 2,
+      "openIssues": 4,
+      "closedIssues": 1,
+      "openPRs": 0,
+      "mergedPRs": 0,
+      "closedPRs": 0,
+      "openVulnerabilities": null,
+      "productionDependencies": null,
+      "transitiveDependencies": null,
+      "repoCreatedAt": "2026-08-20T15:11:16Z",
+      "pushedAt": "2026-08-24T00:39:32Z",
+      "lastPublish": null,
+      "lastPublishVersion": null,
+      "lastStablePublish": null,
+      "lastStablePublishVersion": null,
+      "firstPublish": null,
+      "latestVersion": null,
+      "npmDeprecated": null,
+      "publishCount": null,
+      "prerelease": false,
+      "downloads": 0,
+      "downloadsKnown": false,
+      "downloadsPeriod": "last-year",
+      "published": false,
+      "npmStatus": "unpublished",
+      "npmError": null,
+      "score": 0,
+      "breakdown": {
+        "activityDays": 0,
+        "staleness": 0,
+        "issuesSub": 0.282,
+        "prsSub": 0,
+        "backlogSeverity": 0.085,
+        "demand": 0.085,
+        "neglect": 0,
+        "securitySub": 0,
+        "security": 0,
+        "attention": 0,
+        "downloadsSub": 0,
+        "starsSub": 0.129,
+        "popularity": 0.019,
+        "importance": 0.314
+      },
+      "scoreHistory": [
+        0
+      ]
+    },
+    {
       "nameWithOwner": "zachleat/twitter-avatar-url",
       "owner": "zachleat",
       "url": "https://github.com/zachleat/twitter-avatar-url",
@@ -6512,6 +6614,7 @@
       "lastStablePublishVersion": "2.2.0",
       "firstPublish": "2020-06-24T01:13:59.523Z",
       "latestVersion": "2.2.0",
+      "npmDeprecated": true,
       "publishCount": 9,
       "prerelease": false,
       "downloads": 1032,
@@ -6538,6 +6641,7 @@
         "importance": 0.619
       },
       "scoreHistory": [
+        0,
         0
       ]
     },
@@ -6570,6 +6674,7 @@
       "lastStablePublishVersion": "43.1.4",
       "firstPublish": "2018-01-02T05:34:29.348Z",
       "latestVersion": "43.1.4",
+      "npmDeprecated": false,
       "publishCount": 18,
       "prerelease": false,
       "downloads": 1363,
@@ -6604,7 +6709,7 @@
         0.2,
         0.2,
         0.2,
-        0.2,
+        0.3,
         0.3
       ]
     },
@@ -6630,13 +6735,14 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2013-02-26T04:56:49Z",
-      "pushedAt": "2026-08-23T01:09:40Z",
+      "pushedAt": "2026-08-24T00:26:43Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
       "firstPublish": null,
       "latestVersion": null,
+      "npmDeprecated": null,
       "publishCount": null,
       "prerelease": false,
       "downloads": 0,
@@ -6647,16 +6753,16 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 1,
-        "staleness": 0.001,
+        "activityDays": 0,
+        "staleness": 0,
         "issuesSub": 0.42,
         "prsSub": 0.56,
         "backlogSeverity": 0.518,
         "demand": 0.518,
-        "neglect": 0.001,
+        "neglect": 0,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.001,
+        "attention": 0,
         "downloadsSub": 0,
         "starsSub": 0.625,
         "popularity": 0.094,
@@ -6664,13 +6770,13 @@
       },
       "scoreHistory": [
         0,
+        0.1,
+        0.1,
+        0.1,
+        0.2,
+        0.2,
+        0.2,
         0,
-        0.1,
-        0.1,
-        0.1,
-        0.2,
-        0.2,
-        0.2,
         0,
         0
       ]
@@ -6704,6 +6810,7 @@
       "lastStablePublishVersion": null,
       "firstPublish": null,
       "latestVersion": null,
+      "npmDeprecated": null,
       "publishCount": null,
       "prerelease": false,
       "downloads": 0,
@@ -6762,6 +6869,7 @@
       "lastStablePublishVersion": null,
       "firstPublish": null,
       "latestVersion": null,
+      "npmDeprecated": null,
       "publishCount": null,
       "prerelease": false,
       "downloads": 0,
