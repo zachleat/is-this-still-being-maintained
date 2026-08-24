@@ -274,6 +274,10 @@ current score, while a **same-day rerun replaces** the newest entry (using the
 report's `generatedAt`, so reruns don't pile up). Oldest drops off past 10. The
 top-level **`healthRatingHistory`** tracks the overall Health Rating the same way.
 
+Each published package carries **`npmDeprecated`** — `true` when its `latest`
+version is marked deprecated on npm (`null` for anything not published). This is
+**reported only**: it does not feed the score, filtering, or any other logic.
+
 Each project also carries an `isWebComponent` flag — a heuristic that's `true`
 when the package's `main` entry file (from `package.json`, defaulting to
 `index.js`) contains a `customElements` reference. Main files are fetched batched

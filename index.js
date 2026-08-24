@@ -454,6 +454,7 @@ async function main() {
       lastStablePublishVersion: npm?.lastStablePublishVersion || null,
       firstPublish: npm?.firstPublish || null,
       latestVersion: npm?.latestVersion || null,
+      npmDeprecated: npm?.npmDeprecated ?? null,
       publishCount: npm?.publishCount ?? null,
       prerelease: npm?.prerelease || false,
       // On a failed lookup keep the previous report's number rather than
