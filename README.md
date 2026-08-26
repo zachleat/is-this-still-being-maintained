@@ -274,6 +274,12 @@ current score, while a **same-day rerun replaces** the newest entry (using the
 report's `generatedAt`, so reruns don't pile up). Oldest drops off past 10. The
 top-level **`healthRatingHistory`** tracks the overall Health Rating the same way.
 
+Each project's **`description`** comes from the published `latest` version's
+npm `package.json`, falling back to the **GitHub repo description** when there's
+no npm data — so templates and unpublished repos still get one. The two often
+differ (a repo's GitHub "About" blurb is usually punchier than its terse
+`package.json` description); npm wins whenever the package is published.
+
 Each project carries **`isPinned`** — `true` when the repo is pinned to any of
 the configured profiles (`githubUsers` / `githubOrgs`). Pins can cross owners (a
 user can pin an org's repo), so pins from every configured login are pooled into

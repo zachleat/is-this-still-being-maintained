@@ -426,7 +426,9 @@ async function main() {
       isPinned: repo.isPinned,
       isTemplate: repo.isTemplate,
       isWebComponent: isWebComponent(repo),
-      description: npm?.description || null,
+      // npm's description when published; otherwise fall back to the GitHub repo
+      // description, so templates and unpublished repos still get one.
+      description: npm?.description || repo.description || null,
       sourceRepo: npm?.repository || null,
       stars: repo.stars,
       openIssues: repo.openIssues,
