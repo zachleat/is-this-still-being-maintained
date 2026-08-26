@@ -423,6 +423,7 @@ async function main() {
       workspacePath: repo.workspacePath || null,
       packageName: repo.packageName || null,
       isArchived: repo.isArchived,
+      isPinned: repo.isPinned,
       isTemplate: repo.isTemplate,
       isWebComponent: isWebComponent(repo),
       description: npm?.description || null,

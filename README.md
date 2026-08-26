@@ -274,6 +274,12 @@ current score, while a **same-day rerun replaces** the newest entry (using the
 report's `generatedAt`, so reruns don't pile up). Oldest drops off past 10. The
 top-level **`healthRatingHistory`** tracks the overall Health Rating the same way.
 
+Each project carries **`isPinned`** — `true` when the repo is pinned to any of
+the configured profiles (`githubUsers` / `githubOrgs`). Pins can cross owners (a
+user can pin an org's repo), so pins from every configured login are pooled into
+one set; workspace members inherit their parent repo's value. Reported only —
+it doesn't affect scoring or filtering.
+
 Each published package carries **`npmDeprecated`** — `true` when its `latest`
 version is marked deprecated on npm (`null` for anything not published). This is
 **reported only**: it does not feed the score, filtering, or any other logic.
