@@ -1459,12 +1459,30 @@
       }
     },
     "@11ty/find-generator": {
-      "publishCount": 1,
+      "publishCount": 2,
       "firstPublish": "2025-03-26T16:50:38.151Z",
-      "lastPublish": "2025-03-26T16:50:38.407Z",
+      "lastPublish": "2026-09-01T16:46:06.908Z",
       "monthlyReleases": {
         "start": "2025-03",
         "counts": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           1
         ]
       }
