@@ -245,7 +245,13 @@ async function main() {
     // Archived repos are kept (and flagged `isArchived`) so their npm publishing
     // and download stats still count — archiving retires the repo, not the package.
     if (r.isFork || r.isPrivate || r.isDisabled) return false;
-    if (r.isPrivatePackage) return false; // package.json marked "private": true
+    // A `"private": true` package.json normally drops the entry, but a GitHub
+    // template repo is worth tracking as a project on its own GitHub signals —
+    // and declaring `workspaces` conventionally makes the root private. Only the
+    // repo ROOT earns this exemption: workspace members inherit `isTemplate`
+    // from the parent, so private members must still be filtered.
+    const isTemplateRoot = r.isTemplate && !r.workspacePath;
+    if (r.isPrivatePackage && !isTemplateRoot) return false;
     if (monitorSet.size > 0 && !monitorSet.has(r.nameWithOwner)) return false;
     // Template repos are worth tracking even without a package.json / npm release.
     if (!r.packageName && !options.includeReposWithoutPackageJson && !r.isTemplate)

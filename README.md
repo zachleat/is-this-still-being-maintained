@@ -106,8 +106,12 @@ template (`isTemplate`) is worth tracking as a maintained project even if it has
 no `package.json` or was never published, so it's included and scored on its
 GitHub activity alone. If its name happens to collide with someone else's npm
 package, that foreign npm data is *not* attached — the template shows no
-downloads/publish dates and scores purely on repo signals. (Templates still
-respect the fork/private filters.)
+downloads/publish dates and scores purely on repo signals. A template repo is
+kept even when its root `package.json` is `"private": true` — declaring
+`workspaces` conventionally makes the root private, and that shouldn't erase the
+template itself. Only the repo **root** gets that exemption: workspace members
+inherit `isTemplate` from the parent, so private members are still filtered.
+(Templates still respect the fork/disabled filters.)
 
 **Ownership is verified by npm maintainers.** A repo can share a name with an npm
 package published by someone else — e.g. your `eleventy-base-blog` repo vs the
