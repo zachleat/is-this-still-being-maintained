@@ -1,5 +1,5 @@
 {
-  "count": 90,
+  "count": 91,
   "packages": {
     "@11ty/client": {
       "publishCount": 10,
@@ -3545,6 +3545,17 @@
           0,
           0,
           0,
+          1
+        ]
+      }
+    },
+    "speedlify2-score": {
+      "publishCount": 1,
+      "firstPublish": "2026-09-02T14:56:11.940Z",
+      "lastPublish": "2026-09-02T14:56:12.331Z",
+      "monthlyReleases": {
+        "start": "2026-09",
+        "counts": [
           1
         ]
       }
