@@ -122,6 +122,34 @@ attributed to you only when one of those usernames is a **current npm
 maintainer**; otherwise it's marked `not-owned` and dropped (the excluded list
 names who actually maintains it). Leave `npmMaintainers` empty to skip the check.
 
+### Sparkline companion files
+
+Two extra files sit next to `report.json`, both keyed for direct sparkline
+rendering and both free of any timestamp — so they change (and get committed)
+only when the underlying data does, never just because the clock moved:
+
+- `report-sparklines.json` — per package: `monthlyReleases` and
+  `monthlyDownloads`, each `{ start: "YYYY-MM", counts: [...] }` with a dense
+  month-by-month series.
+- `report-sparkline-aggregate.json` — the same two series summed across every
+  published package.
+
+**Download history** comes from npm's `range` API, back to each package's first
+publish. Two quirks of that API shape the implementation:
+
+- A single-package request caps at **18 months**, and a longer range does *not*
+  error — npm silently clamps it to the most recent 18 months. Full histories
+  must therefore be requested as explicit consecutive windows.
+- A **bulk** (comma-separated) request caps at **365 days**, stricter than the
+  single-package limit, and rejects anything longer. Bulk also refuses scoped
+  packages entirely, so `@scope/name` packages are fetched one at a time.
+
+Windows that closed before the current month can never change, so they're cached
+for a year; a normal run only refetches the open window. Series end at the last
+**complete** month — the current month is always partial and would render as a
+misleading final dip. npm has no download data before **2015-01-10**, so
+histories are floored there even for older packages.
+
 ## How the score works
 
 `lib/score.js` is small and self-contained — it's meant to be edited. The

@@ -7,7 +7,11 @@ import path from "node:path";
 import { discoverRepos, fetchFilesAcrossRepos } from "./lib/github.js";
 import { auditPackages } from "./lib/audit.js";
 import { setDryRun } from "./lib/fetch.js";
-import { registryMetrics, fetchDownloads } from "./lib/npm.js";
+import {
+  registryMetrics,
+  fetchDownloads,
+  fetchDownloadHistory,
+} from "./lib/npm.js";
 import { scoreProject } from "./lib/score.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -182,6 +186,23 @@ function monthlyReleaseCounts(sortedDates) {
   const counts = new Array(endIdx - startIdx + 1).fill(0);
   for (const d of sortedDates) counts[idx(ym(d)) - startIdx]++;
   return { start, counts };
+}
+
+// Dense monthly series from a Map<"YYYY-MM", total>, running to `lastYm`.
+// Ends at the last COMPLETE month on purpose: the current month is always
+// partial, so including it would render as a misleading final dip — and it also
+// keeps the committed file stable until a month actually rolls over.
+function denseMonthly(byMonth, lastYm) {
+  const idx = (ym) => {
+    const [y, m] = ym.split("-").map(Number);
+    return y * 12 + (m - 1);
+  };
+  const keys = [...byMonth.keys()].filter((k) => k <= lastYm).sort();
+  if (!keys.length) return { start: null, counts: [] };
+  const startIdx = idx(keys[0]);
+  const counts = new Array(idx(lastYm) - startIdx + 1).fill(0);
+  for (const k of keys) counts[idx(k) - startIdx] = byMonth.get(k);
+  return { start: keys[0], counts };
 }
 
 // --- main ------------------------------------------------------------------
@@ -583,6 +604,30 @@ async function main() {
   const sparkEntries = sorted.filter(
     (p) => p.published && metaByName.has(p.packageName),
   );
+  // Monthly download history, back to each package's first publish. Costs a few
+  // hundred requests on a cold cache (scoped names can't be bulked), but closed
+  // windows are cached for a year, so normal runs refetch only the open one.
+  console.error(
+    c("2", `Fetching download history for ${sparkEntries.length} packages…`),
+  );
+  const { months: downloadMonths, errors: historyErrors } =
+    await fetchDownloadHistory(
+      sparkEntries.map((p) => ({ name: p.packageName, since: p.firstPublish })),
+      { duration: cacheDuration },
+    );
+  if (historyErrors.length) {
+    console.error(
+      c("33", `Download history failed for ${historyErrors.length} package(s)`),
+    );
+  }
+  // Last complete month — see denseMonthly.
+  const lastCompleteYm = (() => {
+    const d = new Date();
+    d.setUTCDate(1);
+    d.setUTCMonth(d.getUTCMonth() - 1);
+    return d.toISOString().slice(0, 7);
+  })();
+
   const sparkPackages = {};
   for (const p of sparkEntries) {
     const dates = metaByName.get(p.packageName).versionDates;
@@ -591,6 +636,10 @@ async function main() {
       firstPublish: p.firstPublish,
       lastPublish: p.lastPublish,
       monthlyReleases: monthlyReleaseCounts(dates),
+      monthlyDownloads: denseMonthly(
+        downloadMonths.get(p.packageName) ?? new Map(),
+        lastCompleteYm,
+      ),
     };
   }
   // No generatedAt in the sparkline files: they should only change (and be
@@ -608,10 +657,17 @@ async function main() {
   const allDates = sparkEntries
     .flatMap((p) => metaByName.get(p.packageName).versionDates)
     .sort();
+  const allDownloadMonths = new Map();
+  for (const p of sparkEntries) {
+    for (const [ym, n] of downloadMonths.get(p.packageName) ?? []) {
+      allDownloadMonths.set(ym, (allDownloadMonths.get(ym) ?? 0) + n);
+    }
+  }
   const aggregate = {
     packages: sparkEntries.length,
     publishCount: allDates.length,
     monthlyReleases: monthlyReleaseCounts(allDates),
+    monthlyDownloads: denseMonthly(allDownloadMonths, lastCompleteYm),
   };
   const aggregatePath = path.join(
     path.dirname(jsonPath),
