@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T20:45:54.194Z",
+  "generatedAt": "2026-09-02T20:59:05.661Z",
   "healthRating": 96.4,
   "healthRatingHistory": [
     96.6,
@@ -1664,11 +1664,11 @@
       "publishCount": 30,
       "prerelease": false,
       "downloads": 978560,
-      "downloadsKnown": false,
+      "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
-      "npmStatus": "downloads-error",
-      "npmError": "downloads: Bad response for https://api.npmjs.org/downloads/point/last-year/%4011ty%2Feleventy-plugin-rss (429): ",
+      "npmStatus": "published",
+      "npmError": null,
       "score": 4.2,
       "breakdown": {
         "activityDays": 66,
@@ -1810,7 +1810,7 @@
       "score": 0.5,
       "breakdown": {
         "activityDays": 9,
-        "staleness": 0.012,
+        "staleness": 0.013,
         "issuesSub": 0.282,
         "prsSub": 0.506,
         "backlogSeverity": 0.439,
@@ -6750,7 +6750,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-09-02T20:38:58Z",
+      "pushedAt": "2026-09-02T20:54:17Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
@@ -6810,7 +6810,7 @@
       "productionDependencies": 0,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-09-02T20:38:58Z",
+      "pushedAt": "2026-09-02T20:54:17Z",
       "lastPublish": "2026-09-02T14:56:12.331Z",
       "lastPublishVersion": "1.0.0",
       "lastStablePublish": "2026-09-02T14:56:12.331Z",
