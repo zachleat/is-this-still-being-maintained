@@ -1,0 +1,39 @@
+{
+  "githubUsers": [],
+  "githubOrgs": [],
+  "npmMaintainers": [],
+
+  "monitor": [],
+  "exclude": [],
+  "alwaysInclude": [],
+  "alwaysIncludePackages": [],
+
+  "options": {
+    "publishedOnly": true,
+    "includeReposWithoutPackageJson": false,
+    "downloadsPeriod": "last-year",
+    "cacheDuration": "15m",
+    "outputDir": "docs",
+    "concurrency": 8
+  },
+
+  "scoring": {
+    "backlogWeights": {
+      "openIssues": 0.3,
+      "openPRs": 0.7
+    },
+    "backlogFloor": 0,
+    "fullyStaleDays": 730,
+    "issuesSaturation": 300,
+    "prsSaturation": 60,
+    "vulnerabilitiesSaturation": 10,
+    "securityWeight": 0.5,
+    "importanceWeights": {
+      "downloads": 0.85,
+      "stars": 0.15
+    },
+    "downloadsSaturation": 1000000,
+    "starsSaturation": 5000,
+    "importanceFloor": 0.3
+  }
+}

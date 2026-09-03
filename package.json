@@ -7,7 +7,8 @@
     "is-this-still-being-maintained": "index.js"
   },
   "scripts": {
-    "build": "node index.js"
+    "build": "node index.js",
+    "reset": "node scripts/reset.js"
   },
   "engines": {
     "node": ">=20"

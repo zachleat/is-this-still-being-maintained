@@ -19,6 +19,12 @@ gh auth login              # once, if you haven't
 node index.js              # prints a table, writes docs/report.json
 ```
 
+To point a fresh checkout at your own accounts, `npm run reset` deletes the
+generated reports and replaces `config.json` with the blank `config.sample.json`
+— then fill in `githubUsers` / `githubOrgs` / `npmMaintainers`. It's destructive
+but recoverable: both are tracked in git, so `git checkout config.json docs/`
+undoes it. `.cache/` is left alone.
+
 Options:
 
 ```
