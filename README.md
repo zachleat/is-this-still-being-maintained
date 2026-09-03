@@ -134,11 +134,16 @@ Two extra files sit next to `report.json`, both keyed for direct sparkline
 rendering and both free of any timestamp — so they change (and get committed)
 only when the underlying data does, never just because the clock moved:
 
-- `report-sparklines.json` — per package: `monthlyReleases` and
-  `monthlyDownloads`, each `{ start: "YYYY-MM", counts: [...] }` with a dense
-  month-by-month series.
-- `report-sparkline-aggregate.json` — the same two series summed across every
+- `report-sparklines.json` — per package: `monthlyReleases`,
+  `monthlyDownloads`, and `monthlyCdnHits`, each `{ start: "YYYY-MM",
+  counts: [...] }` with a dense month-by-month series.
+- `report-sparkline-aggregate.json` — the same three series summed across every
   published package.
+
+`monthlyDownloads` and `monthlyCdnHits` share a start month and length, so they
+can be plotted on the same axis. Every series is trimmed to **complete** months
+at both ends: a partial leading or trailing month silently undercounts and would
+render as a false dip.
 
 **Download history** comes from npm's `range` API, back to each package's first
 publish. Two quirks of that API shape the implementation:
@@ -151,10 +156,22 @@ publish. Two quirks of that API shape the implementation:
   packages entirely, so `@scope/name` packages are fetched one at a time.
 
 Windows that closed before the current month can never change, so they're cached
-for a year; a normal run only refetches the open window. Series end at the last
-**complete** month — the current month is always partial and would render as a
-misleading final dip. npm has no download data before **2015-01-10**, so
-histories are floored there even for older packages.
+for a year; a normal run only refetches the open window. npm has no download data
+before **2015-01-10**, so histories are floored there even for older packages.
+
+**CDN hits** (`monthlyCdnHits`) come from jsDelivr's stats API — the only npm CDN
+that publishes one. unpkg and esm.sh have no stats endpoint at all; their
+`/stats` paths just serve the npm package *named* `stats`. jsDelivr needs no auth,
+handles scoped packages, and `period=all` returns a package's entire daily
+history in a single request, so depth costs nothing.
+
+This counts CDN **requests** (browser `<script src>` loads), not installs — a
+different signal from npm downloads, not a substitute. Build tools score near
+zero because nobody loads them in a browser, while an old browser library can
+out-rank its own npm numbers: `bigtext` averages ~250 npm downloads/month against
+~1,500 CDN hits, because people `<script src>` it without ever installing it.
+It's reported only, deliberately not fed into scoring — the two units aren't
+commensurable, so combining them would distort `importance`.
 
 ## How the score works
 

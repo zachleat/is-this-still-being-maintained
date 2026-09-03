@@ -6,6 +6,7 @@ import path from "node:path";
 
 import { discoverRepos, fetchFilesAcrossRepos } from "./lib/github.js";
 import { auditPackages } from "./lib/audit.js";
+import { fetchCdnHistory } from "./lib/cdn.js";
 import { setDryRun } from "./lib/fetch.js";
 import {
   registryMetrics,
@@ -620,6 +621,18 @@ async function main() {
       c("33", `Download history failed for ${historyErrors.length} package(s)`),
     );
   }
+  // jsDelivr CDN hits — one request per package for full history (no windowing
+  // needed), trimmed below to the same months as the npm series so the two
+  // sparklines line up. Reported only; never fed into scoring.
+  console.error(c("2", `Fetching CDN hits for ${sparkEntries.length} packages…`));
+  const { months: cdnMonths, errors: cdnErrors } = await fetchCdnHistory(
+    sparkEntries.map((p) => p.packageName),
+    { duration: cacheDuration },
+  );
+  if (cdnErrors.length) {
+    console.error(c("33", `CDN hits failed for ${cdnErrors.length} package(s)`));
+  }
+
   // Last complete month — see denseMonthly.
   const lastCompleteYm = (() => {
     const d = new Date();
@@ -627,6 +640,16 @@ async function main() {
     d.setUTCMonth(d.getUTCMonth() - 1);
     return d.toISOString().slice(0, 7);
   })();
+
+  // Earliest month the npm history covers — the CDN series is clipped to it so
+  // both arrays share a start month and index alignment.
+  const firstNpmYm = [...downloadMonths.values()]
+    .flatMap((m) => [...m.keys()])
+    .sort()[0];
+  const clipped = (byMonth) => {
+    if (!firstNpmYm) return new Map();
+    return new Map([...byMonth].filter(([ym]) => ym >= firstNpmYm));
+  };
 
   const sparkPackages = {};
   for (const p of sparkEntries) {
@@ -638,6 +661,10 @@ async function main() {
       monthlyReleases: monthlyReleaseCounts(dates),
       monthlyDownloads: denseMonthly(
         downloadMonths.get(p.packageName) ?? new Map(),
+        lastCompleteYm,
+      ),
+      monthlyCdnHits: denseMonthly(
+        clipped(cdnMonths.get(p.packageName) ?? new Map()),
         lastCompleteYm,
       ),
     };
@@ -663,11 +690,18 @@ async function main() {
       allDownloadMonths.set(ym, (allDownloadMonths.get(ym) ?? 0) + n);
     }
   }
+  const allCdnMonths = new Map();
+  for (const p of sparkEntries) {
+    for (const [ym, n] of clipped(cdnMonths.get(p.packageName) ?? new Map())) {
+      allCdnMonths.set(ym, (allCdnMonths.get(ym) ?? 0) + n);
+    }
+  }
   const aggregate = {
     packages: sparkEntries.length,
     publishCount: allDates.length,
     monthlyReleases: monthlyReleaseCounts(allDates),
     monthlyDownloads: denseMonthly(allDownloadMonths, lastCompleteYm),
+    monthlyCdnHits: denseMonthly(allCdnMonths, lastCompleteYm),
   };
   const aggregatePath = path.join(
     path.dirname(jsonPath),
