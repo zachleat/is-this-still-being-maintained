@@ -385,8 +385,11 @@ async function main() {
   );
 
   // Web-component heuristic: fetch each package's `main` entry file (from
-  // package.json, defaulting to index.js) and look for a `customElements`
-  // reference. Batched across repos so this is a few requests, not one per package.
+  // package.json, defaulting to index.js) and look for signs of a custom
+  // element registration (see the two ANDed patterns below — this repo IS one
+  // of the scanned projects, since its own `main` defaults to this file, so the
+  // patterns are deliberately built to avoid matching their own description).
+  // Batched across repos so this is a few requests, not one per package.
   const wcRequests = [];
   for (const { repo } of withMeta) {
     const pkg = repo.packageJson;
@@ -398,9 +401,18 @@ async function main() {
   const mainFileTexts = wcRequests.length
     ? await fetchFilesAcrossRepos(wcRequests, { duration: cacheDuration })
     : new Map();
+  // Two separate patterns, ANDed together: one for the API name, one for an
+  // open paren following the word "define". Neither pattern's own source
+  // spells out the full call, and the second is built from concatenated parts
+  // so that exact substring never appears in this file either — otherwise this
+  // very check (or a future comment/README example quoting the real call)
+  // would make this tool flag its own repo as a web component.
+  const customElementsPattern = new RegExp("customElements");
+  const defineCallPattern = new RegExp("define" + "\\(");
   const isWebComponent = (repo) => {
     const text = mainFileTexts.get(repo);
-    return text ? /customElements/.test(text) : false;
+    if (!text) return false;
+    return customElementsPattern.test(text) && defineCallPattern.test(text);
   };
 
   const projects = withMeta.map((entry) => {
