@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T13:02:57.834Z",
+  "generatedAt": "2026-09-03T15:05:42.256Z",
   "healthRating": 96.9,
   "healthRatingHistory": [
     96.6,
@@ -56,7 +56,7 @@
       "isWebComponent": false,
       "description": "Run Eleventy in your browser.",
       "sourceRepo": "11ty/eleventy",
-      "stars": 19876,
+      "stars": 19877,
       "openIssues": 162,
       "closedIssues": 2505,
       "openPRs": 22,
@@ -282,7 +282,7 @@
       "npmError": null,
       "score": 2.2,
       "breakdown": {
-        "activityDays": 72,
+        "activityDays": 73,
         "staleness": 0.099,
         "issuesSub": 0,
         "prsSub": 0.337,
@@ -461,7 +461,7 @@
       "isWebComponent": false,
       "description": "A simpler static site generator.",
       "sourceRepo": "11ty/eleventy",
-      "stars": 19876,
+      "stars": 19877,
       "openIssues": 162,
       "closedIssues": 2505,
       "openPRs": 22,
@@ -1041,7 +1041,7 @@
       "npmError": null,
       "score": 3.9,
       "breakdown": {
-        "activityDays": 72,
+        "activityDays": 73,
         "staleness": 0.099,
         "issuesSub": 0.462,
         "prsSub": 0.392,
@@ -1180,7 +1180,7 @@
       "score": 3,
       "breakdown": {
         "activityDays": 373,
-        "staleness": 0.51,
+        "staleness": 0.511,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -1724,12 +1724,12 @@
       "publishCount": 30,
       "prerelease": false,
       "downloads": 978560,
-      "downloadsKnown": false,
+      "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
-      "npmStatus": "downloads-error",
-      "npmError": "downloads: Bad response for https://api.npmjs.org/downloads/point/last-year/%4011ty%2Feleventy-plugin-rss (429): ",
-      "score": 4.2,
+      "npmStatus": "published",
+      "npmError": null,
+      "score": 4.3,
       "breakdown": {
         "activityDays": 66,
         "staleness": 0.091,
@@ -1756,7 +1756,7 @@
         4.1,
         4.1,
         4.2,
-        4.2
+        4.3
       ]
     },
     {
@@ -1870,7 +1870,7 @@
       "score": 0.5,
       "breakdown": {
         "activityDays": 10,
-        "staleness": 0.013,
+        "staleness": 0.014,
         "issuesSub": 0.282,
         "prsSub": 0.506,
         "backlogSeverity": 0.439,
@@ -2522,7 +2522,7 @@
       "nameWithOwner": "11ty/import",
       "owner": "11ty",
       "url": "https://github.com/11ty/import",
-      "homepageUrl": null,
+      "homepageUrl": "https://www.11ty.dev/docs/migrate/",
       "workspacePath": null,
       "packageName": "@11ty/import",
       "isArchived": false,
@@ -3387,8 +3387,8 @@
       "npmError": null,
       "score": 0.1,
       "breakdown": {
-        "activityDays": 2,
-        "staleness": 0.003,
+        "activityDays": 3,
+        "staleness": 0.004,
         "issuesSub": 0.723,
         "prsSub": 0.903,
         "backlogSeverity": 0.849,
@@ -3428,7 +3428,7 @@
       "isWebComponent": false,
       "description": "A simpler way to build awesome web sites.",
       "sourceRepo": null,
-      "stars": 19876,
+      "stars": 19877,
       "openIssues": 162,
       "closedIssues": 2505,
       "openPRs": 22,
@@ -3454,7 +3454,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0,
+      "score": 0.1,
       "breakdown": {
         "activityDays": 1,
         "staleness": 0.001,
@@ -3481,7 +3481,7 @@
         0,
         0.1,
         0.2,
-        0
+        0.1
       ]
     },
     {
@@ -4216,7 +4216,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 23,
-        "staleness": 0.031,
+        "staleness": 0.032,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -5043,8 +5043,8 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 40,
-        "staleness": 0.055,
+        "activityDays": 41,
+        "staleness": 0.056,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -5578,12 +5578,12 @@
       "score": 0,
       "breakdown": {
         "activityDays": 454,
-        "staleness": 0.621,
+        "staleness": 0.622,
         "issuesSub": 0.602,
         "prsSub": 0.392,
         "backlogSeverity": 0.455,
         "demand": 0.455,
-        "neglect": 0.282,
+        "neglect": 0.283,
         "securitySub": 0,
         "security": 0,
         "attention": 0,
@@ -5776,7 +5776,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 288,
-        "staleness": 0.394,
+        "staleness": 0.395,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -6854,7 +6854,7 @@
       "isArchived": false,
       "isPinned": false,
       "isTemplate": true,
-      "isWebComponent": true,
+      "isWebComponent": false,
       "description": "A personal report of open source projects to prioritize maintenance",
       "sourceRepo": null,
       "stars": 3,
@@ -6867,7 +6867,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-07-26T00:25:27Z",
-      "pushedAt": "2026-09-03T01:26:58Z",
+      "pushedAt": "2026-09-03T13:09:43Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
@@ -6886,7 +6886,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 0,
-        "staleness": 0.001,
+        "staleness": 0,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -7350,8 +7350,8 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 40,
-        "staleness": 0.055,
+        "activityDays": 41,
+        "staleness": 0.056,
         "issuesSub": 0.121,
         "prsSub": 0,
         "backlogSeverity": 0.036,
@@ -7520,7 +7520,7 @@
       "isWebComponent": false,
       "description": "Benchmark the performance and accessibility of websites over time.",
       "sourceRepo": null,
-      "stars": 16,
+      "stars": 17,
       "openIssues": 5,
       "closedIssues": 2,
       "openPRs": 0,
@@ -7530,7 +7530,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-09-03T12:12:50Z",
+      "pushedAt": "2026-09-03T14:46:07Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
@@ -7559,9 +7559,9 @@
         "security": 0,
         "attention": 0,
         "downloadsSub": 0,
-        "starsSub": 0.333,
-        "popularity": 0.05,
-        "importance": 0.335
+        "starsSub": 0.339,
+        "popularity": 0.051,
+        "importance": 0.336
       },
       "scoreHistory": [
         0,
@@ -7581,7 +7581,7 @@
       "isWebComponent": true,
       "description": "A zero-dependency web component showing Lighthouse scores for a URL, published by a speedlify2 instance.",
       "sourceRepo": "zachleat/speedlify2",
-      "stars": 16,
+      "stars": 17,
       "openIssues": 5,
       "closedIssues": 2,
       "openPRs": 0,
@@ -7591,7 +7591,7 @@
       "productionDependencies": 0,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-09-03T12:12:50Z",
+      "pushedAt": "2026-09-03T14:46:07Z",
       "lastPublish": "2026-09-02T14:56:12.331Z",
       "lastPublishVersion": "1.0.0",
       "lastStablePublish": "2026-09-02T14:56:12.331Z",
@@ -7620,9 +7620,9 @@
         "security": 0,
         "attention": 0,
         "downloadsSub": 0,
-        "starsSub": 0.333,
-        "popularity": 0.05,
-        "importance": 0.335
+        "starsSub": 0.339,
+        "popularity": 0.051,
+        "importance": 0.336
       },
       "scoreHistory": [
         0,
@@ -7910,7 +7910,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2013-02-26T04:56:49Z",
-      "pushedAt": "2026-09-03T01:27:05Z",
+      "pushedAt": "2026-09-03T14:49:16Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
@@ -7929,7 +7929,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 0,
-        "staleness": 0.001,
+        "staleness": 0,
         "issuesSub": 0.42,
         "prsSub": 0.56,
         "backlogSeverity": 0.518,
@@ -7997,7 +7997,7 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 3773,
+        "activityDays": 3774,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
