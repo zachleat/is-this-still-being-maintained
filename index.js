@@ -257,6 +257,16 @@ async function main() {
     duration: cacheDuration,
   });
 
+  // A repo can opt itself in via its own package.json, instead of growing the
+  // centralized `alwaysInclude` list in config.json for every occasional
+  // project (demos, one-offs) worth tracking anyway. Folded into `keepSet` so
+  // it gets the exact same bypass as `alwaysInclude` everywhere that matters:
+  // the candidate filter, dedup, and the publishedOnly gate.
+  const OPT_IN_FIELD = "is-this-still-being-maintained";
+  for (const r of repos) {
+    if (r.packageJson?.[OPT_IN_FIELD] === true) keepSet.add(r.nameWithOwner);
+  }
+
   // Filter down to the things worth scoring. `exclude` always wins;
   // `alwaysInclude` then forces a repo through, bypassing the automatic filters
   // below (archived, private package.json, monitor allowlist, no package.json).

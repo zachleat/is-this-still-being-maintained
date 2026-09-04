@@ -80,6 +80,18 @@ repo's worth (e.g. one private workspace member without its siblings), list the
 npm package name in `alwaysIncludePackages`. `exclude` still wins over both, and
 a misspelled entry that matches no discovered repo/package prints a warning.
 
+**A repo can opt itself in**, from inside the repo, instead of growing the
+centralized `alwaysInclude` list for every occasional project (a demo, a
+one-off tool) worth tracking anyway. Add to its `package.json`:
+
+```json
+{ "is-this-still-being-maintained": true }
+```
+
+This gets exactly the same bypass as an `alwaysInclude` entry — the archived,
+private-package, monitor-allowlist, and unpublished filters, everywhere they're
+checked. Only a boolean `true` counts; anything else is ignored.
+
 **Archived repos are kept**, flagged with `isArchived: true`. Archiving retires
 the *repo*, not the published package — the code stays on npm and people keep
 installing it — so archived projects still contribute their publishing and
