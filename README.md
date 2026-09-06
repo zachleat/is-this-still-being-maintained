@@ -167,9 +167,10 @@ publish. Two quirks of that API shape the implementation:
   single-package limit, and rejects anything longer. Bulk also refuses scoped
   packages entirely, so `@scope/name` packages are fetched one at a time.
 
-Windows that closed before the current month can never change, so they're cached
-for a year; a normal run only refetches the open window. npm has no download data
-before **2015-01-10**, so histories are floored there even for older packages.
+Windows that closed before the current month can never change, so they never
+expire from the cache; a normal run only refetches the open window. npm has no
+download data before **2015-01-10**, so histories are floored there even for
+older packages.
 
 **CDN hits** (`monthlyCdnHits`) come from jsDelivr's stats API — the only npm CDN
 that publishes one. unpkg and esm.sh have no stats endpoint at all; their
@@ -309,7 +310,9 @@ All GitHub and npm responses are cached to `.cache/` for `cacheDuration`
 make no network requests. The GraphQL cache key includes the request body, so
 each owner/page is cached separately. To force a fresh pull, delete `.cache/` or
 set a shorter `cacheDuration`. If a request fails but an expired cache entry
-exists, eleventy-fetch falls back to the stale value rather than erroring.
+exists, eleventy-fetch falls back to the stale value rather than erroring — CI
+persists `.cache/` between runs (via `actions/cache`) specifically so this kicks
+in on a transient API failure instead of failing the whole run.
 
 ## Output
 
@@ -396,10 +399,10 @@ counted as "zero downloads" or "unpublished" — it's surfaced as `downloads-err
 / `error`, and a re-run picks up where it left off. If you routinely see a handful
 of `downloads-error` rows, lower `options.concurrency` in `config.json`.
 
-## Automation (daily)
+## Automation (every 6 hours)
 
 [`.github/workflows/maintenance-report.yml`](.github/workflows/maintenance-report.yml)
-regenerates the report every day at 12:00 UTC (and on demand via **workflow
+regenerates the report every 6 hours (and on demand via **workflow
 dispatch**), then commits `docs/report.json` back to the repo — but
 only when it changed. Because the report is sorted and timestamp-free, each
 commit is a clean diff, giving you a git history of how your scores drift over
