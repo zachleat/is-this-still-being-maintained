@@ -24,8 +24,21 @@
         ]
       },
       "monthlyDownloads": {
-        "start": null,
-        "counts": []
+        "start": "2025-09",
+        "counts": [
+          224,
+          242,
+          222,
+          404,
+          212,
+          222,
+          365,
+          294,
+          116,
+          284,
+          478,
+          199
+        ]
       },
       "monthlyCdnHits": {
         "start": "2025-09",
