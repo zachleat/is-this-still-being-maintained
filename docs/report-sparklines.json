@@ -1,5 +1,5 @@
 {
-  "count": 91,
+  "count": 92,
   "packages": {
     "@11ty/client": {
       "publishCount": 10,
@@ -4496,6 +4496,25 @@
           28,
           38
         ]
+      }
+    },
+    "@zachleat/solar-eclipse-toggle": {
+      "publishCount": 4,
+      "firstPublish": "2026-09-13T15:56:29.244Z",
+      "lastPublish": "2026-09-14T12:53:49.661Z",
+      "monthlyReleases": {
+        "start": "2026-09",
+        "counts": [
+          4
+        ]
+      },
+      "monthlyDownloads": {
+        "start": null,
+        "counts": []
+      },
+      "monthlyCdnHits": {
+        "start": null,
+        "counts": []
       }
     },
     "@zachleat/spider-pig": {
