@@ -1,5 +1,5 @@
 {
-  "count": 93,
+  "count": 94,
   "packages": {
     "@11ty/client": {
       "publishCount": 10,
@@ -4058,6 +4058,25 @@
           10,
           25
         ]
+      }
+    },
+    "@zachleat/icon-fall": {
+      "publishCount": 1,
+      "firstPublish": "2026-09-16T00:37:33.275Z",
+      "lastPublish": "2026-09-16T00:37:33.599Z",
+      "monthlyReleases": {
+        "start": "2026-09",
+        "counts": [
+          1
+        ]
+      },
+      "monthlyDownloads": {
+        "start": null,
+        "counts": []
+      },
+      "monthlyCdnHits": {
+        "start": null,
+        "counts": []
       }
     },
     "@zachleat/line-numbers": {
