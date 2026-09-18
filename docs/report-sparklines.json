@@ -1101,9 +1101,9 @@
       }
     },
     "@11ty/eleventy-plugin-bundle": {
-      "publishCount": 22,
+      "publishCount": 23,
       "firstPublish": "2023-02-02T21:47:47.519Z",
-      "lastPublish": "2026-07-01T16:23:15.987Z",
+      "lastPublish": "2026-09-17T22:15:51.422Z",
       "monthlyReleases": {
         "start": "2023-02",
         "counts": [
@@ -1148,6 +1148,8 @@
           0,
           0,
           2,
+          1,
+          0,
           1
         ]
       },
