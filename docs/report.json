@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T16:15:16.695Z",
+  "generatedAt": "2026-09-18T20:47:02.511Z",
   "healthRating": 97.4,
   "healthRatingHistory": [
     97.2,
@@ -56,7 +56,7 @@
       "isWebComponent": false,
       "description": "Run Eleventy in your browser.",
       "sourceRepo": "11ty/eleventy",
-      "stars": 19919,
+      "stars": 19921,
       "openIssues": 161,
       "closedIssues": 2506,
       "openPRs": 25,
@@ -223,7 +223,7 @@
       "score": 2.1,
       "breakdown": {
         "activityDays": 388,
-        "staleness": 0.531,
+        "staleness": 0.532,
         "issuesSub": 0,
         "prsSub": 0.169,
         "backlogSeverity": 0.118,
@@ -470,7 +470,7 @@
       "isWebComponent": false,
       "description": "A simpler static site generator.",
       "sourceRepo": "11ty/eleventy",
-      "stars": 19919,
+      "stars": 19921,
       "openIssues": 161,
       "closedIssues": 2506,
       "openPRs": 25,
@@ -706,7 +706,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 702,
-        "staleness": 0.961,
+        "staleness": 0.962,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -910,9 +910,9 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.4,
+      "score": 0.5,
       "breakdown": {
-        "activityDays": 7,
+        "activityDays": 8,
         "staleness": 0.01,
         "issuesSub": 0.435,
         "prsSub": 0.473,
@@ -937,7 +937,7 @@
         0.3,
         0.3,
         0.4,
-        0.4
+        0.5
       ]
     },
     {
@@ -1258,7 +1258,7 @@
       "score": 24.2,
       "breakdown": {
         "activityDays": 493,
-        "staleness": 0.675,
+        "staleness": 0.676,
         "issuesSub": 0.516,
         "prsSub": 0.473,
         "backlogSeverity": 0.486,
@@ -1327,7 +1327,7 @@
       "score": 19.2,
       "breakdown": {
         "activityDays": 493,
-        "staleness": 0.675,
+        "staleness": 0.676,
         "issuesSub": 0.516,
         "prsSub": 0.473,
         "backlogSeverity": 0.486,
@@ -1396,7 +1396,7 @@
       "score": 24.8,
       "breakdown": {
         "activityDays": 493,
-        "staleness": 0.675,
+        "staleness": 0.676,
         "issuesSub": 0.516,
         "prsSub": 0.473,
         "backlogSeverity": 0.486,
@@ -1534,7 +1534,7 @@
       "score": 0.5,
       "breakdown": {
         "activityDays": 53,
-        "staleness": 0.072,
+        "staleness": 0.073,
         "issuesSub": 0.282,
         "prsSub": 0,
         "backlogSeverity": 0.085,
@@ -1603,7 +1603,7 @@
       "score": 20.3,
       "breakdown": {
         "activityDays": 493,
-        "staleness": 0.675,
+        "staleness": 0.676,
         "issuesSub": 0.516,
         "prsSub": 0.473,
         "backlogSeverity": 0.486,
@@ -1672,7 +1672,7 @@
       "score": 22.9,
       "breakdown": {
         "activityDays": 493,
-        "staleness": 0.675,
+        "staleness": 0.676,
         "issuesSub": 0.516,
         "prsSub": 0.473,
         "backlogSeverity": 0.486,
@@ -1740,8 +1740,8 @@
       "npmError": null,
       "score": 5.2,
       "breakdown": {
-        "activityDays": 81,
-        "staleness": 0.111,
+        "activityDays": 82,
+        "staleness": 0.112,
         "issuesSub": 0.533,
         "prsSub": 0.473,
         "backlogSeverity": 0.491,
@@ -1879,7 +1879,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 4,
-        "staleness": 0.005,
+        "staleness": 0.006,
         "issuesSub": 0.282,
         "prsSub": 0.169,
         "backlogSeverity": 0.203,
@@ -2293,7 +2293,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 17,
-        "staleness": 0.023,
+        "staleness": 0.024,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -2362,7 +2362,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 2,
-        "staleness": 0.002,
+        "staleness": 0.003,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -2428,7 +2428,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.3,
+      "score": 0.4,
       "breakdown": {
         "activityDays": 11,
         "staleness": 0.015,
@@ -2455,7 +2455,7 @@
         0.3,
         0.3,
         0.3,
-        0.3
+        0.4
       ]
     },
     {
@@ -2566,10 +2566,10 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.4,
+      "score": 0.5,
       "breakdown": {
         "activityDays": 9,
-        "staleness": 0.012,
+        "staleness": 0.013,
         "issuesSub": 0.475,
         "prsSub": 0.473,
         "backlogSeverity": 0.474,
@@ -2593,7 +2593,7 @@
         0.3,
         0.4,
         0.4,
-        0.4
+        0.5
       ]
     },
     {
@@ -2638,7 +2638,7 @@
       "score": 8.7,
       "breakdown": {
         "activityDays": 290,
-        "staleness": 0.397,
+        "staleness": 0.398,
         "issuesSub": 0.462,
         "prsSub": 0.169,
         "backlogSeverity": 0.257,
@@ -2707,7 +2707,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 52,
-        "staleness": 0.071,
+        "staleness": 0.072,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -2776,7 +2776,7 @@
       "score": 0.9,
       "breakdown": {
         "activityDays": 275,
-        "staleness": 0.376,
+        "staleness": 0.377,
         "issuesSub": 0.121,
         "prsSub": 0,
         "backlogSeverity": 0.036,
@@ -2914,7 +2914,7 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 4,
-        "staleness": 0.005,
+        "staleness": 0.006,
         "issuesSub": 0.42,
         "prsSub": 0.436,
         "backlogSeverity": 0.431,
@@ -2982,7 +2982,7 @@
       "npmError": null,
       "score": 0.8,
       "breakdown": {
-        "activityDays": 30,
+        "activityDays": 31,
         "staleness": 0.042,
         "issuesSub": 0,
         "prsSub": 0.392,
@@ -3121,7 +3121,7 @@
       "score": 2.6,
       "breakdown": {
         "activityDays": 136,
-        "staleness": 0.186,
+        "staleness": 0.187,
         "issuesSub": 0.121,
         "prsSub": 0.169,
         "backlogSeverity": 0.154,
@@ -3328,7 +3328,7 @@
       "score": 30.5,
       "breakdown": {
         "activityDays": 2,
-        "staleness": 0.002,
+        "staleness": 0.003,
         "issuesSub": 0.714,
         "prsSub": 0.392,
         "backlogSeverity": 0.488,
@@ -3371,7 +3371,7 @@
       "stars": 547,
       "openIssues": 61,
       "closedIssues": 281,
-      "openPRs": 44,
+      "openPRs": 45,
       "mergedPRs": 1412,
       "closedPRs": 160,
       "openVulnerabilities": null,
@@ -3394,18 +3394,18 @@
       "published": false,
       "npmStatus": "unpublished",
       "npmError": null,
-      "score": 0.2,
+      "score": 0.3,
       "breakdown": {
-        "activityDays": 5,
-        "staleness": 0.007,
+        "activityDays": 6,
+        "staleness": 0.008,
         "issuesSub": 0.723,
-        "prsSub": 0.926,
-        "backlogSeverity": 0.865,
-        "demand": 0.865,
-        "neglect": 0.006,
+        "prsSub": 0.931,
+        "backlogSeverity": 0.869,
+        "demand": 0.869,
+        "neglect": 0.007,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.006,
+        "attention": 0.007,
         "downloadsSub": 0,
         "starsSub": 0.74,
         "popularity": 0.111,
@@ -3421,7 +3421,7 @@
         0.1,
         0.2,
         0.2,
-        0.2
+        0.3
       ]
     },
     {
@@ -3437,7 +3437,7 @@
       "isWebComponent": false,
       "description": "A simpler way to build awesome web sites.",
       "sourceRepo": null,
-      "stars": 19919,
+      "stars": 19921,
       "openIssues": 161,
       "closedIssues": 2506,
       "openPRs": 25,
@@ -3463,7 +3463,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.3,
+      "score": 0.4,
       "breakdown": {
         "activityDays": 4,
         "staleness": 0.006,
@@ -3490,7 +3490,7 @@
         0.1,
         0.2,
         0.3,
-        0.3
+        0.4
       ]
     },
     {
@@ -3535,7 +3535,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 12,
-        "staleness": 0.016,
+        "staleness": 0.017,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -3673,7 +3673,7 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 12,
-        "staleness": 0.016,
+        "staleness": 0.017,
         "issuesSub": 0.243,
         "prsSub": 0.169,
         "backlogSeverity": 0.191,
@@ -3742,7 +3742,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 12,
-        "staleness": 0.016,
+        "staleness": 0.017,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -3949,7 +3949,7 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 12,
-        "staleness": 0.016,
+        "staleness": 0.017,
         "issuesSub": 0.121,
         "prsSub": 0.169,
         "backlogSeverity": 0.154,
@@ -4156,7 +4156,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 12,
-        "staleness": 0.016,
+        "staleness": 0.017,
         "issuesSub": 0.192,
         "prsSub": 0,
         "backlogSeverity": 0.058,
@@ -4265,7 +4265,7 @@
       "isWebComponent": true,
       "description": "A web component to rain Font Awesome icons down your web site.",
       "sourceRepo": "zachleat/icon-fall",
-      "stars": 3,
+      "stars": 4,
       "openIssues": 0,
       "closedIssues": 0,
       "openPRs": 0,
@@ -4304,9 +4304,9 @@
         "security": 0,
         "attention": 0,
         "downloadsSub": 0.34,
-        "starsSub": 0.163,
-        "popularity": 0.314,
-        "importance": 0.52
+        "starsSub": 0.189,
+        "popularity": 0.318,
+        "importance": 0.522
       },
       "scoreHistory": [
         0,
@@ -4885,9 +4885,9 @@
       "openPRs": 0,
       "mergedPRs": 0,
       "closedPRs": 0,
-      "openVulnerabilities": null,
+      "openVulnerabilities": 0,
       "productionDependencies": 0,
-      "transitiveDependencies": null,
+      "transitiveDependencies": 0,
       "repoCreatedAt": "2026-09-13T15:55:50Z",
       "pushedAt": "2026-09-17T14:42:18Z",
       "lastPublish": "2026-09-17T14:43:45.199Z",
@@ -4908,7 +4908,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.192,
         "prsSub": 0,
         "backlogSeverity": 0.058,
@@ -5081,7 +5081,7 @@
       "isWebComponent": true,
       "description": "A zero-dependency web component that client renders a table of contents from the headings on the page.",
       "sourceRepo": "zachleat/table-of-contents",
-      "stars": 7,
+      "stars": 8,
       "openIssues": 0,
       "closedIssues": 0,
       "openPRs": 0,
@@ -5120,9 +5120,9 @@
         "security": 0,
         "attention": 0,
         "downloadsSub": 0.255,
-        "starsSub": 0.244,
-        "popularity": 0.254,
-        "importance": 0.478
+        "starsSub": 0.258,
+        "popularity": 0.256,
+        "importance": 0.479
       },
       "scoreHistory": [
         0,
@@ -5587,7 +5587,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 10,
-        "staleness": 0.013,
+        "staleness": 0.014,
         "issuesSub": 0.549,
         "prsSub": 0.169,
         "backlogSeverity": 0.283,
@@ -5756,7 +5756,7 @@
       "isWebComponent": false,
       "description": "Calculates the font-size and word-spacing needed to match a line of text to a specific width. (jQuery plugin)",
       "sourceRepo": "zachleat/bigtext",
-      "stars": 883,
+      "stars": 882,
       "openIssues": 30,
       "closedIssues": 43,
       "openPRs": 4,
@@ -5795,7 +5795,7 @@
         "security": 0,
         "attention": 0,
         "downloadsSub": 0.586,
-        "starsSub": 0.797,
+        "starsSub": 0.796,
         "popularity": 0.618,
         "importance": 0.733
       },
@@ -6199,7 +6199,7 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 21,
-        "staleness": 0.028,
+        "staleness": 0.029,
         "issuesSub": 0.243,
         "prsSub": 0.169,
         "backlogSeverity": 0.191,
@@ -6268,7 +6268,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 21,
-        "staleness": 0.028,
+        "staleness": 0.029,
         "issuesSub": 0.282,
         "prsSub": 0,
         "backlogSeverity": 0.085,
@@ -6475,7 +6475,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 4,
-        "staleness": 0.005,
+        "staleness": 0.006,
         "issuesSub": 0.516,
         "prsSub": 0,
         "backlogSeverity": 0.155,
@@ -6860,9 +6860,9 @@
       "isWebComponent": false,
       "description": "A tool to ease webfont subsetting.",
       "sourceRepo": "zachleat/glyphhanger",
-      "stars": 903,
+      "stars": 904,
       "openIssues": 9,
-      "closedIssues": 15,
+      "closedIssues": 16,
       "openPRs": 1,
       "mergedPRs": 6,
       "closedPRs": 1,
@@ -7032,10 +7032,10 @@
         "prsSub": 0.337,
         "backlogSeverity": 0.272,
         "demand": 0.272,
-        "neglect": 0.014,
+        "neglect": 0.015,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.014,
+        "attention": 0.015,
         "downloadsSub": 0.781,
         "starsSub": 0.427,
         "popularity": 0.728,
@@ -7096,7 +7096,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 53,
-        "staleness": 0.072,
+        "staleness": 0.073,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -7146,7 +7146,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-07-26T00:25:27Z",
-      "pushedAt": "2026-09-18T11:01:55Z",
+      "pushedAt": "2026-09-18T16:16:14Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
@@ -7303,7 +7303,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 26,
-        "staleness": 0.035,
+        "staleness": 0.036,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -7717,7 +7717,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 26,
-        "staleness": 0.035,
+        "staleness": 0.036,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -7836,7 +7836,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-09-18T14:05:54Z",
+      "pushedAt": "2026-09-18T20:44:15Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
@@ -7905,7 +7905,7 @@
       "productionDependencies": 0,
       "transitiveDependencies": 0,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-09-18T14:05:54Z",
+      "pushedAt": "2026-09-18T20:44:15Z",
       "lastPublish": "2026-09-02T14:56:12.331Z",
       "lastPublishVersion": "1.0.0",
       "lastStablePublish": "2026-09-02T14:56:12.331Z",
@@ -8338,7 +8338,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.004,
+        "staleness": 0.005,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
