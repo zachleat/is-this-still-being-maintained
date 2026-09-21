@@ -5844,16 +5844,29 @@
       }
     },
     "import-module-string": {
-      "publishCount": 10,
+      "publishCount": 11,
       "firstPublish": "2025-05-01T17:25:46.915Z",
-      "lastPublish": "2025-08-08T21:33:31.489Z",
+      "lastPublish": "2026-09-21T21:20:56.318Z",
       "monthlyReleases": {
         "start": "2025-05",
         "counts": [
           6,
           2,
           0,
-          2
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
         ]
       },
       "monthlyDownloads": {
@@ -6514,13 +6527,13 @@
       }
     },
     "speedlify2-score": {
-      "publishCount": 1,
+      "publishCount": 2,
       "firstPublish": "2026-09-02T14:56:11.940Z",
-      "lastPublish": "2026-09-02T14:56:12.331Z",
+      "lastPublish": "2026-09-21T16:43:49.140Z",
       "monthlyReleases": {
         "start": "2026-09",
         "counts": [
-          1
+          2
         ]
       },
       "monthlyDownloads": {
