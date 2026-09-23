@@ -3531,9 +3531,9 @@
       }
     },
     "@zachleat/browser-window": {
-      "publishCount": 19,
+      "publishCount": 20,
       "firstPublish": "2023-10-25T20:46:53.205Z",
-      "lastPublish": "2026-09-16T17:44:33.752Z",
+      "lastPublish": "2026-09-23T16:28:35.654Z",
       "monthlyReleases": {
         "start": "2023-10",
         "counts": [
@@ -3572,7 +3572,7 @@
           0,
           0,
           0,
-          2
+          3
         ]
       },
       "monthlyDownloads": {
