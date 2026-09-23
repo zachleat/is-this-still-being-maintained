@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T16:40:54.338Z",
+  "generatedAt": "2026-09-23T21:24:59.899Z",
   "healthRating": 97.4,
   "healthRatingHistory": [
     97.3,
@@ -56,7 +56,7 @@
       "isWebComponent": false,
       "description": "Run Eleventy in your browser.",
       "sourceRepo": "11ty/eleventy",
-      "stars": 19930,
+      "stars": 19929,
       "openIssues": 160,
       "closedIssues": 2507,
       "openPRs": 21,
@@ -82,10 +82,10 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.1,
+      "score": 0.2,
       "breakdown": {
         "activityDays": 2,
-        "staleness": 0.002,
+        "staleness": 0.003,
         "issuesSub": 0.89,
         "prsSub": 0.752,
         "backlogSeverity": 0.793,
@@ -109,7 +109,7 @@
         0.5,
         0,
         0.1,
-        0.1
+        0.2
       ]
     },
     {
@@ -470,7 +470,7 @@
       "isWebComponent": false,
       "description": "A simpler static site generator.",
       "sourceRepo": "11ty/eleventy",
-      "stars": 19930,
+      "stars": 19929,
       "openIssues": 160,
       "closedIssues": 2507,
       "openPRs": 21,
@@ -499,7 +499,7 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 2,
-        "staleness": 0.002,
+        "staleness": 0.003,
         "issuesSub": 0.89,
         "prsSub": 0.752,
         "backlogSeverity": 0.793,
@@ -706,7 +706,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 707,
-        "staleness": 0.968,
+        "staleness": 0.969,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -912,7 +912,7 @@
       "npmError": null,
       "score": 0.8,
       "breakdown": {
-        "activityDays": 12,
+        "activityDays": 13,
         "staleness": 0.017,
         "issuesSub": 0.435,
         "prsSub": 0.473,
@@ -979,7 +979,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.3,
+      "score": 0.4,
       "breakdown": {
         "activityDays": 5,
         "staleness": 0.007,
@@ -1006,7 +1006,7 @@
         0.2,
         0.2,
         0.3,
-        0.3
+        0.4
       ]
     },
     {
@@ -1534,7 +1534,7 @@
       "score": 0.6,
       "breakdown": {
         "activityDays": 58,
-        "staleness": 0.079,
+        "staleness": 0.08,
         "issuesSub": 0.282,
         "prsSub": 0,
         "backlogSeverity": 0.085,
@@ -1600,7 +1600,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 20.5,
+      "score": 20.6,
       "breakdown": {
         "activityDays": 498,
         "staleness": 0.682,
@@ -1627,7 +1627,7 @@
         20.4,
         20.5,
         20.5,
-        20.5
+        20.6
       ]
     },
     {
@@ -1738,10 +1738,10 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 5.5,
+      "score": 5.6,
       "breakdown": {
-        "activityDays": 86,
-        "staleness": 0.118,
+        "activityDays": 87,
+        "staleness": 0.119,
         "issuesSub": 0.533,
         "prsSub": 0.473,
         "backlogSeverity": 0.491,
@@ -1765,7 +1765,7 @@
         5.4,
         5.4,
         5.5,
-        5.5
+        5.6
       ]
     },
     {
@@ -1807,7 +1807,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 12.8,
+      "score": 12.9,
       "breakdown": {
         "activityDays": 295,
         "staleness": 0.404,
@@ -1834,7 +1834,7 @@
         12.7,
         12.8,
         12.8,
-        12.8
+        12.9
       ]
     },
     {
@@ -2362,7 +2362,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 7,
-        "staleness": 0.009,
+        "staleness": 0.01,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -2569,7 +2569,7 @@
       "score": 0.7,
       "breakdown": {
         "activityDays": 14,
-        "staleness": 0.019,
+        "staleness": 0.02,
         "issuesSub": 0.475,
         "prsSub": 0.473,
         "backlogSeverity": 0.474,
@@ -2707,7 +2707,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 57,
-        "staleness": 0.078,
+        "staleness": 0.079,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -2776,7 +2776,7 @@
       "score": 1,
       "breakdown": {
         "activityDays": 280,
-        "staleness": 0.383,
+        "staleness": 0.384,
         "issuesSub": 0.121,
         "prsSub": 0,
         "backlogSeverity": 0.036,
@@ -2982,8 +2982,8 @@
       "npmError": null,
       "score": 1,
       "breakdown": {
-        "activityDays": 35,
-        "staleness": 0.048,
+        "activityDays": 36,
+        "staleness": 0.049,
         "issuesSub": 0,
         "prsSub": 0.392,
         "backlogSeverity": 0.274,
@@ -3121,7 +3121,7 @@
       "score": 2.7,
       "breakdown": {
         "activityDays": 141,
-        "staleness": 0.193,
+        "staleness": 0.194,
         "issuesSub": 0.121,
         "prsSub": 0.169,
         "backlogSeverity": 0.154,
@@ -3259,7 +3259,7 @@
       "score": 5.1,
       "breakdown": {
         "activityDays": 391,
-        "staleness": 0.535,
+        "staleness": 0.536,
         "issuesSub": 0,
         "prsSub": 0.392,
         "backlogSeverity": 0.274,
@@ -3328,7 +3328,7 @@
       "score": 30.5,
       "breakdown": {
         "activityDays": 7,
-        "staleness": 0.009,
+        "staleness": 0.01,
         "issuesSub": 0.714,
         "prsSub": 0.392,
         "backlogSeverity": 0.488,
@@ -3437,7 +3437,7 @@
       "isWebComponent": false,
       "description": "A simpler way to build awesome web sites.",
       "sourceRepo": null,
-      "stars": 19930,
+      "stars": 19929,
       "openIssues": 160,
       "closedIssues": 2507,
       "openPRs": 21,
@@ -3463,10 +3463,10 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.1,
+      "score": 0.2,
       "breakdown": {
         "activityDays": 2,
-        "staleness": 0.002,
+        "staleness": 0.003,
         "issuesSub": 0.89,
         "prsSub": 0.752,
         "backlogSeverity": 0.793,
@@ -3490,7 +3490,7 @@
         0.5,
         0,
         0.1,
-        0.1
+        0.2
       ]
     },
     {
@@ -4913,7 +4913,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 6,
-        "staleness": 0.008,
+        "staleness": 0.009,
         "issuesSub": 0.192,
         "prsSub": 0,
         "backlogSeverity": 0.058,
@@ -6214,7 +6214,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 26,
-        "staleness": 0.035,
+        "staleness": 0.036,
         "issuesSub": 0.282,
         "prsSub": 0,
         "backlogSeverity": 0.085,
@@ -6697,7 +6697,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 385,
-        "staleness": 0.527,
+        "staleness": 0.528,
         "issuesSub": 0,
         "prsSub": 0.267,
         "backlogSeverity": 0.187,
@@ -7042,7 +7042,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 2,
-        "staleness": 0.002,
+        "staleness": 0.003,
         "issuesSub": 0.121,
         "prsSub": 0,
         "backlogSeverity": 0.036,
@@ -7161,7 +7161,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-07-26T00:25:27Z",
-      "pushedAt": "2026-09-23T11:19:59Z",
+      "pushedAt": "2026-09-23T16:42:04Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
@@ -7318,7 +7318,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 31,
-        "staleness": 0.042,
+        "staleness": 0.043,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -7732,7 +7732,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 31,
-        "staleness": 0.042,
+        "staleness": 0.043,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -7842,7 +7842,7 @@
       "description": "Benchmark the performance and accessibility of websites over time.",
       "sourceRepo": null,
       "stars": 22,
-      "openIssues": 4,
+      "openIssues": 5,
       "closedIssues": 5,
       "openPRs": 0,
       "mergedPRs": 2,
@@ -7851,7 +7851,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-09-23T15:41:14Z",
+      "pushedAt": "2026-09-23T20:41:45Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
@@ -7871,10 +7871,10 @@
       "breakdown": {
         "activityDays": 0,
         "staleness": 0,
-        "issuesSub": 0.282,
+        "issuesSub": 0.314,
         "prsSub": 0,
-        "backlogSeverity": 0.085,
-        "demand": 0.085,
+        "backlogSeverity": 0.094,
+        "demand": 0.094,
         "neglect": 0,
         "securitySub": 0,
         "security": 0,
@@ -7911,16 +7911,16 @@
       "description": "A zero-dependency web component showing Lighthouse scores for a URL, published by a speedlify2 instance.",
       "sourceRepo": "zachleat/speedlify2",
       "stars": 22,
-      "openIssues": 4,
+      "openIssues": 5,
       "closedIssues": 5,
       "openPRs": 0,
       "mergedPRs": 2,
       "closedPRs": 0,
-      "openVulnerabilities": null,
+      "openVulnerabilities": 0,
       "productionDependencies": 0,
-      "transitiveDependencies": null,
+      "transitiveDependencies": 0,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-09-23T15:41:14Z",
+      "pushedAt": "2026-09-23T20:41:45Z",
       "lastPublish": "2026-09-21T16:43:49.140Z",
       "lastPublishVersion": "1.1.0",
       "lastStablePublish": "2026-09-21T16:43:49.140Z",
@@ -7940,10 +7940,10 @@
       "breakdown": {
         "activityDays": 0,
         "staleness": 0,
-        "issuesSub": 0.282,
+        "issuesSub": 0.314,
         "prsSub": 0,
-        "backlogSeverity": 0.085,
-        "demand": 0.085,
+        "backlogSeverity": 0.094,
+        "demand": 0.094,
         "neglect": 0,
         "securitySub": 0,
         "security": 0,
@@ -8196,7 +8196,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-09-04T15:02:41Z",
-      "pushedAt": "2026-09-05T13:42:11Z",
+      "pushedAt": "2026-09-23T17:58:47Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
@@ -8214,8 +8214,8 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 18,
-        "staleness": 0.025,
+        "activityDays": 0,
+        "staleness": 0,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -8393,7 +8393,7 @@
       "isWebComponent": false,
       "description": "zachleat.com is powered by Eleventy and WebC.",
       "sourceRepo": null,
-      "stars": 204,
+      "stars": 205,
       "openIssues": 10,
       "closedIssues": 27,
       "openPRs": 9,
@@ -8403,7 +8403,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2013-02-26T04:56:49Z",
-      "pushedAt": "2026-09-23T16:35:23Z",
+      "pushedAt": "2026-09-23T21:15:36Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "lastStablePublish": null,
@@ -8432,7 +8432,7 @@
         "security": 0,
         "attention": 0,
         "downloadsSub": 0,
-        "starsSub": 0.625,
+        "starsSub": 0.626,
         "popularity": 0.094,
         "importance": 0.366
       },
