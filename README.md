@@ -360,6 +360,11 @@ Each published package carries **`npmDeprecated`** — `true` when its `latest`
 version is marked deprecated on npm (`null` for anything not published). This is
 **reported only**: it does not feed the score, filtering, or any other logic.
 
+Each published package carries **`releaseUrl`** — the GitHub release matching
+`lastPublishVersion`, trying tags `v{version}`, `{version}`, `{name}@{version}`
+and `{name}@v{version}` in order (drafts skipped). `null` when unpublished or no
+release matches.
+
 Each project also carries an `isWebComponent` flag — a heuristic that's `true`
 when the package's `main` entry file (from `package.json`, defaulting to
 `index.js`) contains a `customElements` reference. Main files are fetched batched

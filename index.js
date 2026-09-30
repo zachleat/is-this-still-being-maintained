@@ -4,7 +4,11 @@ import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
 import path from "node:path";
 
-import { discoverRepos, fetchFilesAcrossRepos } from "./lib/github.js";
+import {
+  discoverRepos,
+  fetchFilesAcrossRepos,
+  fetchReleaseUrls,
+} from "./lib/github.js";
 import { auditPackages } from "./lib/audit.js";
 import { fetchCdnHistory } from "./lib/cdn.js";
 import { setDryRun } from "./lib/fetch.js";
@@ -358,6 +362,21 @@ async function main() {
     concurrency: options.concurrency || 8,
   });
 
+  const releaseRequests = publishedEntries
+    .filter((x) => x.meta.lastPublishVersion)
+    .map((x) => ({
+      key: x.repo,
+      repo: x.repo.nameWithOwner,
+      packageName: x.repo.packageName,
+      version: x.meta.lastPublishVersion,
+    }));
+  console.error(
+    c("2", `Fetching GitHub releases for ${releaseRequests.length} published package(s)…`),
+  );
+  const releaseUrls = await fetchReleaseUrls(releaseRequests, {
+    duration: cacheDuration,
+  });
+
   // Phase 2: download counts — one bulk pass for every published package, so we
   // don't hammer (and get throttled by) the strict downloads API.
   console.error(
@@ -501,6 +520,7 @@ async function main() {
       pushedAt: repo.pushedAt,
       lastPublish: npm?.lastPublish || null,
       lastPublishVersion: npm?.lastPublishVersion || null,
+      releaseUrl: published ? releaseUrls.get(repo) ?? null : null,
       lastStablePublish: npm?.lastStablePublish || null,
       lastStablePublishVersion: npm?.lastStablePublishVersion || null,
       firstPublish: npm?.firstPublish || null,
