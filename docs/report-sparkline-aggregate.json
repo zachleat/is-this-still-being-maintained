@@ -1,6 +1,6 @@
 {
   "packages": 94,
-  "publishCount": 1248,
+  "publishCount": 1250,
   "monthlyReleases": {
     "start": "2014-08",
     "counts": [
@@ -150,7 +150,7 @@
       15,
       6,
       25,
-      2
+      4
     ]
   },
   "monthlyDownloads": {
@@ -167,7 +167,7 @@
       6381932,
       7993720,
       9774425,
-      9688657
+      10905486
     ]
   },
   "monthlyCdnHits": {
