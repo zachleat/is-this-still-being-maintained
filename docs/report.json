@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T11:37:35.940Z",
+  "generatedAt": "2026-10-14T13:03:22.743Z",
   "healthRating": 97.1,
   "healthRatingHistory": [
     96.7,
@@ -56,7 +56,7 @@
       "isWebComponent": false,
       "description": "Run Eleventy in your browser.",
       "sourceRepo": "11ty/eleventy",
-      "stars": 19964,
+      "stars": 19965,
       "openIssues": 155,
       "closedIssues": 2517,
       "openPRs": 18,
@@ -66,9 +66,61 @@
       "productionDependencies": 0,
       "transitiveDependencies": 0,
       "repoCreatedAt": "2017-11-27T05:19:00Z",
-      "pushedAt": "2026-10-14T00:19:26Z",
+      "pushedAt": "2026-10-14T12:37:06Z",
       "lastPublish": "2026-07-01T20:59:37.478Z",
       "lastPublishVersion": "4.0.0-alpha.10",
+      "recentPublishes": [
+        {
+          "version": "4.0.0-alpha.10",
+          "date": "2026-07-01T20:59:37.478Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.10"
+        },
+        {
+          "version": "4.0.0-alpha.9",
+          "date": "2026-07-01T17:05:47.509Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.9"
+        },
+        {
+          "version": "4.0.0-alpha.8",
+          "date": "2026-06-18T02:38:13.482Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.8"
+        },
+        {
+          "version": "4.0.0-alpha.7",
+          "date": "2026-03-20T22:16:12.560Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.7"
+        },
+        {
+          "version": "4.0.0-alpha.6",
+          "date": "2025-12-11T23:14:54.358Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.6"
+        },
+        {
+          "version": "4.0.0-alpha.5",
+          "date": "2025-12-05T23:40:39.478Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.5"
+        },
+        {
+          "version": "4.0.0-alpha.4",
+          "date": "2025-08-01T16:48:27.310Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.4"
+        },
+        {
+          "version": "4.0.0-alpha.3",
+          "date": "2025-07-30T20:32:26.678Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.3"
+        },
+        {
+          "version": "4.0.0-alpha.2",
+          "date": "2025-07-30T19:58:32.606Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.2"
+        },
+        {
+          "version": "4.0.0-alpha.1",
+          "date": "2025-07-30T19:37:20.440Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.1"
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.10",
       "lastStablePublish": "2025-07-30T19:37:20.440Z",
       "lastStablePublishVersion": "4.0.0-alpha.1",
@@ -77,7 +129,7 @@
       "npmDeprecated": false,
       "publishCount": 10,
       "prerelease": true,
-      "downloads": 3254,
+      "downloads": 3282,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -86,7 +138,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 0,
-        "staleness": 0.001,
+        "staleness": 0,
         "issuesSub": 0.885,
         "prsSub": 0.716,
         "backlogSeverity": 0.767,
@@ -95,10 +147,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0,
-        "downloadsSub": 0.585,
+        "downloadsSub": 0.586,
         "starsSub": 1,
         "popularity": 0.648,
-        "importance": 0.753
+        "importance": 0.754
       },
       "scoreHistory": [
         0.3,
@@ -139,6 +191,58 @@
       "pushedAt": "2025-12-02T21:50:32Z",
       "lastPublish": "2025-12-02T21:51:36.362Z",
       "lastPublishVersion": "1.0.9",
+      "recentPublishes": [
+        {
+          "version": "1.0.9",
+          "date": "2025-12-02T21:51:36.362Z",
+          "releaseUrl": "https://github.com/11ty/create/releases/tag/v1.0.9"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2025-10-27T22:13:08.854Z",
+          "releaseUrl": "https://github.com/11ty/create/releases/tag/v1.0.8"
+        },
+        {
+          "version": "1.0.7",
+          "date": "2025-10-27T21:59:10.712Z",
+          "releaseUrl": "https://github.com/11ty/create/releases/tag/v1.0.7"
+        },
+        {
+          "version": "1.0.6",
+          "date": "2025-10-27T21:38:17.518Z",
+          "releaseUrl": "https://github.com/11ty/create/releases/tag/v1.0.6"
+        },
+        {
+          "version": "1.0.5",
+          "date": "2024-07-31T15:16:17.392Z",
+          "releaseUrl": "https://github.com/11ty/create/releases/tag/v1.0.5"
+        },
+        {
+          "version": "1.0.5-beta.1",
+          "date": "2024-07-31T15:13:41.158Z",
+          "releaseUrl": "https://github.com/11ty/create/releases/tag/v1.0.5-beta.1"
+        },
+        {
+          "version": "1.0.4",
+          "date": "2024-07-31T14:56:40.667Z",
+          "releaseUrl": "https://github.com/11ty/create/releases/tag/v1.0.4"
+        },
+        {
+          "version": "1.0.4-beta.1",
+          "date": "2024-07-31T14:53:29.178Z",
+          "releaseUrl": "https://github.com/11ty/create/releases/tag/v1.0.4-beta.1"
+        },
+        {
+          "version": "1.0.3",
+          "date": "2024-07-30T22:35:12.668Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2024-06-14T20:05:55.932Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/create/releases/tag/v1.0.9",
       "lastStablePublish": "2025-12-02T21:51:36.362Z",
       "lastStablePublishVersion": "1.0.9",
@@ -147,7 +251,7 @@
       "npmDeprecated": false,
       "publishCount": 11,
       "prerelease": false,
-      "downloads": 1817,
+      "downloads": 1811,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -167,7 +271,7 @@
         "attention": 0.016,
         "downloadsSub": 0.543,
         "starsSub": 0.326,
-        "popularity": 0.511,
+        "popularity": 0.51,
         "importance": 0.657
       },
       "scoreHistory": [
@@ -209,6 +313,7 @@
       "pushedAt": "2025-08-26T20:01:31Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -279,6 +384,58 @@
       "pushedAt": "2026-10-13T14:51:58Z",
       "lastPublish": "2026-10-13T19:39:50.994Z",
       "lastPublishVersion": "5.0.0-alpha.3",
+      "recentPublishes": [
+        {
+          "version": "5.0.0-alpha.3",
+          "date": "2026-10-13T19:39:50.994Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "5.0.0-alpha.2",
+          "date": "2026-10-13T19:01:50.316Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "5.0.0-alpha.1",
+          "date": "2026-10-13T18:03:12.649Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.2",
+          "date": "2026-01-17T02:40:06.683Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-dependency-tree/releases/tag/v4.0.2"
+        },
+        {
+          "version": "4.0.1",
+          "date": "2025-12-02T20:16:58.920Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-dependency-tree/releases/tag/v4.0.1"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2025-03-03T23:13:05.337Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-dependency-tree/releases/tag/v4.0.0"
+        },
+        {
+          "version": "3.0.1",
+          "date": "2024-07-02T21:59:25.741Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.0",
+          "date": "2023-08-25T19:36:21.285Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2022-04-12T14:26:43.808Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2021-04-11T20:22:47.312Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-01-17T02:40:06.683Z",
       "lastStablePublishVersion": "4.0.2",
@@ -349,6 +506,48 @@
       "pushedAt": "2025-12-19T22:26:16Z",
       "lastPublish": "2025-12-19T22:22:58.746Z",
       "lastPublishVersion": "2.0.4",
+      "recentPublishes": [
+        {
+          "version": "2.0.4",
+          "date": "2025-12-19T22:22:58.746Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.3",
+          "date": "2025-12-02T20:24:10.454Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-dependency-tree-esm/releases/tag/v2.0.3"
+        },
+        {
+          "version": "2.0.2",
+          "date": "2025-10-30T20:52:55.837Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-dependency-tree-esm/releases/tag/v2.0.2"
+        },
+        {
+          "version": "2.0.1",
+          "date": "2025-10-30T19:51:43.148Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-dependency-tree-esm/releases/tag/v2.0.1"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2025-03-03T23:19:59.782Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-dependency-tree-esm/releases/tag/v2.0.0"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2025-01-09T23:00:13.005Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-dependency-tree-esm/releases/tag/v1.0.2"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2024-12-06T23:19:20.287Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-dependency-tree-esm/releases/tag/v1.0.1"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2023-08-25T20:02:10.598Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2025-12-19T22:22:58.746Z",
       "lastStablePublishVersion": "2.0.4",
@@ -357,7 +556,7 @@
       "npmDeprecated": false,
       "publishCount": 8,
       "prerelease": false,
-      "downloads": 5459743,
+      "downloads": 5506106,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -406,7 +605,7 @@
       "isWebComponent": false,
       "description": "A simpler static site generator.",
       "sourceRepo": "11ty/eleventy",
-      "stars": 19964,
+      "stars": 19965,
       "openIssues": 155,
       "closedIssues": 2517,
       "openPRs": 18,
@@ -416,9 +615,61 @@
       "productionDependencies": 33,
       "transitiveDependencies": 130,
       "repoCreatedAt": "2017-11-27T05:19:00Z",
-      "pushedAt": "2026-10-14T00:19:26Z",
+      "pushedAt": "2026-10-14T12:37:06Z",
       "lastPublish": "2026-07-01T20:59:31.106Z",
       "lastPublishVersion": "4.0.0-alpha.10",
+      "recentPublishes": [
+        {
+          "version": "4.0.0-alpha.10",
+          "date": "2026-07-01T20:59:31.106Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.10"
+        },
+        {
+          "version": "4.0.0-alpha.9",
+          "date": "2026-07-01T17:03:10.151Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.9"
+        },
+        {
+          "version": "4.0.0-alpha.8",
+          "date": "2026-06-18T02:38:04.136Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.8"
+        },
+        {
+          "version": "3.1.6",
+          "date": "2026-06-02T22:02:44.312Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v3.1.6"
+        },
+        {
+          "version": "4.0.0-alpha.7",
+          "date": "2026-03-20T22:16:16.448Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.7"
+        },
+        {
+          "version": "3.1.5",
+          "date": "2026-03-18T19:02:50.186Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v3.1.5"
+        },
+        {
+          "version": "4.0.0-alpha.6",
+          "date": "2025-12-11T23:14:58.260Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.6"
+        },
+        {
+          "version": "4.0.0-alpha.5",
+          "date": "2025-12-05T23:40:43.880Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.5"
+        },
+        {
+          "version": "4.0.0-alpha.4",
+          "date": "2025-08-01T16:48:30.960Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.4"
+        },
+        {
+          "version": "4.0.0-alpha.3",
+          "date": "2025-07-30T20:32:30.770Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.3"
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.10",
       "lastStablePublish": "2026-06-02T22:02:44.312Z",
       "lastStablePublishVersion": "3.1.6",
@@ -436,7 +687,7 @@
       "score": 22.9,
       "breakdown": {
         "activityDays": 0,
-        "staleness": 0.001,
+        "staleness": 0,
         "issuesSub": 0.885,
         "prsSub": 0.716,
         "backlogSeverity": 0.767,
@@ -489,6 +740,58 @@
       "pushedAt": "2024-12-13T20:54:58Z",
       "lastPublish": "2024-12-13T20:55:25.484Z",
       "lastPublishVersion": "2.0.0",
+      "recentPublishes": [
+        {
+          "version": "2.0.0",
+          "date": "2024-12-13T20:55:25.484Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-activity-feed/releases/tag/v2.0.0"
+        },
+        {
+          "version": "1.0.9",
+          "date": "2023-01-25T14:39:08.690Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.8",
+          "date": "2023-01-25T14:16:27.767Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.7",
+          "date": "2023-01-25T14:08:20.957Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.6",
+          "date": "2023-01-24T22:39:21.281Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.5",
+          "date": "2022-11-15T15:09:47.271Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.4",
+          "date": "2022-11-14T20:26:59.233Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2022-11-14T20:20:49.498Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2022-11-14T05:26:28.533Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2022-11-14T05:17:33.084Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/eleventy-activity-feed/releases/tag/v2.0.0",
       "lastStablePublish": "2024-12-13T20:55:25.484Z",
       "lastStablePublishVersion": "2.0.0",
@@ -497,7 +800,7 @@
       "npmDeprecated": false,
       "publishCount": 11,
       "prerelease": false,
-      "downloads": 3158,
+      "downloads": 3092,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -515,10 +818,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0,
-        "downloadsSub": 0.583,
+        "downloadsSub": 0.582,
         "starsSub": 0.557,
-        "popularity": 0.579,
-        "importance": 0.706
+        "popularity": 0.578,
+        "importance": 0.705
       },
       "scoreHistory": [
         0,
@@ -559,6 +862,43 @@
       "pushedAt": "2023-03-10T15:35:25Z",
       "lastPublish": "2021-02-22T04:46:46.528Z",
       "lastPublishVersion": "1.0.6",
+      "recentPublishes": [
+        {
+          "version": "1.0.6",
+          "date": "2021-02-22T04:46:46.528Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.5",
+          "date": "2021-01-13T16:35:24.886Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.4",
+          "date": "2020-09-18T22:42:31.086Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2020-06-22T15:32:58.011Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2020-06-20T01:54:22.669Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2020-03-27T04:11:25.702Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2020-03-25T21:36:37.066Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2021-02-22T04:46:46.528Z",
       "lastStablePublishVersion": "1.0.6",
@@ -567,7 +907,7 @@
       "npmDeprecated": true,
       "publishCount": 7,
       "prerelease": false,
-      "downloads": 6141,
+      "downloads": 6221,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -585,9 +925,9 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0,
-        "downloadsSub": 0.631,
+        "downloadsSub": 0.632,
         "starsSub": 0.411,
-        "popularity": 0.598,
+        "popularity": 0.599,
         "importance": 0.719
       },
       "scoreHistory": [
@@ -629,6 +969,7 @@
       "pushedAt": "2024-10-16T21:03:24Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -699,6 +1040,18 @@
       "pushedAt": "2022-02-25T22:47:40Z",
       "lastPublish": "2022-02-25T22:47:55.234Z",
       "lastPublishVersion": "1.1.0",
+      "recentPublishes": [
+        {
+          "version": "1.1.0",
+          "date": "2022-02-25T22:47:55.234Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2021-11-29T19:19:28.992Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2022-02-25T22:47:55.234Z",
       "lastStablePublishVersion": "1.1.0",
@@ -707,7 +1060,7 @@
       "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
-      "downloads": 344,
+      "downloads": 347,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -725,7 +1078,7 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0,
-        "downloadsSub": 0.423,
+        "downloadsSub": 0.424,
         "starsSub": 0.228,
         "popularity": 0.394,
         "importance": 0.576
@@ -769,6 +1122,58 @@
       "pushedAt": "2026-10-13T22:04:44Z",
       "lastPublish": "2026-10-13T22:09:09.538Z",
       "lastPublishVersion": "3.0.0-alpha.13",
+      "recentPublishes": [
+        {
+          "version": "3.0.0-alpha.13",
+          "date": "2026-10-13T22:09:09.538Z",
+          "releaseUrl": "https://github.com/11ty/dev-server/releases/tag/v3.0.0-alpha.13"
+        },
+        {
+          "version": "3.0.0-alpha.12",
+          "date": "2026-09-30T17:46:00.465Z",
+          "releaseUrl": "https://github.com/11ty/dev-server/releases/tag/v3.0.0-alpha.12"
+        },
+        {
+          "version": "3.0.0-alpha.11",
+          "date": "2026-08-19T23:48:49.475Z",
+          "releaseUrl": "https://github.com/11ty/dev-server/releases/tag/v3.0.0-alpha.11"
+        },
+        {
+          "version": "3.0.0-alpha.10",
+          "date": "2026-06-10T22:47:58.846Z",
+          "releaseUrl": "https://github.com/11ty/dev-server/releases/tag/v3.0.0-alpha.10"
+        },
+        {
+          "version": "3.0.0-alpha.8",
+          "date": "2026-04-09T16:12:22.366Z",
+          "releaseUrl": "https://github.com/11ty/dev-server/releases/tag/v3.0.0-alpha.8"
+        },
+        {
+          "version": "3.0.0-alpha.6",
+          "date": "2025-12-10T23:00:15.426Z",
+          "releaseUrl": "https://github.com/11ty/dev-server/releases/tag/v3.0.0-alpha.6"
+        },
+        {
+          "version": "3.0.0-alpha.5",
+          "date": "2025-12-05T18:58:18.105Z",
+          "releaseUrl": "https://github.com/11ty/dev-server/releases/tag/v3.0.0-alpha.5"
+        },
+        {
+          "version": "3.0.0-alpha.4",
+          "date": "2025-12-02T20:38:52.683Z",
+          "releaseUrl": "https://github.com/11ty/dev-server/releases/tag/v3.0.0-alpha.4"
+        },
+        {
+          "version": "3.0.0-alpha.3",
+          "date": "2025-08-01T16:31:41.180Z",
+          "releaseUrl": "https://github.com/11ty/dev-server/releases/tag/v3.0.0-alpha.3"
+        },
+        {
+          "version": "3.0.0-alpha.2",
+          "date": "2025-07-30T16:51:58.076Z",
+          "releaseUrl": "https://github.com/11ty/dev-server/releases/tag/v3.0.0-alpha.2"
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/dev-server/releases/tag/v3.0.0-alpha.13",
       "lastStablePublish": "2025-03-19T17:12:20.716Z",
       "lastStablePublishVersion": "2.0.8",
@@ -839,6 +1244,58 @@
       "pushedAt": "2026-09-11T06:12:44Z",
       "lastPublish": "2026-06-30T21:24:06.116Z",
       "lastPublishVersion": "5.1.3",
+      "recentPublishes": [
+        {
+          "version": "5.1.3",
+          "date": "2026-06-30T21:24:06.116Z",
+          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.1.3"
+        },
+        {
+          "version": "5.1.2",
+          "date": "2026-03-18T21:57:18.943Z",
+          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.1.2"
+        },
+        {
+          "version": "5.1.1",
+          "date": "2025-12-02T18:16:15.997Z",
+          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.1.1"
+        },
+        {
+          "version": "5.1.0",
+          "date": "2025-05-08T19:13:31.621Z",
+          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.1.0"
+        },
+        {
+          "version": "5.1.0-beta.3",
+          "date": "2025-04-23T21:01:02.381Z",
+          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.1.0-beta.3"
+        },
+        {
+          "version": "5.1.0-beta.2",
+          "date": "2025-03-20T20:45:31.368Z",
+          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.1.0-beta.2"
+        },
+        {
+          "version": "5.1.0-beta.1",
+          "date": "2025-03-17T20:17:15.194Z",
+          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.1.0-beta.1"
+        },
+        {
+          "version": "5.0.2",
+          "date": "2025-01-07T23:21:07.798Z",
+          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.0.2"
+        },
+        {
+          "version": "5.0.2-beta.2",
+          "date": "2025-01-04T03:53:30.901Z",
+          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.0.2-beta.2"
+        },
+        {
+          "version": "5.0.2-beta.1",
+          "date": "2024-12-19T20:11:09.090Z",
+          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.0.2-beta.1"
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.1.3",
       "lastStablePublish": "2026-06-30T21:24:06.116Z",
       "lastStablePublishVersion": "5.1.3",
@@ -909,6 +1366,58 @@
       "pushedAt": "2026-10-09T14:24:07Z",
       "lastPublish": "2026-07-29T16:19:18.149Z",
       "lastPublishVersion": "7.0.0",
+      "recentPublishes": [
+        {
+          "version": "7.0.0",
+          "date": "2026-07-29T16:19:18.149Z",
+          "releaseUrl": "https://github.com/11ty/image/releases/tag/v7.0.0"
+        },
+        {
+          "version": "7.0.0-alpha.5",
+          "date": "2026-07-27T16:08:58.733Z",
+          "releaseUrl": "https://github.com/11ty/image/releases/tag/v7.0.0-alpha.5"
+        },
+        {
+          "version": "7.0.0-alpha.4",
+          "date": "2026-04-24T23:00:38.301Z",
+          "releaseUrl": "https://github.com/11ty/image/releases/tag/v7.0.0-alpha.4"
+        },
+        {
+          "version": "7.0.0-alpha.2",
+          "date": "2025-08-27T19:35:04.264Z",
+          "releaseUrl": "https://github.com/11ty/image/releases/tag/v7.0.0-alpha.2"
+        },
+        {
+          "version": "7.0.0-alpha.1",
+          "date": "2025-07-01T21:59:29.231Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "6.0.4",
+          "date": "2025-05-13T18:33:26.513Z",
+          "releaseUrl": "https://github.com/11ty/image/releases/tag/v6.0.4"
+        },
+        {
+          "version": "6.0.3",
+          "date": "2025-05-08T20:45:59.548Z",
+          "releaseUrl": "https://github.com/11ty/image/releases/tag/v6.0.3"
+        },
+        {
+          "version": "6.0.2",
+          "date": "2025-04-10T21:19:03.976Z",
+          "releaseUrl": "https://github.com/11ty/image/releases/tag/v6.0.2"
+        },
+        {
+          "version": "6.0.1",
+          "date": "2025-01-15T17:00:55.928Z",
+          "releaseUrl": "https://github.com/11ty/image/releases/tag/v6.0.1"
+        },
+        {
+          "version": "6.0.0",
+          "date": "2025-01-08T17:18:58.577Z",
+          "releaseUrl": "https://github.com/11ty/image/releases/tag/v6.0.0"
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/image/releases/tag/v7.0.0",
       "lastStablePublish": "2026-07-29T16:19:18.149Z",
       "lastStablePublishVersion": "7.0.0",
@@ -979,6 +1488,58 @@
       "pushedAt": "2026-06-23T02:40:44Z",
       "lastPublish": "2025-12-02T21:17:43.588Z",
       "lastPublishVersion": "1.0.5",
+      "recentPublishes": [
+        {
+          "version": "1.0.5",
+          "date": "2025-12-02T21:17:43.588Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-navigation/releases/tag/v1.0.5"
+        },
+        {
+          "version": "1.0.4",
+          "date": "2025-04-01T21:42:10.599Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-navigation/releases/tag/v1.0.4"
+        },
+        {
+          "version": "1.0.3",
+          "date": "2025-03-31T14:49:17.072Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-navigation/releases/tag/v1.0.3"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2025-03-27T21:56:02.094Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-navigation/releases/tag/v1.0.2"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2025-03-19T21:49:25.149Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-navigation/releases/tag/v1.0.1"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2025-03-19T21:28:12.009Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-navigation/releases/tag/v1.0.0"
+        },
+        {
+          "version": "0.3.5",
+          "date": "2022-08-19T15:58:13.053Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-navigation/releases/tag/v0.3.5"
+        },
+        {
+          "version": "0.3.4",
+          "date": "2022-08-10T22:13:43.079Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.3.3",
+          "date": "2022-05-06T21:01:42.855Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-navigation/releases/tag/v0.3.3"
+        },
+        {
+          "version": "0.3.2",
+          "date": "2021-06-17T14:46:59.229Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/eleventy-navigation/releases/tag/v1.0.5",
       "lastStablePublish": "2025-12-02T21:17:43.588Z",
       "lastStablePublishVersion": "1.0.5",
@@ -987,7 +1548,7 @@
       "npmDeprecated": false,
       "publishCount": 20,
       "prerelease": false,
-      "downloads": 761311,
+      "downloads": 789969,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1005,10 +1566,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.064,
-        "downloadsSub": 0.98,
+        "downloadsSub": 0.983,
         "starsSub": 0.548,
-        "popularity": 0.915,
-        "importance": 0.941
+        "popularity": 0.918,
+        "importance": 0.942
       },
       "scoreHistory": [
         5.6,
@@ -1049,6 +1610,58 @@
       "pushedAt": "2026-09-17T22:08:04Z",
       "lastPublish": "2026-09-17T22:15:51.422Z",
       "lastPublishVersion": "4.0.3",
+      "recentPublishes": [
+        {
+          "version": "4.0.3",
+          "date": "2026-09-17T22:15:51.422Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-bundle/releases/tag/v4.0.3"
+        },
+        {
+          "version": "4.0.2",
+          "date": "2026-07-01T16:23:15.987Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-bundle/releases/tag/v4.0.2"
+        },
+        {
+          "version": "4.0.1",
+          "date": "2026-06-30T20:26:10.719Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-bundle/releases/tag/v4.0.1"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-06-30T17:12:57.717Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-bundle/releases/tag/v4.0.0"
+        },
+        {
+          "version": "3.0.7",
+          "date": "2025-08-22T22:40:46.664Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-bundle/releases/tag/v3.0.7"
+        },
+        {
+          "version": "3.0.6",
+          "date": "2025-04-24T21:19:39.946Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-bundle/releases/tag/v3.0.6"
+        },
+        {
+          "version": "3.0.5",
+          "date": "2025-04-22T16:41:03.730Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-bundle/releases/tag/v3.0.5"
+        },
+        {
+          "version": "3.0.4",
+          "date": "2025-04-21T21:26:56.008Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-bundle/releases/tag/v3.0.4"
+        },
+        {
+          "version": "3.0.3",
+          "date": "2025-04-21T21:05:39.824Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-bundle/releases/tag/v3.0.3"
+        },
+        {
+          "version": "3.0.2",
+          "date": "2025-04-21T20:32:02.514Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-bundle/releases/tag/v3.0.2"
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/eleventy-plugin-bundle/releases/tag/v4.0.3",
       "lastStablePublish": "2026-09-17T22:15:51.422Z",
       "lastStablePublishVersion": "4.0.3",
@@ -1119,6 +1732,23 @@
       "pushedAt": "2025-08-26T22:36:49Z",
       "lastPublish": "2025-08-26T22:37:22.446Z",
       "lastPublishVersion": "1.0.2",
+      "recentPublishes": [
+        {
+          "version": "1.0.2",
+          "date": "2025-08-26T22:37:22.446Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-directory-output/releases/tag/v1.0.2"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2022-01-18T15:06:06.444Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2022-01-16T21:27:29.211Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/eleventy-plugin-directory-output/releases/tag/v1.0.2",
       "lastStablePublish": "2025-08-26T22:37:22.446Z",
       "lastStablePublishVersion": "1.0.2",
@@ -1127,7 +1757,7 @@
       "npmDeprecated": false,
       "publishCount": 3,
       "prerelease": false,
-      "downloads": 38848,
+      "downloads": 40166,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1136,7 +1766,7 @@
       "score": 3.3,
       "breakdown": {
         "activityDays": 414,
-        "staleness": 0.566,
+        "staleness": 0.567,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -1145,10 +1775,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.041,
-        "downloadsSub": 0.765,
+        "downloadsSub": 0.767,
         "starsSub": 0.363,
-        "popularity": 0.705,
-        "importance": 0.793
+        "popularity": 0.707,
+        "importance": 0.795
       },
       "scoreHistory": [
         3.2,
@@ -1189,6 +1819,18 @@
       "pushedAt": "2025-05-13T17:14:54Z",
       "lastPublish": "2024-09-26T13:32:49.943Z",
       "lastPublishVersion": "1.0.0",
+      "recentPublishes": [
+        {
+          "version": "1.0.0",
+          "date": "2024-09-26T13:32:49.943Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0-alpha.1",
+          "date": "2024-07-09T17:09:56.354Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2024-09-26T13:32:49.943Z",
       "lastStablePublishVersion": "1.0.0",
@@ -1197,7 +1839,7 @@
       "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
-      "downloads": 15127,
+      "downloads": 15144,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1211,10 +1853,10 @@
         "prsSub": 0.473,
         "backlogSeverity": 0.486,
         "demand": 0.486,
-        "neglect": 0.345,
+        "neglect": 0.346,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.345,
+        "attention": 0.346,
         "downloadsSub": 0.697,
         "starsSub": 0.244,
         "popularity": 0.629,
@@ -1259,6 +1901,18 @@
       "pushedAt": "2025-05-13T17:14:54Z",
       "lastPublish": "2024-09-26T13:34:02.297Z",
       "lastPublishVersion": "1.0.0",
+      "recentPublishes": [
+        {
+          "version": "1.0.0",
+          "date": "2024-09-26T13:34:02.297Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0-alpha.1",
+          "date": "2024-07-10T17:17:16.395Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2024-09-26T13:34:02.297Z",
       "lastStablePublishVersion": "1.0.0",
@@ -1267,13 +1921,13 @@
       "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
-      "downloads": 470,
+      "downloads": 484,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 20.4,
+      "score": 20.5,
       "breakdown": {
         "activityDays": 519,
         "staleness": 0.711,
@@ -1281,14 +1935,14 @@
         "prsSub": 0.473,
         "backlogSeverity": 0.486,
         "demand": 0.486,
-        "neglect": 0.345,
+        "neglect": 0.346,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.345,
-        "downloadsSub": 0.446,
+        "attention": 0.346,
+        "downloadsSub": 0.448,
         "starsSub": 0.244,
-        "popularity": 0.415,
-        "importance": 0.591
+        "popularity": 0.417,
+        "importance": 0.592
       },
       "scoreHistory": [
         19.8,
@@ -1300,7 +1954,7 @@
         20.1,
         20.3,
         20.4,
-        20.4
+        20.5
       ]
     },
     {
@@ -1329,6 +1983,18 @@
       "pushedAt": "2025-05-13T17:14:54Z",
       "lastPublish": "2024-09-26T13:35:03.323Z",
       "lastPublishVersion": "1.0.0",
+      "recentPublishes": [
+        {
+          "version": "1.0.0",
+          "date": "2024-09-26T13:35:03.323Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0-alpha.1",
+          "date": "2024-07-09T22:32:04.204Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2024-09-26T13:35:03.323Z",
       "lastStablePublishVersion": "1.0.0",
@@ -1337,13 +2003,13 @@
       "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
-      "downloads": 35678,
+      "downloads": 43400,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 26.8,
+      "score": 27.1,
       "breakdown": {
         "activityDays": 519,
         "staleness": 0.711,
@@ -1351,14 +2017,14 @@
         "prsSub": 0.473,
         "backlogSeverity": 0.486,
         "demand": 0.486,
-        "neglect": 0.345,
+        "neglect": 0.346,
         "securitySub": 0.289,
         "security": 0.145,
-        "attention": 0.345,
-        "downloadsSub": 0.759,
+        "attention": 0.346,
+        "downloadsSub": 0.773,
         "starsSub": 0.244,
-        "popularity": 0.682,
-        "importance": 0.777
+        "popularity": 0.694,
+        "importance": 0.786
       },
       "scoreHistory": [
         26.4,
@@ -1370,7 +2036,7 @@
         26.7,
         26.7,
         26.8,
-        26.8
+        27.1
       ]
     },
     {
@@ -1399,6 +2065,23 @@
       "pushedAt": "2020-05-08T14:38:30Z",
       "lastPublish": "2020-02-25T14:48:41.286Z",
       "lastPublishVersion": "1.0.0-beta.3",
+      "recentPublishes": [
+        {
+          "version": "1.0.0-beta.3",
+          "date": "2020-02-25T14:48:41.286Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0-beta.2",
+          "date": "2020-02-25T13:34:58.968Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0-beta.1",
+          "date": "2020-02-25T13:26:25.246Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2020-02-25T13:26:25.246Z",
       "lastStablePublishVersion": "1.0.0-beta.1",
@@ -1407,7 +2090,7 @@
       "npmDeprecated": true,
       "publishCount": 3,
       "prerelease": true,
-      "downloads": 410,
+      "downloads": 400,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1425,10 +2108,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0,
-        "downloadsSub": 0.436,
+        "downloadsSub": 0.434,
         "starsSub": 0.244,
-        "popularity": 0.407,
-        "importance": 0.585
+        "popularity": 0.405,
+        "importance": 0.584
       },
       "scoreHistory": [
         0,
@@ -1469,6 +2152,23 @@
       "pushedAt": "2026-07-27T18:35:33Z",
       "lastPublish": "2021-10-07T19:14:56.558Z",
       "lastPublishVersion": "1.0.3",
+      "recentPublishes": [
+        {
+          "version": "1.0.3",
+          "date": "2021-10-07T19:14:56.558Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2021-03-20T02:17:09.431Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2018-10-06T18:08:37.854Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2021-10-07T19:14:56.558Z",
       "lastStablePublishVersion": "1.0.3",
@@ -1477,7 +2177,7 @@
       "npmDeprecated": false,
       "publishCount": 3,
       "prerelease": false,
-      "downloads": 85144,
+      "downloads": 86751,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1495,10 +2195,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.009,
-        "downloadsSub": 0.822,
+        "downloadsSub": 0.823,
         "starsSub": 0.442,
-        "popularity": 0.765,
-        "importance": 0.835
+        "popularity": 0.766,
+        "importance": 0.836
       },
       "scoreHistory": [
         0.7,
@@ -1539,6 +2239,23 @@
       "pushedAt": "2025-05-13T17:14:54Z",
       "lastPublish": "2025-05-13T17:16:47.564Z",
       "lastPublishVersion": "1.0.1",
+      "recentPublishes": [
+        {
+          "version": "1.0.1",
+          "date": "2025-05-13T17:16:47.564Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2024-09-26T13:35:47.320Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0-alpha.1",
+          "date": "2024-07-10T16:40:36.835Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2025-05-13T17:16:47.564Z",
       "lastStablePublishVersion": "1.0.1",
@@ -1547,7 +2264,7 @@
       "npmDeprecated": false,
       "publishCount": 3,
       "prerelease": false,
-      "downloads": 953,
+      "downloads": 955,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1609,6 +2326,18 @@
       "pushedAt": "2025-05-13T17:14:54Z",
       "lastPublish": "2024-09-26T13:39:10.801Z",
       "lastPublishVersion": "1.0.0",
+      "recentPublishes": [
+        {
+          "version": "1.0.0",
+          "date": "2024-09-26T13:39:10.801Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0-alpha.1",
+          "date": "2024-07-24T21:16:45.382Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2024-09-26T13:39:10.801Z",
       "lastStablePublishVersion": "1.0.0",
@@ -1617,13 +2346,13 @@
       "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
-      "downloads": 5559,
+      "downloads": 5405,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 24.1,
+      "score": 24,
       "breakdown": {
         "activityDays": 519,
         "staleness": 0.711,
@@ -1631,14 +2360,14 @@
         "prsSub": 0.473,
         "backlogSeverity": 0.486,
         "demand": 0.486,
-        "neglect": 0.345,
+        "neglect": 0.346,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.345,
-        "downloadsSub": 0.624,
+        "attention": 0.346,
+        "downloadsSub": 0.622,
         "starsSub": 0.244,
-        "popularity": 0.567,
-        "importance": 0.697
+        "popularity": 0.565,
+        "importance": 0.696
       },
       "scoreHistory": [
         23.7,
@@ -1650,7 +2379,7 @@
         24,
         24,
         24.1,
-        24.1
+        24
       ]
     },
     {
@@ -1679,6 +2408,58 @@
       "pushedAt": "2026-10-05T06:54:03Z",
       "lastPublish": "2026-10-01T22:20:21.620Z",
       "lastPublishVersion": "3.1.0",
+      "recentPublishes": [
+        {
+          "version": "3.1.0",
+          "date": "2026-10-01T22:20:21.620Z",
+          "releaseUrl": "https://github.com/11ty/plugin-rss/releases/tag/v3.1.0"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-03-20T21:41:45.515Z",
+          "releaseUrl": "https://github.com/11ty/plugin-rss/releases/tag/v3.0.0"
+        },
+        {
+          "version": "3.0.0-alpha.3",
+          "date": "2025-12-02T19:11:00.322Z",
+          "releaseUrl": "https://github.com/11ty/plugin-rss/releases/tag/v3.0.0-alpha.3"
+        },
+        {
+          "version": "3.0.0-alpha.2",
+          "date": "2025-07-01T19:29:48.355Z",
+          "releaseUrl": "https://github.com/11ty/plugin-rss/releases/tag/v3.0.0-alpha.2"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2025-05-08T20:59:28.240Z",
+          "releaseUrl": "https://github.com/11ty/plugin-rss/releases/tag/v2.0.4"
+        },
+        {
+          "version": "2.0.3",
+          "date": "2025-01-16T15:05:12.608Z",
+          "releaseUrl": "https://github.com/11ty/plugin-rss/releases/tag/v2.0.3"
+        },
+        {
+          "version": "2.0.2",
+          "date": "2024-07-12T20:41:57.646Z",
+          "releaseUrl": "https://github.com/11ty/plugin-rss/releases/tag/v2.0.2"
+        },
+        {
+          "version": "2.0.1",
+          "date": "2024-06-17T19:32:39.937Z",
+          "releaseUrl": "https://github.com/11ty/plugin-rss/releases/tag/v2.0.1"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2024-06-12T15:58:36.881Z",
+          "releaseUrl": "https://github.com/11ty/plugin-rss/releases/tag/v2.0.0"
+        },
+        {
+          "version": "2.0.0-beta.8",
+          "date": "2024-06-12T15:39:48.500Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/plugin-rss/releases/tag/v3.1.0",
       "lastStablePublish": "2026-10-01T22:20:21.620Z",
       "lastStablePublishVersion": "3.1.0",
@@ -1749,6 +2530,58 @@
       "pushedAt": "2025-12-02T21:55:11Z",
       "lastPublish": "2025-08-01T19:16:35.184Z",
       "lastPublishVersion": "5.0.2",
+      "recentPublishes": [
+        {
+          "version": "5.0.2",
+          "date": "2025-08-01T19:16:35.184Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-syntaxhighlight/releases/tag/v5.0.2"
+        },
+        {
+          "version": "5.0.1",
+          "date": "2025-05-08T21:52:36.899Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-syntaxhighlight/releases/tag/v5.0.1"
+        },
+        {
+          "version": "5.0.0",
+          "date": "2023-04-12T21:12:09.832Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-syntaxhighlight/releases/tag/v5.0.0"
+        },
+        {
+          "version": "4.2.0",
+          "date": "2022-11-01T21:57:53.625Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-syntaxhighlight/releases/tag/v4.2.0"
+        },
+        {
+          "version": "4.1.0",
+          "date": "2022-06-28T20:02:27.162Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-syntaxhighlight/releases/tag/v4.1.0"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2022-01-27T18:09:31.246Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-syntaxhighlight/releases/tag/v4.0.0"
+        },
+        {
+          "version": "3.2.2",
+          "date": "2022-01-20T20:46:34.446Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-syntaxhighlight/releases/tag/v3.2.2"
+        },
+        {
+          "version": "3.2.1",
+          "date": "2022-01-20T18:44:01.731Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.2.0",
+          "date": "2022-01-20T18:33:20.566Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.1.3",
+          "date": "2021-10-07T19:04:42.122Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/eleventy-plugin-syntaxhighlight/releases/tag/v5.0.2",
       "lastStablePublish": "2025-08-01T19:16:35.184Z",
       "lastStablePublishVersion": "5.0.2",
@@ -1757,7 +2590,7 @@
       "npmDeprecated": false,
       "publishCount": 29,
       "prerelease": false,
-      "downloads": 1551836,
+      "downloads": 1627808,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1819,6 +2652,58 @@
       "pushedAt": "2026-10-13T22:46:03Z",
       "lastPublish": "2026-05-02T05:53:16.259Z",
       "lastPublishVersion": "8.0.0",
+      "recentPublishes": [
+        {
+          "version": "8.0.0",
+          "date": "2026-05-02T05:53:16.259Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-vite/releases/tag/v8.0.0"
+        },
+        {
+          "version": "8.0.0-alpha.2",
+          "date": "2026-04-22T05:45:02.942Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-vite/releases/tag/v8.0.0-alpha.2"
+        },
+        {
+          "version": "8.0.0-alpha.1",
+          "date": "2026-04-21T19:44:02.332Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-vite/releases/tag/v8.0.0-alpha.1"
+        },
+        {
+          "version": "7.1.1",
+          "date": "2026-04-21T18:54:06.925Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-vite/releases/tag/v7.1.1"
+        },
+        {
+          "version": "7.1.0-alpha.2",
+          "date": "2025-08-09T14:47:40.236Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-vite/releases/tag/v7.1.0-alpha.2"
+        },
+        {
+          "version": "7.1.0-alpha.1",
+          "date": "2025-08-09T09:44:54.426Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-vite/releases/tag/v7.1.0-alpha.1"
+        },
+        {
+          "version": "7.0.0",
+          "date": "2025-06-28T10:56:05.778Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-vite/releases/tag/v7.0.0"
+        },
+        {
+          "version": "6.0.0",
+          "date": "2025-01-30T20:35:12.341Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-vite/releases/tag/v6.0.0"
+        },
+        {
+          "version": "6.0.0-alpha.4",
+          "date": "2025-01-02T20:18:54.934Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-vite/releases/tag/v6.0.0-alpha.4"
+        },
+        {
+          "version": "6.0.0-alpha.3",
+          "date": "2024-11-11T06:34:08.281Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-vite/releases/tag/v6.0.0-alpha.3"
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/eleventy-plugin-vite/releases/tag/v8.0.0",
       "lastStablePublish": "2026-05-02T05:53:16.259Z",
       "lastStablePublishVersion": "8.0.0",
@@ -1889,6 +2774,58 @@
       "pushedAt": "2023-03-17T20:48:12Z",
       "lastPublish": "2023-03-17T20:51:00.812Z",
       "lastPublishVersion": "0.8.0",
+      "recentPublishes": [
+        {
+          "version": "0.8.0",
+          "date": "2023-03-17T20:51:00.812Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.7.4",
+          "date": "2022-12-01T16:29:12.155Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.7.3",
+          "date": "2022-04-25T21:42:15.889Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.7.2",
+          "date": "2022-01-19T20:39:03.637Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.7.1",
+          "date": "2022-01-06T22:12:43.131Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.7.0",
+          "date": "2022-01-06T20:14:46.242Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.6.1",
+          "date": "2021-12-16T23:21:53.144Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.6.0",
+          "date": "2021-11-15T17:53:39.728Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0-canary.8",
+          "date": "2021-11-15T02:46:35.464Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0-canary.7",
+          "date": "2021-11-15T02:34:55.475Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2023-03-17T20:51:00.812Z",
       "lastStablePublishVersion": "0.8.0",
@@ -1897,13 +2834,13 @@
       "npmDeprecated": false,
       "publishCount": 43,
       "prerelease": false,
-      "downloads": 8063,
+      "downloads": 8464,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 37.6,
+      "score": 37.7,
       "breakdown": {
         "activityDays": 1307,
         "staleness": 1,
@@ -1915,10 +2852,10 @@
         "securitySub": 1,
         "security": 0.5,
         "attention": 0.5,
-        "downloadsSub": 0.651,
+        "downloadsSub": 0.655,
         "starsSub": 0.619,
-        "popularity": 0.646,
-        "importance": 0.752
+        "popularity": 0.649,
+        "importance": 0.754
       },
       "scoreHistory": [
         37.6,
@@ -1930,7 +2867,7 @@
         37.6,
         37.6,
         37.6,
-        37.6
+        37.7
       ]
     },
     {
@@ -1959,6 +2896,58 @@
       "pushedAt": "2025-12-02T16:44:03Z",
       "lastPublish": "2025-08-28T19:10:20.231Z",
       "lastPublishVersion": "0.12.0-beta.7",
+      "recentPublishes": [
+        {
+          "version": "0.12.0-beta.7",
+          "date": "2025-08-28T19:10:20.231Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-webc/releases/tag/v0.12.0-beta.7"
+        },
+        {
+          "version": "0.12.0-beta.6",
+          "date": "2025-08-23T01:54:00.022Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-webc/releases/tag/v0.12.0-beta.6"
+        },
+        {
+          "version": "0.12.0-beta.5",
+          "date": "2025-08-23T01:44:48.785Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-webc/releases/tag/v0.12.0-beta.5"
+        },
+        {
+          "version": "0.12.0-beta.4",
+          "date": "2025-08-23T01:20:09.250Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-webc/releases/tag/v0.12.0-beta.4"
+        },
+        {
+          "version": "0.12.0-beta.3",
+          "date": "2025-01-28T20:21:25.722Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-webc/releases/tag/v0.12.0-beta.3"
+        },
+        {
+          "version": "0.12.0-beta.2",
+          "date": "2025-01-27T17:37:03.444Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-webc/releases/tag/v0.12.0-beta.2"
+        },
+        {
+          "version": "0.11.2",
+          "date": "2023-12-16T20:24:40.587Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-webc/releases/tag/v0.11.2"
+        },
+        {
+          "version": "0.11.1",
+          "date": "2023-04-26T19:46:37.848Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-webc/releases/tag/v0.11.1"
+        },
+        {
+          "version": "0.11.1-alpha.1",
+          "date": "2023-04-26T19:12:42.452Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.11.0",
+          "date": "2023-03-31T15:01:23.980Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-plugin-webc/releases/tag/v0.11.0"
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/eleventy-plugin-webc/releases/tag/v0.12.0-beta.7",
       "lastStablePublish": "2023-12-16T20:24:40.587Z",
       "lastStablePublishVersion": "0.11.2",
@@ -1967,7 +2956,7 @@
       "npmDeprecated": false,
       "publishCount": 25,
       "prerelease": true,
-      "downloads": 166516,
+      "downloads": 168185,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -1985,10 +2974,10 @@
         "securitySub": 0.747,
         "security": 0.374,
         "attention": 0.374,
-        "downloadsSub": 0.87,
+        "downloadsSub": 0.871,
         "starsSub": 0.575,
-        "popularity": 0.826,
-        "importance": 0.878
+        "popularity": 0.827,
+        "importance": 0.879
       },
       "scoreHistory": [
         35.6,
@@ -2029,6 +3018,28 @@
       "pushedAt": "2026-09-04T18:34:29Z",
       "lastPublish": "2026-08-08T21:12:27.436Z",
       "lastPublishVersion": "2.0.0",
+      "recentPublishes": [
+        {
+          "version": "2.0.0",
+          "date": "2026-08-08T21:12:27.436Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-server-browsersync/releases/tag/v2.0.0"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2022-03-15T16:03:58.842Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2022-03-15T16:01:34.229Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2022-03-10T23:44:38.253Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/eleventy-server-browsersync/releases/tag/v2.0.0",
       "lastStablePublish": "2026-08-08T21:12:27.436Z",
       "lastStablePublishVersion": "2.0.0",
@@ -2037,7 +3048,7 @@
       "npmDeprecated": false,
       "publishCount": 4,
       "prerelease": false,
-      "downloads": 24302,
+      "downloads": 24415,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2099,6 +3110,58 @@
       "pushedAt": "2025-12-02T21:38:11Z",
       "lastPublish": "2025-12-02T21:39:03.577Z",
       "lastPublishVersion": "3.0.2",
+      "recentPublishes": [
+        {
+          "version": "3.0.2",
+          "date": "2025-12-02T21:39:03.577Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-upgrade-help/releases/tag/v3.0.2"
+        },
+        {
+          "version": "3.0.1",
+          "date": "2024-08-01T16:47:34.583Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-upgrade-help/releases/tag/v3.0.1"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2024-07-24T20:51:29.885Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.5",
+          "date": "2023-01-19T22:42:47.979Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.4",
+          "date": "2023-01-18T19:46:36.894Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.3",
+          "date": "2023-01-17T15:26:18.899Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.2",
+          "date": "2023-01-13T22:54:02.549Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2023-01-11T14:56:43.981Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2023-01-10T23:21:04.006Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2021-10-07T14:04:26.877Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/eleventy-upgrade-help/releases/tag/v3.0.2",
       "lastStablePublish": "2025-12-02T21:39:03.577Z",
       "lastStablePublishVersion": "3.0.2",
@@ -2107,7 +3170,7 @@
       "npmDeprecated": false,
       "publishCount": 11,
       "prerelease": false,
-      "downloads": 65813,
+      "downloads": 65255,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2125,7 +3188,7 @@
         "securitySub": 0.289,
         "security": 0.145,
         "attention": 0.145,
-        "downloadsSub": 0.803,
+        "downloadsSub": 0.802,
         "starsSub": 0.505,
         "popularity": 0.758,
         "importance": 0.831
@@ -2169,6 +3232,58 @@
       "pushedAt": "2026-10-13T20:02:36Z",
       "lastPublish": "2026-10-13T19:20:17.916Z",
       "lastPublishVersion": "3.0.1",
+      "recentPublishes": [
+        {
+          "version": "3.0.1",
+          "date": "2026-10-13T19:20:17.916Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-13T19:03:25.655Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.8-alpha.1",
+          "date": "2025-12-10T21:36:57.250Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.7",
+          "date": "2025-05-08T17:50:43.267Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/v2.0.7"
+        },
+        {
+          "version": "2.0.6",
+          "date": "2025-05-08T17:45:06.072Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/v2.0.6"
+        },
+        {
+          "version": "2.0.5",
+          "date": "2025-04-29T19:57:55.401Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/v2.0.5"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2025-04-29T16:41:05.446Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/v2.0.4"
+        },
+        {
+          "version": "2.0.3",
+          "date": "2025-04-29T14:57:26.238Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/v2.0.3"
+        },
+        {
+          "version": "2.0.2",
+          "date": "2025-04-24T20:56:34.702Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/v2.0.2"
+        },
+        {
+          "version": "2.0.1",
+          "date": "2025-01-31T17:33:15.742Z",
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/v2.0.1"
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-10-13T19:20:17.916Z",
       "lastStablePublishVersion": "3.0.1",
@@ -2177,7 +3292,7 @@
       "npmDeprecated": false,
       "publishCount": 16,
       "prerelease": false,
-      "downloads": 7999442,
+      "downloads": 8076723,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2239,6 +3354,18 @@
       "pushedAt": "2026-09-01T16:44:03Z",
       "lastPublish": "2026-09-01T16:46:06.908Z",
       "lastPublishVersion": "2.0.0",
+      "recentPublishes": [
+        {
+          "version": "2.0.0",
+          "date": "2026-09-01T16:46:06.908Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2025-03-26T16:50:38.407Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-09-01T16:46:06.908Z",
       "lastStablePublishVersion": "2.0.0",
@@ -2247,7 +3374,7 @@
       "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
-      "downloads": 431,
+      "downloads": 433,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2265,7 +3392,7 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0,
-        "downloadsSub": 0.439,
+        "downloadsSub": 0.44,
         "starsSub": 0.244,
         "popularity": 0.41,
         "importance": 0.587
@@ -2309,6 +3436,58 @@
       "pushedAt": "2026-09-16T22:10:05Z",
       "lastPublish": "2026-09-16T19:22:42.346Z",
       "lastPublishVersion": "2.0.0",
+      "recentPublishes": [
+        {
+          "version": "2.0.0",
+          "date": "2026-09-16T19:22:42.346Z",
+          "releaseUrl": "https://github.com/11ty/font-awesome-plugin/releases/tag/v2.0.0"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2025-12-02T22:04:42.104Z",
+          "releaseUrl": "https://github.com/11ty/font-awesome-plugin/releases/tag/v1.0.1"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2025-09-18T16:22:57.437Z",
+          "releaseUrl": "https://github.com/11ty/font-awesome-plugin/releases/tag/v1.0.0"
+        },
+        {
+          "version": "1.0.0-beta.12",
+          "date": "2025-07-25T14:51:56.166Z",
+          "releaseUrl": "https://github.com/11ty/font-awesome-plugin/releases/tag/v1.0.0-beta.12"
+        },
+        {
+          "version": "1.0.0-beta.11",
+          "date": "2025-04-21T18:18:32.588Z",
+          "releaseUrl": "https://github.com/11ty/font-awesome-plugin/releases/tag/v1.0.0-beta.11"
+        },
+        {
+          "version": "1.0.0-beta.10",
+          "date": "2025-02-19T20:28:17.582Z",
+          "releaseUrl": "https://github.com/11ty/font-awesome-plugin/releases/tag/v1.0.0-beta.10"
+        },
+        {
+          "version": "1.0.0-beta.9",
+          "date": "2025-02-19T19:24:25.471Z",
+          "releaseUrl": "https://github.com/11ty/font-awesome-plugin/releases/tag/v1.0.0-beta.9"
+        },
+        {
+          "version": "1.0.0-beta.8",
+          "date": "2025-02-19T16:35:47.790Z",
+          "releaseUrl": "https://github.com/11ty/font-awesome-plugin/releases/tag/v1.0.0-beta.8"
+        },
+        {
+          "version": "1.0.0-beta.7",
+          "date": "2025-02-18T22:42:49.383Z",
+          "releaseUrl": "https://github.com/11ty/font-awesome-plugin/releases/tag/v1.0.0-beta.7"
+        },
+        {
+          "version": "1.0.0-beta.6",
+          "date": "2025-01-29T22:39:11.451Z",
+          "releaseUrl": "https://github.com/11ty/font-awesome-plugin/releases/tag/v1.0.0-beta.6"
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/font-awesome-plugin/releases/tag/v2.0.0",
       "lastStablePublish": "2026-09-16T19:22:42.346Z",
       "lastStablePublishVersion": "2.0.0",
@@ -2379,6 +3558,38 @@
       "pushedAt": "2026-10-13T15:44:35Z",
       "lastPublish": "2026-07-29T22:14:44.480Z",
       "lastPublishVersion": "3.0.0",
+      "recentPublishes": [
+        {
+          "version": "3.0.0",
+          "date": "2026-07-29T22:14:44.480Z",
+          "releaseUrl": "https://github.com/11ty/gray-matter/releases/tag/v3.0.0"
+        },
+        {
+          "version": "2.1.0",
+          "date": "2026-06-16T21:25:41.085Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.2",
+          "date": "2026-04-20T13:58:04.941Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2025-11-14T17:10:58.802Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2025-07-02T18:50:21.653Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2025-05-12T15:10:07.686Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/gray-matter/releases/tag/v3.0.0",
       "lastStablePublish": "2026-07-29T22:14:44.480Z",
       "lastStablePublishVersion": "3.0.0",
@@ -2449,6 +3660,58 @@
       "pushedAt": "2026-09-22T13:23:42Z",
       "lastPublish": "2026-07-29T21:08:49.542Z",
       "lastPublishVersion": "2.0.0",
+      "recentPublishes": [
+        {
+          "version": "2.0.0",
+          "date": "2026-07-29T21:08:49.542Z",
+          "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v2.0.0"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2025-12-02T20:49:30.782Z",
+          "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v1.0.8"
+        },
+        {
+          "version": "1.0.7",
+          "date": "2025-08-26T22:05:01.635Z",
+          "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v1.0.7"
+        },
+        {
+          "version": "1.0.6",
+          "date": "2025-03-21T14:50:43.533Z",
+          "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v1.0.6"
+        },
+        {
+          "version": "1.0.5",
+          "date": "2025-02-28T23:26:12.699Z",
+          "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v1.0.5"
+        },
+        {
+          "version": "1.0.4",
+          "date": "2025-02-26T15:55:43.189Z",
+          "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v1.0.4"
+        },
+        {
+          "version": "1.0.3",
+          "date": "2025-02-26T13:59:58.491Z",
+          "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v1.0.3"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2025-02-25T18:41:05.635Z",
+          "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v1.0.2"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2025-02-25T18:32:36.698Z",
+          "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v1.0.1"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2025-02-25T17:55:51.930Z",
+          "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v1.0.0"
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v2.0.0",
       "lastStablePublish": "2026-07-29T21:08:49.542Z",
       "lastStablePublishVersion": "2.0.0",
@@ -2519,6 +3782,58 @@
       "pushedAt": "2026-09-09T13:24:14Z",
       "lastPublish": "2026-08-17T21:01:23.057Z",
       "lastPublishVersion": "2.0.1",
+      "recentPublishes": [
+        {
+          "version": "2.0.1",
+          "date": "2026-08-17T21:01:23.057Z",
+          "releaseUrl": "https://github.com/11ty/import/releases/tag/v2.0.1"
+        },
+        {
+          "version": "1.0.24",
+          "date": "2026-06-11T19:38:37.189Z",
+          "releaseUrl": "https://github.com/11ty/import/releases/tag/v1.0.24"
+        },
+        {
+          "version": "1.0.23",
+          "date": "2026-06-11T18:58:46.363Z",
+          "releaseUrl": "https://github.com/11ty/import/releases/tag/v1.0.23"
+        },
+        {
+          "version": "1.0.22",
+          "date": "2026-06-11T18:46:18.239Z",
+          "releaseUrl": "https://github.com/11ty/import/releases/tag/v1.0.22"
+        },
+        {
+          "version": "1.0.21",
+          "date": "2026-05-20T21:25:24.985Z",
+          "releaseUrl": "https://github.com/11ty/import/releases/tag/v1.0.21"
+        },
+        {
+          "version": "1.0.19",
+          "date": "2026-03-20T20:28:13.215Z",
+          "releaseUrl": "https://github.com/11ty/import/releases/tag/v1.0.19"
+        },
+        {
+          "version": "1.0.17",
+          "date": "2026-02-18T19:00:00.934Z",
+          "releaseUrl": "https://github.com/11ty/import/releases/tag/v1.0.17"
+        },
+        {
+          "version": "1.0.16",
+          "date": "2025-12-02T21:30:58.611Z",
+          "releaseUrl": "https://github.com/11ty/import/releases/tag/v1.0.16"
+        },
+        {
+          "version": "1.0.15",
+          "date": "2025-04-02T20:33:51.482Z",
+          "releaseUrl": "https://github.com/11ty/import/releases/tag/v1.0.15"
+        },
+        {
+          "version": "1.0.14",
+          "date": "2025-02-21T22:37:23.432Z",
+          "releaseUrl": "https://github.com/11ty/import/releases/tag/v1.0.14"
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/import/releases/tag/v2.0.1",
       "lastStablePublish": "2026-08-17T21:01:23.057Z",
       "lastStablePublishVersion": "2.0.1",
@@ -2527,7 +3842,7 @@
       "npmDeprecated": false,
       "publishCount": 27,
       "prerelease": false,
-      "downloads": 8065,
+      "downloads": 8062,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2589,6 +3904,58 @@
       "pushedAt": "2025-12-02T16:08:48Z",
       "lastPublish": "2025-12-02T16:10:39.309Z",
       "lastPublishVersion": "5.0.1",
+      "recentPublishes": [
+        {
+          "version": "5.0.1",
+          "date": "2025-12-02T16:10:39.309Z",
+          "releaseUrl": "https://github.com/11ty/is-land/releases/tag/v5.0.1"
+        },
+        {
+          "version": "5.0.0",
+          "date": "2025-08-29T15:58:49.434Z",
+          "releaseUrl": "https://github.com/11ty/is-land/releases/tag/v5.0.0"
+        },
+        {
+          "version": "5.0.0-beta.5",
+          "date": "2025-03-24T20:05:48.844Z",
+          "releaseUrl": "https://github.com/11ty/is-land/releases/tag/v5.0.0-beta.5"
+        },
+        {
+          "version": "5.0.0-beta.4",
+          "date": "2025-02-18T21:53:08.063Z",
+          "releaseUrl": "https://github.com/11ty/is-land/releases/tag/v5.0.0-beta.4"
+        },
+        {
+          "version": "4.0.1",
+          "date": "2025-02-14T21:59:52.437Z",
+          "releaseUrl": "https://github.com/11ty/is-land/releases/tag/v4.0.1"
+        },
+        {
+          "version": "5.0.0-beta.3",
+          "date": "2025-02-14T21:51:58.855Z",
+          "releaseUrl": "https://github.com/11ty/is-land/releases/tag/v5.0.0-beta.3"
+        },
+        {
+          "version": "5.0.0-beta.2",
+          "date": "2025-02-13T21:06:57.094Z",
+          "releaseUrl": "https://github.com/11ty/is-land/releases/tag/v5.0.0-beta.2"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2023-03-07T19:58:48.789Z",
+          "releaseUrl": "https://github.com/11ty/is-land/releases/tag/v4.0.0"
+        },
+        {
+          "version": "3.0.2",
+          "date": "2023-03-01T20:14:13.825Z",
+          "releaseUrl": "https://github.com/11ty/is-land/releases/tag/v3.0.2"
+        },
+        {
+          "version": "3.0.1",
+          "date": "2023-01-27T21:21:30.603Z",
+          "releaseUrl": "https://github.com/11ty/is-land/releases/tag/v3.0.1"
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/is-land/releases/tag/v5.0.1",
       "lastStablePublish": "2025-12-02T16:10:39.309Z",
       "lastStablePublishVersion": "5.0.1",
@@ -2597,7 +3964,7 @@
       "npmDeprecated": false,
       "publishCount": 17,
       "prerelease": false,
-      "downloads": 133365,
+      "downloads": 136201,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2615,10 +3982,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.111,
-        "downloadsSub": 0.854,
+        "downloadsSub": 0.856,
         "starsSub": 0.758,
-        "popularity": 0.84,
-        "importance": 0.888
+        "popularity": 0.841,
+        "importance": 0.889
       },
       "scoreHistory": [
         9.2,
@@ -2659,6 +4026,13 @@
       "pushedAt": "2026-07-28T14:00:40Z",
       "lastPublish": "2023-03-22T15:22:19.227Z",
       "lastPublishVersion": "4.17.21",
+      "recentPublishes": [
+        {
+          "version": "4.17.21",
+          "date": "2023-03-22T15:22:19.227Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2023-03-22T15:22:19.227Z",
       "lastStablePublishVersion": "4.17.21",
@@ -2667,7 +4041,7 @@
       "npmDeprecated": false,
       "publishCount": 1,
       "prerelease": false,
-      "downloads": 6057606,
+      "downloads": 6354061,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2729,6 +4103,58 @@
       "pushedAt": "2025-12-17T22:09:40Z",
       "lastPublish": "2025-12-17T22:10:59.850Z",
       "lastPublishVersion": "3.0.0",
+      "recentPublishes": [
+        {
+          "version": "3.0.0",
+          "date": "2025-12-17T22:10:59.850Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.6",
+          "date": "2022-03-17T21:30:54.870Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.5",
+          "date": "2022-03-10T23:02:03.934Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.4",
+          "date": "2020-03-22T01:32:50.763Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.3",
+          "date": "2020-03-22T01:20:21.251Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.2",
+          "date": "2019-12-19T14:31:04.631Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2019-12-19T14:02:26.179Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2019-12-19T13:58:35.650Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.5",
+          "date": "2019-12-10T03:22:22.522Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.4",
+          "date": "2018-01-17T04:46:53.558Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2025-12-17T22:10:59.850Z",
       "lastStablePublishVersion": "3.0.0",
@@ -2737,7 +4163,7 @@
       "npmDeprecated": false,
       "publishCount": 14,
       "prerelease": false,
-      "downloads": 3733,
+      "downloads": 3721,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2757,8 +4183,8 @@
         "attention": 0.015,
         "downloadsSub": 0.595,
         "starsSub": 0.27,
-        "popularity": 0.547,
-        "importance": 0.683
+        "popularity": 0.546,
+        "importance": 0.682
       },
       "scoreHistory": [
         1,
@@ -2799,6 +4225,18 @@
       "pushedAt": "2026-10-13T20:02:36Z",
       "lastPublish": "2025-12-10T22:50:10.031Z",
       "lastPublishVersion": "1.0.1",
+      "recentPublishes": [
+        {
+          "version": "1.0.1",
+          "date": "2025-12-10T22:50:10.031Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2025-12-10T22:38:55.735Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2025-12-10T22:50:10.031Z",
       "lastStablePublishVersion": "1.0.1",
@@ -2807,7 +4245,7 @@
       "npmDeprecated": false,
       "publishCount": 2,
       "prerelease": false,
-      "downloads": 32524,
+      "downloads": 34189,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2825,10 +4263,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0,
-        "downloadsSub": 0.752,
+        "downloadsSub": 0.756,
         "starsSub": 0.301,
-        "popularity": 0.684,
-        "importance": 0.779
+        "popularity": 0.687,
+        "importance": 0.781
       },
       "scoreHistory": [
         7.9,
@@ -2869,6 +4307,28 @@
       "pushedAt": "2026-10-13T22:29:23Z",
       "lastPublish": "2026-10-13T22:34:30.903Z",
       "lastPublishVersion": "4.0.0-alpha.4",
+      "recentPublishes": [
+        {
+          "version": "4.0.0-alpha.4",
+          "date": "2026-10-13T22:34:30.903Z",
+          "releaseUrl": "https://github.com/11ty/nunjucks/releases/tag/v4.0.0-alpha.4"
+        },
+        {
+          "version": "4.0.0-alpha.3",
+          "date": "2026-06-30T14:29:12.180Z",
+          "releaseUrl": "https://github.com/11ty/nunjucks/releases/tag/v4.0.0-alpha.3"
+        },
+        {
+          "version": "4.0.0-alpha.2",
+          "date": "2026-06-26T20:58:51.796Z",
+          "releaseUrl": "https://github.com/11ty/nunjucks/releases/tag/v4.0.0-alpha.2"
+        },
+        {
+          "version": "4.0.0-alpha.1",
+          "date": "2025-12-09T23:26:13.366Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/nunjucks/releases/tag/v4.0.0-alpha.4",
       "lastStablePublish": "2025-12-09T23:26:13.366Z",
       "lastStablePublishVersion": "4.0.0-alpha.1",
@@ -2939,6 +4399,58 @@
       "pushedAt": "2026-08-19T07:06:20Z",
       "lastPublish": "2026-06-03T21:11:12.977Z",
       "lastPublishVersion": "0.5.6",
+      "recentPublishes": [
+        {
+          "version": "0.5.6",
+          "date": "2026-06-03T21:11:12.977Z",
+          "releaseUrl": "https://github.com/11ty/package-bundler/releases/tag/v0.5.6"
+        },
+        {
+          "version": "0.5.5",
+          "date": "2026-01-15T20:44:01.519Z",
+          "releaseUrl": "https://github.com/11ty/package-bundler/releases/tag/v0.5.5"
+        },
+        {
+          "version": "0.5.4",
+          "date": "2025-11-25T23:29:34.140Z",
+          "releaseUrl": "https://github.com/11ty/package-bundler/releases/tag/v0.5.4"
+        },
+        {
+          "version": "0.5.1",
+          "date": "2025-11-03T19:41:57.059Z",
+          "releaseUrl": "https://github.com/11ty/package-bundler/releases/tag/v0.5.1"
+        },
+        {
+          "version": "0.4.2",
+          "date": "2025-07-18T19:20:14.399Z",
+          "releaseUrl": "https://github.com/11ty/package-bundler/releases/tag/v0.4.2"
+        },
+        {
+          "version": "0.4.1",
+          "date": "2025-07-18T17:42:15.338Z",
+          "releaseUrl": "https://github.com/11ty/package-bundler/releases/tag/v0.4.1"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2025-07-18T15:36:42.401Z",
+          "releaseUrl": "https://github.com/11ty/package-bundler/releases/tag/v0.4.0"
+        },
+        {
+          "version": "0.3.0",
+          "date": "2025-07-17T16:44:28.325Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.2.1",
+          "date": "2025-07-03T19:00:28.301Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.2.0",
+          "date": "2025-07-03T16:59:04.551Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/package-bundler/releases/tag/v0.5.6",
       "lastStablePublish": "2026-06-03T21:11:12.977Z",
       "lastStablePublishVersion": "0.5.6",
@@ -2947,7 +4459,7 @@
       "npmDeprecated": false,
       "publishCount": 12,
       "prerelease": false,
-      "downloads": 15409,
+      "downloads": 16236,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -2965,10 +4477,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0.021,
-        "downloadsSub": 0.698,
+        "downloadsSub": 0.702,
         "starsSub": 0.189,
-        "popularity": 0.622,
-        "importance": 0.735
+        "popularity": 0.625,
+        "importance": 0.737
       },
       "scoreHistory": [
         1.3,
@@ -3009,6 +4521,48 @@
       "pushedAt": "2025-12-02T20:58:30Z",
       "lastPublish": "2025-12-02T21:00:22.505Z",
       "lastPublishVersion": "2.0.6",
+      "recentPublishes": [
+        {
+          "version": "2.0.6",
+          "date": "2025-12-02T21:00:22.505Z",
+          "releaseUrl": "https://github.com/11ty/parse-date-strings/releases/tag/v2.0.6"
+        },
+        {
+          "version": "2.0.5",
+          "date": "2025-07-28T15:16:07.320Z",
+          "releaseUrl": "https://github.com/11ty/parse-date-strings/releases/tag/v2.0.5"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2025-07-24T17:18:40.666Z",
+          "releaseUrl": "https://github.com/11ty/parse-date-strings/releases/tag/v2.0.4"
+        },
+        {
+          "version": "2.0.3",
+          "date": "2025-07-24T17:07:31.555Z",
+          "releaseUrl": "https://github.com/11ty/parse-date-strings/releases/tag/v2.0.3"
+        },
+        {
+          "version": "2.0.2",
+          "date": "2025-07-24T16:17:16.836Z",
+          "releaseUrl": "https://github.com/11ty/parse-date-strings/releases/tag/v2.0.2"
+        },
+        {
+          "version": "2.0.1",
+          "date": "2025-07-23T21:46:33.632Z",
+          "releaseUrl": "https://github.com/11ty/parse-date-strings/releases/tag/v2.0.1"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2025-07-22T21:06:38.761Z",
+          "releaseUrl": "https://github.com/11ty/parse-date-strings/releases/tag/v2.0.0"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2025-07-21T21:59:38.228Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/parse-date-strings/releases/tag/v2.0.6",
       "lastStablePublish": "2025-12-02T21:00:22.505Z",
       "lastStablePublishVersion": "2.0.6",
@@ -3017,7 +4571,7 @@
       "npmDeprecated": false,
       "publishCount": 8,
       "prerelease": false,
-      "downloads": 34926,
+      "downloads": 42082,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -3035,10 +4589,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0,
-        "downloadsSub": 0.757,
+        "downloadsSub": 0.771,
         "starsSub": 0.43,
-        "popularity": 0.708,
-        "importance": 0.796
+        "popularity": 0.72,
+        "importance": 0.804
       },
       "scoreHistory": [
         0,
@@ -3079,6 +4633,33 @@
       "pushedAt": "2026-10-01T19:35:21Z",
       "lastPublish": "2026-10-01T19:37:37.765Z",
       "lastPublishVersion": "2.0.0",
+      "recentPublishes": [
+        {
+          "version": "2.0.0",
+          "date": "2026-10-01T19:37:37.765Z",
+          "releaseUrl": "https://github.com/11ty/posthtml-urls/releases/tag/v2.0.0"
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-03-25T20:23:51.090Z",
+          "releaseUrl": "https://github.com/11ty/posthtml-urls/releases/tag/v1.0.3"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2025-12-02T22:14:31.855Z",
+          "releaseUrl": "https://github.com/11ty/posthtml-urls/releases/tag/v1.0.2"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2025-01-16T14:27:13.364Z",
+          "releaseUrl": "https://github.com/11ty/posthtml-urls/releases/tag/v1.0.1"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2024-02-09T17:13:14.468Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/posthtml-urls/releases/tag/v2.0.0",
       "lastStablePublish": "2026-10-01T19:37:37.765Z",
       "lastStablePublishVersion": "2.0.0",
@@ -3149,6 +4730,53 @@
       "pushedAt": "2026-03-18T17:17:27Z",
       "lastPublish": "2026-03-18T17:18:31.987Z",
       "lastPublishVersion": "5.0.2",
+      "recentPublishes": [
+        {
+          "version": "5.0.2",
+          "date": "2026-03-18T17:18:31.987Z",
+          "releaseUrl": "https://github.com/11ty/recursive-copy/releases/tag/v5.0.2"
+        },
+        {
+          "version": "4.0.4",
+          "date": "2026-03-18T17:01:09.440Z",
+          "releaseUrl": "https://github.com/11ty/recursive-copy/releases/tag/v4.0.4"
+        },
+        {
+          "version": "5.0.0",
+          "date": "2025-12-11T19:15:34.047Z",
+          "releaseUrl": "https://github.com/11ty/recursive-copy/releases/tag/v5.0.0"
+        },
+        {
+          "version": "4.0.3",
+          "date": "2025-12-02T21:09:22.906Z",
+          "releaseUrl": "https://github.com/11ty/recursive-copy/releases/tag/v4.0.3"
+        },
+        {
+          "version": "4.0.2",
+          "date": "2025-06-16T19:31:10.706Z",
+          "releaseUrl": "https://github.com/11ty/recursive-copy/releases/tag/v4.0.2"
+        },
+        {
+          "version": "4.0.1",
+          "date": "2025-04-23T21:19:57.155Z",
+          "releaseUrl": "https://github.com/11ty/recursive-copy/releases/tag/v4.0.1"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2025-03-04T20:07:01.958Z",
+          "releaseUrl": "https://github.com/11ty/recursive-copy/releases/tag/v4.0.0"
+        },
+        {
+          "version": "3.0.1",
+          "date": "2024-12-06T17:29:30.405Z",
+          "releaseUrl": "https://github.com/11ty/recursive-copy/releases/tag/3.0.1"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2024-07-11T15:57:34.490Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/recursive-copy/releases/tag/v5.0.2",
       "lastStablePublish": "2026-03-18T17:18:31.987Z",
       "lastStablePublishVersion": "5.0.2",
@@ -3157,7 +4785,7 @@
       "npmDeprecated": false,
       "publishCount": 9,
       "prerelease": false,
-      "downloads": 4958326,
+      "downloads": 5479355,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -3219,6 +4847,7 @@
       "pushedAt": "2025-08-28T20:48:14Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -3289,6 +4918,58 @@
       "pushedAt": "2026-09-30T19:54:29Z",
       "lastPublish": "2025-08-28T18:59:14.318Z",
       "lastPublishVersion": "0.12.0-beta.2",
+      "recentPublishes": [
+        {
+          "version": "0.12.0-beta.2",
+          "date": "2025-08-28T18:59:14.318Z",
+          "releaseUrl": "https://github.com/11ty/webc/releases/tag/v0.12.0-beta.2"
+        },
+        {
+          "version": "0.12.0-beta.1",
+          "date": "2025-08-22T15:12:22.877Z",
+          "releaseUrl": "https://github.com/11ty/webc/releases/tag/v0.12.0-beta.1"
+        },
+        {
+          "version": "0.11.4",
+          "date": "2023-04-26T19:36:55.912Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.11.3",
+          "date": "2023-04-06T20:38:12.190Z",
+          "releaseUrl": "https://github.com/11ty/webc/releases/tag/v0.11.3"
+        },
+        {
+          "version": "0.11.2",
+          "date": "2023-04-04T16:42:55.216Z",
+          "releaseUrl": "https://github.com/11ty/webc/releases/tag/v0.11.2"
+        },
+        {
+          "version": "0.11.1",
+          "date": "2023-03-31T17:27:15.361Z",
+          "releaseUrl": "https://github.com/11ty/webc/releases/tag/v0.11.1"
+        },
+        {
+          "version": "0.11.0",
+          "date": "2023-03-31T14:50:09.811Z",
+          "releaseUrl": "https://github.com/11ty/webc/releases/tag/v0.11.0"
+        },
+        {
+          "version": "0.10.1",
+          "date": "2023-03-29T20:14:20.407Z",
+          "releaseUrl": "https://github.com/11ty/webc/releases/tag/v0.10.1"
+        },
+        {
+          "version": "0.10.0",
+          "date": "2023-03-24T22:24:01.622Z",
+          "releaseUrl": "https://github.com/11ty/webc/releases/tag/v0.10.0"
+        },
+        {
+          "version": "0.9.3",
+          "date": "2023-03-15T21:31:00.821Z",
+          "releaseUrl": "https://github.com/11ty/webc/releases/tag/v0.9.3"
+        }
+      ],
       "releaseUrl": "https://github.com/11ty/webc/releases/tag/v0.12.0-beta.2",
       "lastStablePublish": "2023-04-26T19:36:55.912Z",
       "lastStablePublishVersion": "0.11.4",
@@ -3359,6 +5040,7 @@
       "pushedAt": "2026-10-13T21:59:31Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -3416,7 +5098,7 @@
       "isWebComponent": false,
       "description": "A simpler way to build awesome web sites.",
       "sourceRepo": null,
-      "stars": 19964,
+      "stars": 19965,
       "openIssues": 155,
       "closedIssues": 2517,
       "openPRs": 18,
@@ -3426,9 +5108,41 @@
       "productionDependencies": 0,
       "transitiveDependencies": 0,
       "repoCreatedAt": "2017-11-27T05:19:00Z",
-      "pushedAt": "2026-10-14T00:19:26Z",
+      "pushedAt": "2026-10-14T12:37:06Z",
       "lastPublish": "2026-10-07T15:30:37.818Z",
       "lastPublishVersion": "0.0.3",
+      "recentPublishes": [
+        {
+          "version": "0.0.3",
+          "date": "2026-10-07T15:30:37.818Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.0.2",
+          "date": "2026-10-07T15:23:11.369Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.0-alpha.10",
+          "date": "2026-07-01T20:59:45.898Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.10"
+        },
+        {
+          "version": "4.0.0-alpha.9",
+          "date": "2026-07-01T17:06:01.028Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.9"
+        },
+        {
+          "version": "4.0.0-alpha.8",
+          "date": "2026-06-18T02:41:31.959Z",
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v4.0.0-alpha.8"
+        },
+        {
+          "version": "0.0.1",
+          "date": "2026-06-16T17:24:58.478Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-10-07T15:30:37.818Z",
       "lastStablePublishVersion": "0.0.3",
@@ -3437,7 +5151,7 @@
       "npmDeprecated": false,
       "publishCount": 6,
       "prerelease": false,
-      "downloads": 1858,
+      "downloads": 4004,
       "downloadsKnown": true,
       "downloadsPeriod": "last-year",
       "published": true,
@@ -3446,7 +5160,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 0,
-        "staleness": 0.001,
+        "staleness": 0,
         "issuesSub": 0.885,
         "prsSub": 0.716,
         "backlogSeverity": 0.767,
@@ -3455,10 +5169,10 @@
         "securitySub": 0,
         "security": 0,
         "attention": 0,
-        "downloadsSub": 0.545,
+        "downloadsSub": 0.6,
         "starsSub": 1,
-        "popularity": 0.613,
-        "importance": 0.729
+        "popularity": 0.66,
+        "importance": 0.762
       },
       "scoreHistory": [
         0.3,
@@ -3499,6 +5213,28 @@
       "pushedAt": "2026-09-06T19:30:41Z",
       "lastPublish": "2026-08-11T17:39:58.245Z",
       "lastPublishVersion": "1.0.9",
+      "recentPublishes": [
+        {
+          "version": "1.0.9",
+          "date": "2026-08-11T17:39:58.245Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.8",
+          "date": "2023-11-17T20:10:20.421Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.7",
+          "date": "2023-11-17T14:53:21.449Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.6",
+          "date": "2023-11-17T14:45:58.820Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-08-11T17:39:58.245Z",
       "lastStablePublishVersion": "1.0.9",
@@ -3569,6 +5305,58 @@
       "pushedAt": "2026-09-23T16:27:17Z",
       "lastPublish": "2026-09-23T16:28:35.654Z",
       "lastPublishVersion": "3.0.1",
+      "recentPublishes": [
+        {
+          "version": "3.0.1",
+          "date": "2026-09-23T16:28:35.654Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-09-16T17:44:33.752Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2026-09-16T17:24:03.005Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2025-11-14T14:39:31.417Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.15",
+          "date": "2025-03-05T21:04:19.409Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.14",
+          "date": "2023-11-30T22:21:23.787Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.13",
+          "date": "2023-11-21T20:26:23.752Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.12",
+          "date": "2023-11-09T22:44:01.881Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.11",
+          "date": "2023-11-09T21:47:30.998Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.10",
+          "date": "2023-11-09T21:12:58.845Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-09-23T16:28:35.654Z",
       "lastStablePublishVersion": "3.0.1",
@@ -3586,7 +5374,7 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 21,
-        "staleness": 0.028,
+        "staleness": 0.029,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -3639,6 +5427,43 @@
       "pushedAt": "2026-09-06T19:28:18Z",
       "lastPublish": "2024-02-06T18:57:41.173Z",
       "lastPublishVersion": "1.0.6",
+      "recentPublishes": [
+        {
+          "version": "1.0.6",
+          "date": "2024-02-06T18:57:41.173Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.5",
+          "date": "2024-02-05T16:23:56.691Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.4",
+          "date": "2024-02-02T14:49:08.179Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2024-02-01T22:46:00.077Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2024-01-31T16:45:11.832Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2024-01-31T15:48:40.280Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2024-01-31T14:05:53.810Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2024-02-06T18:57:41.173Z",
       "lastStablePublishVersion": "1.0.6",
@@ -3709,6 +5534,33 @@
       "pushedAt": "2026-09-06T19:28:59Z",
       "lastPublish": "2026-07-27T15:04:25.104Z",
       "lastPublishVersion": "3.0.0",
+      "recentPublishes": [
+        {
+          "version": "3.0.0",
+          "date": "2026-07-27T15:04:25.104Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.2",
+          "date": "2022-02-08T22:40:09.268Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2022-02-08T17:17:49.545Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2022-02-08T16:55:34.317Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2022-01-31T23:30:01.197Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-07-27T15:04:25.104Z",
       "lastStablePublishVersion": "3.0.0",
@@ -3779,6 +5631,7 @@
       "pushedAt": "2024-08-27T20:23:58Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -3849,6 +5702,53 @@
       "pushedAt": "2026-09-30T16:55:45Z",
       "lastPublish": "2026-09-30T17:02:21.690Z",
       "lastPublishVersion": "2.0.0",
+      "recentPublishes": [
+        {
+          "version": "2.0.0",
+          "date": "2026-09-30T17:02:21.690Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-03-31T21:20:33.963Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-03-27T20:58:44.754Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-03-27T18:23:43.248Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.4",
+          "date": "2026-03-26T18:26:08.652Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-03-26T18:19:21.180Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-03-26T17:25:04.446Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-03-26T16:47:50.636Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-03-25T22:15:05.353Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-09-30T17:02:21.690Z",
       "lastStablePublishVersion": "2.0.0",
@@ -3919,6 +5819,58 @@
       "pushedAt": "2026-09-06T19:33:16Z",
       "lastPublish": "2023-11-17T21:06:01.945Z",
       "lastPublishVersion": "4.0.0",
+      "recentPublishes": [
+        {
+          "version": "4.0.0",
+          "date": "2023-11-17T21:06:01.945Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.4",
+          "date": "2022-02-03T23:43:57.286Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.3",
+          "date": "2022-02-03T20:44:20.721Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.2",
+          "date": "2022-02-03T20:05:22.545Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.1",
+          "date": "2022-01-26T22:21:13.938Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.0",
+          "date": "2022-01-26T21:56:57.234Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.3",
+          "date": "2021-09-08T16:42:23.738Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.2",
+          "date": "2021-09-08T14:55:19.482Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2021-09-04T04:49:54.127Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2021-09-04T04:41:22.262Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2023-11-17T21:06:01.945Z",
       "lastStablePublishVersion": "4.0.0",
@@ -3989,6 +5941,33 @@
       "pushedAt": "2023-11-10T14:25:20Z",
       "lastPublish": "2023-02-27T16:26:09.984Z",
       "lastPublishVersion": "4.0.2",
+      "recentPublishes": [
+        {
+          "version": "4.0.2",
+          "date": "2023-02-27T16:26:09.984Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.1",
+          "date": "2023-02-27T02:23:03.641Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.0",
+          "date": "2023-02-26T20:29:24.389Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.1",
+          "date": "2023-02-25T22:31:52.868Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.0",
+          "date": "2023-02-25T22:17:24.561Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2023-02-27T16:26:09.984Z",
       "lastStablePublishVersion": "4.0.2",
@@ -4059,6 +6038,43 @@
       "pushedAt": "2024-05-24T18:59:25Z",
       "lastPublish": "2024-05-24T18:59:44.684Z",
       "lastPublishVersion": "1.0.6",
+      "recentPublishes": [
+        {
+          "version": "1.0.6",
+          "date": "2024-05-24T18:59:44.684Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.5",
+          "date": "2024-05-24T17:15:35.891Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.4",
+          "date": "2024-05-22T19:45:26.433Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2024-05-22T16:42:12.531Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2024-05-22T16:02:07.606Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2024-05-22T15:50:55.813Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2024-05-22T14:33:21.292Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2024-05-24T18:59:44.684Z",
       "lastStablePublishVersion": "1.0.6",
@@ -4129,6 +6145,38 @@
       "pushedAt": "2026-09-06T19:27:37Z",
       "lastPublish": "2025-10-01T21:49:17.455Z",
       "lastPublishVersion": "1.0.5",
+      "recentPublishes": [
+        {
+          "version": "1.0.5",
+          "date": "2025-10-01T21:49:17.455Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.4",
+          "date": "2025-09-17T13:31:53.407Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2025-02-03T21:46:18.139Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2025-01-21T20:56:51.670Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2024-08-30T15:30:00.197Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2024-08-29T20:14:29.966Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2025-10-01T21:49:17.455Z",
       "lastStablePublishVersion": "1.0.5",
@@ -4199,6 +6247,48 @@
       "pushedAt": "2026-09-04T17:45:15Z",
       "lastPublish": "2026-08-11T13:57:10.968Z",
       "lastPublishVersion": "2.0.3",
+      "recentPublishes": [
+        {
+          "version": "2.0.3",
+          "date": "2026-08-11T13:57:10.968Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.2",
+          "date": "2026-07-13T15:56:27.861Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2026-02-05T14:44:23.115Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-02-04T22:02:53.903Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2024-02-21T14:21:35.386Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2024-02-17T21:20:52.279Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2024-02-16T16:22:46.978Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2024-02-16T16:16:01.527Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-08-11T13:57:10.968Z",
       "lastStablePublishVersion": "2.0.3",
@@ -4216,7 +6306,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 40,
-        "staleness": 0.054,
+        "staleness": 0.055,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -4269,6 +6359,13 @@
       "pushedAt": "2026-09-16T00:42:53Z",
       "lastPublish": "2026-09-16T00:37:33.599Z",
       "lastPublishVersion": "1.0.0",
+      "recentPublishes": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-16T00:37:33.599Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-09-16T00:37:33.599Z",
       "lastStablePublishVersion": "1.0.0",
@@ -4285,7 +6382,7 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 28,
+        "activityDays": 29,
         "staleness": 0.039,
         "issuesSub": 0,
         "prsSub": 0,
@@ -4339,6 +6436,7 @@
       "pushedAt": "2025-12-19T15:05:49Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -4409,6 +6507,28 @@
       "pushedAt": "2026-09-07T20:15:22Z",
       "lastPublish": "2025-06-09T18:44:08.514Z",
       "lastPublishVersion": "1.0.3",
+      "recentPublishes": [
+        {
+          "version": "1.0.3",
+          "date": "2025-06-09T18:44:08.514Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2025-06-05T20:03:51.496Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2025-06-05T17:16:14.029Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2025-06-05T16:57:26.291Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2025-06-09T18:44:08.514Z",
       "lastStablePublishVersion": "1.0.3",
@@ -4479,6 +6599,48 @@
       "pushedAt": "2025-12-10T17:20:30Z",
       "lastPublish": "2025-12-10T17:21:20.743Z",
       "lastPublishVersion": "1.0.7",
+      "recentPublishes": [
+        {
+          "version": "1.0.7",
+          "date": "2025-12-10T17:21:20.743Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.6",
+          "date": "2025-06-06T15:27:08.169Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.5",
+          "date": "2025-06-06T15:08:09.431Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.4",
+          "date": "2024-08-30T19:48:39.863Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2023-02-21T18:48:37.444Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2023-02-21T17:47:01.391Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2023-02-21T16:43:12.307Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2023-02-21T16:41:57.698Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2025-12-10T17:21:20.743Z",
       "lastStablePublishVersion": "1.0.7",
@@ -4549,6 +6711,28 @@
       "pushedAt": "2023-12-06T17:22:43Z",
       "lastPublish": "2023-12-06T17:23:00.067Z",
       "lastPublishVersion": "1.0.3",
+      "recentPublishes": [
+        {
+          "version": "1.0.3",
+          "date": "2023-12-06T17:23:00.067Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2023-11-30T17:34:07.161Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2023-11-30T16:11:00.717Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2023-11-30T15:49:43.659Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2023-12-06T17:23:00.067Z",
       "lastStablePublishVersion": "1.0.3",
@@ -4619,6 +6803,18 @@
       "pushedAt": "2026-09-10T14:39:24Z",
       "lastPublish": "2023-10-25T13:29:56.748Z",
       "lastPublishVersion": "1.0.1",
+      "recentPublishes": [
+        {
+          "version": "1.0.1",
+          "date": "2023-10-25T13:29:56.748Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2023-10-17T16:50:34.987Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2023-10-25T13:29:56.748Z",
       "lastStablePublishVersion": "1.0.1",
@@ -4689,6 +6885,58 @@
       "pushedAt": "2026-09-07T20:26:21Z",
       "lastPublish": "2023-11-10T14:23:49.120Z",
       "lastPublishVersion": "4.0.3",
+      "recentPublishes": [
+        {
+          "version": "4.0.3",
+          "date": "2023-11-10T14:23:49.120Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.2",
+          "date": "2023-11-10T14:07:11.560Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.1",
+          "date": "2023-10-30T13:24:27.871Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.0",
+          "date": "2023-10-29T01:14:49.045Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.5",
+          "date": "2023-10-26T16:19:01.254Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.4",
+          "date": "2023-10-10T12:54:51.779Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.3",
+          "date": "2023-10-05T18:47:29.417Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.2",
+          "date": "2023-10-04T14:01:15.704Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.1",
+          "date": "2023-10-02T20:43:18.389Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.0",
+          "date": "2023-10-02T20:32:15.209Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2023-11-10T14:23:49.120Z",
       "lastStablePublishVersion": "4.0.3",
@@ -4759,6 +7007,58 @@
       "pushedAt": "2026-01-12T18:13:44Z",
       "lastPublish": "2025-11-04T22:10:30.437Z",
       "lastPublishVersion": "3.0.3",
+      "recentPublishes": [
+        {
+          "version": "3.0.3",
+          "date": "2025-11-04T22:10:30.437Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.2",
+          "date": "2024-01-12T21:46:28.107Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.1",
+          "date": "2024-01-12T21:37:37.893Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.0",
+          "date": "2024-01-11T18:33:04.148Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.4",
+          "date": "2024-01-10T18:30:38.987Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.3",
+          "date": "2024-01-10T18:25:07.161Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.2",
+          "date": "2024-01-10T18:21:00.001Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2024-01-10T18:10:22.454Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2022-04-26T16:21:30.651Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2020-04-27T14:40:30.455Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2025-11-04T22:10:30.437Z",
       "lastStablePublishVersion": "3.0.3",
@@ -4829,6 +7129,28 @@
       "pushedAt": "2026-09-08T14:44:47Z",
       "lastPublish": "2024-12-17T21:41:36.692Z",
       "lastPublishVersion": "1.0.3",
+      "recentPublishes": [
+        {
+          "version": "1.0.3",
+          "date": "2024-12-17T21:41:36.692Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2023-12-15T19:39:25.086Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2023-12-15T14:31:51.420Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2023-12-15T14:01:39.684Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2024-12-17T21:41:36.692Z",
       "lastStablePublishVersion": "1.0.3",
@@ -4899,6 +7221,58 @@
       "pushedAt": "2026-09-17T14:42:18Z",
       "lastPublish": "2026-09-17T14:43:45.199Z",
       "lastPublishVersion": "2.2.1",
+      "recentPublishes": [
+        {
+          "version": "2.2.1",
+          "date": "2026-09-17T14:43:45.199Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.2.0",
+          "date": "2026-09-17T13:14:38.866Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.1.3",
+          "date": "2026-09-14T15:54:43.551Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.1.2",
+          "date": "2026-09-14T15:41:16.355Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.1.1",
+          "date": "2026-09-14T15:39:18.685Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.1.0",
+          "date": "2026-09-14T13:23:00.776Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2026-09-14T12:53:49.661Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-09-14T00:44:31.392Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-13T17:00:39.484Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-09-13T15:56:29.573Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-09-17T14:43:45.199Z",
       "lastStablePublishVersion": "2.2.1",
@@ -4969,6 +7343,43 @@
       "pushedAt": "2026-10-12T15:27:12Z",
       "lastPublish": "2026-06-05T15:40:37.743Z",
       "lastPublishVersion": "4.0.0",
+      "recentPublishes": [
+        {
+          "version": "4.0.0",
+          "date": "2026-06-05T15:40:37.743Z",
+          "releaseUrl": "https://github.com/zachleat/spider-pig/releases/tag/v4.0.0"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2021-12-06T16:17:07.562Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2021-03-11T05:11:09.938Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2018-02-21T18:02:19.649Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2018-01-18T16:07:45.802Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2018-01-18T05:03:38.124Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2018-01-17T23:43:02.236Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/zachleat/spider-pig/releases/tag/v4.0.0",
       "lastStablePublish": "2026-06-05T15:40:37.743Z",
       "lastStablePublishVersion": "4.0.0",
@@ -5039,6 +7450,58 @@
       "pushedAt": "2025-11-20T14:20:19Z",
       "lastPublish": "2025-11-20T14:20:30.419Z",
       "lastPublishVersion": "3.0.1",
+      "recentPublishes": [
+        {
+          "version": "3.0.1",
+          "date": "2025-11-20T14:20:30.419Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.0",
+          "date": "2025-11-20T13:49:43.837Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.8",
+          "date": "2025-02-28T15:23:01.225Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.7",
+          "date": "2023-11-17T21:47:39.331Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.6",
+          "date": "2023-11-10T15:08:48.249Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.5",
+          "date": "2023-11-08T15:29:52.826Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.4",
+          "date": "2023-11-02T13:59:41.453Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.3",
+          "date": "2023-11-02T13:50:13.925Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.2",
+          "date": "2023-11-02T13:33:37.261Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2023-11-02T13:19:36.388Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2025-11-20T14:20:30.419Z",
       "lastStablePublishVersion": "3.0.1",
@@ -5109,6 +7572,23 @@
       "pushedAt": "2026-09-24T18:22:49Z",
       "lastPublish": "2026-09-24T18:24:06.674Z",
       "lastPublishVersion": "2.0.0",
+      "recentPublishes": [
+        {
+          "version": "2.0.0",
+          "date": "2026-09-24T18:24:06.674Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-15T15:12:11.918Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-09-15T01:27:51.114Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-09-24T18:24:06.674Z",
       "lastStablePublishVersion": "2.0.0",
@@ -5179,6 +7659,48 @@
       "pushedAt": "2025-12-16T16:55:22Z",
       "lastPublish": "2025-12-16T16:56:00.639Z",
       "lastPublishVersion": "1.0.7",
+      "recentPublishes": [
+        {
+          "version": "1.0.7",
+          "date": "2025-12-16T16:56:00.639Z",
+          "releaseUrl": "https://github.com/zachleat/table-saw/releases/tag/v1.0.7"
+        },
+        {
+          "version": "1.0.6",
+          "date": "2023-10-04T19:22:41.475Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.5",
+          "date": "2023-10-04T16:51:50.705Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.4",
+          "date": "2023-10-04T16:33:10.501Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2023-10-04T16:16:32.362Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2023-09-28T22:14:34.822Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2023-09-28T19:29:13.099Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2023-09-28T18:21:39.244Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/zachleat/table-saw/releases/tag/v1.0.7",
       "lastStablePublish": "2025-12-16T16:56:00.639Z",
       "lastStablePublishVersion": "1.0.7",
@@ -5249,6 +7771,33 @@
       "pushedAt": "2026-07-25T02:34:51Z",
       "lastPublish": "2024-02-19T14:46:51.102Z",
       "lastPublishVersion": "1.0.4",
+      "recentPublishes": [
+        {
+          "version": "1.0.4",
+          "date": "2024-02-19T14:46:51.102Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2024-02-19T02:33:44.426Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2024-02-19T02:05:56.333Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2024-02-15T18:59:22.703Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2024-02-15T18:37:03.368Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2024-02-19T14:46:51.102Z",
       "lastStablePublishVersion": "1.0.4",
@@ -5266,7 +7815,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 81,
-        "staleness": 0.111,
+        "staleness": 0.112,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -5319,6 +7868,48 @@
       "pushedAt": "2021-05-20T14:43:05Z",
       "lastPublish": "2021-05-20T14:43:33.668Z",
       "lastPublishVersion": "1.0.7",
+      "recentPublishes": [
+        {
+          "version": "1.0.7",
+          "date": "2021-05-20T14:43:33.668Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.6",
+          "date": "2021-02-09T17:24:41.659Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.5",
+          "date": "2021-02-08T23:21:05.687Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.4",
+          "date": "2021-01-15T23:30:30.552Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2021-01-15T23:14:05.537Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2021-01-15T20:50:00.016Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2021-01-15T20:45:35.047Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2021-01-15T20:16:42.854Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2021-05-20T14:43:33.668Z",
       "lastStablePublishVersion": "1.0.7",
@@ -5389,6 +7980,18 @@
       "pushedAt": "2023-11-29T15:51:23Z",
       "lastPublish": "2023-11-29T15:51:51.282Z",
       "lastPublishVersion": "1.0.1",
+      "recentPublishes": [
+        {
+          "version": "1.0.1",
+          "date": "2023-11-29T15:51:51.282Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2023-11-29T14:52:50.627Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2023-11-29T15:51:51.282Z",
       "lastStablePublishVersion": "1.0.1",
@@ -5459,6 +8062,28 @@
       "pushedAt": "2024-02-20T21:56:42Z",
       "lastPublish": "2024-02-20T16:14:53.971Z",
       "lastPublishVersion": "1.0.3",
+      "recentPublishes": [
+        {
+          "version": "1.0.3",
+          "date": "2024-02-20T16:14:53.971Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2024-02-20T15:59:08.051Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2024-02-16T14:37:29.157Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2024-02-15T23:25:14.967Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2024-02-20T16:14:53.971Z",
       "lastStablePublishVersion": "1.0.3",
@@ -5529,6 +8154,7 @@
       "pushedAt": "2024-05-23T21:48:52Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -5599,6 +8225,7 @@
       "pushedAt": "2026-10-07T02:23:35Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -5660,6 +8287,33 @@
       "pushedAt": "2022-08-04T14:05:10Z",
       "lastPublish": "2022-08-04T14:05:32.336Z",
       "lastPublishVersion": "2.0.3",
+      "recentPublishes": [
+        {
+          "version": "2.0.3",
+          "date": "2022-08-04T14:05:32.336Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.2",
+          "date": "2022-08-01T13:50:41.783Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2022-07-31T20:46:15.187Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2022-07-31T19:12:01.140Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2022-07-31T19:11:15.122Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2022-08-04T14:05:32.336Z",
       "lastStablePublishVersion": "2.0.3",
@@ -5730,6 +8384,58 @@
       "pushedAt": "2022-06-04T19:37:52Z",
       "lastPublish": "2020-02-13T17:52:04.871Z",
       "lastPublishVersion": "2.0.6",
+      "recentPublishes": [
+        {
+          "version": "2.0.6",
+          "date": "2020-02-13T17:52:04.871Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.5",
+          "date": "2019-10-10T16:50:22.487Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.4",
+          "date": "2019-10-10T12:50:02.655Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.3",
+          "date": "2019-08-23T14:09:25.517Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.2",
+          "date": "2019-08-23T13:34:59.134Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2019-08-23T13:12:32.980Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2019-08-22T02:57:14.082Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2019-08-20T14:50:54.968Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2019-08-20T14:36:36.104Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2019-08-20T13:38:12.561Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2020-02-13T17:52:04.871Z",
       "lastStablePublishVersion": "2.0.6",
@@ -5800,6 +8506,28 @@
       "pushedAt": "2025-06-06T21:02:16Z",
       "lastPublish": "2017-06-01T19:57:30.262Z",
       "lastPublishVersion": "1.0.1",
+      "recentPublishes": [
+        {
+          "version": "1.0.1",
+          "date": "2017-06-01T19:57:30.262Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2017-06-01T18:16:58.497Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.1.8",
+          "date": "2015-02-28T06:20:53.293Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.1.7",
+          "date": "2015-02-28T05:40:09.010Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2017-06-01T19:57:30.262Z",
       "lastStablePublishVersion": "1.0.1",
@@ -5870,6 +8598,38 @@
       "pushedAt": "2017-06-21T12:57:00Z",
       "lastPublish": "2016-12-05T14:02:40.707Z",
       "lastPublishVersion": "1.0.5",
+      "recentPublishes": [
+        {
+          "version": "1.0.5",
+          "date": "2016-12-05T14:02:40.707Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.4",
+          "date": "2016-12-03T04:18:50.581Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2016-12-03T04:00:01.948Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2016-12-02T05:32:38.969Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2016-12-02T05:05:14.599Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2016-12-02T04:35:33.499Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2016-12-05T14:02:40.707Z",
       "lastStablePublishVersion": "1.0.5",
@@ -5940,6 +8700,7 @@
       "pushedAt": "2022-03-23T22:56:40Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -6010,6 +8771,58 @@
       "pushedAt": "2025-11-19T14:07:23Z",
       "lastPublish": "2025-11-19T14:07:39.588Z",
       "lastPublishVersion": "2.0.1",
+      "recentPublishes": [
+        {
+          "version": "2.0.1",
+          "date": "2025-11-19T14:07:39.588Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2025-11-12T18:12:05.526Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.7",
+          "date": "2024-05-24T22:15:04.605Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.6",
+          "date": "2020-01-04T21:02:09.160Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.5",
+          "date": "2020-01-04T20:59:31.269Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.4",
+          "date": "2020-01-04T20:38:07.890Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2020-01-04T18:03:42.129Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2020-01-04T17:38:46.128Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2020-01-04T17:36:57.774Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.2.0",
+          "date": "2016-11-29T15:09:28.395Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2025-11-19T14:07:39.588Z",
       "lastStablePublishVersion": "2.0.1",
@@ -6080,6 +8893,7 @@
       "pushedAt": "2024-08-07T15:26:11Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -6150,6 +8964,7 @@
       "pushedAt": "2021-11-17T03:36:53Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -6220,6 +9035,7 @@
       "pushedAt": "2026-09-23T16:19:38Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -6237,7 +9053,7 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 21,
-        "staleness": 0.028,
+        "staleness": 0.029,
         "issuesSub": 0.243,
         "prsSub": 0.169,
         "backlogSeverity": 0.191,
@@ -6290,6 +9106,7 @@
       "pushedAt": "2026-08-28T21:24:12Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -6360,6 +9177,7 @@
       "pushedAt": "2026-09-08T17:07:59Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -6430,6 +9248,7 @@
       "pushedAt": "2024-08-07T15:27:53Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -6500,6 +9319,7 @@
       "pushedAt": "2026-10-01T09:51:50Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -6570,6 +9390,7 @@
       "pushedAt": "2023-05-04T20:43:49Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -6640,6 +9461,53 @@
       "pushedAt": "2025-08-08T20:02:05Z",
       "lastPublish": "2025-08-08T20:21:13.984Z",
       "lastPublishVersion": "3.0.5",
+      "recentPublishes": [
+        {
+          "version": "3.0.5",
+          "date": "2025-08-08T20:21:13.984Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.4",
+          "date": "2025-08-06T22:03:21.653Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.3",
+          "date": "2025-04-17T17:10:38.862Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.2",
+          "date": "2023-12-14T18:43:50.827Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.1",
+          "date": "2023-12-14T02:20:49.657Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.0",
+          "date": "2023-11-03T19:49:48.164Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2023-11-03T19:21:45.488Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2022-06-03T19:23:55.984Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2022-06-03T19:21:54.395Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2025-08-08T20:21:13.984Z",
       "lastStablePublishVersion": "3.0.5",
@@ -6710,6 +9578,7 @@
       "pushedAt": "2025-09-03T15:40:34Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -6780,6 +9649,18 @@
       "pushedAt": "2017-12-26T23:26:57Z",
       "lastPublish": "2017-12-26T23:27:13.640Z",
       "lastPublishVersion": "1.0.1",
+      "recentPublishes": [
+        {
+          "version": "1.0.1",
+          "date": "2017-12-26T23:27:13.640Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2017-12-25T19:55:20.501Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2017-12-26T23:27:13.640Z",
       "lastStablePublishVersion": "1.0.1",
@@ -6850,6 +9731,53 @@
       "pushedAt": "2024-03-05T22:39:22Z",
       "lastPublish": "2017-06-28T22:14:45.890Z",
       "lastPublishVersion": "1.0.2",
+      "recentPublishes": [
+        {
+          "version": "1.0.2",
+          "date": "2017-06-28T22:14:45.890Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2017-06-28T22:12:23.121Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2017-06-01T20:03:23.086Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.1.7",
+          "date": "2015-10-27T03:03:09.783Z",
+          "releaseUrl": "https://github.com/zachleat/fontfaceonload/releases/tag/v0.1.7"
+        },
+        {
+          "version": "0.1.6",
+          "date": "2015-03-13T15:36:53.301Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.1.5",
+          "date": "2015-02-18T05:12:40.934Z",
+          "releaseUrl": "https://github.com/zachleat/fontfaceonload/releases/tag/v0.1.5"
+        },
+        {
+          "version": "0.1.3",
+          "date": "2015-01-22T03:05:55.673Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.1.1",
+          "date": "2014-08-07T22:23:27.040Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "0.1.0",
+          "date": "2014-08-07T22:19:28.975Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2017-06-28T22:14:45.890Z",
       "lastStablePublishVersion": "1.0.2",
@@ -6920,6 +9848,58 @@
       "pushedAt": "2026-06-08T16:00:42Z",
       "lastPublish": "2026-06-05T18:34:39.451Z",
       "lastPublishVersion": "6.0.0",
+      "recentPublishes": [
+        {
+          "version": "6.0.0",
+          "date": "2026-06-05T18:34:39.451Z",
+          "releaseUrl": "https://github.com/zachleat/glyphhanger/releases/tag/v6.0.0"
+        },
+        {
+          "version": "5.0.0",
+          "date": "2021-12-06T16:30:19.522Z",
+          "releaseUrl": "https://github.com/zachleat/glyphhanger/releases/tag/v5.0.0"
+        },
+        {
+          "version": "4.0.1",
+          "date": "2021-03-15T13:28:45.136Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.0",
+          "date": "2021-03-11T15:06:03.485Z",
+          "releaseUrl": "https://github.com/zachleat/glyphhanger/releases/tag/v4.0.0"
+        },
+        {
+          "version": "3.2.0",
+          "date": "2018-12-06T17:27:29.243Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.1.0",
+          "date": "2018-12-04T19:57:12.696Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.3",
+          "date": "2018-03-21T16:21:10.064Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.2",
+          "date": "2018-03-05T22:57:50.170Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.1",
+          "date": "2018-02-27T23:17:36.634Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.0",
+          "date": "2018-02-27T22:03:35.407Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/zachleat/glyphhanger/releases/tag/v6.0.0",
       "lastStablePublish": "2026-06-05T18:34:39.451Z",
       "lastStablePublishVersion": "6.0.0",
@@ -6990,6 +9970,13 @@
       "pushedAt": "2015-04-18T16:07:51Z",
       "lastPublish": "2015-04-18T16:01:20.907Z",
       "lastPublishVersion": "0.1.5",
+      "recentPublishes": [
+        {
+          "version": "0.1.5",
+          "date": "2015-04-18T16:01:20.907Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2015-04-18T16:01:20.907Z",
       "lastStablePublishVersion": "0.1.5",
@@ -7060,6 +10047,58 @@
       "pushedAt": "2026-10-14T10:56:42Z",
       "lastPublish": "2026-09-21T21:20:56.318Z",
       "lastPublishVersion": "3.0.0",
+      "recentPublishes": [
+        {
+          "version": "3.0.0",
+          "date": "2026-09-21T21:20:56.318Z",
+          "releaseUrl": "https://github.com/zachleat/import-module-string/releases/tag/v3.0.0"
+        },
+        {
+          "version": "2.0.3",
+          "date": "2025-08-08T21:33:31.489Z",
+          "releaseUrl": "https://github.com/zachleat/import-module-string/releases/tag/v2.0.3"
+        },
+        {
+          "version": "2.0.2",
+          "date": "2025-08-05T19:56:02.595Z",
+          "releaseUrl": "https://github.com/zachleat/import-module-string/releases/tag/v2.0.2"
+        },
+        {
+          "version": "2.0.1",
+          "date": "2025-06-11T22:08:49.192Z",
+          "releaseUrl": "https://github.com/zachleat/import-module-string/releases/tag/v2.0.1"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2025-06-11T22:04:05.742Z",
+          "releaseUrl": "https://github.com/zachleat/import-module-string/releases/tag/v2.0.0"
+        },
+        {
+          "version": "1.0.5",
+          "date": "2025-05-07T20:40:38.937Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.4",
+          "date": "2025-05-06T17:15:48.659Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2025-05-02T22:08:29.529Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2025-05-01T18:57:38.820Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2025-05-01T17:53:05.086Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/zachleat/import-module-string/releases/tag/v3.0.0",
       "lastStablePublish": "2026-09-21T21:20:56.318Z",
       "lastStablePublishVersion": "3.0.0",
@@ -7130,6 +10169,58 @@
       "pushedAt": "2026-07-27T21:12:47Z",
       "lastPublish": "2026-07-27T21:12:56.674Z",
       "lastPublishVersion": "4.0.2",
+      "recentPublishes": [
+        {
+          "version": "4.0.2",
+          "date": "2026-07-27T21:12:56.674Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.1",
+          "date": "2023-11-27T14:39:43.658Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.0",
+          "date": "2023-11-18T21:01:37.458Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.0",
+          "date": "2019-07-11T12:43:41.355Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.4",
+          "date": "2019-07-09T22:28:17.357Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.3",
+          "date": "2015-12-16T04:58:34.781Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.2",
+          "date": "2015-12-16T04:52:59.406Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2015-12-09T14:27:13.242Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2015-12-09T02:48:50.757Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2015-12-09T02:39:28.789Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-07-27T21:12:56.674Z",
       "lastStablePublishVersion": "4.0.2",
@@ -7197,9 +10288,10 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-07-26T00:25:27Z",
-      "pushedAt": "2026-10-14T04:35:34Z",
+      "pushedAt": "2026-10-14T12:50:09Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -7270,6 +10362,58 @@
       "pushedAt": "2025-04-17T20:42:32Z",
       "lastPublish": "2025-04-17T20:42:52.008Z",
       "lastPublishVersion": "6.0.1",
+      "recentPublishes": [
+        {
+          "version": "6.0.1",
+          "date": "2025-04-17T20:42:52.008Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "6.0.0",
+          "date": "2024-04-17T21:46:02.832Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "5.0.0",
+          "date": "2023-12-15T22:33:57.240Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.0",
+          "date": "2023-12-14T19:10:01.049Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.1",
+          "date": "2023-11-03T20:26:40.521Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.0",
+          "date": "2023-11-03T20:22:07.484Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.8",
+          "date": "2023-04-19T20:22:21.769Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.7",
+          "date": "2023-03-30T16:51:46.140Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.6",
+          "date": "2023-03-11T20:35:41.789Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.5",
+          "date": "2023-03-10T16:54:38.920Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2025-04-17T20:42:52.008Z",
       "lastStablePublishVersion": "6.0.1",
@@ -7340,6 +10484,58 @@
       "pushedAt": "2026-08-23T20:00:29Z",
       "lastPublish": "2026-08-10T00:16:33.135Z",
       "lastPublishVersion": "13.4.1",
+      "recentPublishes": [
+        {
+          "version": "13.4.1",
+          "date": "2026-08-10T00:16:33.135Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "12.8.2",
+          "date": "2025-09-07T19:07:45.591Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "12.8.1",
+          "date": "2025-08-02T02:31:37.053Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "12.7.0",
+          "date": "2025-06-29T20:00:39.744Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "12.6.0",
+          "date": "2025-06-22T17:09:40.279Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "12.4.0-release.1",
+          "date": "2025-03-26T17:11:31.931Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "12.4.0",
+          "date": "2025-03-21T16:42:54.466Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "11.6.1",
+          "date": "2024-03-13T21:20:45.040Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "11.6.0",
+          "date": "2024-03-13T15:52:43.204Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "11.0.0",
+          "date": "2023-09-21T21:51:54.557Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-08-10T00:16:33.135Z",
       "lastStablePublishVersion": "13.4.1",
@@ -7410,6 +10606,18 @@
       "pushedAt": "2026-08-09T15:29:04Z",
       "lastPublish": "2023-02-13T04:08:06.960Z",
       "lastPublishVersion": "9.6.7",
+      "recentPublishes": [
+        {
+          "version": "9.6.7",
+          "date": "2023-02-13T04:08:06.960Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "9.6.6",
+          "date": "2023-02-13T02:34:21.135Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2023-02-13T04:08:06.960Z",
       "lastStablePublishVersion": "9.6.7",
@@ -7480,6 +10688,13 @@
       "pushedAt": "2020-08-30T04:14:25Z",
       "lastPublish": "2020-08-30T04:04:54.548Z",
       "lastPublishVersion": "1.0.0",
+      "recentPublishes": [
+        {
+          "version": "1.0.0",
+          "date": "2020-08-30T04:04:54.548Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2020-08-30T04:04:54.548Z",
       "lastStablePublishVersion": "1.0.0",
@@ -7550,6 +10765,33 @@
       "pushedAt": "2021-03-15T21:08:36Z",
       "lastPublish": "2018-03-29T20:36:19.543Z",
       "lastPublishVersion": "1.0.4",
+      "recentPublishes": [
+        {
+          "version": "1.0.4",
+          "date": "2018-03-29T20:36:19.543Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.3",
+          "date": "2018-03-09T20:40:48.278Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2017-11-02T02:29:16.952Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2017-10-17T03:52:54.504Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2017-10-17T03:19:05.762Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2018-03-29T20:36:19.543Z",
       "lastStablePublishVersion": "1.0.4",
@@ -7620,6 +10862,7 @@
       "pushedAt": "2021-07-12T14:18:21Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -7690,6 +10933,7 @@
       "pushedAt": "2026-07-25T02:36:05Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -7707,7 +10951,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 81,
-        "staleness": 0.111,
+        "staleness": 0.112,
         "issuesSub": 0.121,
         "prsSub": 0,
         "backlogSeverity": 0.036,
@@ -7760,6 +11004,7 @@
       "pushedAt": "2026-08-23T19:26:42Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -7830,6 +11075,58 @@
       "pushedAt": "2026-09-02T15:29:35Z",
       "lastPublish": "2026-07-27T21:10:08.584Z",
       "lastPublishVersion": "4.0.5",
+      "recentPublishes": [
+        {
+          "version": "4.0.5",
+          "date": "2026-07-27T21:10:08.584Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.4",
+          "date": "2024-03-14T22:24:18.252Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.3",
+          "date": "2024-03-13T13:45:21.172Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.2",
+          "date": "2023-11-15T15:21:07.306Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.1",
+          "date": "2023-11-15T02:29:36.881Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "4.0.0",
+          "date": "2023-11-15T02:18:02.292Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "3.0.0",
+          "date": "2023-02-27T01:47:53.598Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.2",
+          "date": "2021-04-16T14:39:33.623Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2020-08-31T01:56:45.519Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2020-08-31T01:43:37.688Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-07-27T21:10:08.584Z",
       "lastStablePublishVersion": "4.0.5",
@@ -7897,9 +11194,10 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-10-14T11:20:57Z",
+      "pushedAt": "2026-10-14T11:57:28Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -7967,9 +11265,21 @@
       "productionDependencies": 0,
       "transitiveDependencies": 0,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-10-14T11:20:57Z",
+      "pushedAt": "2026-10-14T11:57:28Z",
       "lastPublish": "2026-09-21T16:43:49.140Z",
       "lastPublishVersion": "1.1.0",
+      "recentPublishes": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-21T16:43:49.140Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-09-02T14:56:12.331Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2026-09-21T16:43:49.140Z",
       "lastStablePublishVersion": "1.1.0",
@@ -8040,6 +11350,53 @@
       "pushedAt": "2023-02-06T22:00:59Z",
       "lastPublish": "2022-02-25T22:51:04.809Z",
       "lastPublishVersion": "2.2.0",
+      "recentPublishes": [
+        {
+          "version": "2.2.0",
+          "date": "2022-02-25T22:51:04.809Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.1.0",
+          "date": "2021-05-25T17:39:41.887Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.3",
+          "date": "2020-12-22T21:12:14.892Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.2",
+          "date": "2020-12-22T20:04:11.864Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.1",
+          "date": "2020-12-22T19:45:14.487Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "2.0.0",
+          "date": "2020-12-22T19:21:38.340Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.2",
+          "date": "2020-06-24T13:28:49.892Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.1",
+          "date": "2020-06-24T03:41:47.546Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2020-06-24T01:13:59.715Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": null,
       "lastStablePublish": "2022-02-25T22:51:04.809Z",
       "lastStablePublishVersion": "2.2.0",
@@ -8110,6 +11467,7 @@
       "pushedAt": "2021-07-21T19:47:24Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -8180,6 +11538,7 @@
       "pushedAt": "2026-09-27T16:20:40Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -8250,6 +11609,7 @@
       "pushedAt": "2026-09-23T17:58:47Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -8320,6 +11680,7 @@
       "pushedAt": "2026-10-13T15:40:38Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -8382,6 +11743,58 @@
       "pushedAt": "2026-07-29T16:43:43Z",
       "lastPublish": "2026-05-26T17:46:45.121Z",
       "lastPublishVersion": "43.1.4",
+      "recentPublishes": [
+        {
+          "version": "43.1.4",
+          "date": "2026-05-26T17:46:45.121Z",
+          "releaseUrl": "https://github.com/zachleat/package-zachleat/releases/tag/v43.1.4"
+        },
+        {
+          "version": "43.1.3",
+          "date": "2026-05-21T15:34:09.831Z",
+          "releaseUrl": "https://github.com/zachleat/package-zachleat/releases/tag/v43.1.3"
+        },
+        {
+          "version": "43.1.2",
+          "date": "2026-05-21T15:08:51.887Z",
+          "releaseUrl": "https://github.com/zachleat/package-zachleat/releases/tag/v43.1.2"
+        },
+        {
+          "version": "43.1.1",
+          "date": "2026-05-20T22:29:36.628Z",
+          "releaseUrl": "https://github.com/zachleat/package-zachleat/releases/tag/v43.1.1"
+        },
+        {
+          "version": "43.1.0",
+          "date": "2026-05-20T22:26:00.370Z",
+          "releaseUrl": "https://github.com/zachleat/package-zachleat/releases/tag/v43.1.0"
+        },
+        {
+          "version": "43.0.0",
+          "date": "2026-02-03T15:10:47.730Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "42.0.0",
+          "date": "2025-02-03T14:09:44.335Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "41.0.0",
+          "date": "2024-02-03T15:40:34.073Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "40.0.1",
+          "date": "2023-02-04T04:02:15.505Z",
+          "releaseUrl": null
+        },
+        {
+          "version": "40.0.0",
+          "date": "2023-02-03T20:55:00.476Z",
+          "releaseUrl": null
+        }
+      ],
       "releaseUrl": "https://github.com/zachleat/package-zachleat/releases/tag/v43.1.4",
       "lastStablePublish": "2026-05-26T17:46:45.121Z",
       "lastStablePublishVersion": "43.1.4",
@@ -8452,6 +11865,7 @@
       "pushedAt": "2026-09-15T12:55:12Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -8522,6 +11936,7 @@
       "pushedAt": "2026-10-02T16:17:57Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -8592,6 +12007,7 @@
       "pushedAt": "2016-05-05T01:24:02Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -8653,6 +12069,7 @@
       "pushedAt": "2026-08-10T21:57:09Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -8670,7 +12087,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 65,
-        "staleness": 0.088,
+        "staleness": 0.089,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -8714,6 +12131,7 @@
       "pushedAt": "2026-09-05T14:22:11Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -8775,6 +12193,7 @@
       "pushedAt": "2014-09-10T21:39:37Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
@@ -8836,6 +12255,7 @@
       "pushedAt": "2026-09-27T16:54:14Z",
       "lastPublish": null,
       "lastPublishVersion": null,
+      "recentPublishes": [],
       "releaseUrl": null,
       "lastStablePublish": null,
       "lastStablePublishVersion": null,
