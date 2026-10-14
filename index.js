@@ -366,18 +366,24 @@ async function main() {
   const releaseKey = (repo, version) =>
     `${repo.nameWithOwner}\0${repo.packageName}\0${version}`;
   const releaseRequests = publishedEntries.flatMap((x) => {
-    const versions = new Set([
-      x.meta.lastPublishVersion,
-      ...(x.meta.recentPublishes ?? []).map((p) => p.version),
-    ]);
-    versions.delete(null);
-    return [...versions].map((version) => ({
-      key: releaseKey(x.repo, version),
-      repo: x.repo.nameWithOwner,
-      packageName: x.repo.packageName,
-      version,
-      workspacePath: x.repo.workspacePath,
-    }));
+    const versions = new Map(
+      (x.meta.recentPublishes ?? []).map((p) => [p.version, p.repository]),
+    );
+    if (x.meta.lastPublishVersion && !versions.has(x.meta.lastPublishVersion)) {
+      versions.set(x.meta.lastPublishVersion, x.meta.repository);
+    }
+    // Look up each version's release in the repo it was published from.
+    return [...versions].map(([version, source]) => {
+      const repo = source || x.repo.nameWithOwner;
+      const sameRepo = repo.toLowerCase() === x.repo.nameWithOwner.toLowerCase();
+      return {
+        key: releaseKey(x.repo, version),
+        repo,
+        packageName: x.repo.packageName,
+        version,
+        workspacePath: sameRepo ? x.repo.workspacePath : null,
+      };
+    });
   });
   console.error(
     c("2", `Fetching GitHub releases for ${releaseRequests.length} published version(s)…`),
@@ -530,7 +536,8 @@ async function main() {
       lastPublish: npm?.lastPublish || null,
       lastPublishVersion: npm?.lastPublishVersion || null,
       recentPublishes: (npm?.recentPublishes ?? []).map((p) => ({
-        ...p,
+        version: p.version,
+        date: p.date,
         releaseUrl: releaseUrls.get(releaseKey(repo, p.version)) ?? null,
       })),
       releaseUrl:
