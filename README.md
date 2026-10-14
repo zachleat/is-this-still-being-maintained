@@ -361,8 +361,9 @@ version is marked deprecated on npm (`null` for anything not published). This is
 **reported only**: it does not feed the score, filtering, or any other logic.
 
 Each published package carries **`releaseUrl`** — the GitHub release matching
-`lastPublishVersion`, trying tags `v{version}`, `{version}`, `{name}@{version}`
-and `{name}@v{version}` in order (drafts skipped). `null` when unpublished or no
+`lastPublishVersion`, trying tags `v{version}`, `{version}`, `{name}@{version}`,
+`{name}@v{version}`, then for workspace packages `{folder}@{version}` and
+`{folder}@v{version}` (the workspace folder's basename) in order (drafts skipped). `null` when unpublished or no
 release matches.
 
 Each project carries **`recentPublishes`** — up to the 10 most recent published npm versions as `[{ version, date, releaseUrl }]`, newest first, prereleases included (`[]` when unpublished); each `releaseUrl` is matched the same way as above.

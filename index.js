@@ -376,6 +376,7 @@ async function main() {
       repo: x.repo.nameWithOwner,
       packageName: x.repo.packageName,
       version,
+      workspacePath: x.repo.workspacePath,
     }));
   });
   console.error(
