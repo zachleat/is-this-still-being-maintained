@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T13:03:22.743Z",
+  "generatedAt": "2026-10-14T13:24:57.564Z",
   "healthRating": 97.1,
   "healthRatingHistory": [
     96.7,
@@ -2278,10 +2278,10 @@
         "prsSub": 0.473,
         "backlogSeverity": 0.486,
         "demand": 0.486,
-        "neglect": 0.345,
+        "neglect": 0.346,
         "securitySub": 0.289,
         "security": 0.145,
-        "attention": 0.345,
+        "attention": 0.346,
         "downloadsSub": 0.497,
         "starsSub": 0.244,
         "popularity": 0.459,
@@ -3057,7 +3057,7 @@
       "score": 11.1,
       "breakdown": {
         "activityDays": 40,
-        "staleness": 0.054,
+        "staleness": 0.055,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -3236,17 +3236,17 @@
         {
           "version": "3.0.1",
           "date": "2026-10-13T19:20:17.916Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/utils%403.0.1"
         },
         {
           "version": "3.0.0",
           "date": "2026-10-13T19:03:25.655Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/utils%403.0.0"
         },
         {
           "version": "2.0.8-alpha.1",
           "date": "2025-12-10T21:36:57.250Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/utils%402.0.8-alpha.1"
         },
         {
           "version": "2.0.7",
@@ -3284,7 +3284,7 @@
           "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/v2.0.1"
         }
       ],
-      "releaseUrl": null,
+      "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/utils%403.0.1",
       "lastStablePublish": "2026-10-13T19:20:17.916Z",
       "lastStablePublishVersion": "3.0.1",
       "firstPublish": "2022-03-05T04:53:51.033Z",
@@ -4229,7 +4229,7 @@
         {
           "version": "1.0.1",
           "date": "2025-12-10T22:50:10.031Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/node-version-check%401.0.1"
         },
         {
           "version": "1.0.0",
@@ -4237,7 +4237,7 @@
           "releaseUrl": null
         }
       ],
-      "releaseUrl": null,
+      "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/node-version-check%401.0.1",
       "lastStablePublish": "2025-12-10T22:50:10.031Z",
       "lastStablePublishVersion": "1.0.1",
       "firstPublish": "2025-12-10T22:38:55.458Z",
@@ -6832,7 +6832,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 34,
-        "staleness": 0.046,
+        "staleness": 0.047,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -10288,7 +10288,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-07-26T00:25:27Z",
-      "pushedAt": "2026-10-14T12:50:09Z",
+      "pushedAt": "2026-10-14T13:04:28Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "recentPublishes": [],
@@ -11627,7 +11627,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 21,
-        "staleness": 0.028,
+        "staleness": 0.029,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -12024,7 +12024,7 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 3814,
+        "activityDays": 3815,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
