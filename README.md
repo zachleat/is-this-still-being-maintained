@@ -365,6 +365,8 @@ Each published package carries **`releaseUrl`** — the GitHub release matching
 and `{name}@v{version}` in order (drafts skipped). `null` when unpublished or no
 release matches.
 
+Each project carries **`recentPublishes`** — up to the 10 most recent published npm versions as `[{ version, date }]`, newest first, prereleases included (`[]` when unpublished).
+
 Each project also carries an `isWebComponent` flag — a heuristic that's `true`
 when the package's `main` entry file (from `package.json`, defaulting to
 `index.js`) contains a `customElements` reference. Main files are fetched batched

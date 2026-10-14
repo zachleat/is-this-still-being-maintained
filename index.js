@@ -520,6 +520,7 @@ async function main() {
       pushedAt: repo.pushedAt,
       lastPublish: npm?.lastPublish || null,
       lastPublishVersion: npm?.lastPublishVersion || null,
+      recentPublishes: npm?.recentPublishes ?? [],
       releaseUrl: published ? releaseUrls.get(repo) ?? null : null,
       lastStablePublish: npm?.lastStablePublish || null,
       lastStablePublishVersion: npm?.lastStablePublishVersion || null,
