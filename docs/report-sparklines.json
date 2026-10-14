@@ -3071,9 +3071,9 @@
       }
     },
     "@11ty/nunjucks": {
-      "publishCount": 3,
+      "publishCount": 4,
       "firstPublish": "2025-12-09T23:26:13.029Z",
-      "lastPublish": "2026-06-30T14:29:12.180Z",
+      "lastPublish": "2026-10-13T22:34:30.903Z",
       "monthlyReleases": {
         "start": "2025-12",
         "counts": [
@@ -3083,7 +3083,11 @@
           0,
           0,
           0,
-          2
+          2,
+          0,
+          0,
+          0,
+          1
         ]
       },
       "monthlyDownloads": {
