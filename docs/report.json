@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T13:24:57.564Z",
+  "generatedAt": "2026-10-14T13:53:14.255Z",
   "healthRating": 97.1,
   "healthRatingHistory": [
     96.7,
@@ -55,7 +55,7 @@
       "isTemplate": false,
       "isWebComponent": false,
       "description": "Run Eleventy in your browser.",
-      "sourceRepo": "11ty/eleventy",
+      "sourceRepo": "11ty/buildawesome",
       "stars": 19965,
       "openIssues": 155,
       "closedIssues": 2517,
@@ -240,7 +240,7 @@
         {
           "version": "1.0.1",
           "date": "2024-06-14T20:05:55.932Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/11ty/buildawesome/releases/tag/v1.0.1"
         }
       ],
       "releaseUrl": "https://github.com/11ty/create/releases/tag/v1.0.9",
@@ -359,46 +359,46 @@
       ]
     },
     {
-      "nameWithOwner": "11ty/eleventy-dependency-tree",
+      "nameWithOwner": "11ty/eleventy-utils",
       "owner": "11ty",
-      "url": "https://github.com/11ty/eleventy-dependency-tree",
+      "url": "https://github.com/11ty/eleventy-utils",
       "homepageUrl": null,
-      "workspacePath": null,
+      "workspacePath": "parse-deps",
       "packageName": "@11ty/dependency-tree",
-      "isArchived": true,
+      "isArchived": false,
       "isPinned": false,
       "isTemplate": false,
       "isWebComponent": false,
       "description": "Finds all JavaScript CommmonJS require() dependencies from a filename.",
-      "sourceRepo": "11ty/eleventy-dependency-tree",
-      "stars": 9,
-      "openIssues": 0,
-      "closedIssues": 2,
+      "sourceRepo": "11ty/eleventy-utils",
+      "stars": 12,
+      "openIssues": 2,
+      "closedIssues": 5,
       "openPRs": 0,
-      "mergedPRs": 7,
-      "closedPRs": 9,
+      "mergedPRs": 5,
+      "closedPRs": 3,
       "openVulnerabilities": 0,
       "productionDependencies": 1,
       "transitiveDependencies": 1,
-      "repoCreatedAt": "2019-09-20T13:17:35Z",
-      "pushedAt": "2026-10-13T14:51:58Z",
+      "repoCreatedAt": "2022-03-05T04:44:02Z",
+      "pushedAt": "2026-10-13T20:02:36Z",
       "lastPublish": "2026-10-13T19:39:50.994Z",
       "lastPublishVersion": "5.0.0-alpha.3",
       "recentPublishes": [
         {
           "version": "5.0.0-alpha.3",
           "date": "2026-10-13T19:39:50.994Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/parse-deps%405.0.0-alpha.3"
         },
         {
           "version": "5.0.0-alpha.2",
           "date": "2026-10-13T19:01:50.316Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/parse-deps%405.0.0-alpha.2"
         },
         {
           "version": "5.0.0-alpha.1",
           "date": "2026-10-13T18:03:12.649Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/parse-deps%405.0.0-alpha.1"
         },
         {
           "version": "4.0.2",
@@ -433,10 +433,10 @@
         {
           "version": "2.0.0",
           "date": "2021-04-11T20:22:47.312Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/v2.0.0"
         }
       ],
-      "releaseUrl": null,
+      "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/parse-deps%405.0.0-alpha.3",
       "lastStablePublish": "2026-01-17T02:40:06.683Z",
       "lastStablePublishVersion": "4.0.2",
       "firstPublish": "2019-09-20T13:23:41.261Z",
@@ -454,18 +454,18 @@
       "breakdown": {
         "activityDays": 1,
         "staleness": 0.001,
-        "issuesSub": 0,
+        "issuesSub": 0.192,
         "prsSub": 0,
-        "backlogSeverity": 0,
-        "demand": 0,
+        "backlogSeverity": 0.058,
+        "demand": 0.058,
         "neglect": 0,
         "securitySub": 0,
         "security": 0,
         "attention": 0,
         "downloadsSub": 1,
-        "starsSub": 0.27,
-        "popularity": 0.891,
-        "importance": 0.923
+        "starsSub": 0.301,
+        "popularity": 0.895,
+        "importance": 0.927
       },
       "scoreHistory": [
         3.1,
@@ -510,7 +510,7 @@
         {
           "version": "2.0.4",
           "date": "2025-12-19T22:22:58.746Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/v2.0.4"
         },
         {
           "version": "2.0.3",
@@ -548,7 +548,7 @@
           "releaseUrl": null
         }
       ],
-      "releaseUrl": null,
+      "releaseUrl": "https://github.com/11ty/eleventy-utils/releases/tag/v2.0.4",
       "lastStablePublish": "2025-12-19T22:22:58.746Z",
       "lastStablePublishVersion": "2.0.4",
       "firstPublish": "2023-08-25T20:02:10.303Z",
@@ -604,7 +604,7 @@
       "isTemplate": false,
       "isWebComponent": false,
       "description": "A simpler static site generator.",
-      "sourceRepo": "11ty/eleventy",
+      "sourceRepo": "11ty/buildawesome",
       "stars": 19965,
       "openIssues": 155,
       "closedIssues": 2517,
@@ -1108,7 +1108,7 @@
       "isTemplate": false,
       "isWebComponent": false,
       "description": "A minimal, modern, generic, hot-reloading local web server to help web developers.",
-      "sourceRepo": "11ty/eleventy-dev-server",
+      "sourceRepo": "11ty/dev-server",
       "stars": 108,
       "openIssues": 13,
       "closedIssues": 98,
@@ -1432,7 +1432,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.3,
+      "score": 0.4,
       "breakdown": {
         "activityDays": 5,
         "staleness": 0.007,
@@ -1459,7 +1459,7 @@
         0.2,
         0.2,
         0.3,
-        0.3
+        0.4
       ]
     },
     {
@@ -1679,7 +1679,7 @@
       "score": 1.3,
       "breakdown": {
         "activityDays": 27,
-        "staleness": 0.036,
+        "staleness": 0.037,
         "issuesSub": 0.496,
         "prsSub": 0.337,
         "backlogSeverity": 0.385,
@@ -2882,7 +2882,7 @@
       "isTemplate": false,
       "isWebComponent": false,
       "description": "WebC support for Eleventy adds for Single File Web Components",
-      "sourceRepo": null,
+      "sourceRepo": "11ty/eleventy-plugin-webc",
       "stars": 133,
       "openIssues": 43,
       "closedIssues": 61,
@@ -4904,7 +4904,7 @@
       "isTemplate": false,
       "isWebComponent": false,
       "description": "Single File Web Components",
-      "sourceRepo": null,
+      "sourceRepo": "11ty/webc",
       "stars": 1413,
       "openIssues": 58,
       "closedIssues": 144,
@@ -5030,14 +5030,14 @@
       "stars": 547,
       "openIssues": 61,
       "closedIssues": 281,
-      "openPRs": 45,
-      "mergedPRs": 1418,
+      "openPRs": 46,
+      "mergedPRs": 1420,
       "closedPRs": 162,
       "openVulnerabilities": null,
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2018-01-06T06:44:47Z",
-      "pushedAt": "2026-10-13T21:59:31Z",
+      "pushedAt": "2026-10-14T13:49:06Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "recentPublishes": [],
@@ -5057,16 +5057,16 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 1,
-        "staleness": 0.001,
+        "activityDays": 0,
+        "staleness": 0,
         "issuesSub": 0.723,
-        "prsSub": 0.931,
-        "backlogSeverity": 0.869,
-        "demand": 0.869,
-        "neglect": 0.001,
+        "prsSub": 0.937,
+        "backlogSeverity": 0.873,
+        "demand": 0.873,
+        "neglect": 0,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.001,
+        "attention": 0,
         "downloadsSub": 0,
         "starsSub": 0.74,
         "popularity": 0.111,
@@ -6454,7 +6454,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 299,
-        "staleness": 0.409,
+        "staleness": 0.41,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -7718,7 +7718,7 @@
       "score": 1.3,
       "breakdown": {
         "activityDays": 302,
-        "staleness": 0.413,
+        "staleness": 0.414,
         "issuesSub": 0.121,
         "prsSub": 0,
         "backlogSeverity": 0.036,
@@ -9867,17 +9867,17 @@
         {
           "version": "4.0.0",
           "date": "2021-03-11T15:06:03.485Z",
-          "releaseUrl": "https://github.com/zachleat/glyphhanger/releases/tag/v4.0.0"
+          "releaseUrl": null
         },
         {
           "version": "3.2.0",
           "date": "2018-12-06T17:27:29.243Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/filamentgroup/glyphhanger/releases/tag/v3.2.0"
         },
         {
           "version": "3.1.0",
           "date": "2018-12-04T19:57:12.696Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/filamentgroup/glyphhanger/releases/tag/v3.1.0"
         },
         {
           "version": "3.0.3",
@@ -9887,12 +9887,12 @@
         {
           "version": "3.0.2",
           "date": "2018-03-05T22:57:50.170Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/filamentgroup/glyphhanger/releases/tag/v3.0.2"
         },
         {
           "version": "3.0.1",
           "date": "2018-02-27T23:17:36.634Z",
-          "releaseUrl": null
+          "releaseUrl": "https://github.com/filamentgroup/glyphhanger/releases/tag/v3.0.1"
         },
         {
           "version": "3.0.0",
@@ -10288,7 +10288,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-07-26T00:25:27Z",
-      "pushedAt": "2026-10-14T13:04:28Z",
+      "pushedAt": "2026-10-14T13:26:06Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "recentPublishes": [],
@@ -11933,7 +11933,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2013-02-26T04:56:49Z",
-      "pushedAt": "2026-10-02T16:17:57Z",
+      "pushedAt": "2026-10-14T13:32:27Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "recentPublishes": [],
@@ -11951,18 +11951,18 @@
       "published": false,
       "npmStatus": "unpublished",
       "npmError": null,
-      "score": 0.3,
+      "score": 0,
       "breakdown": {
-        "activityDays": 12,
-        "staleness": 0.016,
+        "activityDays": 0,
+        "staleness": 0,
         "issuesSub": 0.42,
         "prsSub": 0.56,
         "backlogSeverity": 0.518,
         "demand": 0.518,
-        "neglect": 0.008,
+        "neglect": 0,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.008,
+        "attention": 0,
         "downloadsSub": 0,
         "starsSub": 0.626,
         "popularity": 0.094,
@@ -11978,7 +11978,7 @@
         0.2,
         0.3,
         0.3,
-        0.3
+        0
       ]
     },
     {
