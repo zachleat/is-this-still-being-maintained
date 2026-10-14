@@ -1,5 +1,5 @@
 {
-  "count": 94,
+  "count": 93,
   "packages": {
     "@11ty/client": {
       "publishCount": 10,
@@ -117,9 +117,9 @@
       }
     },
     "@11ty/dependency-tree": {
-      "publishCount": 8,
+      "publishCount": 11,
       "firstPublish": "2019-09-20T13:23:41.261Z",
-      "lastPublish": "2026-01-17T02:40:06.683Z",
+      "lastPublish": "2026-10-13T19:39:50.994Z",
       "monthlyReleases": {
         "start": "2019-09",
         "counts": [
@@ -199,7 +199,16 @@
           0,
           0,
           1,
-          1
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
         ]
       },
       "monthlyDownloads": {
@@ -307,45 +316,6 @@
           309,
           217,
           362
-        ]
-      }
-    },
-    "@11ty/dependency-tree-typescript": {
-      "publishCount": 1,
-      "firstPublish": "2025-12-19T22:42:29.629Z",
-      "lastPublish": "2025-12-19T22:42:29.868Z",
-      "monthlyReleases": {
-        "start": "2025-12",
-        "counts": [
-          1
-        ]
-      },
-      "monthlyDownloads": {
-        "start": "2025-12",
-        "counts": [
-          62,
-          162,
-          664,
-          1922,
-          2217,
-          2833,
-          5738,
-          5598,
-          4837,
-          5795
-        ]
-      },
-      "monthlyCdnHits": {
-        "start": "2026-02",
-        "counts": [
-          3,
-          170,
-          53,
-          28,
-          85,
-          67,
-          40,
-          56
         ]
       }
     },
@@ -671,9 +641,9 @@
       }
     },
     "@11ty/eleventy-dev-server": {
-      "publishCount": 37,
+      "publishCount": 38,
       "firstPublish": "2022-03-08T22:41:37.867Z",
-      "lastPublish": "2026-09-30T17:46:00.465Z",
+      "lastPublish": "2026-10-13T22:09:09.538Z",
       "monthlyReleases": {
         "start": "2022-03",
         "counts": [
@@ -730,6 +700,7 @@
           0,
           1,
           0,
+          1,
           1,
           1
         ]
@@ -2374,9 +2345,9 @@
       }
     },
     "@11ty/eleventy-utils": {
-      "publishCount": 14,
+      "publishCount": 16,
       "firstPublish": "2022-03-05T04:53:51.033Z",
-      "lastPublish": "2025-12-10T21:36:57.250Z",
+      "lastPublish": "2026-10-13T19:20:17.916Z",
       "monthlyReleases": {
         "start": "2022-03",
         "counts": [
@@ -2425,7 +2396,17 @@
           0,
           0,
           0,
-          1
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
         ]
       },
       "monthlyDownloads": {
@@ -3090,9 +3071,9 @@
       }
     },
     "@11ty/nunjucks": {
-      "publishCount": 3,
+      "publishCount": 4,
       "firstPublish": "2025-12-09T23:26:13.029Z",
-      "lastPublish": "2026-06-30T14:29:12.180Z",
+      "lastPublish": "2026-10-13T22:34:30.903Z",
       "monthlyReleases": {
         "start": "2025-12",
         "counts": [
@@ -3102,7 +3083,11 @@
           0,
           0,
           0,
-          2
+          2,
+          0,
+          0,
+          0,
+          1
         ]
       },
       "monthlyDownloads": {
