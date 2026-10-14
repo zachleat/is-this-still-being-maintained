@@ -362,16 +362,24 @@ async function main() {
     concurrency: options.concurrency || 8,
   });
 
-  const releaseRequests = publishedEntries
-    .filter((x) => x.meta.lastPublishVersion)
-    .map((x) => ({
-      key: x.repo,
+  // One lookup per distinct version: the last publish plus each recent publish.
+  const releaseKey = (repo, version) =>
+    `${repo.nameWithOwner}\0${repo.packageName}\0${version}`;
+  const releaseRequests = publishedEntries.flatMap((x) => {
+    const versions = new Set([
+      x.meta.lastPublishVersion,
+      ...(x.meta.recentPublishes ?? []).map((p) => p.version),
+    ]);
+    versions.delete(null);
+    return [...versions].map((version) => ({
+      key: releaseKey(x.repo, version),
       repo: x.repo.nameWithOwner,
       packageName: x.repo.packageName,
-      version: x.meta.lastPublishVersion,
+      version,
     }));
+  });
   console.error(
-    c("2", `Fetching GitHub releases for ${releaseRequests.length} published package(s)…`),
+    c("2", `Fetching GitHub releases for ${releaseRequests.length} published version(s)…`),
   );
   const releaseUrls = await fetchReleaseUrls(releaseRequests, {
     duration: cacheDuration,
@@ -520,8 +528,14 @@ async function main() {
       pushedAt: repo.pushedAt,
       lastPublish: npm?.lastPublish || null,
       lastPublishVersion: npm?.lastPublishVersion || null,
-      recentPublishes: npm?.recentPublishes ?? [],
-      releaseUrl: published ? releaseUrls.get(repo) ?? null : null,
+      recentPublishes: (npm?.recentPublishes ?? []).map((p) => ({
+        ...p,
+        releaseUrl: releaseUrls.get(releaseKey(repo, p.version)) ?? null,
+      })),
+      releaseUrl:
+        published && npm?.lastPublishVersion
+          ? releaseUrls.get(releaseKey(repo, npm.lastPublishVersion)) ?? null
+          : null,
       lastStablePublish: npm?.lastStablePublish || null,
       lastStablePublishVersion: npm?.lastStablePublishVersion || null,
       firstPublish: npm?.firstPublish || null,
@@ -659,10 +673,31 @@ async function main() {
       sparkEntries.map((p) => ({ name: p.packageName, since: p.firstPublish })),
       { duration: cacheDuration },
     );
+  const sparkPath = path.join(path.dirname(jsonPath), "report-sparklines.json");
   if (historyErrors.length) {
+    const failed = new Set(historyErrors.map((e) => e.name));
     console.error(
-      c("33", `Download history failed for ${historyErrors.length} package(s)`),
+      c("33", `Download history failed for ${failed.size} package(s); keeping previous history`),
     );
+    // A failed window leaves months missing, so prefer the previous run's months
+    // and only take fresh ones it doesn't have yet.
+    let prevSpark = null;
+    try {
+      prevSpark = JSON.parse(await readFile(sparkPath, "utf8"));
+    } catch {
+      /* no prior sparklines — nothing to carry forward */
+    }
+    for (const name of failed) {
+      const prev = prevSpark?.packages?.[name]?.monthlyDownloads;
+      if (!prev?.start) continue;
+      const [y, m] = prev.start.split("-").map(Number);
+      const merged = new Map(downloadMonths.get(name) ?? []);
+      prev.counts.forEach((n, i) => {
+        const d = new Date(Date.UTC(y, m - 1 + i, 1));
+        merged.set(d.toISOString().slice(0, 7), n);
+      });
+      downloadMonths.set(name, merged);
+    }
   }
   // jsDelivr CDN hits — one request per package for full history (no windowing
   // needed), trimmed below to the same months as the npm series so the two
@@ -714,7 +749,6 @@ async function main() {
   }
   // No generatedAt in the sparkline files: they should only change (and be
   // committed) when the underlying release data does, not on every run's clock.
-  const sparkPath = path.join(path.dirname(jsonPath), "report-sparklines.json");
   if (!skipWrite) {
     await writeFile(
       sparkPath,
