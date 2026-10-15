@@ -1,6 +1,25 @@
 {
-  "count": 93,
+  "count": 94,
   "packages": {
+    "@11ty/chokidar-with-glob-support": {
+      "publishCount": 3,
+      "firstPublish": "2026-10-15T15:41:44.143Z",
+      "lastPublish": "2026-10-15T16:20:06.845Z",
+      "monthlyReleases": {
+        "start": "2026-10",
+        "counts": [
+          3
+        ]
+      },
+      "monthlyDownloads": {
+        "start": null,
+        "counts": []
+      },
+      "monthlyCdnHits": {
+        "start": null,
+        "counts": []
+      }
+    },
     "@11ty/client": {
       "publishCount": 10,
       "firstPublish": "2025-07-30T19:37:20.115Z",
