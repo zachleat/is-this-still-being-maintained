@@ -2,13 +2,13 @@
   "count": 94,
   "packages": {
     "@11ty/chokidar-with-glob-support": {
-      "publishCount": 3,
+      "publishCount": 4,
       "firstPublish": "2026-10-15T15:41:44.143Z",
-      "lastPublish": "2026-10-15T16:20:06.845Z",
+      "lastPublish": "2026-10-15T21:13:50.022Z",
       "monthlyReleases": {
         "start": "2026-10",
         "counts": [
-          3
+          4
         ]
       },
       "monthlyDownloads": {
@@ -339,9 +339,9 @@
       }
     },
     "@11ty/eleventy": {
-      "publishCount": 218,
+      "publishCount": 219,
       "firstPublish": "2018-01-09T14:36:27.855Z",
-      "lastPublish": "2026-07-01T20:59:31.106Z",
+      "lastPublish": "2026-10-15T19:55:22.207Z",
       "monthlyReleases": {
         "start": "2018-01",
         "counts": [
@@ -447,7 +447,10 @@
           0,
           0,
           2,
-          2
+          2,
+          0,
+          0,
+          1
         ]
       },
       "monthlyDownloads": {
@@ -660,9 +663,9 @@
       }
     },
     "@11ty/eleventy-dev-server": {
-      "publishCount": 38,
+      "publishCount": 41,
       "firstPublish": "2022-03-08T22:41:37.867Z",
-      "lastPublish": "2026-10-13T22:09:09.538Z",
+      "lastPublish": "2026-10-15T21:34:12.936Z",
       "monthlyReleases": {
         "start": "2022-03",
         "counts": [
@@ -721,7 +724,7 @@
           0,
           1,
           1,
-          1
+          4
         ]
       },
       "monthlyDownloads": {
@@ -3090,9 +3093,9 @@
       }
     },
     "@11ty/nunjucks": {
-      "publishCount": 4,
+      "publishCount": 5,
       "firstPublish": "2025-12-09T23:26:13.029Z",
-      "lastPublish": "2026-10-13T22:34:30.903Z",
+      "lastPublish": "2026-10-15T18:57:13.913Z",
       "monthlyReleases": {
         "start": "2025-12",
         "counts": [
@@ -3106,7 +3109,7 @@
           0,
           0,
           0,
-          1
+          2
         ]
       },
       "monthlyDownloads": {
