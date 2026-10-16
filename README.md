@@ -150,7 +150,10 @@ only when the underlying data does, never just because the clock moved:
   `monthlyDownloads`, and `monthlyCdnHits`, each `{ start: "YYYY-MM",
   counts: [...] }` with a dense month-by-month series.
 - `report-sparkline-aggregate.json` — the same three series summed across every
-  published package.
+  published package, plus `monthlyOpenVulnerabilities`, `monthlyOpenIssues` and
+  `monthlyOpenPRs`: open totals across active packages (issues and PRs counted
+  once per repo), snapshotted each run and ending at the current, partial month
+  (vulnerabilities are backfilled from git history to 2026-08).
 
 `monthlyDownloads` and `monthlyCdnHits` share a start month and length, so they
 can be plotted on the same axis. Every series is trimmed to **complete** months

@@ -186,5 +186,13 @@
       51121,
       68177
     ]
+  },
+  "monthlyOpenVulnerabilities": {
+    "start": "2026-08",
+    "counts": [
+      42,
+      38,
+      47
+    ]
   }
 }

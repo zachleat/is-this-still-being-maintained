@@ -781,17 +781,55 @@ async function main() {
       allCdnMonths.set(ym, (allCdnMonths.get(ym) ?? 0) + n);
     }
   }
+  const aggregatePath = path.join(
+    path.dirname(jsonPath),
+    "report-sparkline-aggregate.json",
+  );
+
+  // Open vulnerabilities, issues and PRs across active (not archived, not
+  // deprecated) packages. None of these have history, so each run snapshots the
+  // current month and the previous file carries the earlier months forward.
+  let prevAggregate = null;
+  try {
+    prevAggregate = JSON.parse(await readFile(aggregatePath, "utf8"));
+  } catch {
+    /* no prior aggregate — each series starts this month */
+  }
+  const currentYm = generatedAt.slice(0, 7);
+  const active = sorted.filter((p) => !p.isArchived && !p.npmDeprecated);
+  // Issues and PRs are repo-level, so workspace packages would double count.
+  const activeRepos = [...new Map(active.map((p) => [p.url, p])).values()];
+  const snapshotMonthly = (key, projects, field) => {
+    const byMonth = new Map();
+    const prev = prevAggregate?.[key];
+    if (prev?.start) {
+      const [y, m] = prev.start.split("-").map(Number);
+      prev.counts.forEach((n, i) => {
+        const d = new Date(Date.UTC(y, m - 1 + i, 1));
+        byMonth.set(d.toISOString().slice(0, 7), n);
+      });
+    }
+    byMonth.set(
+      currentYm,
+      projects.reduce((sum, p) => sum + (p[field] || 0), 0),
+    );
+    return denseMonthly(byMonth, currentYm);
+  };
+
   const aggregate = {
     packages: sparkEntries.length,
     publishCount: allDates.length,
     monthlyReleases: monthlyReleaseCounts(allDates),
     monthlyDownloads: denseMonthly(allDownloadMonths, lastCompleteYm),
     monthlyCdnHits: denseMonthly(allCdnMonths, lastCompleteYm),
+    monthlyOpenVulnerabilities: snapshotMonthly(
+      "monthlyOpenVulnerabilities",
+      active,
+      "openVulnerabilities",
+    ),
+    monthlyOpenIssues: snapshotMonthly("monthlyOpenIssues", activeRepos, "openIssues"),
+    monthlyOpenPRs: snapshotMonthly("monthlyOpenPRs", activeRepos, "openPRs"),
   };
-  const aggregatePath = path.join(
-    path.dirname(jsonPath),
-    "report-sparkline-aggregate.json",
-  );
   if (!skipWrite) {
     await writeFile(aggregatePath, JSON.stringify(aggregate, null, 2) + "\n");
   }
