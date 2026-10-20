@@ -2134,9 +2134,9 @@
       }
     },
     "@11ty/eleventy-plugin-webc": {
-      "publishCount": 25,
+      "publishCount": 26,
       "firstPublish": "2022-09-24T03:46:17.202Z",
-      "lastPublish": "2025-08-28T19:10:20.231Z",
+      "lastPublish": "2026-10-20T17:32:36.179Z",
       "monthlyReleases": {
         "start": "2022-09",
         "counts": [
@@ -2175,7 +2175,21 @@
           0,
           0,
           0,
-          4
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
         ]
       },
       "monthlyDownloads": {
