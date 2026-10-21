@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T17:02:58.127Z",
+  "generatedAt": "2026-10-21T21:31:46.548Z",
   "healthRating": 98.3,
   "healthRatingHistory": [
     96.8,
@@ -224,7 +224,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0,
+      "score": 0.1,
       "breakdown": {
         "activityDays": 1,
         "staleness": 0.001,
@@ -251,7 +251,7 @@
         0.2,
         0.2,
         0,
-        0
+        0.1
       ]
     },
     {
@@ -1326,14 +1326,24 @@
       "openPRs": 2,
       "mergedPRs": 31,
       "closedPRs": 18,
-      "openVulnerabilities": 0,
+      "openVulnerabilities": null,
       "productionDependencies": 5,
-      "transitiveDependencies": 9,
+      "transitiveDependencies": null,
       "repoCreatedAt": "2020-04-19T19:39:04Z",
       "pushedAt": "2026-10-21T14:25:50Z",
-      "lastPublish": "2026-06-30T21:24:06.116Z",
-      "lastPublishVersion": "5.1.3",
+      "lastPublish": "2026-10-21T20:09:50.390Z",
+      "lastPublishVersion": "6.0.1",
       "recentPublishes": [
+        {
+          "version": "6.0.1",
+          "date": "2026-10-21T20:09:50.390Z",
+          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v6.0.1"
+        },
+        {
+          "version": "6.0.0",
+          "date": "2026-10-21T19:50:11.607Z",
+          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v6.0.0"
+        },
         {
           "version": "5.1.3",
           "date": "2026-06-30T21:24:06.116Z",
@@ -1373,25 +1383,15 @@
           "version": "5.0.2",
           "date": "2025-01-07T23:21:07.798Z",
           "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.0.2"
-        },
-        {
-          "version": "5.0.2-beta.2",
-          "date": "2025-01-04T03:53:30.901Z",
-          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.0.2-beta.2"
-        },
-        {
-          "version": "5.0.2-beta.1",
-          "date": "2024-12-19T20:11:09.090Z",
-          "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.0.2-beta.1"
         }
       ],
-      "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v5.1.3",
-      "lastStablePublish": "2026-06-30T21:24:06.116Z",
-      "lastStablePublishVersion": "5.1.3",
+      "releaseUrl": "https://github.com/11ty/fetch/releases/tag/v6.0.1",
+      "lastStablePublish": "2026-10-21T20:09:50.390Z",
+      "lastStablePublishVersion": "6.0.1",
       "firstPublish": "2022-02-25T20:33:36.496Z",
-      "latestVersion": "5.1.3",
+      "latestVersion": "6.0.1",
       "npmDeprecated": false,
-      "publishCount": 22,
+      "publishCount": 24,
       "prerelease": false,
       "downloads": 1426539,
       "downloadsKnown": true,
@@ -1448,14 +1448,19 @@
       "openPRs": 2,
       "mergedPRs": 62,
       "closedPRs": 31,
-      "openVulnerabilities": 0,
+      "openVulnerabilities": null,
       "productionDependencies": 7,
-      "transitiveDependencies": 49,
+      "transitiveDependencies": null,
       "repoCreatedAt": "2020-04-18T02:38:42Z",
       "pushedAt": "2026-10-20T22:36:02Z",
-      "lastPublish": "2026-10-20T22:37:07.973Z",
-      "lastPublishVersion": "7.1.0",
+      "lastPublish": "2026-10-21T20:27:02.905Z",
+      "lastPublishVersion": "7.1.1",
       "recentPublishes": [
+        {
+          "version": "7.1.1",
+          "date": "2026-10-21T20:27:02.905Z",
+          "releaseUrl": "https://github.com/11ty/image/releases/tag/v7.1.1"
+        },
         {
           "version": "7.1.0",
           "date": "2026-10-20T22:37:07.973Z",
@@ -1500,20 +1505,15 @@
           "version": "6.0.2",
           "date": "2025-04-10T21:19:03.976Z",
           "releaseUrl": "https://github.com/11ty/image/releases/tag/v6.0.2"
-        },
-        {
-          "version": "6.0.1",
-          "date": "2025-01-15T17:00:55.928Z",
-          "releaseUrl": "https://github.com/11ty/image/releases/tag/v6.0.1"
         }
       ],
-      "releaseUrl": "https://github.com/11ty/image/releases/tag/v7.1.0",
-      "lastStablePublish": "2026-10-20T22:37:07.973Z",
-      "lastStablePublishVersion": "7.1.0",
+      "releaseUrl": "https://github.com/11ty/image/releases/tag/v7.1.1",
+      "lastStablePublish": "2026-10-21T20:27:02.905Z",
+      "lastStablePublishVersion": "7.1.1",
       "firstPublish": "2020-04-18T02:56:12.771Z",
-      "latestVersion": "7.1.0",
+      "latestVersion": "7.1.1",
       "npmDeprecated": false,
-      "publishCount": 78,
+      "publishCount": 79,
       "prerelease": false,
       "downloads": 1030866,
       "downloadsKnown": true,
@@ -1523,8 +1523,8 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 1,
-        "staleness": 0.001,
+        "activityDays": 0,
+        "staleness": 0,
         "issuesSub": 0.646,
         "prsSub": 0.267,
         "backlogSeverity": 0.381,
@@ -1765,7 +1765,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0,
+      "score": 0.1,
       "breakdown": {
         "activityDays": 1,
         "staleness": 0.001,
@@ -1773,10 +1773,10 @@
         "prsSub": 0.392,
         "backlogSeverity": 0.423,
         "demand": 0.423,
-        "neglect": 0,
+        "neglect": 0.001,
         "securitySub": 0,
         "security": 0,
-        "attention": 0,
+        "attention": 0.001,
         "downloadsSub": 1,
         "starsSub": 0.52,
         "popularity": 0.928,
@@ -1792,7 +1792,7 @@
         0.2,
         0.3,
         0,
-        0
+        0.1
       ]
     },
     {
@@ -1855,7 +1855,7 @@
       "score": 3.3,
       "breakdown": {
         "activityDays": 421,
-        "staleness": 0.576,
+        "staleness": 0.577,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -1937,7 +1937,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
@@ -2016,10 +2016,10 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0,
+      "score": 0.1,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
@@ -2043,7 +2043,7 @@
         20.6,
         20.6,
         0,
-        0
+        0.1
       ]
     },
     {
@@ -2101,7 +2101,7 @@
       "score": 11.4,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
@@ -2362,7 +2362,7 @@
       "score": 9,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
@@ -2444,7 +2444,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
@@ -2932,7 +2932,7 @@
       "score": 35.6,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
@@ -3054,7 +3054,7 @@
       "score": 31.5,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
@@ -3146,7 +3146,7 @@
       "score": 11.1,
       "breakdown": {
         "activityDays": 47,
-        "staleness": 0.064,
+        "staleness": 0.065,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -3742,14 +3742,19 @@
       "openPRs": 1,
       "mergedPRs": 9,
       "closedPRs": 7,
-      "openVulnerabilities": 0,
+      "openVulnerabilities": null,
       "productionDependencies": 9,
-      "transitiveDependencies": 59,
+      "transitiveDependencies": null,
       "repoCreatedAt": "2025-02-25T17:45:36Z",
       "pushedAt": "2026-10-20T22:41:46Z",
-      "lastPublish": "2026-07-29T21:08:49.542Z",
-      "lastPublishVersion": "2.0.0",
+      "lastPublish": "2026-10-21T21:26:36.666Z",
+      "lastPublishVersion": "2.1.0",
       "recentPublishes": [
+        {
+          "version": "2.1.0",
+          "date": "2026-10-21T21:26:36.666Z",
+          "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v2.1.0"
+        },
         {
           "version": "2.0.0",
           "date": "2026-07-29T21:08:49.542Z",
@@ -3794,20 +3799,15 @@
           "version": "1.0.1",
           "date": "2025-02-25T18:32:36.698Z",
           "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v1.0.1"
-        },
-        {
-          "version": "1.0.0",
-          "date": "2025-02-25T17:55:51.930Z",
-          "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v1.0.0"
         }
       ],
-      "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v2.0.0",
-      "lastStablePublish": "2026-07-29T21:08:49.542Z",
-      "lastStablePublishVersion": "2.0.0",
+      "releaseUrl": "https://github.com/11ty/image-color/releases/tag/v2.1.0",
+      "lastStablePublish": "2026-10-21T21:26:36.666Z",
+      "lastStablePublishVersion": "2.1.0",
       "firstPublish": "2025-02-25T17:52:40.323Z",
-      "latestVersion": "2.0.0",
+      "latestVersion": "2.1.0",
       "npmDeprecated": false,
-      "publishCount": 11,
+      "publishCount": 12,
       "prerelease": false,
       "downloads": 7719,
       "downloadsKnown": true,
@@ -3817,8 +3817,8 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 1,
-        "staleness": 0.001,
+        "activityDays": 0,
+        "staleness": 0,
         "issuesSub": 0,
         "prsSub": 0.169,
         "backlogSeverity": 0.118,
@@ -4445,10 +4445,10 @@
         "prsSub": 0.436,
         "backlogSeverity": 0.431,
         "demand": 0.431,
-        "neglect": 0.003,
+        "neglect": 0.004,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.003,
+        "attention": 0.004,
         "downloadsSub": 0.776,
         "starsSub": 0.407,
         "popularity": 0.72,
@@ -4561,7 +4561,7 @@
       "npmError": null,
       "score": 1.8,
       "breakdown": {
-        "activityDays": 63,
+        "activityDays": 64,
         "staleness": 0.087,
         "issuesSub": 0,
         "prsSub": 0.392,
@@ -4771,7 +4771,7 @@
       "score": 0.4,
       "breakdown": {
         "activityDays": 20,
-        "staleness": 0.027,
+        "staleness": 0.028,
         "issuesSub": 0.121,
         "prsSub": 0.169,
         "backlogSeverity": 0.154,
@@ -5086,7 +5086,7 @@
       "score": 34,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.731,
         "prsSub": 0.337,
         "backlogSeverity": 0.455,
@@ -5256,7 +5256,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0,
+      "score": 0.1,
       "breakdown": {
         "activityDays": 1,
         "staleness": 0.001,
@@ -5283,7 +5283,7 @@
         0.2,
         0.2,
         0,
-        0
+        0.1
       ]
     },
     {
@@ -5473,7 +5473,7 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 28,
-        "staleness": 0.038,
+        "staleness": 0.039,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -5682,10 +5682,10 @@
         "prsSub": 0,
         "backlogSeverity": 0.073,
         "demand": 0.073,
-        "neglect": 0.004,
+        "neglect": 0.005,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.004,
+        "attention": 0.005,
         "downloadsSub": 0.794,
         "starsSub": 0.659,
         "popularity": 0.773,
@@ -5992,10 +5992,10 @@
         "prsSub": 0.169,
         "backlogSeverity": 0.154,
         "demand": 0.154,
-        "neglect": 0.009,
+        "neglect": 0.01,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.009,
+        "attention": 0.01,
         "downloadsSub": 0.662,
         "starsSub": 0.533,
         "popularity": 0.642,
@@ -6405,7 +6405,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 47,
-        "staleness": 0.064,
+        "staleness": 0.065,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -6553,7 +6553,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 306,
-        "staleness": 0.419,
+        "staleness": 0.42,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -6757,7 +6757,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 315,
-        "staleness": 0.431,
+        "staleness": 0.432,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -6931,7 +6931,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 41,
-        "staleness": 0.056,
+        "staleness": 0.057,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -7496,7 +7496,7 @@
       "score": 0.3,
       "breakdown": {
         "activityDays": 9,
-        "staleness": 0.012,
+        "staleness": 0.013,
         "issuesSub": 0.314,
         "prsSub": 0.337,
         "backlogSeverity": 0.33,
@@ -7817,7 +7817,7 @@
       "score": 2.1,
       "breakdown": {
         "activityDays": 309,
-        "staleness": 0.423,
+        "staleness": 0.424,
         "issuesSub": 0.192,
         "prsSub": 0,
         "backlogSeverity": 0.058,
@@ -7914,7 +7914,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 89,
-        "staleness": 0.121,
+        "staleness": 0.122,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -8644,12 +8644,12 @@
       "score": 0,
       "breakdown": {
         "activityDays": 502,
-        "staleness": 0.687,
+        "staleness": 0.688,
         "issuesSub": 0.602,
         "prsSub": 0.392,
         "backlogSeverity": 0.455,
         "demand": 0.455,
-        "neglect": 0.312,
+        "neglect": 0.313,
         "securitySub": 0,
         "security": 0,
         "attention": 0,
@@ -8939,7 +8939,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 336,
-        "staleness": 0.46,
+        "staleness": 0.461,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -9152,7 +9152,7 @@
       "score": 0.3,
       "breakdown": {
         "activityDays": 28,
-        "staleness": 0.038,
+        "staleness": 0.039,
         "issuesSub": 0.243,
         "prsSub": 0.169,
         "backlogSeverity": 0.191,
@@ -9433,7 +9433,7 @@
       "published": false,
       "npmStatus": "not-owned",
       "npmError": null,
-      "score": 0,
+      "score": 0.1,
       "breakdown": {
         "activityDays": 6,
         "staleness": 0.008,
@@ -9460,7 +9460,7 @@
         0,
         0,
         0,
-        0
+        0.1
       ]
     },
     {
@@ -10387,7 +10387,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-07-26T00:25:27Z",
-      "pushedAt": "2026-10-21T11:39:34Z",
+      "pushedAt": "2026-10-21T17:03:54Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "recentPublishes": [],
@@ -11050,7 +11050,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 89,
-        "staleness": 0.121,
+        "staleness": 0.122,
         "issuesSub": 0.121,
         "prsSub": 0,
         "backlogSeverity": 0.036,
@@ -11293,7 +11293,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-10-21T14:12:42Z",
+      "pushedAt": "2026-10-21T18:46:09Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "recentPublishes": [],
@@ -11364,7 +11364,7 @@
       "productionDependencies": 0,
       "transitiveDependencies": 0,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-10-21T14:12:42Z",
+      "pushedAt": "2026-10-21T18:46:09Z",
       "lastPublish": "2026-09-21T16:43:49.140Z",
       "lastPublishVersion": "1.1.0",
       "recentPublishes": [
@@ -11726,7 +11726,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 28,
-        "staleness": 0.038,
+        "staleness": 0.039,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -12193,7 +12193,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 72,
-        "staleness": 0.098,
+        "staleness": 0.099,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,

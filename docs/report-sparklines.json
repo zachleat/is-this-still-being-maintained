@@ -763,9 +763,9 @@
       }
     },
     "@11ty/eleventy-fetch": {
-      "publishCount": 22,
+      "publishCount": 24,
       "firstPublish": "2022-02-25T20:33:36.496Z",
-      "lastPublish": "2026-06-30T21:24:06.116Z",
+      "lastPublish": "2026-10-21T20:09:50.390Z",
       "monthlyReleases": {
         "start": "2022-02",
         "counts": [
@@ -821,7 +821,11 @@
           1,
           0,
           0,
-          1
+          1,
+          0,
+          0,
+          0,
+          2
         ]
       },
       "monthlyDownloads": {
@@ -860,9 +864,9 @@
       }
     },
     "@11ty/eleventy-img": {
-      "publishCount": 78,
+      "publishCount": 79,
       "firstPublish": "2020-04-18T02:56:12.771Z",
-      "lastPublish": "2026-10-20T22:37:07.973Z",
+      "lastPublish": "2026-10-21T20:27:02.905Z",
       "monthlyReleases": {
         "start": "2020-04",
         "counts": [
@@ -944,7 +948,7 @@
           2,
           0,
           0,
-          1
+          2
         ]
       },
       "monthlyDownloads": {
@@ -2714,9 +2718,9 @@
       }
     },
     "@11ty/image-color": {
-      "publishCount": 11,
+      "publishCount": 12,
       "firstPublish": "2025-02-25T17:52:40.323Z",
-      "lastPublish": "2026-07-29T21:08:49.542Z",
+      "lastPublish": "2026-10-21T21:26:36.666Z",
       "monthlyReleases": {
         "start": "2025-02",
         "counts": [
@@ -2735,6 +2739,9 @@
           0,
           0,
           0,
+          0,
+          0,
+          1,
           0,
           0,
           1
