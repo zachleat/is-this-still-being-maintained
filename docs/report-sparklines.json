@@ -860,9 +860,9 @@
       }
     },
     "@11ty/eleventy-img": {
-      "publishCount": 77,
+      "publishCount": 78,
       "firstPublish": "2020-04-18T02:56:12.771Z",
-      "lastPublish": "2026-07-29T16:19:18.149Z",
+      "lastPublish": "2026-10-20T22:37:07.973Z",
       "monthlyReleases": {
         "start": "2020-04",
         "counts": [
@@ -941,7 +941,10 @@
           1,
           0,
           0,
-          2
+          2,
+          0,
+          0,
+          1
         ]
       },
       "monthlyDownloads": {
