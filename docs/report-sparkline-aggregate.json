@@ -198,7 +198,7 @@
   "monthlyOpenIssues": {
     "start": "2026-10",
     "counts": [
-      603
+      600
     ]
   },
   "monthlyOpenPRs": {
