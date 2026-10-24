@@ -1,6 +1,6 @@
 {
   "packages": 94,
-  "publishCount": 1277,
+  "publishCount": 1279,
   "monthlyReleases": {
     "start": "2014-08",
     "counts": [
@@ -150,7 +150,7 @@
       15,
       6,
       25,
-      32
+      34
     ]
   },
   "monthlyDownloads": {
@@ -192,13 +192,13 @@
     "counts": [
       42,
       38,
-      39
+      40
     ]
   },
   "monthlyOpenIssues": {
     "start": "2026-10",
     "counts": [
-      601
+      602
     ]
   },
   "monthlyOpenPRs": {
