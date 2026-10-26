@@ -1,5 +1,5 @@
 {
-  "count": 94,
+  "count": 95,
   "packages": {
     "@11ty/chokidar-with-glob-support": {
       "publishCount": 4,
@@ -1256,8 +1256,8 @@
           5654,
           4044,
           3664,
-          2591,
-          2617,
+          3116,
+          2729,
           2706,
           2887
         ]
@@ -1785,6 +1785,25 @@
         ]
       }
     },
+    "@11ty/eleventy-plugin-svelte": {
+      "publishCount": 2,
+      "firstPublish": "2026-10-26T15:33:50.730Z",
+      "lastPublish": "2026-10-26T15:46:45.240Z",
+      "monthlyReleases": {
+        "start": "2026-10",
+        "counts": [
+          2
+        ]
+      },
+      "monthlyDownloads": {
+        "start": null,
+        "counts": []
+      },
+      "monthlyCdnHits": {
+        "start": null,
+        "counts": []
+      }
+    },
     "@11ty/eleventy-plugin-syntaxhighlight": {
       "publishCount": 29,
       "firstPublish": "2018-01-29T03:17:51.078Z",
@@ -2017,9 +2036,9 @@
       }
     },
     "@11ty/eleventy-plugin-vue": {
-      "publishCount": 45,
+      "publishCount": 46,
       "firstPublish": "2020-03-20T16:49:21.978Z",
-      "lastPublish": "2026-10-25T03:26:19.514Z",
+      "lastPublish": "2026-10-26T16:26:35.804Z",
       "monthlyReleases": {
         "start": "2020-03",
         "counts": [
@@ -2102,7 +2121,7 @@
           0,
           0,
           0,
-          2
+          3
         ]
       },
       "monthlyDownloads": {
@@ -2210,7 +2229,7 @@
           14884,
           17456,
           18724,
-          15152,
+          17258,
           18579,
           17649,
           13166
@@ -2308,7 +2327,7 @@
           1614,
           1954,
           1959,
-          1795,
+          2047,
           2805,
           2194,
           1716
@@ -2783,9 +2802,9 @@
       }
     },
     "@11ty/import": {
-      "publishCount": 33,
+      "publishCount": 34,
       "firstPublish": "2024-11-14T23:32:44.619Z",
-      "lastPublish": "2026-10-25T03:07:41.857Z",
+      "lastPublish": "2026-10-26T17:00:41.037Z",
       "monthlyReleases": {
         "start": "2024-11",
         "counts": [
@@ -2812,7 +2831,7 @@
           0,
           1,
           0,
-          6
+          7
         ]
       },
       "monthlyDownloads": {
@@ -5107,7 +5126,7 @@
           8,
           20,
           57,
-          80,
+          81,
           28,
           37,
           55
