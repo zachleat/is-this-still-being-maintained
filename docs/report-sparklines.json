@@ -2870,9 +2870,9 @@
       }
     },
     "@11ty/is-land": {
-      "publishCount": 17,
+      "publishCount": 18,
       "firstPublish": "2022-06-09T21:59:15.041Z",
-      "lastPublish": "2025-12-02T16:10:39.309Z",
+      "lastPublish": "2026-10-27T20:33:44.590Z",
       "monthlyReleases": {
         "start": "2022-06",
         "counts": [
@@ -2915,6 +2915,16 @@
           0,
           0,
           1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           0,
