@@ -195,7 +195,8 @@
       8
     ],
     "low": 8,
-    "high": 47
+    "high": 47,
+    "highMonth": "2026-10"
   },
   "monthlyOpenIssues": {
     "start": "2026-07",
@@ -206,6 +207,7 @@
       596
     ],
     "low": 593,
+    "lowMonth": "2026-10",
     "high": 674
   },
   "monthlyOpenPRs": {
@@ -217,6 +219,7 @@
       129
     ],
     "low": 126,
+    "lowMonth": "2026-10",
     "high": 171
   }
 }
