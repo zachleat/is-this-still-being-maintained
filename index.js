@@ -833,14 +833,17 @@ async function main() {
         byMonth.set(d.toISOString().slice(0, 7), n);
       });
     }
-    const current = projects.reduce((sum, p) => sum + (p[field] || 0), 0);
-    byMonth.set(currentYm, current);
+    byMonth.set(
+      currentYm,
+      projects.reduce((sum, p) => sum + (p[field] || 0), 0),
+    );
+    const series = denseMonthly(byMonth, currentYm);
 
     // Each run overwrites the current month, so the lowest and highest counts ever seen are kept separately.
     return {
-      ...denseMonthly(byMonth, currentYm),
-      low: Math.min(prev?.low ?? current, current),
-      high: Math.max(prev?.high ?? current, current),
+      ...series,
+      low: Math.min(prev?.low ?? Infinity, ...series.counts),
+      high: Math.max(prev?.high ?? -Infinity, ...series.counts),
     };
   };
 
