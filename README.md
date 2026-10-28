@@ -96,7 +96,8 @@ checked. Only a boolean `true` counts; anything else is ignored.
 the *repo*, not the published package — the code stays on npm and people keep
 installing it — so archived projects still contribute their publishing and
 download stats to the report and the cumulative totals. They always score 0
-(see below).
+(see below). Archived repos that aren't a project (e.g. folded into a monorepo)
+are listed in `archivedRepos` with their stars, closed issues and PRs.
 
 **Template copies are de-duplicated.** Many repos are generated from a starter
 (e.g. `eleventy-base-blog`) and keep the template's `package.json` name, so

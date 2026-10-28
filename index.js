@@ -646,6 +646,29 @@ async function main() {
   }
   const healthRatingHistory = appendOrReplace(prevHealthHistory, healthRating);
 
+  // Archived repos with no project of their own (e.g. superseded by a monorepo) still hold stars and history worth totaling.
+  const reportedRepos = new Set(sorted.map((p) => p.nameWithOwner));
+  const archivedRepos = repos
+    .filter(
+      (r) =>
+        r.isArchived &&
+        !r.workspacePath &&
+        !r.isFork &&
+        !r.isPrivate &&
+        !r.isDisabled &&
+        !excludeSet.has(r.nameWithOwner) &&
+        !reportedRepos.has(r.nameWithOwner),
+    )
+    .map((r) => ({
+      nameWithOwner: r.nameWithOwner,
+      url: r.url,
+      stars: r.stars,
+      closedIssues: r.closedIssues,
+      mergedPRs: r.mergedPRs,
+      closedPRs: r.closedPRs,
+    }))
+    .sort((a, b) => a.nameWithOwner.localeCompare(b.nameWithOwner, "en", { sensitivity: "base" }));
+
   const report = {
     generatedAt,
     healthRating,
@@ -653,6 +676,7 @@ async function main() {
     config: { githubUsers, githubOrgs, scoring, publishedOnly },
     count: sorted.length,
     projects: sorted,
+    archivedRepos,
   };
   if (!skipWrite) {
     await mkdir(path.dirname(jsonPath), { recursive: true });
