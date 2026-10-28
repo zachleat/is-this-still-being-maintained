@@ -839,11 +839,23 @@ async function main() {
     );
     const series = denseMonthly(byMonth, currentYm);
 
+    // Ties go to the most recent month, so a long flat run reports when it last held.
+    const monthOf = (value) => {
+      const i = series.counts.lastIndexOf(value);
+      if (i < 0) return undefined;
+      const [y, m] = series.start.split("-").map(Number);
+      return new Date(Date.UTC(y, m - 1 + i, 1)).toISOString().slice(0, 7);
+    };
+
     // Each run overwrites the current month, so the lowest and highest counts ever seen are kept separately.
+    const low = Math.min(prev?.low ?? Infinity, ...series.counts);
+    const high = Math.max(prev?.high ?? -Infinity, ...series.counts);
     return {
       ...series,
-      low: Math.min(prev?.low ?? Infinity, ...series.counts),
-      high: Math.max(prev?.high ?? -Infinity, ...series.counts),
+      low,
+      lowMonth: monthOf(low) ?? prev?.lowMonth,
+      high,
+      highMonth: monthOf(high) ?? prev?.highMonth,
     };
   };
 

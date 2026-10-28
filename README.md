@@ -156,7 +156,8 @@ only when the underlying data does, never just because the clock moved:
   once per repo), snapshotted each run and ending at the current, partial month
   (backfilled from git history: vulnerabilities to 2026-08, issues and PRs to
   2026-07). Each also carries `low` and `high`, the lowest and highest
-  counts seen by any run, since the current month is overwritten each run.
+  counts seen by any run, since the current month is overwritten each run, with
+  `lowMonth` and `highMonth` (`"YYYY-MM"`, most recent month on a tie).
 
 `monthlyDownloads` and `monthlyCdnHits` share a start month and length, so they
 can be plotted on the same axis. Every series is trimmed to **complete** months
