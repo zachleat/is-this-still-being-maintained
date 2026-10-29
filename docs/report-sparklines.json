@@ -2802,9 +2802,9 @@
       }
     },
     "@11ty/import": {
-      "publishCount": 36,
+      "publishCount": 37,
       "firstPublish": "2024-11-14T23:32:44.619Z",
-      "lastPublish": "2026-10-28T18:43:35.559Z",
+      "lastPublish": "2026-10-29T14:38:38.253Z",
       "monthlyReleases": {
         "start": "2024-11",
         "counts": [
@@ -2831,7 +2831,7 @@
           0,
           1,
           0,
-          9
+          10
         ]
       },
       "monthlyDownloads": {
