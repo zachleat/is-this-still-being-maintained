@@ -25,6 +25,8 @@
     "zachleat/unicode-range-interchange",
     "zachleat/web-component-star-search",
     "zachleat/list-all-tabs",
+    "zachleat/bundlewhys",
+    "zachleat/prototype-pollution-report",
 
     "11ty/gray-matter",
     "11ty/nunjucks",
