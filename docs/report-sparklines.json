@@ -2,13 +2,14 @@
   "count": 95,
   "packages": {
     "@11ty/chokidar-with-glob-support": {
-      "publishCount": 4,
+      "publishCount": 6,
       "firstPublish": "2026-10-15T15:41:44.143Z",
-      "lastPublish": "2026-10-16T14:17:56.443Z",
+      "lastPublish": "2026-11-03T19:18:57.259Z",
       "monthlyReleases": {
         "start": "2026-10",
         "counts": [
-          4
+          4,
+          2
         ]
       },
       "monthlyDownloads": {
@@ -344,9 +345,9 @@
       }
     },
     "@11ty/eleventy": {
-      "publishCount": 219,
+      "publishCount": 220,
       "firstPublish": "2018-01-09T14:36:27.855Z",
-      "lastPublish": "2026-10-15T19:55:22.207Z",
+      "lastPublish": "2026-11-03T15:58:04.113Z",
       "monthlyReleases": {
         "start": "2018-01",
         "counts": [
@@ -455,6 +456,7 @@
           2,
           0,
           0,
+          1,
           1
         ]
       },
@@ -4611,9 +4613,9 @@
       }
     },
     "@zachleat/seven-minute-tabs": {
-      "publishCount": 10,
+      "publishCount": 11,
       "firstPublish": "2020-04-27T14:40:30.294Z",
-      "lastPublish": "2025-11-04T22:10:30.437Z",
+      "lastPublish": "2026-11-03T16:11:07.382Z",
       "monthlyReleases": {
         "start": "2020-04",
         "counts": [
@@ -4673,6 +4675,18 @@
           0,
           0,
           0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
           0,
           0,
           0,
@@ -5069,9 +5083,9 @@
       }
     },
     "@zachleat/table-saw": {
-      "publishCount": 8,
+      "publishCount": 10,
       "firstPublish": "2023-09-28T18:21:38.944Z",
-      "lastPublish": "2025-12-16T16:56:00.639Z",
+      "lastPublish": "2026-11-03T19:20:04.914Z",
       "monthlyReleases": {
         "start": "2023-09",
         "counts": [
@@ -5102,7 +5116,18 @@
           0,
           0,
           0,
-          1
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
         ]
       },
       "monthlyDownloads": {
@@ -5297,7 +5322,7 @@
           97,
           93,
           52,
-          50,
+          51,
           50,
           50
         ]
