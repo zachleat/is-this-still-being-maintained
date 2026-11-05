@@ -2816,9 +2816,9 @@
       }
     },
     "@11ty/import": {
-      "publishCount": 37,
+      "publishCount": 38,
       "firstPublish": "2024-11-14T23:32:44.619Z",
-      "lastPublish": "2026-10-29T14:38:38.253Z",
+      "lastPublish": "2026-11-05T14:30:02.165Z",
       "monthlyReleases": {
         "start": "2024-11",
         "counts": [
@@ -2845,7 +2845,8 @@
           0,
           1,
           0,
-          10
+          10,
+          1
         ]
       },
       "monthlyDownloads": {
@@ -3836,14 +3837,47 @@
       }
     },
     "@zachleat/carouscroll": {
-      "publishCount": 7,
+      "publishCount": 8,
       "firstPublish": "2024-01-31T14:05:53.479Z",
-      "lastPublish": "2024-02-06T18:57:41.173Z",
+      "lastPublish": "2026-11-05T14:36:31.021Z",
       "monthlyReleases": {
         "start": "2024-01",
         "counts": [
           3,
-          4
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
         ]
       },
       "monthlyDownloads": {
@@ -4022,9 +4056,9 @@
       }
     },
     "@zachleat/filter-container": {
-      "publishCount": 14,
+      "publishCount": 15,
       "firstPublish": "2021-01-22T03:02:37.495Z",
-      "lastPublish": "2023-11-17T21:06:01.945Z",
+      "lastPublish": "2026-11-05T14:44:39.602Z",
       "monthlyReleases": {
         "start": "2021-01",
         "counts": [
@@ -4042,6 +4076,42 @@
           0,
           2,
           3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -5714,9 +5784,9 @@
       }
     },
     "esm-import-transformer": {
-      "publishCount": 9,
+      "publishCount": 10,
       "firstPublish": "2022-06-03T19:21:54.241Z",
-      "lastPublish": "2025-08-08T20:21:13.984Z",
+      "lastPublish": "2026-11-05T18:40:07.828Z",
       "monthlyReleases": {
         "start": "2022-06",
         "counts": [
@@ -5758,7 +5828,22 @@
           0,
           0,
           0,
-          2
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
         ]
       },
       "monthlyDownloads": {
@@ -6124,9 +6209,9 @@
       }
     },
     "import-module-string": {
-      "publishCount": 11,
+      "publishCount": 12,
       "firstPublish": "2025-05-01T17:25:46.915Z",
-      "lastPublish": "2026-09-21T21:20:56.318Z",
+      "lastPublish": "2026-11-05T18:50:52.400Z",
       "monthlyReleases": {
         "start": "2025-05",
         "counts": [
@@ -6145,6 +6230,8 @@
           0,
           0,
           0,
+          0,
+          1,
           0,
           1
         ]
