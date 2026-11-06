@@ -16,6 +16,7 @@ import {
   registryMetrics,
   fetchDownloads,
   fetchDownloadHistory,
+  fetchDownloadsAllTime,
 } from "./lib/npm.js";
 import { scoreProject } from "./lib/score.js";
 
@@ -406,6 +407,17 @@ async function main() {
     downloadErrors.map((e) => [e.name, e.message]),
   );
 
+  console.error(
+    c("2", `Fetching all-time npm downloads for ${publishedNames.length} published package(s)…`),
+  );
+  const { totals: downloadsAllTime } = await fetchDownloadsAllTime(
+    publishedEntries.map((x) => ({
+      name: x.repo.packageName,
+      since: x.meta.firstPublish,
+    })),
+    { duration: cacheDuration },
+  );
+
   // Load the previous report up front: it carries forward per-package score
   // history, and — when a downloads lookup fails — the last known download count,
   // so a transient npm error doesn't overwrite a real number with 0. Reading it
@@ -557,6 +569,11 @@ async function main() {
       downloads: published ? freshDownloads ?? staleDownloads ?? 0 : 0,
       downloadsKnown: published && !downloadError,
       downloadsPeriod: period,
+      // Null (not 0) when unpublished or any year's lookup failed.
+      downloadsAllTime: published
+        ? downloadsAllTime.get(repo.packageName) ?? null
+        : null,
+      downloadsAllTimeKnown: published && downloadsAllTime.has(repo.packageName),
       published,
       npmStatus,
       npmError: error || (downloadError ? `downloads: ${downloadError}` : null),

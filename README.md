@@ -373,6 +373,8 @@ Each published package carries **`releaseUrl`** — the GitHub release matching
 `{folder}@v{version}` (the workspace folder's basename) in order (drafts skipped). `null` when unpublished or no
 release matches.
 
+Each project carries **`downloadsAllTime`** — the lifetime npm download total, summed from one request per calendar year since `firstPublish` (past years cached forever), with `downloadsAllTimeKnown: false` and `null` when unpublished or any year's lookup failed.
+
 Each project carries **`recentPublishes`** — up to the 10 most recent published npm versions as `[{ version, date, releaseUrl }]`, newest first, prereleases included (`[]` when unpublished); each `releaseUrl` is matched the same way as above.
 
 Each project also carries an `isWebComponent` flag — a heuristic that's `true`
