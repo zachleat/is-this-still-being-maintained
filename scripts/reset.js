@@ -19,6 +19,7 @@ const REPORTS = [
   "report.json",
   "report-sparklines.json",
   "report-sparkline-aggregate.json",
+  "report-downloads-by-year.json",
 ];
 
 // Read the OLD config first: it knows where the reports were written. Doing

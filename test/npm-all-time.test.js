@@ -44,3 +44,26 @@ test("sums one request per calendar year from firstPublish to now", async (t) =>
   // A failed package isn't requested for later years.
   assert.ok(!requested.includes(`/downloads/point/2026-01-01:2026-12-31/${FAILING}`));
 });
+
+test("reads completed years from byYear and records newly fetched ones", async (t) => {
+  setDryRun(true);
+  const name = `${id}-d`;
+  const requested = [];
+  t.mock.method(globalThis, "fetch", async (url) => {
+    const { pathname } = new URL(url);
+    requested.push(pathname);
+    return Response.json({ downloads: 10, package: name });
+  });
+
+  const input = { [name]: { 2024: 7 } };
+  const { totals, byYear } = await fetchDownloadsAllTime(
+    [{ name, since: "2024-01-01T00:00:00.000Z" }],
+    { duration: "1h", now: new Date("2026-03-01T00:00:00Z"), byYear: input },
+  );
+
+  assert.equal(totals.get(name), 7 + 10 + 10);
+  assert.ok(!requested.some((p) => p.includes("2024-")));
+  // The current year is never stored, and the input isn't mutated.
+  assert.deepEqual(byYear, { [name]: { 2024: 7, 2025: 10 } });
+  assert.deepEqual(input, { [name]: { 2024: 7 } });
+});

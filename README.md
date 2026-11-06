@@ -143,8 +143,7 @@ names who actually maintains it). Leave `npmMaintainers` empty to skip the check
 
 ### Sparkline companion files
 
-Two extra files sit next to `report.json`, both keyed for direct sparkline
-rendering and both free of any timestamp — so they change (and get committed)
+Three extra files sit next to `report.json`, all free of any timestamp — so they change (and get committed)
 only when the underlying data does, never just because the clock moved:
 
 - `report-sparklines.json` — per package: `monthlyReleases`,
@@ -158,6 +157,7 @@ only when the underlying data does, never just because the clock moved:
   2026-07). Each also carries `low` and `high`, the lowest and highest
   counts seen by any run, since the current month is overwritten each run, with
   `lowMonth` and `highMonth` (`"YYYY-MM"`, most recent month on a tie).
+- `report-downloads-by-year.json` — per package, npm downloads for each completed calendar year (`{ "2023": 1234, ... }`), so they're fetched once and never again.
 
 `monthlyDownloads` and `monthlyCdnHits` share a start month and length, so they
 can be plotted on the same axis. Every series is trimmed to **complete** months
@@ -373,7 +373,7 @@ Each published package carries **`releaseUrl`** — the GitHub release matching
 `{folder}@v{version}` (the workspace folder's basename) in order (drafts skipped). `null` when unpublished or no
 release matches.
 
-Each project carries **`downloadsAllTime`** — the lifetime npm download total, summed from one request per calendar year since `firstPublish` (past years cached forever), with `downloadsAllTimeKnown: false` and `null` when unpublished or any year's lookup failed.
+Each project carries **`downloadsAllTime`** — the lifetime npm download total, summed from one request per calendar year since `firstPublish` (completed years are read from `report-downloads-by-year.json` instead of refetched), with `downloadsAllTimeKnown: false` and `null` when unpublished or any year's lookup failed.
 
 Each project carries **`recentPublishes`** — up to the 10 most recent published npm versions as `[{ version, date, releaseUrl }]`, newest first, prereleases included (`[]` when unpublished); each `releaseUrl` is matched the same way as above.
 

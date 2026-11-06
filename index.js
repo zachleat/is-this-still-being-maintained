@@ -410,24 +410,40 @@ async function main() {
   console.error(
     c("2", `Fetching all-time npm downloads for ${publishedNames.length} published package(s)…`),
   );
-  const { totals: downloadsAllTime } = await fetchDownloadsAllTime(
-    publishedEntries.map((x) => ({
-      name: x.repo.packageName,
-      since: x.meta.firstPublish,
-    })),
-    { duration: cacheDuration },
-  );
-
-  // Load the previous report up front: it carries forward per-package score
-  // history, and — when a downloads lookup fails — the last known download count,
-  // so a transient npm error doesn't overwrite a real number with 0. Reading it
-  // before scoring means the carried-forward value also feeds `importance`.
   const outputDir = options.outputDir || "docs";
   // path.resolve (not join) so an absolute `outputDir` is honored rather than
   // being appended to the cwd.
   const jsonPath = args.json
     ? path.resolve(args.json)
     : path.resolve(outputDir, "report.json");
+
+  // Completed years are committed here so they're never refetched.
+  const byYearPath = path.join(path.dirname(jsonPath), "report-downloads-by-year.json");
+  let prevByYear = {};
+  try {
+    prevByYear = JSON.parse(await readFile(byYearPath, "utf8"));
+  } catch {
+    /* none yet — every year is fetched */
+  }
+  const { totals: downloadsAllTime, byYear } = await fetchDownloadsAllTime(
+    publishedEntries.map((x) => ({
+      name: x.repo.packageName,
+      since: x.meta.firstPublish,
+    })),
+    { duration: cacheDuration, byYear: prevByYear },
+  );
+  if (!skipWrite) {
+    const sorted = Object.fromEntries(
+      Object.keys(byYear).sort().map((name) => [name, byYear[name]]),
+    );
+    await mkdir(path.dirname(byYearPath), { recursive: true });
+    await writeFile(byYearPath, JSON.stringify(sorted, null, 2) + "\n");
+  }
+
+  // Load the previous report up front: it carries forward per-package score
+  // history, and — when a downloads lookup fails — the last known download count,
+  // so a transient npm error doesn't overwrite a real number with 0. Reading it
+  // before scoring means the carried-forward value also feeds `importance`.
   let prevReport = null;
   try {
     prevReport = JSON.parse(await readFile(jsonPath, "utf8"));
