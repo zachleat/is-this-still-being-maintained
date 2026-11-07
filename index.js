@@ -653,7 +653,16 @@ async function main() {
   // day, replace its newest entry (so same-day reruns don't pile up); else append.
   const prevHistory = new Map();
   let prevHealthHistory = [];
+  const prevWeekly = new Map();
   let sameDay = false;
+  // Monday (UTC) of the ISO week containing `iso`, as YYYY-MM-DD.
+  const weekStart = (iso) => {
+    const d = new Date(iso.slice(0, 10));
+    d.setUTCDate(d.getUTCDate() - ((d.getUTCDay() + 6) % 7));
+    return d.toISOString().slice(0, 10);
+  };
+  const scoreHistoryWeeklyEnd = weekStart(generatedAt);
+  const sameWeek = prevReport?.scoreHistoryWeeklyEnd === scoreHistoryWeeklyEnd;
   {
     const prev = prevReport;
     if (prev) {
@@ -664,6 +673,9 @@ async function main() {
       for (const p of prev.projects || []) {
         if (p.packageName && Array.isArray(p.scoreHistory)) {
           prevHistory.set(p.packageName, p.scoreHistory);
+        }
+        if (p.packageName && Array.isArray(p.scoreHistoryWeekly)) {
+          prevWeekly.set(p.packageName, p.scoreHistoryWeekly);
         }
       }
     }
@@ -676,6 +688,11 @@ async function main() {
   };
   for (const p of sorted) {
     p.scoreHistory = appendOrReplace(prevHistory.get(p.packageName) || [], p.score);
+    // Last score of each ISO week, 26 weeks.
+    const weekly = [...(prevWeekly.get(p.packageName) || [])];
+    if (sameWeek && weekly.length) weekly[weekly.length - 1] = p.score;
+    else weekly.push(p.score);
+    p.scoreHistoryWeekly = weekly.slice(-26);
   }
   const healthRatingHistory = appendOrReplace(prevHealthHistory, healthRating);
 
@@ -706,6 +723,7 @@ async function main() {
     generatedAt,
     healthRating,
     healthRatingHistory,
+    scoreHistoryWeeklyEnd,
     config: { githubUsers, githubOrgs, scoring, publishedOnly },
     count: sorted.length,
     projects: sorted,

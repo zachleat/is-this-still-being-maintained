@@ -351,6 +351,8 @@ current score, while a **same-day rerun replaces** the newest entry (using the
 report's `generatedAt`, so reruns don't pile up). Oldest drops off past 10. The
 top-level **`healthRatingHistory`** tracks the overall Health Rating the same way.
 
+**`scoreHistoryWeekly`** keeps the last score of each ISO week (Monday start, UTC) for 26 weeks, replacing its newest entry when a run lands in the week named by the top-level **`scoreHistoryWeeklyEnd`**. `node scripts/backfill-weekly-scores.js` rebuilds it from the git history of `docs/report.json`.
+
 Each project's **`description`** comes from the published `latest` version's
 npm `package.json`, falling back to the **GitHub repo description** when there's
 no npm data — so templates and unpublished repos still get one. The two often
