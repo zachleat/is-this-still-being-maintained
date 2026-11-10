@@ -1529,7 +1529,7 @@
           7944,
           4762,
           6136,
-          7363
+          7501
         ]
       },
       "monthlyCdnHits": {
@@ -2816,9 +2816,9 @@
       }
     },
     "@11ty/import": {
-      "publishCount": 38,
+      "publishCount": 40,
       "firstPublish": "2024-11-14T23:32:44.619Z",
-      "lastPublish": "2026-11-05T14:30:02.165Z",
+      "lastPublish": "2026-11-10T21:51:32.559Z",
       "monthlyReleases": {
         "start": "2024-11",
         "counts": [
@@ -2846,7 +2846,7 @@
           1,
           0,
           10,
-          1
+          3
         ]
       },
       "monthlyDownloads": {
@@ -5141,13 +5141,15 @@
       }
     },
     "@zachleat/table-of-contents": {
-      "publishCount": 3,
+      "publishCount": 5,
       "firstPublish": "2026-09-15T01:27:50.790Z",
-      "lastPublish": "2026-09-24T18:24:06.674Z",
+      "lastPublish": "2026-11-10T19:48:49.938Z",
       "monthlyReleases": {
         "start": "2026-09",
         "counts": [
-          3
+          3,
+          0,
+          2
         ]
       },
       "monthlyDownloads": {
