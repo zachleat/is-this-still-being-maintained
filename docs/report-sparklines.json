@@ -5141,15 +5141,15 @@
       }
     },
     "@zachleat/table-of-contents": {
-      "publishCount": 5,
+      "publishCount": 6,
       "firstPublish": "2026-09-15T01:27:50.790Z",
-      "lastPublish": "2026-11-10T19:48:49.938Z",
+      "lastPublish": "2026-11-10T23:25:25.634Z",
       "monthlyReleases": {
         "start": "2026-09",
         "counts": [
           3,
           0,
-          2
+          3
         ]
       },
       "monthlyDownloads": {
