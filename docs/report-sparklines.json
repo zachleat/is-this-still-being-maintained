@@ -670,9 +670,9 @@
       }
     },
     "@11ty/eleventy-dev-server": {
-      "publishCount": 42,
+      "publishCount": 43,
       "firstPublish": "2022-03-08T22:41:37.867Z",
-      "lastPublish": "2026-10-16T14:49:41.257Z",
+      "lastPublish": "2026-11-13T23:04:23.659Z",
       "monthlyReleases": {
         "start": "2022-03",
         "counts": [
@@ -731,7 +731,8 @@
           0,
           1,
           1,
-          5
+          5,
+          1
         ]
       },
       "monthlyDownloads": {
@@ -2564,9 +2565,9 @@
       }
     },
     "@11ty/find-generator": {
-      "publishCount": 2,
+      "publishCount": 3,
       "firstPublish": "2025-03-26T16:50:38.151Z",
-      "lastPublish": "2026-09-01T16:46:06.908Z",
+      "lastPublish": "2026-11-13T22:01:09.828Z",
       "monthlyReleases": {
         "start": "2025-03",
         "counts": [
@@ -2587,6 +2588,8 @@
           0,
           0,
           0,
+          0,
+          1,
           0,
           1
         ]
