@@ -293,6 +293,8 @@ Why this rather than GitHub's Dependabot alerts:
 - **npm packages only** — templates, unpublished repos, and docs sites report
   `null` and get no security signal.
 
+`prereleaseVulnerabilities` is the same count for `prereleaseVersion`, the highest-semver prerelease ahead of `latest` (otherwise `null`), and isn't scored. That same prerelease sets `prerelease: true` and supplies `description`.
+
 Dependency versions are deduped across every package, so OSV is queried once for
 the whole set rather than per package. A package whose tree can't be resolved
 reports `null` (unknown) rather than a misleading `0`. The trade-off: this won't

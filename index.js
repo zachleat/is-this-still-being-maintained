@@ -352,9 +352,12 @@ async function main() {
   // Security: audit each published package's resolved dependency tree for known
   // vulnerabilities (deps.dev + OSV.dev — no auth required). This measures what
   // consumers actually install, so devDependencies are excluded by construction.
-  const auditTargets = publishedEntries
-    .filter((x) => x.meta.latestVersion)
-    .map((x) => ({ name: x.repo.packageName, version: x.meta.latestVersion }));
+  // A prerelease ahead of `latest` is audited too, in the same pass.
+  const auditTargets = publishedEntries.flatMap((x) =>
+    [x.meta.latestVersion, x.meta.prereleaseVersion]
+      .filter(Boolean)
+      .map((version) => ({ name: x.repo.packageName, version })),
+  );
   console.error(
     c("2", `Auditing dependencies for ${auditTargets.length} published package(s)…`),
   );
@@ -550,14 +553,22 @@ async function main() {
       // Only meaningful for actual npm packages, so templates / unpublished
       // repos / docs sites report null.
       openVulnerabilities: published
-        ? vulnByPackage.get(repo.packageName)?.vulnerabilities ?? null
+        ? vulnByPackage.get(`${repo.packageName}@${npm?.latestVersion}`)
+            ?.vulnerabilities ?? null
         : null,
+      // Same count for the highest prerelease ahead of `latest`; reported only, not scored.
+      prereleaseVulnerabilities:
+        published && npm?.prereleaseVersion
+          ? vulnByPackage.get(`${repo.packageName}@${npm.prereleaseVersion}`)
+              ?.vulnerabilities ?? null
+          : null,
       // Production dependency weight (devDependencies excluded): the count
       // declared in package.json, and the full resolved transitive tree.
       // Reported only — deliberately not part of the score.
       productionDependencies: npm?.productionDependencies ?? null,
       transitiveDependencies: published
-        ? vulnByPackage.get(repo.packageName)?.transitiveDependencies ?? null
+        ? vulnByPackage.get(`${repo.packageName}@${npm?.latestVersion}`)
+            ?.transitiveDependencies ?? null
         : null,
       repoCreatedAt: repo.repoCreatedAt || null,
       pushedAt: repo.pushedAt,
@@ -578,6 +589,7 @@ async function main() {
       latestVersion: npm?.latestVersion || null,
       npmDeprecated: npm?.npmDeprecated ?? null,
       publishCount: npm?.publishCount ?? null,
+      prereleaseVersion: npm?.prereleaseVersion || null,
       prerelease: npm?.prerelease || false,
       // On a failed lookup keep the previous report's number rather than
       // overwriting a real value with 0 (which would also deflate `importance`).
