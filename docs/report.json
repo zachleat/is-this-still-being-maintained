@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T15:16:21.322Z",
+  "generatedAt": "2026-11-20T23:55:54.734Z",
   "healthRating": 99.1,
   "healthRatingHistory": [
     99,
@@ -92,7 +92,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 7,
-        "staleness": 0.009,
+        "staleness": 0.01,
         "issuesSub": 0.192,
         "prsSub": 0,
         "backlogSeverity": 0.058,
@@ -199,7 +199,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -247,9 +247,9 @@
       "isWebComponent": false,
       "description": "Run Build Awesome (Eleventy) in your browser.",
       "sourceRepo": "11ty/buildawesome",
-      "stars": 20047,
+      "stars": 20049,
       "openIssues": 14,
-      "closedIssues": 2668,
+      "closedIssues": 2673,
       "openPRs": 2,
       "mergedPRs": 391,
       "closedPRs": 247,
@@ -258,7 +258,7 @@
       "productionDependencies": 0,
       "transitiveDependencies": 0,
       "repoCreatedAt": "2017-11-27T05:19:00Z",
-      "pushedAt": "2026-11-19T20:07:37Z",
+      "pushedAt": "2026-11-20T21:19:07Z",
       "lastPublish": "2026-11-19T20:25:57.973Z",
       "lastPublishVersion": "4.0.0-alpha.12",
       "recentPublishes": [
@@ -332,8 +332,8 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 1,
-        "staleness": 0.001,
+        "activityDays": 0,
+        "staleness": 0,
         "issuesSub": 0.475,
         "prsSub": 0.267,
         "backlogSeverity": 0.329,
@@ -478,7 +478,7 @@
       "score": 1.1,
       "breakdown": {
         "activityDays": 353,
-        "staleness": 0.483,
+        "staleness": 0.484,
         "issuesSub": 0.121,
         "prsSub": 0,
         "backlogSeverity": 0.036,
@@ -713,7 +713,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -908,9 +908,9 @@
       "isWebComponent": false,
       "description": "A simpler way to build awesome web sites.",
       "sourceRepo": "11ty/buildawesome",
-      "stars": 20047,
+      "stars": 20049,
       "openIssues": 14,
-      "closedIssues": 2668,
+      "closedIssues": 2673,
       "openPRs": 2,
       "mergedPRs": 391,
       "closedPRs": 247,
@@ -919,7 +919,7 @@
       "productionDependencies": 33,
       "transitiveDependencies": 112,
       "repoCreatedAt": "2017-11-27T05:19:00Z",
-      "pushedAt": "2026-11-19T20:07:37Z",
+      "pushedAt": "2026-11-20T21:19:07Z",
       "lastPublish": "2026-11-19T20:25:33.943Z",
       "lastPublishVersion": "4.0.0-alpha.12",
       "recentPublishes": [
@@ -993,8 +993,8 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 1,
-        "staleness": 0.001,
+        "activityDays": 0,
+        "staleness": 0,
         "issuesSub": 0.475,
         "prsSub": 0.267,
         "backlogSeverity": 0.329,
@@ -1140,7 +1140,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 707,
-        "staleness": 0.968,
+        "staleness": 0.969,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -1614,7 +1614,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 2,
-        "staleness": 0.002,
+        "staleness": 0.003,
         "issuesSub": 0.475,
         "prsSub": 0.169,
         "backlogSeverity": 0.26,
@@ -1677,15 +1677,15 @@
       "stars": 167,
       "openIssues": 7,
       "closedIssues": 46,
-      "openPRs": 3,
-      "mergedPRs": 32,
+      "openPRs": 2,
+      "mergedPRs": 33,
       "closedPRs": 18,
       "openVulnerabilities": 0,
       "prereleaseVulnerabilities": null,
       "productionDependencies": 5,
       "transitiveDependencies": 6,
       "repoCreatedAt": "2020-04-19T19:39:04Z",
-      "pushedAt": "2026-11-20T06:12:30Z",
+      "pushedAt": "2026-11-20T19:52:04Z",
       "lastPublish": "2026-10-21T20:09:50.390Z",
       "lastPublishVersion": "6.0.1",
       "recentPublishes": [
@@ -1760,11 +1760,11 @@
       "score": 0,
       "breakdown": {
         "activityDays": 0,
-        "staleness": 0.001,
+        "staleness": 0,
         "issuesSub": 0.364,
-        "prsSub": 0.337,
-        "backlogSeverity": 0.345,
-        "demand": 0.345,
+        "prsSub": 0.267,
+        "backlogSeverity": 0.296,
+        "demand": 0.296,
         "neglect": 0,
         "securitySub": 0,
         "security": 0,
@@ -2052,7 +2052,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.004,
+        "staleness": 0.005,
         "issuesSub": 0.475,
         "prsSub": 0.169,
         "backlogSeverity": 0.26,
@@ -2309,7 +2309,7 @@
       "score": 3.6,
       "breakdown": {
         "activityDays": 451,
-        "staleness": 0.617,
+        "staleness": 0.618,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -2415,15 +2415,15 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.004,
+        "staleness": 0.005,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
         "demand": 0.552,
-        "neglect": 0.002,
+        "neglect": 0.003,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.002,
+        "attention": 0.003,
         "downloadsSub": 0.71,
         "starsSub": 0.27,
         "popularity": 0.644,
@@ -2517,18 +2517,18 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.1,
+      "score": 0.2,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.004,
+        "staleness": 0.005,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
         "demand": 0.552,
-        "neglect": 0.002,
+        "neglect": 0.003,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.002,
+        "attention": 0.003,
         "downloadsSub": 0.461,
         "starsSub": 0.27,
         "popularity": 0.432,
@@ -2544,7 +2544,7 @@
         0,
         0,
         0.1,
-        0.1
+        0.2
       ],
       "scoreHistoryWeekly": [
         21.6,
@@ -2563,7 +2563,7 @@
         0.3,
         0.3,
         0.1,
-        0.1
+        0.2
       ]
     },
     {
@@ -2625,15 +2625,15 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.004,
+        "staleness": 0.005,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
         "demand": 0.552,
-        "neglect": 0.002,
+        "neglect": 0.003,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.002,
+        "attention": 0.003,
         "downloadsSub": 0.799,
         "starsSub": 0.27,
         "popularity": 0.72,
@@ -2950,18 +2950,18 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.1,
+      "score": 0.2,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.004,
+        "staleness": 0.005,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
         "demand": 0.552,
-        "neglect": 0.002,
+        "neglect": 0.003,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.002,
+        "attention": 0.003,
         "downloadsSub": 0.505,
         "starsSub": 0.27,
         "popularity": 0.47,
@@ -2977,7 +2977,7 @@
         0,
         9.1,
         0.1,
-        0.1
+        0.2
       ],
       "scoreHistoryWeekly": [
         22.7,
@@ -2996,7 +2996,7 @@
         0.3,
         0.3,
         0.1,
-        0.1
+        0.2
       ]
     },
     {
@@ -3058,15 +3058,15 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.004,
+        "staleness": 0.005,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
         "demand": 0.552,
-        "neglect": 0.002,
+        "neglect": 0.003,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.002,
+        "attention": 0.003,
         "downloadsSub": 0.634,
         "starsSub": 0.27,
         "popularity": 0.579,
@@ -3200,18 +3200,18 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0,
+      "score": 0.1,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.486,
         "prsSub": 0.337,
         "backlogSeverity": 0.382,
         "demand": 0.382,
-        "neglect": 0,
+        "neglect": 0.001,
         "securitySub": 0,
         "security": 0,
-        "attention": 0,
+        "attention": 0.001,
         "downloadsSub": 1,
         "starsSub": 0.556,
         "popularity": 0.933,
@@ -3227,7 +3227,7 @@
         1.1,
         1.2,
         1.2,
-        0
+        0.1
       ],
       "scoreHistoryWeekly": [
         1.9,
@@ -3247,7 +3247,7 @@
         0.3,
         0.7,
         1,
-        0
+        0.1
       ]
     },
     {
@@ -3306,18 +3306,18 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0.1,
+      "score": 0.2,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.004,
+        "staleness": 0.005,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
         "demand": 0.552,
-        "neglect": 0.002,
+        "neglect": 0.003,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.002,
+        "attention": 0.003,
         "downloadsSub": 0.481,
         "starsSub": 0.27,
         "popularity": 0.45,
@@ -3333,13 +3333,13 @@
         0,
         8.9,
         0.1,
-        0.1
+        0.2
       ],
       "scoreHistoryWeekly": [
         0.3,
         0.3,
         0.1,
-        0.1
+        0.2
       ]
     },
     {
@@ -3441,7 +3441,7 @@
       "score": 15.4,
       "breakdown": {
         "activityDays": 353,
-        "staleness": 0.483,
+        "staleness": 0.484,
         "issuesSub": 0.486,
         "prsSub": 0.267,
         "backlogSeverity": 0.333,
@@ -3584,7 +3584,7 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 1.7,
+      "score": 1.8,
       "breakdown": {
         "activityDays": 32,
         "staleness": 0.044,
@@ -3611,7 +3611,7 @@
         1.6,
         12.5,
         1.7,
-        1.7
+        1.8
       ],
       "scoreHistoryWeekly": [
         0.4,
@@ -3631,7 +3631,7 @@
         0.7,
         1.1,
         1.5,
-        1.7
+        1.8
       ]
     },
     {
@@ -3733,15 +3733,15 @@
       "score": 0.2,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.004,
+        "staleness": 0.005,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
         "demand": 0.552,
-        "neglect": 0.002,
+        "neglect": 0.003,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.002,
+        "attention": 0.003,
         "downloadsSub": 0.655,
         "starsSub": 0.27,
         "popularity": 0.597,
@@ -3879,12 +3879,12 @@
       "score": 28.5,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.004,
+        "staleness": 0.005,
         "issuesSub": 0.659,
         "prsSub": 0.506,
         "backlogSeverity": 0.552,
         "demand": 0.552,
-        "neglect": 0.002,
+        "neglect": 0.003,
         "securitySub": 0.671,
         "security": 0.336,
         "attention": 0.336,
@@ -3995,7 +3995,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 77,
-        "staleness": 0.105,
+        "staleness": 0.106,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -4141,7 +4141,7 @@
       "score": 2.9,
       "breakdown": {
         "activityDays": 353,
-        "staleness": 0.483,
+        "staleness": 0.484,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -4287,7 +4287,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -4397,7 +4397,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 7,
-        "staleness": 0.009,
+        "staleness": 0.01,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -4669,7 +4669,7 @@
       "score": 0.4,
       "breakdown": {
         "activityDays": 17,
-        "staleness": 0.023,
+        "staleness": 0.024,
         "issuesSub": 0.192,
         "prsSub": 0.169,
         "backlogSeverity": 0.176,
@@ -4961,7 +4961,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.282,
         "prsSub": 0,
         "backlogSeverity": 0.085,
@@ -5104,10 +5104,10 @@
       "published": true,
       "npmStatus": "published",
       "npmError": null,
-      "score": 0,
+      "score": 0.1,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.004,
+        "staleness": 0.005,
         "issuesSub": 0.403,
         "prsSub": 0,
         "backlogSeverity": 0.121,
@@ -5131,7 +5131,7 @@
         0,
         0,
         0,
-        0
+        0.1
       ],
       "scoreHistoryWeekly": [
         11.3,
@@ -5151,7 +5151,7 @@
         0.1,
         0.1,
         0.1,
-        0
+        0.1
       ]
     },
     {
@@ -5213,7 +5213,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -5465,7 +5465,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -5585,7 +5585,7 @@
       "score": 0.1,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.435,
         "prsSub": 0.436,
         "backlogSeverity": 0.436,
@@ -5730,7 +5730,7 @@
       "npmError": null,
       "score": 2.6,
       "breakdown": {
-        "activityDays": 93,
+        "activityDays": 94,
         "staleness": 0.128,
         "issuesSub": 0,
         "prsSub": 0.392,
@@ -5867,7 +5867,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 353,
-        "staleness": 0.483,
+        "staleness": 0.484,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -5968,7 +5968,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -6048,7 +6048,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -6144,7 +6144,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -6207,15 +6207,15 @@
       "stars": 1,
       "openIssues": 0,
       "closedIssues": 6,
-      "openPRs": 2,
-      "mergedPRs": 9,
+      "openPRs": 1,
+      "mergedPRs": 10,
       "closedPRs": 6,
       "openVulnerabilities": 0,
       "prereleaseVulnerabilities": null,
       "productionDependencies": 2,
       "transitiveDependencies": 6,
       "repoCreatedAt": "2024-07-11T14:17:35Z",
-      "pushedAt": "2026-11-20T05:25:04Z",
+      "pushedAt": "2026-11-20T19:52:28Z",
       "lastPublish": "2026-11-02T23:33:33.600Z",
       "lastPublishVersion": "5.2.0",
       "recentPublishes": [
@@ -6290,11 +6290,11 @@
       "score": 0,
       "breakdown": {
         "activityDays": 0,
-        "staleness": 0.001,
+        "staleness": 0,
         "issuesSub": 0,
-        "prsSub": 0.267,
-        "backlogSeverity": 0.187,
-        "demand": 0.187,
+        "prsSub": 0.169,
+        "backlogSeverity": 0.118,
+        "demand": 0.118,
         "neglect": 0,
         "securitySub": 0,
         "security": 0,
@@ -6536,7 +6536,7 @@
         "prsSub": 0.337,
         "backlogSeverity": 0.454,
         "demand": 0.454,
-        "neglect": 0,
+        "neglect": 0.001,
         "securitySub": 0.671,
         "security": 0.336,
         "attention": 0.336,
@@ -6595,14 +6595,14 @@
       "openIssues": 72,
       "closedIssues": 284,
       "openPRs": 43,
-      "mergedPRs": 1432,
+      "mergedPRs": 1433,
       "closedPRs": 170,
       "openVulnerabilities": null,
       "prereleaseVulnerabilities": null,
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2018-01-06T06:44:47Z",
-      "pushedAt": "2026-11-19T23:05:36Z",
+      "pushedAt": "2026-11-20T21:16:58Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "recentPublishes": [],
@@ -6625,16 +6625,16 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 1,
-        "staleness": 0.001,
+        "activityDays": 0,
+        "staleness": 0,
         "issuesSub": 0.752,
         "prsSub": 0.921,
         "backlogSeverity": 0.87,
         "demand": 0.87,
-        "neglect": 0.001,
+        "neglect": 0,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.001,
+        "attention": 0,
         "downloadsSub": 0,
         "starsSub": 0.74,
         "popularity": 0.111,
@@ -6686,9 +6686,9 @@
       "isWebComponent": false,
       "description": "A simpler way to build awesome web sites.",
       "sourceRepo": "11ty/buildawesome",
-      "stars": 20047,
+      "stars": 20049,
       "openIssues": 14,
-      "closedIssues": 2668,
+      "closedIssues": 2673,
       "openPRs": 2,
       "mergedPRs": 391,
       "closedPRs": 247,
@@ -6697,7 +6697,7 @@
       "productionDependencies": 0,
       "transitiveDependencies": 0,
       "repoCreatedAt": "2017-11-27T05:19:00Z",
-      "pushedAt": "2026-11-19T20:07:37Z",
+      "pushedAt": "2026-11-20T21:19:07Z",
       "lastPublish": "2026-11-19T20:25:57.822Z",
       "lastPublishVersion": "4.0.0-alpha.12",
       "recentPublishes": [
@@ -6761,8 +6761,8 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 1,
-        "staleness": 0.001,
+        "activityDays": 0,
+        "staleness": 0,
         "issuesSub": 0.475,
         "prsSub": 0.267,
         "backlogSeverity": 0.329,
@@ -6877,7 +6877,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 75,
-        "staleness": 0.102,
+        "staleness": 0.103,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -7280,15 +7280,15 @@
       "score": 0.6,
       "breakdown": {
         "activityDays": 75,
-        "staleness": 0.102,
+        "staleness": 0.103,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
         "demand": 0.073,
-        "neglect": 0.007,
+        "neglect": 0.008,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.007,
+        "attention": 0.008,
         "downloadsSub": 0.799,
         "starsSub": 0.659,
         "popularity": 0.778,
@@ -7520,7 +7520,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 1,
-        "staleness": 0.001,
+        "staleness": 0.002,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -8185,7 +8185,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 77,
-        "staleness": 0.105,
+        "staleness": 0.106,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -8373,7 +8373,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 336,
-        "staleness": 0.46,
+        "staleness": 0.461,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -8488,7 +8488,7 @@
       "score": 0.5,
       "breakdown": {
         "activityDays": 74,
-        "staleness": 0.101,
+        "staleness": 0.102,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -8551,15 +8551,15 @@
       "stars": 0,
       "openIssues": 0,
       "closedIssues": 0,
-      "openPRs": 1,
-      "mergedPRs": 0,
+      "openPRs": 0,
+      "mergedPRs": 1,
       "closedPRs": 0,
       "openVulnerabilities": null,
       "prereleaseVulnerabilities": null,
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-10-23T22:15:24Z",
-      "pushedAt": "2026-11-20T12:55:06Z",
+      "pushedAt": "2026-11-20T20:31:17Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "recentPublishes": [],
@@ -8585,9 +8585,9 @@
         "activityDays": 0,
         "staleness": 0,
         "issuesSub": 0,
-        "prsSub": 0.169,
-        "backlogSeverity": 0.118,
-        "demand": 0.118,
+        "prsSub": 0,
+        "backlogSeverity": 0,
+        "demand": 0,
         "neglect": 0,
         "securitySub": 0,
         "security": 0,
@@ -8705,7 +8705,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 345,
-        "staleness": 0.472,
+        "staleness": 0.473,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -8927,7 +8927,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 71,
-        "staleness": 0.097,
+        "staleness": 0.098,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -9073,7 +9073,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 74,
-        "staleness": 0.101,
+        "staleness": 0.102,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -9219,7 +9219,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 17,
-        "staleness": 0.023,
+        "staleness": 0.024,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -9335,15 +9335,15 @@
       "score": 0.6,
       "breakdown": {
         "activityDays": 73,
-        "staleness": 0.1,
+        "staleness": 0.101,
         "issuesSub": 0.282,
         "prsSub": 0,
         "backlogSeverity": 0.085,
         "demand": 0.085,
-        "neglect": 0.008,
+        "neglect": 0.009,
         "securitySub": 0,
         "security": 0,
-        "attention": 0.008,
+        "attention": 0.009,
         "downloadsSub": 0.674,
         "starsSub": 0.587,
         "popularity": 0.661,
@@ -9604,7 +9604,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 22,
-        "staleness": 0.03,
+        "staleness": 0.031,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -9750,7 +9750,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 365,
-        "staleness": 0.5,
+        "staleness": 0.501,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -9876,7 +9876,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 10,
-        "staleness": 0.013,
+        "staleness": 0.014,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -10014,7 +10014,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 17,
-        "staleness": 0.023,
+        "staleness": 0.024,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -10135,7 +10135,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 119,
-        "staleness": 0.162,
+        "staleness": 0.163,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -11030,7 +11030,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 532,
-        "staleness": 0.728,
+        "staleness": 0.729,
         "issuesSub": 0.602,
         "prsSub": 0.392,
         "backlogSeverity": 0.455,
@@ -11464,7 +11464,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 366,
-        "staleness": 0.501,
+        "staleness": 0.502,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -11647,7 +11647,7 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 1829,
+        "activityDays": 1830,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -11737,7 +11737,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 7,
-        "staleness": 0.009,
+        "staleness": 0.01,
         "issuesSub": 0.243,
         "prsSub": 0,
         "backlogSeverity": 0.073,
@@ -11826,7 +11826,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 3,
-        "staleness": 0.004,
+        "staleness": 0.005,
         "issuesSub": 0.282,
         "prsSub": 0,
         "backlogSeverity": 0.085,
@@ -12241,7 +12241,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 15,
-        "staleness": 0.02,
+        "staleness": 0.021,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -13040,7 +13040,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 15,
-        "staleness": 0.02,
+        "staleness": 0.021,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -13257,7 +13257,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-07-26T00:25:27Z",
-      "pushedAt": "2026-11-20T14:27:47Z",
+      "pushedAt": "2026-11-20T15:17:37Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "recentPublishes": [],
@@ -13673,7 +13673,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 103,
-        "staleness": 0.141,
+        "staleness": 0.142,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -13771,7 +13771,7 @@
       "npmError": null,
       "score": 0,
       "breakdown": {
-        "activityDays": 2273,
+        "activityDays": 2274,
         "staleness": 1,
         "issuesSub": 0,
         "prsSub": 0,
@@ -14070,7 +14070,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 119,
-        "staleness": 0.162,
+        "staleness": 0.163,
         "issuesSub": 0.121,
         "prsSub": 0,
         "backlogSeverity": 0.036,
@@ -14305,7 +14305,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 79,
-        "staleness": 0.108,
+        "staleness": 0.109,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -14376,7 +14376,7 @@
       "productionDependencies": null,
       "transitiveDependencies": null,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-11-20T13:35:40Z",
+      "pushedAt": "2026-11-20T21:44:20Z",
       "lastPublish": null,
       "lastPublishVersion": null,
       "recentPublishes": [],
@@ -14466,7 +14466,7 @@
       "productionDependencies": 0,
       "transitiveDependencies": 0,
       "repoCreatedAt": "2026-08-20T15:11:16Z",
-      "pushedAt": "2026-11-20T13:35:40Z",
+      "pushedAt": "2026-11-20T21:44:20Z",
       "lastPublish": "2026-09-21T16:43:49.140Z",
       "lastPublishVersion": "1.1.0",
       "recentPublishes": [
@@ -14905,7 +14905,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 58,
-        "staleness": 0.079,
+        "staleness": 0.08,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -15128,7 +15128,7 @@
       "score": 0.3,
       "breakdown": {
         "activityDays": 32,
-        "staleness": 0.043,
+        "staleness": 0.044,
         "issuesSub": 0,
         "prsSub": 0.169,
         "backlogSeverity": 0.118,
@@ -15312,7 +15312,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 0,
-        "staleness": 0,
+        "staleness": 0.001,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -15476,7 +15476,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 102,
-        "staleness": 0.139,
+        "staleness": 0.14,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
@@ -15545,7 +15545,7 @@
       "score": 0,
       "breakdown": {
         "activityDays": 76,
-        "staleness": 0.104,
+        "staleness": 0.105,
         "issuesSub": 0,
         "prsSub": 0,
         "backlogSeverity": 0,
